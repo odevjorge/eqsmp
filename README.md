@@ -9,6 +9,8 @@ Modpack Minecraft Forge 1.20.1 de **magia, tecnologia, exploração e aventura c
 
 > 🇬🇧 *A Forge 1.20.1 magic-meets-tech questing pack where no mod stands alone: recipes chain content across different mods, so you must weave magic, machinery and exploration together to reforge the legend that broke the world. Co-op friendly, with a fully bilingual (EN/PT-BR) quest book.*
 
+[![Buy me a cookie](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20cookie&emoji=&slug=odevjorge&button_colour=BD5FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00)](https://www.buymeacoffee.com/odevjorge)
+
 ---
 
 ## 🧑‍💻 Sobre o projeto · About
