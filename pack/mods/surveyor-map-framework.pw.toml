@@ -3,11 +3,14 @@ filename = "surveyor-1.2.4+1.20.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "6cb8ad12319086478c99f06ef828e03e0b9185be"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/4KjqhPc9/versions/6Wx9cnqi/surveyor-1.2.4%2B1.20.jar"
+hash-format = "sha512"
+hash = "2465f73e659bdc8f1d68056fa8b142e765a037bca690f8354cb077b429e28556b0e380516939499a91761991be4ec69c0572f55f0059c0cc8ceee5fc36df295c"
 
 [update]
+[update.modrinth]
+mod-id = "4KjqhPc9"
+version = "6Wx9cnqi"
 [update.curseforge]
 file-id = 8067314
 project-id = 1391592

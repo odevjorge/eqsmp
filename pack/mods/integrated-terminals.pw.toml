@@ -3,11 +3,14 @@ filename = "IntegratedTerminals-1.20.1-1.6.20.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "0b886d09e68ce56a0a478028c0ea3d7a14ee8a3c"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/HmLJoQ1K/versions/tSJtgf9a/IntegratedTerminals-1.20.1-1.6.20.jar"
+hash-format = "sha512"
+hash = "50818b4e64951fc490f10866ef7552847e1328708a9d26e1773ba472830a28d98523eb8aba70af12f9095fe0d6ad7b7dc33106ffbd04a2534043674d4e730df6"
 
 [update]
+[update.modrinth]
+mod-id = "HmLJoQ1K"
+version = "tSJtgf9a"
 [update.curseforge]
 file-id = 7738431
 project-id = 295910

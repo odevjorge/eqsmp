@@ -3,11 +3,14 @@ filename = "c2meF-0.2.0+alpha.12-all.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "ad44f615a4b15afd1d6a4d907ccab1c3855451a1"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/yE4MbG65/versions/h9trYS7V/c2meF-0.2.0%2Balpha.12-all.jar"
+hash-format = "sha512"
+hash = "71d00b03760bddd6caa5c2a55c6394be77b9cd6085d2199d647d216841e9966937f18d9103349723cc2d2944168803440557bdc32d0eec07dd3f8d49d9939c5c"
 
 [update]
+[update.modrinth]
+mod-id = "yE4MbG65"
+version = "h9trYS7V"
 [update.curseforge]
 file-id = 7116688
 project-id = 1366864

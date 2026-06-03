@@ -3,11 +3,14 @@ filename = "createmetallurgy-1.0.1-1.20.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "f265469612ed8a194f9974733e0e735b0e6539bd"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Soft45xC/versions/VYcLBgY3/createmetallurgy-1.0.1-1.20.1.jar"
+hash-format = "sha512"
+hash = "90802e03209833ee06ce46a331ede52b2d1af2ad6496c924ce3a8c948c487325d1a533f324ba23f1b17594f9a9175333411b95478fee7258fd7eea5a6d2ac295"
 
 [update]
+[update.modrinth]
+mod-id = "Soft45xC"
+version = "VYcLBgY3"
 [update.curseforge]
 file-id = 7890813
 project-id = 1007404

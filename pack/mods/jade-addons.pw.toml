@@ -3,11 +3,14 @@ filename = "JadeAddons-1.20.1-Forge-5.5.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "5e74e87f61cf05c18457f09dfa1cb70332b6b777"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/xuDOzCLy/versions/AvIT9ADi/JadeAddons-1.20.1-Forge-5.5.0.jar"
+hash-format = "sha512"
+hash = "a11d4604453f7aa7cbeafcd2b399c7e39e66a5b38cccdbc7ad7dbce3f79f0a632568d28665ffb22a29676c78ad2089d9bf13793518fc453270a0bbbbbcfd91fd"
 
 [update]
+[update.modrinth]
+mod-id = "xuDOzCLy"
+version = "AvIT9ADi"
 [update.curseforge]
 file-id = 6274674
 project-id = 583345
