@@ -15,11 +15,15 @@
 /compose.yaml
 /CLAUDE.md
 /RELEASE_PLAN.md
+/SURVEYOR_API.md
 /options_fixed.txt
 /pack.png
 /.env
 /.claude/
 /ziEmUNCA
+
+# ---- docs de desenvolvimento interno (não vão pro pack distribuído) ----
+/docs/dev/
 
 # ---- Dentro de pack/: excluir mods .jar e runtime efêmero ----
 # (os .pw.toml de mods SÃO os fontes — entram; os .jar NÃO)

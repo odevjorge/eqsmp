@@ -131,8 +131,7 @@ eqsmp/                       # conteúdo hand-authored distribuído pelo pack
   scripts/                   # scripts CraftTweaker (.zs)
 
 icon/                        # arte do ícone do pack (512→32) + master
-docs/                        # documentação (player + dev)
-SURVEYOR_API.md              # API Surveyor (mapas) sob Sinytra Connector
+docs/                        # documentação das mecânicas (systems, progressão, ores)
 DESCRIPTION.md               # descrição pública (CurseForge/Modrinth), bilíngue
 ```
 
