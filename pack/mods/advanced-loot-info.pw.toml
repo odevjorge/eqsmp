@@ -3,11 +3,11 @@ filename = "AdvancedLootInfo-forge-1.20.1-1.11.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/PEPVViac/versions/fBpFugDi/AdvancedLootInfo-forge-1.20.1-1.11.0.jar"
-hash-format = "sha512"
-hash = "df7db3f2e1a0d4107c3c0205e781d2482ad47378a94f2b278c517ab8c14a14018a1cdfc68c8f988aedac4561640a1272cc8512445ecea077cba829088a7a424a"
+hash-format = "sha1"
+hash = "ad631b35c41e48637bb5a7b52a0c82ab51b0621c"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "PEPVViac"
-version = "fBpFugDi"
+[update.curseforge]
+file-id = 8124516
+project-id = 1205426

@@ -3,11 +3,11 @@ filename = "CyclopsCore-1.20.1-1.22.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Z9DM0LJ4/versions/4BghBbhe/CyclopsCore-1.20.1-1.22.1.jar"
-hash-format = "sha512"
-hash = "7e65088f4e6b53c96a49ad7954966c3caac66f2ac5638a9f0fcd4a72f3c3ba2175be7c8b519f5a45368ba2e85d700e3981161277ca325010e9ee0551f0f10daa"
+hash-format = "sha1"
+hash = "3e3787f9979dc8c63690e5d0267ea68b364191fb"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "Z9DM0LJ4"
-version = "4BghBbhe"
+[update.curseforge]
+file-id = 8006236
+project-id = 232758

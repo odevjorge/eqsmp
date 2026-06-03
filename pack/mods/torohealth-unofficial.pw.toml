@@ -1,0 +1,13 @@
+name = "ToroHealth Unofficial"
+filename = "ToroHealth-Unofficial-Forge-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8cc75d02123ad3af86e501d5509723c95e762a6f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4831219
+project-id = 931345

@@ -3,11 +3,11 @@ filename = "horsepowered-1.20.1-1.6.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/cZml36tg/versions/DO8HQD2N/horsepowered-1.20.1-1.6.0.jar"
-hash-format = "sha512"
-hash = "14a88ce1cca03574b5c7b7560ceb06fa25af16450725fa1b30a04646458f3bf760ee85b276ce8f2eba35065aad1243acc8fdc2fd9b7d1c7b44090d0982ad0e50"
+hash-format = "sha1"
+hash = "4e96df6420ce17d956e6633eae718aadc3e32b42"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "cZml36tg"
-version = "DO8HQD2N"
+[update.curseforge]
+file-id = 8128073
+project-id = 1408330

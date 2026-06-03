@@ -3,11 +3,11 @@ filename = "lionfishapi-2.8.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/FoVacERa/versions/h1YW5QgP/lionfishapi-2.8.jar"
-hash-format = "sha512"
-hash = "6f114eca28002095b6c106effb6311754186b20fe40122778f45087d8e8d0b2395fed110cc471e38fc5d3fc1e5383551eb64fd6bf9a8f33345055acc3d9cfb36"
+hash-format = "sha1"
+hash = "9571aefe90a3d9690fc847848e41bdcc26be4dd4"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "FoVacERa"
-version = "h1YW5QgP"
+[update.curseforge]
+file-id = 8094506
+project-id = 1001614
