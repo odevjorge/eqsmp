@@ -1,6 +1,6 @@
 name = "Almanac Lib"
 filename = "almanac-1.20.x-forge-1.0.2.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"
