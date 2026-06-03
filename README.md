@@ -36,7 +36,7 @@ Esse padrão se repete por todo o pack: mágica usa metais do tech, tech usa rea
 
 ## Features
 
-Todos os sistemas de gameplay são scripts KubeJS versionados em `eqsmp/kubejs/`. Visão geral e índice completo em **[docs/systems.md](docs/systems.md)**.
+Todos os sistemas de gameplay são scripts KubeJS versionados em `pack/kubejs/`. Visão geral e índice completo em **[docs/systems.md](docs/systems.md)**.
 
 ### Cadeia de progressão cross-mod (F1 → F4 → Pedra Filosofal)
 
@@ -48,7 +48,7 @@ A espinha dorsal do pack: quatro itens-gate em sequência, cada um exigindo ingr
 - **F4 — Núcleo Espiritual:** sequenced assembly (Create) que consome F1+F2+F3. Destrava `terrasteel` (Botania) e `ritual_brazier` (Ars).
 - **Pedra Filosofal (endgame):** ritual djinni de 10 min que consome F1+F2+F3+F4 + nether star.
 
-→ Player: **[docs/cross-mod-progression.md](docs/cross-mod-progression.md)** · Técnico: **[docs/dev/cross-mod-progression.md](docs/dev/cross-mod-progression.md)**
+→ Detalhes: **[docs/cross-mod-progression.md](docs/cross-mod-progression.md)**
 
 ### Sistema de Processamento de Minérios
 
@@ -60,7 +60,7 @@ Substitui o drop direto de raw ore por uma cadeia de processamento com **10 tier
 - Cluster sujo → lavar → moer/triturar/espremer → ingot
 - Drops totalmente compatíveis com EMI / JEI / Advanced Loot Info
 
-→ Player: **[docs/ore-processing.md](docs/ore-processing.md)** · Técnico: **[docs/dev/ore-processing.md](docs/dev/ore-processing.md)**
+→ Detalhes: **[docs/ore-processing.md](docs/ore-processing.md)**
 
 ### Outros sistemas
 
@@ -68,8 +68,6 @@ Substitui o drop direto de raw ore por uma cadeia de processamento com **10 tier
 - **Marcadores de amostra de minério** — quebrar uma amostra de superfície Geolosys cria um landmark no mapa (Surveyor/Antique Atlas) com ícone e nome do minério.
 - **Balanço de ferramentas** — ferramentas vanilla reabilitadas mas fracas; armas modded buffadas. Tooltip avisa o jogador.
 - **Decaimento de flores Botania**, **drops de archwood (Ars)**, **gates cross-mod** que forçam interdependência entre Create/Botania/Ars/Occultism, e mais.
-
-→ Referência técnica de todos os módulos: **[docs/dev/kubejs-modules.md](docs/dev/kubejs-modules.md)**
 
 ### Quests (FTB Quests)
 
@@ -112,28 +110,26 @@ Importe o pacote exportado (`.mrpack` do Modrinth ou o `.zip` do CurseForge) em 
 Este repositório contém o **conteúdo do modpack** (fontes packwiz + scripts/configs customizados). Os `.jar` dos mods **não** são versionados — o packwiz os baixa das fontes oficiais (CurseForge / Modrinth) na instalação.
 
 ```
-pack/                        # source autoritativo do modpack (packwiz)
+pack/                        # modpack auto-contido (packwiz)
   pack.toml, index.toml
   mods/*.pw.toml             # ~146 mods (Modrinth + CurseForge)
-  shaderpacks/               # shaderpack distribuída (Allium)
-  spawn_bubble/              # region files da cidade inicial (Lost City)
-
-eqsmp/                       # conteúdo hand-authored distribuído pelo pack
   kubejs/                    # scripts customizados
     startup_scripts/         # config global + registro de itens, por módulo
     server_scripts/          # recipes, gates, loot, eventos, por módulo
     client_scripts/          # jei_hide, tooltips
     assets/kubejs/lang/      # en_us.json + pt_br.json
-  config/ftbquests/quests/   # livro de quests (23 chapters, bilíngue)
-    lang/                    # en_us.snbt (inglês) + pt_br.snbt (português)
-    reward_tables/           # loot tables das recompensas aleatórias
   config/                    # configs dos mods
+    ftbquests/quests/        # livro de quests (23 chapters, bilíngue EN/PT)
   scripts/                   # scripts CraftTweaker (.zs)
+  shaderpacks/               # shaderpack distribuída (Allium)
+  spawn_bubble/              # region files da cidade inicial (server-side)
 
 icon/                        # arte do ícone do pack (512→32) + master
 docs/                        # documentação das mecânicas (systems, progressão, ores)
 DESCRIPTION.md               # descrição pública (CurseForge/Modrinth), bilíngue
 ```
+
+> A GitHub Action [`release.yml`](.github/workflows/release.yml) gera, a cada bump de versão no `pack.toml`, um Release com os arquivos `.mrpack` (Modrinth), `.zip` (CurseForge) e o pacote de servidor.
 
 ---
 
