@@ -30,3 +30,7 @@ config/worldedit/
 
 # Downloads avulsos servidos via HTTP (NÃO indexar como conteúdo do pack)
 downloads/
+
+# spawn_bubble: a cidade inicial é server-side (region files do mundo do
+# servidor). O cliente NÃO precisa baixar — só o servidor usa ao montar o world.
+spawn_bubble/

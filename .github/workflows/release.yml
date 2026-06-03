@@ -1,0 +1,122 @@
+name: Release Modpack
+
+# Dispara em todo push na main. Lê a versão do pack.toml; se ainda não existe
+# uma tag vX.Y.Z, cria a tag + um GitHub Release com 3 artefatos:
+#   - EQSMP-<v>.mrpack        (Modrinth — importar no Modrinth App / Prism)
+#   - EQSMP-<v>-curseforge.zip (CurseForge — importar no CF launcher)
+#   - EQSMP-<v>-server.zip     (servidor completo: pack + installer + start)
+# Não publica nas plataformas (só anexa no Release).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'pack/**'
+      - '.github/workflows/release.yml'
+
+permissions:
+  contents: write   # criar tag + release
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Go (para packwiz)
+        uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+
+      - name: Instala packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Lê versão do pack.toml
+        id: ver
+        run: |
+          V=$(grep -E '^version' pack/pack.toml | head -1 | sed 's/.*=\s*"\(.*\)"/\1/')
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+          echo "tag=v$V" >> "$GITHUB_OUTPUT"
+          echo "Versão detectada: $V"
+
+      - name: Verifica se a tag já existe
+        id: tagcheck
+        run: |
+          if git ls-remote --tags origin "refs/tags/${{ steps.ver.outputs.tag }}" | grep -q .; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::Tag ${{ steps.ver.outputs.tag }} já existe — pulando release. Bumpe a versão em pack.toml pra lançar."
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Refresh do index
+        if: steps.tagcheck.outputs.exists == 'false'
+        working-directory: pack
+        run: packwiz refresh
+
+      - name: Export Modrinth (.mrpack)
+        if: steps.tagcheck.outputs.exists == 'false'
+        working-directory: pack
+        run: packwiz modrinth export -o "../EQSMP-${{ steps.ver.outputs.version }}.mrpack"
+
+      - name: Export CurseForge (.zip)
+        if: steps.tagcheck.outputs.exists == 'false'
+        working-directory: pack
+        run: packwiz curseforge export -o "../EQSMP-${{ steps.ver.outputs.version }}-curseforge.zip"
+
+      - name: Monta server zip (pack + installer + start + spawn_bubble)
+        if: steps.tagcheck.outputs.exists == 'false'
+        env:
+          V: ${{ steps.ver.outputs.version }}
+        run: |
+          set -e
+          BOOT_URL="https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
+          STAGE="server-stage"
+          rm -rf "$STAGE"; mkdir -p "$STAGE"
+          # copia o pack auto-contido (toml/index/mods/kubejs/config) — exceto runtime efêmero
+          cp -a pack "$STAGE/pack"
+          # baixa o bootstrap do packwiz-installer (server-side)
+          curl -fsSL -o "$STAGE/packwiz-installer-bootstrap.jar" "$BOOT_URL"
+          # spawn_bubble: instruções pra montar a cidade no world do servidor
+          # (já está dentro de pack/spawn_bubble; o README do server explica)
+          # script de instalação/start do servidor
+          cat > "$STAGE/install-server.sh" <<'SH'
+          #!/usr/bin/env bash
+          # Instala/atualiza os mods do EQSMP no servidor a partir do pack local.
+          set -e
+          java -jar packwiz-installer-bootstrap.jar -g -s server pack/pack.toml
+          echo "Mods instalados. Inicie o servidor Forge 1.20.1 (Forge 47.4.20) normalmente."
+          echo "Cidade inicial: copie pack/spawn_bubble/{region,entities,poi,data} pra dentro de world/ (sem level.dat),"
+          echo "deixe level-seed vazio no server.properties, suba o server, e rode /setworldspawn 0 20 0."
+          SH
+          chmod +x "$STAGE/install-server.sh"
+          cat > "$STAGE/README-SERVER.md" <<MD
+          # EQSMP v$V — Servidor
+
+          Minecraft **1.20.1 / Forge 47.4.20**.
+
+          ## Instalação
+          1. Instale o Forge 1.20.1 (\`47.4.20\`) no servidor.
+          2. Tenha Java 17.
+          3. Rode \`./install-server.sh\` — baixa os mods via packwiz-installer.
+          4. (Opcional) Cidade inicial: copie \`pack/spawn_bubble/{region,entities,poi,data}\`
+             pra dentro de \`world/\` (SEM level.dat), deixe \`level-seed=\` vazio no
+             \`server.properties\`, suba o servidor e rode \`/setworldspawn 0 20 0\`.
+          5. Inicie o servidor.
+          MD
+          ( cd "$STAGE" && zip -qr "../EQSMP-$V-server.zip" . )
+          echo "server zip pronto: EQSMP-$V-server.zip"
+
+      - name: Cria tag + GitHub Release
+        if: steps.tagcheck.outputs.exists == 'false'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.ver.outputs.tag }}
+          name: EQSMP ${{ steps.ver.outputs.tag }}
+          prerelease: ${{ contains(steps.ver.outputs.version, 'beta') || contains(steps.ver.outputs.version, 'alpha') || startsWith(steps.ver.outputs.version, '0.') }}
+          generate_release_notes: true
+          files: |
+            EQSMP-${{ steps.ver.outputs.version }}.mrpack
+            EQSMP-${{ steps.ver.outputs.version }}-curseforge.zip
+            EQSMP-${{ steps.ver.outputs.version }}-server.zip
