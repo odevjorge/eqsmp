@@ -1,0 +1,80 @@
+{
+	icon: "inventorypets:pet_loot"
+	id: "1A2B3C4D5E6F0001"
+	loot_size: 1
+	order_index: 0
+	title: "Pets de Inventário"
+	use_title: true
+	rewards: [
+		{ item: "inventorypets:pet_apple", weight: 24.0f }
+		{ item: "inventorypets:pet_banana", weight: 24.0f }
+		{ item: "inventorypets:pet_bed", weight: 24.0f }
+		{ item: "inventorypets:pet_chicken", weight: 24.0f }
+		{ item: "inventorypets:pet_cobblestone", weight: 24.0f }
+		{ item: "inventorypets:pet_cow", weight: 24.0f }
+		{ item: "inventorypets:pet_dirt", weight: 24.0f }
+		{ item: "inventorypets:pet_house", weight: 24.0f }
+		{ item: "inventorypets:pet_lead", weight: 24.0f }
+		{ item: "inventorypets:pet_moon", weight: 24.0f }
+		{ item: "inventorypets:pet_mooshroom", weight: 24.0f }
+		{ item: "inventorypets:pet_ocelot", weight: 24.0f }
+		{ item: "inventorypets:pet_pig", weight: 24.0f }
+		{ item: "inventorypets:pet_saddle", weight: 24.0f }
+		{ item: "inventorypets:pet_sheep", weight: 24.0f }
+		{ item: "inventorypets:pet_siamese", weight: 24.0f }
+		{ item: "inventorypets:pet_squid", weight: 24.0f }
+		{ item: "inventorypets:pet_sun", weight: 24.0f }
+		{ item: "inventorypets:pet_torch", weight: 24.0f }
+		{ item: "inventorypets:pet_wolf", weight: 24.0f }
+		{ item: "inventorypets:pet_anvil", weight: 12.0f }
+		{ item: "inventorypets:pet_brewing_stand", weight: 12.0f }
+		{ item: "inventorypets:pet_cheetah", weight: 12.0f }
+		{ item: "inventorypets:pet_chest", weight: 12.0f }
+		{ item: "inventorypets:pet_crafting_table", weight: 12.0f }
+		{ item: "inventorypets:pet_double_chest", weight: 12.0f }
+		{ item: "inventorypets:pet_dubstep", weight: 12.0f }
+		{ item: "inventorypets:pet_enchanting_table", weight: 12.0f }
+		{ item: "inventorypets:pet_ender_chest", weight: 12.0f }
+		{ item: "inventorypets:pet_flying_saddle", weight: 12.0f }
+		{ item: "inventorypets:pet_furnace", weight: 12.0f }
+		{ item: "inventorypets:pet_jukebox", weight: 12.0f }
+		{ item: "inventorypets:pet_pixie", weight: 12.0f }
+		{ item: "inventorypets:pet_pufferfish", weight: 12.0f }
+		{ item: "inventorypets:pet_quiver", weight: 12.0f }
+		{ item: "inventorypets:pet_shield", weight: 12.0f }
+		{ item: "inventorypets:pet_silverfish", weight: 12.0f }
+		{ item: "inventorypets:pet_snow_golem", weight: 12.0f }
+		{ item: "inventorypets:pet_sponge", weight: 12.0f }
+		{ item: "inventorypets:pet_biome", weight: 5.0f }
+		{ item: "inventorypets:pet_blaze", weight: 5.0f }
+		{ item: "inventorypets:pet_christmas_tree", weight: 5.0f }
+		{ item: "inventorypets:pet_cloud", weight: 5.0f }
+		{ item: "inventorypets:pet_creeper", weight: 5.0f }
+		{ item: "inventorypets:pet_dingot", weight: 5.0f }
+		{ item: "inventorypets:pet_end_portal", weight: 5.0f }
+		{ item: "inventorypets:pet_enderman", weight: 5.0f }
+		{ item: "inventorypets:pet_ghast", weight: 5.0f }
+		{ item: "inventorypets:pet_grave", weight: 5.0f }
+		{ item: "inventorypets:pet_heart", weight: 5.0f }
+		{ item: "inventorypets:pet_iron_golem", weight: 5.0f }
+		{ item: "inventorypets:pet_loot", weight: 5.0f }
+		{ item: "inventorypets:pet_magma_cube", weight: 5.0f }
+		{ item: "inventorypets:pet_menorah", weight: 5.0f }
+		{ item: "inventorypets:pet_mishumaa_saba", weight: 5.0f }
+		{ item: "inventorypets:pet_nether_portal", weight: 5.0f }
+		{ item: "inventorypets:pet_pacman", weight: 5.0f }
+		{ item: "inventorypets:pet_pingot", weight: 5.0f }
+		{ item: "inventorypets:pet_politically_correct", weight: 5.0f }
+		{ item: "inventorypets:pet_purplicious_cow", weight: 5.0f }
+		{ item: "inventorypets:pet_slime", weight: 5.0f }
+		{ item: "inventorypets:pet_spider", weight: 5.0f }
+		{ item: "inventorypets:pet_april_fool", weight: 1.0f }
+		{ item: "inventorypets:pet_black_hole", weight: 1.0f }
+		{ item: "inventorypets:pet_illuminati", weight: 1.0f }
+		{ item: "inventorypets:pet_juggernaut", weight: 1.0f }
+		{ item: "inventorypets:pet_meta", weight: 1.0f }
+		{ item: "inventorypets:pet_mickerson", weight: 1.0f }
+		{ item: "inventorypets:pet_qcm", weight: 1.0f }
+		{ item: "inventorypets:pet_wither", weight: 1.0f }
+	]
+}

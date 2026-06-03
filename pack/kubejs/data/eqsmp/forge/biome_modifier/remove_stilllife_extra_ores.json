@@ -1,0 +1,22 @@
+{
+  "_comment": "EQSMP: o Geolosys substitui a geração de minério, mas os biomas do Still Life referenciam features de ore VANILLA que NÃO estão na lista de remoção do Geolosys (notavelmente minecraft:ore_diamond_medium = diamante size 8). Isso fazia diamante/etc nascer no overworld. Este modifier remove as features de minério que escapam do remove_vanilla_ores do Geolosys. Aplica a TODOS os overworld biomes.",
+  "type": "forge:remove_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "minecraft:ore_diamond_medium",
+    "minecraft:ore_emerald",
+    "minecraft:ore_iron_middle",
+    "minecraft:ore_iron_small",
+    "minecraft:ore_iron_upper",
+    "minecraft:ore_gold",
+    "minecraft:ore_gold_lower",
+    "minecraft:ore_redstone",
+    "minecraft:ore_redstone_lower",
+    "minecraft:ore_lapis",
+    "minecraft:ore_lapis_buried",
+    "minecraft:ore_copper",
+    "minecraft:ore_copper_large",
+    "minecraft:ore_coal_upper",
+    "minecraft:ore_coal_lower"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "3BC8F27B987E08F9", title: "Lore" }
+		{ id: "016C51A0AB48BF9A", title: "Fases EQSMP" }
+		{ id: "4677C57609F8F102", title: "Caminhos dos Mods" }
+		{ id: "51486254BB46A86A", title: "Aventura" }
+	]
+}

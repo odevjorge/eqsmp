@@ -1,0 +1,32 @@
+# O .packwizignore SÓ exclui efêmeros de runtime — NÃO distingue client/server.
+#
+# Filosofia: tudo dentro de pack/ é distribuído pra TODOS os jogadores (MP +
+# SP). Single-player roda o integrated server localmente, então precisa de
+# server_scripts, datapack overlay (kubejs/data), recipes, tudo. A separação
+# server vs distribuído já é feita por arquitetura: server-only state
+# (world/, logs/, server.properties, ops.json, etc.) vive em eqsmp/ que NÃO
+# é bind-mountado em pack/.
+#
+# Histórico: já excluímos kubejs/server_scripts/ e kubejs/data/ por engano,
+# achando que eram "server-only". Resultado: recipes não apareciam no SP,
+# EMI collapse quebrava, etc. NÃO REPITA.
+
+# Arquivos efêmeros — mods criam/apagam em runtime (spark profile dumps em
+# config/spark/tmp/). Se indexados, packwiz-installer pega 404 quando o mod
+# já apagou.
+config/spark/tmp/
+# Chunky: o estado de pré-geração (config/chunky/tasks/*.properties) é reescrito
+# CONSTANTEMENTE durante a geração → invalidava o hash do index e travava o
+# packwiz-installer do servidor em loop (crash). Clients não precisam de nada
+# do Chunky (pré-geração é server-side).
+config/chunky/
+# WorldEdit: reescreve config/worldedit/worldedit.properties no boot (conteúdo
+# muda → "Hash invalid!" no launch do CLIENTE, igual ao Chunky). sessions/ e
+# schematics/ são dados de usuário. Cada cliente tem os seus localmente.
+config/worldedit/
+*.tmp
+*.jfr
+*.log
+
+# Downloads avulsos servidos via HTTP (NÃO indexar como conteúdo do pack)
+downloads/

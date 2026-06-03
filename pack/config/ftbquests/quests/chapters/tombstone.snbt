@@ -1,0 +1,385 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tombstone"
+	group: "4677C57609F8F102"
+	icon: "tombstone:ankh_of_prayer"
+	id: "307978D1209AFE6A"
+	order_index: 9
+	quest_links: []
+	quests: [
+		{
+			description: ["Material base do Tombstone, que cai/obtido cedo."]
+			icon: "tombstone:grave_dust"
+			id: "7AF1D14E42DAB699"
+			rewards: [
+				{
+					id: "00D32C7A017AE5C3"
+					type: "xp"
+					xp: 55
+				}
+			 { id: "1A2B3C4D5E6F0133", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.5d
+			subtitle: "§2A magia da morte§r"
+			tasks: [
+				{
+					id: "5213BF6908CA8CE5"
+					item: "tombstone:grave_dust"
+					type: "item"
+				}
+			]
+			title: "Pó de Túmulo"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AF1D14E42DAB699"]
+			description: ["O item mais importante: §asegura seus itens§r quando você morre."]
+			icon: "tombstone:ankh_of_prayer"
+			id: "0179046F142675BC"
+			rewards: [
+				{
+					id: "50FAEED34A072C9F"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			subtitle: "Mantém o inventário na morte!"
+			tasks: [
+				{
+					id: "4FAD72637EA6535B"
+					item: "tombstone:ankh_of_prayer"
+					type: "item"
+				}
+			]
+			title: "Ankh da Prece"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7AF1D14E42DAB699"]
+			icon: "tombstone:grave_key"
+			id: "4016BD52970D18B4"
+			description: [
+				"Esta §echave§r abre o §6túmulo§r que aparece no local onde você morreu."
+				""
+				"§7•§r Use-a no túmulo para liberar todos os seus itens de volta de uma vez, sem catar peça por peça."
+				"§7•§r Guarde uma de reserva na base: morrer longe de casa sem a chave é dor de cabeça."
+			]
+			rewards: [
+				{
+					id: "3A45A12848584D46"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			subtitle: "Abre o seu túmulo"
+			tasks: [
+				{
+					id: "60A84A44DD7CCACA"
+					item: "tombstone:grave_key"
+					type: "item"
+				}
+			]
+			title: "Chave do Túmulo"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4016BD52970D18B4"]
+			icon: "tombstone:grave_plate"
+			id: "1922B0380E2A5219"
+			description: [
+				"A §ePlaca de Túmulo§r identifica e decora a sepultura, marcando de quem é aquele descanso."
+				""
+				"§7•§r Útil para diferenciar túmulos em servidor com vários jogadores."
+				"§7•§r Também serve de enfeite memorial num cemitério caseiro."
+			]
+			rewards: [
+				{
+					id: "2103E5FFE8B46A0B"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			subtitle: "Identifica a sepultura"
+			tasks: [
+				{
+					id: "15D2DA930583131F"
+					item: "tombstone:grave_plate"
+					type: "item"
+				}
+			]
+			title: "Placa de Túmulo"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0179046F142675BC"]
+			icon: "tombstone:tablet_of_recall"
+			id: "5E570F77EB109F10"
+			description: [
+				"A §eTábua de Recall§r te §bteleporta§r direto para o seu último §6túmulo§r."
+				""
+				"§7•§r Salva sua vida quando você morre em local distante ou perigoso."
+				"§7•§r Combine com a Chave do Túmulo para recuperar tudo num piscar de olhos."
+			]
+			rewards: [
+				{
+					id: "74EAC52A6C915C76"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			subtitle: "Teleporta até seu túmulo"
+			tasks: [
+				{
+					id: "6C81DB9C954299DB"
+					item: "tombstone:tablet_of_recall"
+					type: "item"
+				}
+			]
+			title: "Tábua de Recall"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7AF1D14E42DAB699"]
+			icon: "tombstone:dust_of_vanishing"
+			id: "47F7C68BC6B3730D"
+			description: [
+				"O §ePó do Desaparecimento§r faz um bloco §csumir§r temporariamente e depois o recupera."
+				""
+				"§7•§r Útil para guardar algo valioso fora do alcance de outros."
+				"§7•§r O bloco volta quando você quiser de novo."
+			]
+			rewards: [
+				{
+					id: "13900B8E1B3C5DC0"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "7A14EF87919AD133"
+					item: "tombstone:dust_of_vanishing"
+					type: "item"
+				}
+			]
+			title: "Pó do Desaparecimento"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7AF1D14E42DAB699"]
+			icon: "tombstone:voodoo_poppet"
+			id: "5D3D2BBC7209A7C8"
+			description: [
+				"O §eBoneco Vodu§r te §2protege§r contra um tipo específico de dano ou morte."
+				""
+				"§7•§r Equipe-o e ele se consome ao absorver aquele perigo no seu lugar."
+				"§7•§r Há variantes para queda, fogo, afogamento e outras ameaças: escolha conforme o risco."
+			]
+			rewards: [
+				{
+					id: "7DD63338AE5198D5"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			subtitle: "Proteção contra a morte"
+			tasks: [
+				{
+					id: "08ACE65E428FE481"
+					item: "tombstone:voodoo_poppet"
+					type: "item"
+				}
+			]
+			title: "Boneco Vodu"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0179046F142675BC"]
+			description: ["Base das tomes mágicas do Tombstone."]
+			icon: "tombstone:impregnated_diamond"
+			id: "78C8FDB3350C9A9F"
+			rewards: [
+				{
+					id: "3B0F3BD9180C31BF"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			subtitle: "Catalisador mágico"
+			tasks: [
+				{
+					id: "59D10F95995E7842"
+					item: "tombstone:impregnated_diamond"
+					type: "item"
+				}
+			]
+			title: "Diamante Impregnado"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["78C8FDB3350C9A9F"]
+			icon: "tombstone:book_of_soulbound"
+			id: "29BC341B1EBC00EF"
+			description: [
+				"O §eTomo de Soulbound§r mantém seus itens §bcom você§r mesmo ao morrer."
+				""
+				"§7•§r Aplique o vínculo no equipamento que você não pode perder."
+				"§7•§r Item de §6alto valor§r: é o seguro definitivo contra perder o inventário."
+			]
+			rewards: [
+				{
+					id: "31B4E00365DA98D5"
+					type: "xp"
+					xp: 160
+				}
+			]
+			size: 1.0d
+			subtitle: "Itens não somem na morte"
+			tasks: [
+				{
+					id: "3ECF049E6F3C8F4B"
+					item: "tombstone:book_of_soulbound"
+					type: "item"
+				}
+			]
+			title: "Tomo de Soulbound"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["78C8FDB3350C9A9F"]
+			icon: "tombstone:book_of_repairing"
+			id: "30B5FFC763CBC1E5"
+			description: [
+				"O §eTomo de Reparo§r §2conserta§r a durabilidade do seu equipamento."
+				""
+				"§7•§r Restaura armas, armaduras e ferramentas sem precisar de bigorna."
+				"§7•§r Mantenha o equipamento favorito sempre em forma."
+			]
+			rewards: [
+				{
+					id: "49D7E09384DBE749"
+					type: "xp"
+					xp: 160
+				}
+			]
+			size: 1.0d
+			subtitle: "Conserta equipamento"
+			tasks: [
+				{
+					id: "3A3029C88E209649"
+					item: "tombstone:book_of_repairing"
+					type: "item"
+				}
+			]
+			title: "Tomo de Reparo"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78C8FDB3350C9A9F"]
+			icon: "tombstone:book_of_disenchantment"
+			id: "21B3E46BB4545D75"
+			description: [
+				"O §eTomo de Desencantamento§r §cremove§r os encantamentos de um item para você §brecuperá-los§r."
+				""
+				"§7•§r Os encantamentos extraídos podem ser reaplicados em outro equipamento."
+				"§7•§r Ótimo para reaproveitar um encantamento raro antes de descartar a peça."
+			]
+			rewards: [
+				{
+					id: "2B49D07E5B595581"
+					type: "xp"
+					xp: 160
+				}
+			]
+			size: 1.0d
+			subtitle: "Recupera encantamentos"
+			tasks: [
+				{
+					id: "0A0044331C44850A"
+					item: "tombstone:book_of_disenchantment"
+					type: "item"
+				}
+			]
+			title: "Tomo de Desencantamento"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78C8FDB3350C9A9F"]
+			icon: "tombstone:book_of_magic_impregnation"
+			id: "575DE2EDDB612032"
+			description: [
+				"O §eTomo de Impregnação Mágica§r aumenta o §6nível de encantamento§r e o conhecimento mágico de um item."
+				""
+				"§7•§r Eleva encantamentos além do limite normal da mesa."
+				"§7•§r Recurso §6avançado§r para turbinar seu melhor equipamento."
+			]
+			rewards: [
+				{
+					id: "0A0865A983529EA7"
+					type: "xp"
+					xp: 160
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "39A7FC6299872A35"
+					item: "tombstone:book_of_magic_impregnation"
+					type: "item"
+				}
+			]
+			title: "Tomo de Impregnação Mágica"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4016BD52970D18B4"]
+			icon: "tombstone:decorative_grave_normal"
+			id: "1CE40655E324434F"
+			description: [
+				"O §eTúmulo Decorativo§r é um memorial puramente §bdecorativo§r."
+				""
+				"§7•§r Use para montar cemitérios, santuários ou homenagens na sua base."
+				"§7•§r Não guarda itens nem aparece quando você morre: é só estética."
+			]
+			rewards: [
+				{
+					id: "3168E0BC2D137BB4"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			subtitle: "Memorial"
+			tasks: [
+				{
+					id: "264D7D2C930333D6"
+					item: "tombstone:decorative_grave_normal"
+					type: "item"
+				}
+			]
+			title: "Túmulo Decorativo"
+			x: 1.5d
+			y: -1.0d
+		}
+	]
+	title: "Tombstone — Caminho do Necromante"
+}

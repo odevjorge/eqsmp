@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "still_life:birch_forest",
+    "still_life:mediterranean_forest",
+    "still_life:old_growth_temperate_forest",
+    "still_life:old_growth_tropical_rainforest",
+    "still_life:temperate_forest",
+    "still_life:temperate_mixed_forest"
+  ]
+}

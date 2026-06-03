@@ -1,0 +1,1601 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ars_nouveau"
+	group: "4677C57609F8F102"
+	icon: "ars_nouveau:worn_notebook"
+	id: "56B2321EA19BF7A9"
+	order_index: 2
+	quest_links: []
+	quests: [
+		{
+			description: ["Pegue o Worn Notebook (1 livro + 1 muda em criação). Esse é seu guia no jogo de Ars Nouveau — glifos, criaturas, rituais."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:worn_notebook"
+			id: "00CF092C304CB005"
+			rewards: [
+				{
+					id: "29269E80FBEA97F9"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "O caderno do Arcanista"
+			tasks: [
+				{
+					id: "5C8AA4308072ABB2"
+					item: "ars_nouveau:worn_notebook"
+					type: "item"
+				}
+			]
+			title: "Worn Notebook"
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00CF092C304CB005"]
+			description: ["Magebloom seed cai raramente de folhas archwood ou compra de mercador errante. Plante em terra arada pra crescer magebloom."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:magebloom_crop"
+			id: "434EEEFE84713EF0"
+			rewards: [
+				{
+					id: "72EA0BE17B708EE3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Semente mágica"
+			tasks: [
+				{
+					id: "4351A3F47D7588D7"
+					item: "ars_nouveau:magebloom_crop"
+					type: "item"
+				}
+			]
+			title: "Magebloom Seed"
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["434EEEFE84713EF0"]
+			description: ["Magebloom planta madura cai 1-3 mage_bloom. Crafte 1 fiber com 4 blooms."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:magebloom"
+			id: "0CBB79825E7A5703"
+			rewards: [
+				{
+					id: "2B0CE23E5A4A80B7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Fibra mágica"
+			tasks: [
+				{
+					id: "7DCA5FF681B2E7EC"
+					item: "ars_nouveau:magebloom"
+					type: "item"
+				}
+			]
+			title: "Magebloom Fiber"
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0CBB79825E7A5703"]
+			description: ["Mundane belt: 4 magebloom_fiber + 1 string + 1 couro. Equipa em curio \"belt\" pra espaços de feitiço parchments."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:mundane_belt"
+			id: "2F2B9FB9D7D35497"
+			rewards: [
+				{
+					id: "532E4C4FF1A3A25D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Cinto inicial"
+			tasks: [
+				{
+					id: "607D30655D206ADB"
+					item: "ars_nouveau:mundane_belt"
+					type: "item"
+				}
+			]
+			title: "Mundane Belt"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0CBB79825E7A5703"]
+			description: ["Mage block: 4 magebloom_fiber + 4 cobblestone. Componente do apprentice_spell_book e várias estruturas."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:mage_block"
+			id: "70C75B22504A93AA"
+			rewards: [
+				{
+					id: "2A9192390CAE2AB8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Bloco base mágico"
+			tasks: [
+				{
+					id: "12D6D146A5D3C2FA"
+					item: "ars_nouveau:mage_block"
+					type: "item"
+				}
+			]
+			title: "Mage Block"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00CF092C304CB005"]
+			description: ["Livro iniciante aceita 1 feitiço de até 5 glifos. Crafte com 1 livro + couro. Lance feitiços simples (lightning, projétil)."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "ars_nouveau:novice_spell_book"
+			id: "79D33DFD50A6872E"
+			rewards: [
+				{
+					id: "59507919D31B0949"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Primeiro livro de feitiços"
+			tasks: [
+				{
+					id: "2DB14B2C49A9CCA7"
+					item: "ars_nouveau:novice_spell_book"
+					type: "item"
+				}
+			]
+			title: "Livro de Feitiços Iniciante"
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["79D33DFD50A6872E", "70C75B22504A93AA"]
+			description: ["Apprentice livro de feitiços aceita 2 feitiços, até 7 glifos cada. Crafte com novice_book + 4 mage_block + source_gems."]
+			hide_dependency_lines: true
+			icon: "ars_nouveau:apprentice_spell_book"
+			id: "4F746BB0B6761124"
+			rewards: [
+				{
+					id: "715BF9B9454A3A98"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Melhoria — 2 feitiços"
+			tasks: [
+				{
+					id: "1D732622E4A5BCD2"
+					item: "ars_nouveau:apprentice_spell_book"
+					type: "item"
+				}
+			]
+			title: "Livro de Feitiços de Aprendiz"
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["00CF092C304CB005"]
+			description: ["Archwood (cascading, blazing, vexing, flourishing) aparecem em biomas Ars Nouveau. Cada tipo tem efeito spécifico em proximidade de criaturas."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:blue_archwood_log"
+			id: "348896FAB1D5A00B"
+			rewards: [
+				{
+					id: "0D73B8B241F02C18"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Madeira fonte"
+			tasks: [
+				{
+					id: "1B9CDFE88A489F22"
+					item: "ars_nouveau:blue_archwood_log"
+					type: "item"
+				}
+			]
+			title: "Archwood Logs"
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["348896FAB1D5A00B"]
+			description: ["Archwood planks: 1 log → 4 planks. Material base do imbuement_chamber, source_jar, arcane_pedestal, etc."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:archwood_planks"
+			id: "637CE750CADD6992"
+			rewards: [
+				{
+					id: "581F2BE5B07E2AE4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Madeira processada"
+			tasks: [
+				{
+					id: "42B33B8032D9A16F"
+					item: "ars_nouveau:archwood_planks"
+					type: "item"
+				}
+			]
+			title: "Archwood Planks"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["637CE750CADD6992", "79D33DFD50A6872E"]
+			description: ["Scribes table converte feitiço parchments e glifos em conhecimento. Crafte com archwood_planks + bookshelf + source_gem."]
+			hide_dependency_lines: true
+			icon: "ars_nouveau:scribes_table"
+			id: "6FFBAC0142E9861C"
+			rewards: [
+				{
+					id: "23226EAD1E1D2432"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Mesa de glifos"
+			tasks: [
+				{
+					id: "1F9DD0A0B867E84C"
+					item: "ars_nouveau:scribes_table"
+					type: "item"
+				}
+			]
+			title: "Scribes Table"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["637CE750CADD6992"]
+			description: ["A câmara absorve source dos jarros ao redor pra transformar items. Tudo no caminho do Arcanista passa por aqui.", "", "Aqui ela inclui livingwood na receita — porque madeira viva canaliza source melhor que qualquer outra."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:imbuement_chamber"
+			id: "31094F326A7FC887"
+			rewards: [
+				{
+					id: "640EBD11DF1BA24F"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			subtitle: "Cross-mod — central de processamento"
+			tasks: [
+				{
+					id: "0DF0197A7B4B7906"
+					item: "ars_nouveau:imbuement_chamber"
+					type: "item"
+				}
+			]
+			title: "Imbuement Chamber"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["637CE750CADD6992"]
+			description: ["Para forjar: jogue 1 §dmana diamond§r em §6fogo espiritual§r (ritual Occultism com chalk_white + cobblestone) → 1 source_gem.", "", "Source_gem é a base de TUDO no Ars. Esse path requer Botania (mana_pool funcional) + Occultism (chalk)."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:source_gem"
+			id: "0FC8871F46B24FEC"
+			rewards: [
+				{
+					id: "4197ADC4485F3046"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			subtitle: "Cross-mod — caminho principal"
+			tasks: [
+				{
+					id: "51ED41F1CD5951BD"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			title: "Source Gem (Mana Diamond)"
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["31094F326A7FC887", "0FC8871F46B24FEC"]
+			description: ["Para forjar: 1 §6spirit attuned crystal§r no imbuement_chamber → 4 source_gem + 1000 source mana.", "", "Path 4× eficiente em mass production. Crystal vem de amethyst_block (momento decisivo — Aglutinado Mágico)."]
+			hide_dependency_lines: true
+			icon: "ars_nouveau:source_gem"
+			id: "142572AABD3DFC3A"
+			rewards: [
+				{
+					id: "6057B872DF053AA6"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			subtitle: "Cross-mod — caminho premium"
+			tasks: [
+				{
+					id: "570B83211D86E8FE"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			title: "Gema de Fonte (Cristal de Espírito)"
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0FC8871F46B24FEC"]
+			description: ["Source gem block: 9 source_gem → 1 block. Armazenamento + decoração + componente de várias estruturas."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:source_gem_block"
+			id: "139CAC5805D05307"
+			rewards: [
+				{
+					id: "2D80846FDD0AA731"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Bloco compactado"
+			tasks: [
+				{
+					id: "6B39A8FB73B0374C"
+					item: "ars_nouveau:source_gem_block"
+					type: "item"
+				}
+			]
+			title: "Source Gem Block"
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6FFBAC0142E9861C"]
+			description: ["Projétil envia o feitiço em arco linear. Forma base mais comum. Aprenda no scribes_table com 1 source_gem."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:glyph_projectile"
+			id: "708649A49749F090"
+			rewards: [
+				{
+					id: "427F82C85D63E58A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Forma — projeção"
+			tasks: [
+				{
+					id: "4FF4FA0B7008B70A"
+					item: "ars_nouveau:glyph_projectile"
+					type: "item"
+				}
+			]
+			title: "Glifo: Projétil"
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6FFBAC0142E9861C"]
+			description: ["Toque ativa o feitiço ao clicar bloco/entidade próximo. Útil pra ritualistic feitiços."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:glyph_touch"
+			id: "08ECE6DF02FF3BA0"
+			rewards: [
+				{
+					id: "0EDF4A0A60901CE7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Forma — toque"
+			tasks: [
+				{
+					id: "7A4FF3A91BBE1E8D"
+					item: "ars_nouveau:glyph_touch"
+					type: "item"
+				}
+			]
+			title: "Glifo: Toque"
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6FFBAC0142E9861C"]
+			description: ["Em si aplica o feitiço em quem castou. Crítico pra combinações de pressa, cura e impulso de salto."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:glyph_self"
+			id: "20DA5D1B156DA58F"
+			rewards: [
+				{
+					id: "3DE1CFCE3E6AB402"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Forma — em si mesmo"
+			tasks: [
+				{
+					id: "35C5DD98B07F7D32"
+					item: "ars_nouveau:glyph_self"
+					type: "item"
+				}
+			]
+			title: "Glifo: Em si"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6FFBAC0142E9861C"]
+			description: ["Quebrar + Projétil/Toque quebra blocos remotamente. Mineração à distância."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:glyph_break"
+			id: "248B7F048FDCB864"
+			rewards: [
+				{
+					id: "6F649B7F183A25A3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Efeito — quebrar bloco"
+			tasks: [
+				{
+					id: "2E3FA2A0F7C4B9C3"
+					item: "ars_nouveau:glyph_break"
+					type: "item"
+				}
+			]
+			title: "Glifo: Quebrar"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6FFBAC0142E9861C"]
+			description: ["Colocar bloco + forma do seu livro de feitiços. Coloca blocos do inventário em alvos."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:glyph_place_block"
+			id: "6ABB1BFFA229D309"
+			rewards: [
+				{
+					id: "0D8D3CBAFAFE1BA8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Efeito — colocar bloco"
+			tasks: [
+				{
+					id: "5CB60C928884FDE3"
+					item: "ars_nouveau:glyph_place_block"
+					type: "item"
+				}
+			]
+			title: "Glifo: Colocar Block"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6FFBAC0142E9861C"]
+			description: ["Cura + Em si = cura você. Cura + Projétil/Toque = cura aliados."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:glyph_heal"
+			id: "4FB2164AEB53D0BC"
+			rewards: [
+				{
+					id: "511D78F8A933824B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Efeito — cura"
+			tasks: [
+				{
+					id: "5925CADC7679970B"
+					item: "ars_nouveau:glyph_heal"
+					type: "item"
+				}
+			]
+			title: "Glifo: Cura"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FFBAC0142E9861C"]
+			description: ["Amplificar intensifica efeito anterior. Heal + 3× amplificar = cura massiva. Feitiços de dano beneficiam."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:glyph_amplify"
+			id: "22B64EE5468FBBBF"
+			rewards: [
+				{
+					id: "1DA1807EAEC8D328"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Augment — aumenta poder"
+			tasks: [
+				{
+					id: "529BB88343CDE997"
+					item: "ars_nouveau:glyph_amplify"
+					type: "item"
+				}
+			]
+			title: "Glifo: Amplificar"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["708649A49749F090", "08ECE6DF02FF3BA0", "248B7F048FDCB864"]
+			description: ["Há 70+ glifos disponíveis no Ars. Crie uma coleção de pelo menos 25 — chamado pra apprentice. Cada glifo aberta no scribes_table."]
+			hide_dependency_lines: true
+			icon: "ars_nouveau:blank_glyph"
+			id: "15E2785AE7B5C110"
+			rewards: [
+				{
+					id: "5910EBEDB3B62D02"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Aprenda 25+ glifos"
+			tasks: [
+				{
+					id: "13B45B88577294B5"
+					item: "ars_nouveau:blank_glyph"
+					type: "item"
+				}
+			]
+			title: "Coleção de Glifos"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["31094F326A7FC887"]
+			description: ["Aqui a receita segue outro caminho: 4 glass + 1 §dmana pearl§r + 1 source_gem + 4 archwood_planks → source_jar.", "", "Source jar armazena até 10000 mana. Imbuement_chamber e ritual_brazier consomem direto de jars próximos."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:source_jar"
+			id: "444F6806A0BEDC66"
+			rewards: [
+				{
+					id: "2FBD4D7173C34A8E"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			subtitle: "Cross-mod — armazenamento"
+			tasks: [
+				{
+					id: "06AF3BFC2F2E2340"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+			]
+			title: "Source Jar"
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["31094F326A7FC887"]
+			description: ["Arcane pedestal: 4 archwood + 4 source_gem. Combinado com imbuement_chamber pra inputs múltiplos."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:arcane_pedestal"
+			id: "6C97705F60E37F1C"
+			rewards: [
+				{
+					id: "32F72E5039DDF918"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Pedestal de items"
+			tasks: [
+				{
+					id: "180C3C29714D6E9E"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+			]
+			title: "Arcane Pedestal"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["444F6806A0BEDC66", "6C97705F60E37F1C"]
+			description: ["Núcleo arcano: 4 source_gem_block + 4 elementium_ingot + 1 arcane_pedestal. Substituto avançado do source_jar (capacidade massiva)."]
+			hide_dependency_lines: true
+			icon: "ars_nouveau:arcane_core"
+			id: "666311C4E9ACC988"
+			rewards: [
+				{
+					id: "58E31E7A4502FEF7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Núcleo de mana avançado"
+			tasks: [
+				{
+					id: "31B85E30D6C52F0F"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+			]
+			title: "Núcleo Arcano"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["444F6806A0BEDC66"]
+			description: ["Vitalic link gera mana via aparição de criaturas próximo. Bom pra fazendas de criaturas."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:vitalic_sourcelink"
+			id: "15C4F7F1763E716E"
+			rewards: [
+				{
+					id: "79E6B0FA395A1851"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Link de mana via vida"
+			tasks: [
+				{
+					id: "4A04F889A34B9CEA"
+					item: "ars_nouveau:vitalic_sourcelink"
+					type: "item"
+				}
+			]
+			title: "Source Link Vitalic"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["444F6806A0BEDC66"]
+			description: ["Volcanic link gera mana via blocos de lava próximos. Coloca em nether ou casa com lago de lava."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:volcanic_sourcelink"
+			id: "2AB9B99A6CD15CA0"
+			rewards: [
+				{
+					id: "0D90FE79AA3FAE22"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Link via lava"
+			tasks: [
+				{
+					id: "4F5F0C173A831ADA"
+					item: "ars_nouveau:volcanic_sourcelink"
+					type: "item"
+				}
+			]
+			title: "Source Link Volcanic"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["444F6806A0BEDC66"]
+			description: ["Agronomic link gera mana de cultivos crescendo próximo. Combina com fazendas automáticas."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:agronomic_sourcelink"
+			id: "4C71BB3EA963D9FB"
+			rewards: [
+				{
+					id: "4E4B6FEEBC9C36F1"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Link via cultivos"
+			tasks: [
+				{
+					id: "46789CD32E4A20D8"
+					item: "ars_nouveau:agronomic_sourcelink"
+					type: "item"
+				}
+			]
+			title: "Source Link Agronomic"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["444F6806A0BEDC66"]
+			description: ["Mycelial link gera mana de mushroom fazendas. Útil em swamp/mushroom_island."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:mycelial_sourcelink"
+			id: "1384646025CA3D53"
+			rewards: [
+				{
+					id: "07C90040FFF61F94"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Link via cogumelos"
+			tasks: [
+				{
+					id: "643A52461F5E52C3"
+					item: "ars_nouveau:mycelial_sourcelink"
+					type: "item"
+				}
+			]
+			title: "Source Link Mycelial"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["15E2785AE7B5C110"]
+			description: ["Starbuncle wild aparecem em archwood biomes. Mate ou alimente com gold_nugget pra obter shards. 5 shards = 1 charm."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:starbuncle_shards"
+			id: "0A6AA4F3F564300F"
+			rewards: [
+				{
+					id: "16053A8F6EE166D7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Quedaa de starbuncle wild"
+			tasks: [
+				{
+					id: "2B57522180ECE2A9"
+					item: "ars_nouveau:starbuncle_shards"
+					type: "item"
+				}
+			]
+			title: "Starbuncle Shards"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0A6AA4F3F564300F"]
+			description: ["Starbuncle charm + 5 shards + ritual no ritual_brazier → starbuncle pet. Coleta items configuráveis (item filter via shift+click)."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:starbuncle_charm"
+			id: "2DB5F4CEFF5AA0BA"
+			rewards: [
+				{
+					id: "5EEB962A31A70BE2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Familiar coletor"
+			tasks: [
+				{
+					id: "31D1C12D3876856E"
+					item: "ars_nouveau:starbuncle_charm"
+					type: "item"
+				}
+			]
+			title: "Starbuncle Charm"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0A6AA4F3F564300F"]
+			description: ["Wixie wild aparecem em archwood biomes (mais raros). Forneça enchanting_apparatus pra wixie criação automatizada."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:wixie_shards"
+			id: "3951827CD3324795"
+			rewards: [
+				{
+					id: "65AD8ADB2AD73DDC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Quedaa de wixie wild"
+			tasks: [
+				{
+					id: "6F57D0F42BA5D524"
+					item: "ars_nouveau:wixie_shards"
+					type: "item"
+				}
+			]
+			title: "Wixie Shards"
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3951827CD3324795"]
+			description: ["Wixie charm + ritual binding → wixie pet. Programe receitas pra ela craftar automaticamente em enchanting_apparatus."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:wixie_charm"
+			id: "209FD25B5B9ADBC1"
+			rewards: [
+				{
+					id: "152240C1374F0428"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Familiar crafter"
+			tasks: [
+				{
+					id: "3D3929F0AE43B901"
+					item: "ars_nouveau:wixie_charm"
+					type: "item"
+				}
+			]
+			title: "Wixie Charm"
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2DB5F4CEFF5AA0BA"]
+			description: ["Drygmy aparece em archwood biomes. Mate uns 5 pra suficiente shards."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:drygmy_shard"
+			id: "239774567E7A636A"
+			rewards: [
+				{
+					id: "118032E8E3D96A23"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Quedaa de drygmy"
+			tasks: [
+				{
+					id: "1B1D8EE5275902D6"
+					item: "ars_nouveau:drygmy_shard"
+					type: "item"
+				}
+			]
+			title: "Drygmy Shards"
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["239774567E7A636A"]
+			description: ["Drygmy charm + ritual → drygmy pet. Coleta quedas de criaturas na jaula automaticamente. Fábrica de criaturas dos sonhos."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:drygmy_charm"
+			id: "7AF57885CBAA8369"
+			rewards: [
+				{
+					id: "6F1B1FB98CCA6636"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Familiar coletor de saque de criaturas"
+			tasks: [
+				{
+					id: "791F82FE538BD5C8"
+					item: "ars_nouveau:drygmy_charm"
+					type: "item"
+				}
+			]
+			title: "Drygmy Charm"
+			x: 11.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2DB5F4CEFF5AA0BA"]
+			description: ["Aqui a receita segue outro caminho: 1 §dlivingwood twig§r + 1 source_gem + 1 gold_ingot no formato \" S \" / \" WS\" / \"G  \".", "", "Dominion wand configura familiars (target inventário, blocos de filter, etc). Click direito em familiar → click direito no destino."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:dominion_wand"
+			id: "0E443E43FD0DACCD"
+			rewards: [
+				{
+					id: "1FA90AD515D6EE89"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			subtitle: "Cross-mod — controla familiars"
+			tasks: [
+				{
+					id: "54C9D648F0E3DE49"
+					item: "ars_nouveau:dominion_wand"
+					type: "item"
+				}
+			]
+			title: "Dominion Wand"
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["444F6806A0BEDC66", "15E2785AE7B5C110"]
+			description: [" ritual_brazier exige §dNúcleo Espiritual§r no craft.", "", "Brazier executa rituals: binding, summon, transmute, etc. Cada ritual precisa do ritual_tablet específico + ingredientes."]
+			hide_dependency_lines: true
+			icon: "ars_nouveau:ritual_brazier"
+			id: "76A7186246448689"
+			rewards: [
+				{
+					id: "2E253964DE10681A"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			subtitle: "Requisito F4 — invoca rituais"
+			tasks: [
+				{
+					id: "6AC5FD0C2533D2F0"
+					item: "ars_nouveau:ritual_brazier"
+					type: "item"
+				}
+			]
+			title: "Braseiro Ritual"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76A7186246448689"]
+			description: ["Ritual binding tablet permite converter shards em charms. Executa no brazier com shards + base items."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:ritual_binding"
+			id: "151AC074067A49BD"
+			rewards: [
+				{
+					id: "4D7C38BC87675D00"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Liga familiar shards → charm"
+			tasks: [
+				{
+					id: "578C004FBD91D655"
+					item: "ars_nouveau:ritual_binding"
+					type: "item"
+				}
+			]
+			title: "Ritual Binding"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["76A7186246448689"]
+			description: ["Ritual warding protege área de aparição de criaturas. Útil pra bases."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:ritual_warping"
+			id: "149688E1047E1961"
+			rewards: [
+				{
+					id: "2B1B4C0772E2CB93"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Proteção de área"
+			tasks: [
+				{
+					id: "621B68EB07E0937B"
+					item: "ars_nouveau:ritual_warping"
+					type: "item"
+				}
+			]
+			title: "Ritual Warding"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["444F6806A0BEDC66", "6C97705F60E37F1C"]
+			description: ["O aparato é o núcleo de criação do Arcanista veterano. Tomos, parchments, items avançado — tudo nasce aqui.", "", "Pra montá-lo, você precisa de um §dNúcleo Cinético§r — mecânica e magia se encontram nesse ponto."]
+			hide_dependency_lines: true
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "36D0073E0AC82656"
+			rewards: [
+				{
+					id: "7E3336D920A0B98E"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			subtitle: "Requisito F2 — criação arcana"
+			tasks: [
+				{
+					id: "0BA8A14DEB66453C"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+			]
+			title: "Enchanting Apparatus"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["36D0073E0AC82656"]
+			description: ["Feitiço parchment escreve um feitiço pra reuso. Use scribes_table → spell_book → parchment."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:spell_parchment"
+			id: "38559AAC9086747D"
+			rewards: [
+				{
+					id: "07C30FC836E0919D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Pergaminho de feitiço"
+			tasks: [
+				{
+					id: "45B914E561B89BE1"
+					item: "ars_nouveau:spell_parchment"
+					type: "item"
+				}
+			]
+			title: "Feitiço Parchment"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["36D0073E0AC82656"]
+			description: ["Tomo Lançador carrega 1 feitiço pré-definido com mana_jar embutido. Útil pra lançamento rápido sem trocar de livro."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:caster_tome"
+			id: "67A244F2C31AA37E"
+			rewards: [
+				{
+					id: "678BBDF18C631662"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Tomo de feitiço único"
+			tasks: [
+				{
+					id: "4166265C22A967FA"
+					item: "ars_nouveau:caster_tome"
+					type: "item"
+				}
+			]
+			title: "Tomo Lançador"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["67A244F2C31AA37E"]
+			description: ["Livro de arquimago: 10 feitiços, 10 glifos cada. Crafte via apparatus com livro_aprendiz + 8 source_gem_block + 1 alfsteel."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:archmage_spell_book"
+			id: "2E13E3C7C6A5C426"
+			rewards: [
+				{
+					id: "357ACE30E745E88C"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "Nível máximo — 10 feitiços"
+			tasks: [
+				{
+					id: "336A8FC1E13B9853"
+					item: "ars_nouveau:archmage_spell_book"
+					type: "item"
+				}
+			]
+			title: "Livro de Feitiços de Arquimago"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["444F6806A0BEDC66"]
+			description: ["Potion jar armazena uma potion única e ativa em area efeito (regen, strength). Útil pra base bonus permanente."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:potion_jar"
+			id: "0FB2719CC60623F1"
+			rewards: [
+				{
+					id: "6770D49D42800C79"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Armazena poções"
+			tasks: [
+				{
+					id: "603F8E0CF099A1CD"
+					item: "ars_nouveau:potion_jar"
+					type: "item"
+				}
+			]
+			title: "Potion Jar"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0FB2719CC60623F1"]
+			description: ["Potion flask: 1 glass_bottle + source_gem + magebloom_fiber. Armazena 8 doses de uma potion (reusável)."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "ars_nouveau:potion_flask"
+				tag: {
+					Damage: 8
+				}
+			}
+			id: "309DC7FA77D19D80"
+			rewards: [
+				{
+					id: "62F8CDABF12ACCDF"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Carrega 8 doses"
+			tasks: [
+				{
+					id: "70AC7F4FC00D74EC"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:potion_flask"
+						tag: {
+							Damage: 8
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Potion Flask"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["76A7186246448689", "36D0073E0AC82656"]
+			description: ["A Quimera Wilden é o chefe da Ars Nouveau. Invoque-a com um chifre wilden no braseiro ritual.", "", "Recompensas: asas pra voo permanente, espinho pra criação avançada."]
+			hide_dependency_lines: true
+			icon: "ars_nouveau:wilden_horn"
+			id: "652CB209F9C8DF8A"
+			rewards: [
+				{
+					id: "3AEA35DFB51512A3"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Chefe do Ars"
+			tasks: [
+				{
+					id: "7780BF19C5880A88"
+					item: "ars_nouveau:wilden_horn"
+					type: "item"
+				}
+			]
+			title: "Wilden Chimera"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["652CB209F9C8DF8A"]
+			description: ["Wilden wings (queda da chimera) + ritual binding → wings curio. Voo similar elytra mas sem precisar foguete."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:wilden_wing"
+			id: "52AA9AD849A24DA7"
+			rewards: [
+				{
+					id: "3C283078D744CBFC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Voo permanente"
+			tasks: [
+				{
+					id: "070A36FFB7DF9459"
+					item: "ars_nouveau:wilden_wing"
+					type: "item"
+				}
+			]
+			title: "Wilden Wings"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["652CB209F9C8DF8A"]
+			description: ["Wilden chain (queda da chimera) → componentes de enchanted_chain no apparatus. Combina com archwood + source pra alfsteel."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:wilden_horn"
+			id: "5B23C6C5A77DA674"
+			rewards: [
+				{
+					id: "1DD3F6E4C5DDDB92"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Material avançado"
+			tasks: [
+				{
+					id: "10FDEAC92288FE69"
+					item: "ars_nouveau:wilden_horn"
+					type: "item"
+				}
+			]
+			title: "Corrente Wilden"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["52AA9AD849A24DA7", "5B23C6C5A77DA674", "2E13E3C7C6A5C426"]
+			description: ["Você completou o caminho do Arcanista EQSMP! Dominou glifos, automação com familiars, rituais e venceu o Wilden Chimera.", "", "§7Recipes EQSMP que você aprendeu:§r", "§7•§r imbuement_chamber + livingwood (Botania)", "§7•§r source_gem via mana_diamond (Aglutinado-mid Botania+Occultism)", "§7•§r source_gem via spirit_attuned_crystal (Aglutinado cascade)", "§7•§r source_jar + mana_pearl (Botania)", "§7•§r dominion_wand + livingwood_twig (Botania)", "", "Próximos caminhos: Occultism, Pedra Filosofal."]
+			hide_dependency_lines: true
+			icon: "ars_nouveau:wilden_horn"
+			id: "5F0EEF797725B751"
+			rewards: [
+				{
+					id: "662324FB251C17AC"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "244C6850D12D3E82"
+					type: "xp"
+					xp: 315
+				}
+			 { id: "1A2B3C4D5E6F0129", table_id: 1885667171979165697L, type: "random" }]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Você dominou o Arcanista"
+			tasks: [
+				{
+					id: "507BDFF84998AAEF"
+					type: "checkmark"
+				}
+			]
+			title: "Mestria Arcana"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15E2785AE7B5C110"]
+			description: ["Há ~10 formas Ars: projétil, toque, em si, área, raio, sob os pés, etc. Cada uma define COMO o feitiço se manifesta. Coloque ao MENOS 5 formas diferentes no scribes_table."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:glyph_orbit"
+			id: "163565E425D947A6"
+			rewards: [
+				{
+					id: "609BA2BEF3159563"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Formas básicas e avançadas"
+			tasks: [
+				{
+					count: 5
+					id: "4EDC001960A06F77"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ars_nouveau:glyph_aoe)item(ars_nouveau:glyph_ender_inventory)item(ars_nouveau:glyph_firework)item(ars_nouveau:glyph_orbit)item(ars_nouveau:glyph_projectile)item(ars_nouveau:glyph_rune)item(ars_nouveau:glyph_self)item(ars_nouveau:glyph_sense_magic)item(ars_nouveau:glyph_touch)item(ars_nouveau:glyph_underfoot)item(ars_nouveau:glyph_wall))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Coleção de Formas (Glifos)"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15E2785AE7B5C110"]
+			description: ["Há ~30 efeitos Ars: dano, cura, quebrar, colocar, colher, incendiar, congelar, etc. Cada efeito é O QUE o feitiço faz."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:glyph_harvest"
+			id: "7D8F7AF6803F447B"
+			rewards: [
+				{
+					id: "245947E1480CE8EA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Effects de feitiço"
+			tasks: [
+				{
+					count: 10
+					id: "34A2BAF56B2FDED8"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ars_nouveau:glyph_animate_block)item(ars_nouveau:glyph_blink)item(ars_nouveau:glyph_bounce)item(ars_nouveau:glyph_break)item(ars_nouveau:glyph_cold_snap)item(ars_nouveau:glyph_conjure_water)item(ars_nouveau:glyph_craft)item(ars_nouveau:glyph_crush)item(ars_nouveau:glyph_cut)item(ars_nouveau:glyph_dispel)item(ars_nouveau:glyph_evaporate)item(ars_nouveau:glyph_exchange)item(ars_nouveau:glyph_explosion)item(ars_nouveau:glyph_fangs)item(ars_nouveau:glyph_fell)item(ars_nouveau:glyph_flare)item(ars_nouveau:glyph_freeze)item(ars_nouveau:glyph_glide)item(ars_nouveau:glyph_gravity)item(ars_nouveau:glyph_grow)item(ars_nouveau:glyph_gust)item(ars_nouveau:glyph_harm)item(ars_nouveau:glyph_harvest)item(ars_nouveau:glyph_heal)item(ars_nouveau:glyph_hex)item(ars_nouveau:glyph_ignite)item(ars_nouveau:glyph_infuse)item(ars_nouveau:glyph_intangible)item(ars_nouveau:glyph_interact)item(ars_nouveau:glyph_invisibility)item(ars_nouveau:glyph_launch)item(ars_nouveau:glyph_leap)item(ars_nouveau:glyph_light)item(ars_nouveau:glyph_lightning)item(ars_nouveau:glyph_linger)item(ars_nouveau:glyph_name)item(ars_nouveau:glyph_phantom_block)item(ars_nouveau:glyph_pickup)item(ars_nouveau:glyph_place_block)item(ars_nouveau:glyph_pull)item(ars_nouveau:glyph_randomize)item(ars_nouveau:glyph_redstone_signal)item(ars_nouveau:glyph_rotate)item(ars_nouveau:glyph_slowfall)item(ars_nouveau:glyph_smelt)item(ars_nouveau:glyph_snare)item(ars_nouveau:glyph_summon_decoy)item(ars_nouveau:glyph_summon_steed)item(ars_nouveau:glyph_summon_undead)item(ars_nouveau:glyph_summon_vex)item(ars_nouveau:glyph_summon_wolves)item(ars_nouveau:glyph_toss)item(ars_nouveau:glyph_wind_shear)item(ars_nouveau:glyph_wither))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Coleção de Efeitos (Glifos)"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["15E2785AE7B5C110"]
+			description: ["Há ~15 augments: amplificar, dampen, extend_time, accelerate, fortune, sensitive, etc. Modificam intensidade/duração/comportamento."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:glyph_extend_time"
+			id: "1B83CECB49BDB010"
+			rewards: [
+				{
+					id: "22236E9D8F8AF6B1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Augments modificadores"
+			tasks: [
+				{
+					count: 5
+					id: "32AECE044B4AB753"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ars_nouveau:glyph_accelerate)item(ars_nouveau:glyph_amplify)item(ars_nouveau:glyph_dampen)item(ars_nouveau:glyph_decelerate)item(ars_nouveau:glyph_delay)item(ars_nouveau:glyph_duration_down)item(ars_nouveau:glyph_extend_time)item(ars_nouveau:glyph_extract)item(ars_nouveau:glyph_fortune)item(ars_nouveau:glyph_pierce)item(ars_nouveau:glyph_sensitive)item(ars_nouveau:glyph_split))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Coleção de Augments"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7AF57885CBAA8369"]
+			description: ["Amethyst golem charm: 5 amethyst_shard + ritual binding. Coleta amethyst de geodes automaticamente."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:amethyst_golem_charm"
+			id: "1D7156B161DD41D4"
+			rewards: [
+				{
+					id: "6FBAD61155993851"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Familiar coletor de amethyst"
+			tasks: [
+				{
+					id: "29D53D738ED32C58"
+					item: "ars_nouveau:amethyst_golem_charm"
+					type: "item"
+				}
+			]
+			title: "Amethyst Golem"
+			x: 14.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2DB5F4CEFF5AA0BA"]
+			description: ["Whirlisprig charm: cultiva plantas/cultivos em area. Quedaa items conforme crescimento. Fazenda intermediária."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:whirlisprig_charm"
+			id: "52EFDAA1F5F00F89"
+			rewards: [
+				{
+					id: "3987D726F12E9B14"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Familiar agrícola"
+			tasks: [
+				{
+					id: "3CC4F159FBEB9C88"
+					item: "ars_nouveau:whirlisprig_charm"
+					type: "item"
+				}
+			]
+			title: "Whirlisprig"
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2E13E3C7C6A5C426"]
+			description: ["Alfsteel picareta: 3 alfsteel_ingot + 2 stick. Alfsteel vem de alfheim_portal + manasteel receita. Faster + sharper que iesnium."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:wilden_horn"
+			id: "2782C967594AF9B9"
+			rewards: [
+				{
+					id: "0F2F6C24B051A3F5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Picareta avançada (Ars)"
+			tasks: [
+				{
+					id: "0B36F3ECD1154116"
+					item: "ars_nouveau:wilden_horn"
+					type: "item"
+				}
+			]
+			title: "Alfsteel Picareta"
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2F2B9FB9D7D35497"]
+			description: ["Jump ring (mundane belt espaço ou curio): jump higher. Combina com slow_fall potion pra criaturaility absurda."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:jump_ring"
+			id: "7CC22A58F8FD2C3C"
+			rewards: [
+				{
+					id: "540FF89CF29BBEBE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Anel de jump boost"
+			tasks: [
+				{
+					id: "40A464618F05E64F"
+					item: "ars_nouveau:jump_ring"
+					type: "item"
+				}
+			]
+			title: "Anel de Salto"
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["38559AAC9086747D"]
+			description: ["Pergaminho de Teletransporte salva local, depois usa pra se teletransportar. Crítico pra rotas de base."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:warp_scroll"
+			id: "474315E7D9EFF270"
+			rewards: [
+				{
+					id: "709C0F2ABB4F029B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Teletransporte pergaminho"
+			tasks: [
+				{
+					id: "38781C44B73A7827"
+					item: "ars_nouveau:warp_scroll"
+					type: "item"
+				}
+			]
+			title: "Pergaminho de Teletransporte"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["444F6806A0BEDC66"]
+			description: ["Source relay collector centraliza mana de múltiplos source_jars/relays para 1 ponto. Útil em factories grandes."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:relay_collector"
+			id: "0337B201C5266C96"
+			rewards: [
+				{
+					id: "3618C233BE545DBF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Coleta mana de relays"
+			tasks: [
+				{
+					id: "108D5697F2E5D518"
+					item: "ars_nouveau:relay_collector"
+					type: "item"
+				}
+			]
+			title: "Source Relay Collector"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["348896FAB1D5A00B"]
+			description: ["Há 4 archwood biomes: cascading (azul), blazing (vermelho), vexing (roxo), flourishing (verde). Cada um aparição diferentes criaturas (starbuncles, drygmys, whirlisprigs)."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:purple_archwood_sapling"
+			id: "2DFD01E33932BE0C"
+			rewards: [
+				{
+					id: "04FD37EC71D8D336"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Explore os 4 tipos"
+			tasks: [
+				{
+					id: "2A77027E47E3CDC3"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(ars_nouveau:blue_archwood_sapling)item(ars_nouveau:red_archwood_sapling)item(ars_nouveau:purple_archwood_sapling)item(ars_nouveau:green_archwood_sapling))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Biomas Archwood"
+			x: -9.0d
+			y: -2.0d
+		}
+	]
+	title: "Ars Nouveau — Caminho do Arcanista"
+}

@@ -1,0 +1,32 @@
+{
+  "type": "geolosys:deposit_dike",
+  "config": {
+    "yMin": -64,
+    "yMax": 32,
+    "baseRadius": 3,
+    "biomeTag": "#minecraft:is_overworld",
+    "blocks": {
+      "default": [
+        {
+          "block": "alltheores:iridium_ore",
+          "chance": 0.6
+        },
+        {
+          "block": null,
+          "chance": 0.4
+        }
+      ],
+      "minecraft:deepslate": [
+        {
+          "block": "alltheores:deepslate_iridium_ore",
+          "chance": 0.6
+        },
+        {
+          "block": null,
+          "chance": 0.4
+        }
+      ]
+    },
+    "generationWeight": 1
+  }
+}

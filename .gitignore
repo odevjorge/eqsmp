@@ -1,0 +1,50 @@
+# =========================================================================
+# EQSMP — .gitignore
+# ESCOPO: o repo versiona SÓ o que se distribui = pack/ (auto-contido) + docs/
+# README/LICENSE/icon. Tudo o resto (infra, servidor, fonte eqsmp/, editor,
+# segredos) fica FORA.
+# =========================================================================
+
+# ---- TUDO que não é o pack distribuível ----
+/eqsmp/
+/ftbquests/
+/world/
+/world_*/
+/tools/
+/packwiz/
+/compose.yaml
+/CLAUDE.md
+/RELEASE_PLAN.md
+/options_fixed.txt
+/pack.png
+/.env
+/.claude/
+/ziEmUNCA
+
+# ---- Dentro de pack/: excluir mods .jar e runtime efêmero ----
+# (os .pw.toml de mods SÃO os fontes — entram; os .jar NÃO)
+pack/mods/*.jar
+# runtime reescrito pelos mods (mesma lógica do .packwizignore)
+pack/config/chunky/
+pack/config/worldedit/
+pack/config/spark/
+pack/config/**/.archive-unpack/
+# downloads avulsos / exports grandes
+pack/downloads/*.zip
+*.mrpack
+
+# ---- segredos genéricos (defesa em profundidade) ----
+*.secret
+*server.properties
+*.rcon-cli.env
+*.rcon-cli.yaml
+
+# ---- arte: manter tamanhos finais, excluir source gigante ----
+icon/*_source.png
+
+# ---- OS / temporários ----
+*.tmp
+*.jfr
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,692 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "caminhos_iron_spells"
+	group: "4677C57609F8F102"
+	icon: "irons_spellbooks:diamond_spell_book"
+	id: "0A57395831669CFE"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"§eIron's Spells 'n Spellbooks§r adiciona um sistema RPG clássico de magia: tomes, pergaminhos, escolas e equipamentos de mago."
+				""
+				"Comece pegando o §6Livro de Feitiços§r vazio — ele é a base pra inscrever feitiços."
+				""
+				"§a§lARS 'N SPELLS:§r esse pack tem o mod-ponte que unifica a §dmana do Ars Nouveau§r com a §dmana do Iron's Spells§r. Um só pool de mana pra ambos os sistemas — invista em uma fonte, use os dois!"
+			]
+			icon: "irons_spellbooks:copper_spell_book"
+			id: "7F08A58B9D875A1F"
+			rewards: [{
+				id: "10E9D681F2A9C2BD"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.5d
+			subtitle: "Obtenha seu primeiro tomo"
+			tasks: [{
+				id: "3A53E2E50E5E1620"
+				item: "irons_spellbooks:copper_spell_book"
+				type: "item"
+			}]
+			title: "O Aprendiz de Mago"
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F08A58B9D875A1F"]
+			description: [
+				"Domine a §6Escola do Fogo§r — inscreva e lance os feitiços listados no seu tomo."
+				""
+				"§7Scrolls são gerados em estruturas, comprados de mercadores errantes, ou que caem de magos."
+			]
+			icon: "irons_spellbooks:scroll"
+			id: "361F4B76C4882401"
+			rewards: [{
+				id: "4BBEA0970421F3E0"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			subtitle: "Feitiços de fogo: dano e criaturailidade"
+			tasks: [{
+				id: "423DF5FF7A15F9E9"
+				type: "checkmark"
+			}]
+			title: "Escola do Fogo"
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7F08A58B9D875A1F"]
+			description: [
+				"Domine a §6Escola do Gelo§r — inscreva e lance os feitiços listados no seu tomo."
+				""
+				"§7Scrolls são gerados em estruturas, comprados de mercadores errantes, ou que caem de magos."
+			]
+			icon: "irons_spellbooks:scroll"
+			id: "3D62C92D16E7A35F"
+			rewards: [{
+				id: "3421D8486C2FCA21"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			subtitle: "Feitiços de gelo: controle e defesa"
+			tasks: [{
+				id: "0B95A3D9E26D1F07"
+				type: "checkmark"
+			}]
+			title: "Escola do Gelo"
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7F08A58B9D875A1F"]
+			description: [
+				"Domine a §6Escola do Raio§r — inscreva e lance os feitiços listados no seu tomo."
+				""
+				"§7Scrolls são gerados em estruturas, comprados de mercadores errantes, ou que caem de magos."
+			]
+			icon: "irons_spellbooks:scroll"
+			id: "3F9E85FD26AD09F9"
+			rewards: [{
+				id: "235F01C71BF3C6B1"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			subtitle: "Feitiços de raio: dano em área"
+			tasks: [{
+				id: "691732AA680F7B42"
+				type: "checkmark"
+			}]
+			title: "Escola do Raio"
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7F08A58B9D875A1F"]
+			description: [
+				"Domine a §6Escola Sagrada§r — inscreva e lance os feitiços listados no seu tomo."
+				""
+				"§7Scrolls são gerados em estruturas, comprados de mercadores errantes, ou que caem de magos."
+			]
+			icon: "irons_spellbooks:scroll"
+			id: "00121B2A0D92AD80"
+			rewards: [{
+				id: "39CDB43AE8A38925"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			subtitle: "Feitiços sagrados: cura e suporte"
+			tasks: [{
+				id: "4AD3B73949A9534A"
+				type: "checkmark"
+			}]
+			title: "Escola Sagrada"
+			x: -10.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7F08A58B9D875A1F"]
+			description: [
+				"Domine a §6Escola do Ender§r — inscreva e lance os feitiços listados no seu tomo."
+				""
+				"§7Scrolls são gerados em estruturas, comprados de mercadores errantes, ou que caem de magos."
+			]
+			icon: "irons_spellbooks:scroll"
+			id: "67BE4F11D12BEFD1"
+			rewards: [{
+				id: "316CE27C56DA80B3"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			subtitle: "Feitiços do ender: teleporte e utilidade"
+			tasks: [{
+				id: "32966A0B484CDA2D"
+				type: "checkmark"
+			}]
+			title: "Escola do Ender"
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F08A58B9D875A1F"]
+			description: [
+				"Domine a §6Escola do Sangue§r — inscreva e lance os feitiços listados no seu tomo."
+				""
+				"§7Scrolls são gerados em estruturas, comprados de mercadores errantes, ou que caem de magos."
+			]
+			icon: "irons_spellbooks:scroll"
+			id: "5CC3C7A920431310"
+			rewards: [{
+				id: "7851F69C7B5186A1"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			subtitle: "Feitiços de sangue: dano e dreno"
+			tasks: [{
+				id: "2EFAF587A87143A9"
+				type: "checkmark"
+			}]
+			title: "Escola do Sangue"
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7F08A58B9D875A1F"]
+			description: [
+				"Crie ou obtenha o §6Tomo de Cobre§r. Cada nível permite §emais feitiços inscritos§r e §ecasts mais potentes§r."
+				""
+				"§7Crafting: receita similar ao livro de feitiço base, com ingrediente do nível correspondente."
+			]
+			icon: "irons_spellbooks:copper_spell_book"
+			id: "6F721AB11C9FC00D"
+			rewards: [{
+				id: "080F8D4424C2E2CC"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.1d
+			subtitle: "+1 espaço de feitiço"
+			tasks: [{
+				id: "0AB8BDB8548967E3"
+				item: "irons_spellbooks:copper_spell_book"
+				type: "item"
+			}]
+			title: "Tomo de Cobre"
+			x: -10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6F721AB11C9FC00D"]
+			description: [
+				"Crie ou obtenha o §6Tomo de Ferro§r. Cada nível permite §emais feitiços inscritos§r e §ecasts mais potentes§r."
+				""
+				"§7Crafting: receita similar ao livro de feitiço base, com ingrediente do nível correspondente."
+			]
+			icon: "irons_spellbooks:iron_spell_book"
+			id: "62A606CBC3205F0D"
+			rewards: [{
+				id: "41873638157F4010"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.1d
+			subtitle: "+2 espaços"
+			tasks: [{
+				id: "5424EFBC771D5B21"
+				item: "irons_spellbooks:iron_spell_book"
+				type: "item"
+			}]
+			title: "Tomo de Ferro"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62A606CBC3205F0D"]
+			description: [
+				"Crie ou obtenha o §6Tomo de Ouro§r. Cada nível permite §emais feitiços inscritos§r e §ecasts mais potentes§r."
+				""
+				"§7Crafting: receita similar ao livro de feitiço base, com ingrediente do nível correspondente."
+			]
+			icon: "irons_spellbooks:gold_spell_book"
+			id: "1E13439C75C88343"
+			rewards: [{
+				id: "1EDCFA0FA34C2E2D"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.1d
+			subtitle: "Nível intermediário"
+			tasks: [{
+				id: "4425D0F903761F79"
+				item: "irons_spellbooks:gold_spell_book"
+				type: "item"
+			}]
+			title: "Tomo de Ouro"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E13439C75C88343"]
+			description: [
+				"Crie ou obtenha o §6Tomo de Diamante§r. Cada nível permite §emais feitiços inscritos§r e §ecasts mais potentes§r."
+				""
+				"§7Crafting: receita similar ao livro de feitiço base, com ingrediente do nível correspondente."
+			]
+			icon: "irons_spellbooks:diamond_spell_book"
+			id: "09C725DAB97F639E"
+			rewards: [{
+				id: "091C459FA12CAF91"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.1d
+			subtitle: "Fabricável avançado"
+			tasks: [{
+				id: "113F0E024FAEC0CD"
+				item: "irons_spellbooks:diamond_spell_book"
+				type: "item"
+			}]
+			title: "Tomo de Diamante"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09C725DAB97F639E"]
+			description: [
+				"Crie ou obtenha o §6Tomo de Netherite§r. Cada nível permite §emais feitiços inscritos§r e §ecasts mais potentes§r."
+				""
+				"§7Crafting: receita similar ao livro de feitiço base, com ingrediente do nível correspondente."
+			]
+			icon: "irons_spellbooks:netherite_spell_book"
+			id: "3ABDCDBB650E1726"
+			rewards: [{
+				id: "7A3C6449C1629718"
+				type: "xp"
+				xp: 315
+			}]
+			size: 1.1d
+			subtitle: "Topo da progressão craftável"
+			tasks: [{
+				id: "476FAAC1C0D4D49D"
+				item: "irons_spellbooks:netherite_spell_book"
+				type: "item"
+			}]
+			title: "Tomo de Netherite"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["09C725DAB97F639E"]
+			description: [
+				"Mate um §ccryomancer§r. Esses mages são apariçãoados em §6Mage Towers§r e quedaam peças de equipamento + pergaminhos de escola."
+				""
+				"§eRecompensa:§r XP + chance de queda de conjunto de armadura ou pergaminho."
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:cryomancer_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7600802B547E9192"
+			rewards: [
+				{
+					id: "248F410C5016390C"
+					type: "xp"
+					xp: 550
+				}
+				{
+					id: "36D5F9388E7612B6"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0115", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Mago do gelo"
+			tasks: [{
+				entity: "irons_spellbooks:cryomancer"
+				id: "6E5071954203A670"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Caçar Cryomancer"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["09C725DAB97F639E"]
+			description: [
+				"Mate um §cpyromancer§r. Esses mages são apariçãoados em §6Mage Towers§r e quedaam peças de equipamento + pergaminhos de escola."
+				""
+				"§eRecompensa:§r XP + chance de queda de conjunto de armadura ou pergaminho."
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:pyromancer_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6E6BE4FE9826D7C4"
+			rewards: [
+				{
+					id: "5AD360E3901B7599"
+					type: "xp"
+					xp: 550
+				}
+				{
+					id: "305132AF6DCEF319"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0116", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Mago do fogo"
+			tasks: [{
+				entity: "irons_spellbooks:pyromancer"
+				id: "6EC0C951AA0A1C05"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Caçar Pyromancer"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["09C725DAB97F639E"]
+			description: [
+				"Mate um §cpriest§r. Esses mages são apariçãoados em §6Mage Towers§r e quedaam peças de equipamento + pergaminhos de escola."
+				""
+				"§eRecompensa:§r XP + chance de queda de conjunto de armadura ou pergaminho."
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:priest_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6AE7F02B08E9BB37"
+			rewards: [
+				{
+					id: "17D5B1DA4897D182"
+					type: "xp"
+					xp: 550
+				}
+				{
+					id: "5DB98EE19080D33A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0117", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Sacerdote inimigo"
+			tasks: [{
+				entity: "irons_spellbooks:priest"
+				id: "3D34BEB4E678B576"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Caçar Priest"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["09C725DAB97F639E"]
+			description: [
+				"Mate um §cnecromancer§r. Esses mages são apariçãoados em §6Mage Towers§r e quedaam peças de equipamento + pergaminhos de escola."
+				""
+				"§eRecompensa:§r XP + chance de queda de conjunto de armadura ou pergaminho."
+			]
+			icon: "irons_spellbooks:necromancer_spawn_egg"
+			id: "2F184971F6DDD9FE"
+			rewards: [
+				{
+					id: "46AF14491210B53D"
+					type: "xp"
+					xp: 550
+				}
+				{
+					id: "68609EEB42C9A506"
+					item: "irons_spellbooks:necromancer_spawn_egg"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0118", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Mago dos mortos"
+			tasks: [{
+				entity: "irons_spellbooks:necromancer"
+				id: "67DB2D8D0E68C16A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Caçar Necromancer"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["09C725DAB97F639E"]
+			description: [
+				"Mate um §capothecarist§r. Esses mages são apariçãoados em §6Mage Towers§r e quedaam peças de equipamento + pergaminhos de escola."
+				""
+				"§eRecompensa:§r XP + chance de queda de conjunto de armadura ou pergaminho."
+			]
+			icon: "irons_spellbooks:apothecarist_spawn_egg"
+			id: "0BC9B86289D37FFF"
+			rewards: [
+				{
+					id: "197758414AB81BE2"
+					type: "xp"
+					xp: 550
+				}
+				{
+					id: "08E50484C9929F36"
+					item: "irons_spellbooks:apothecarist_spawn_egg"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0119", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Pyromancer-chefe"
+			tasks: [{
+				entity: "irons_spellbooks:apothecarist"
+				id: "6CE6484AE437AFDB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Caçar Apothecarist"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3ABDCDBB650E1726"]
+			description: [
+				"§5The Keeper§r — espectro encontrado em ruínas. Chefe de elemento §dender§r."
+				""
+				"Recompensa: §6pergaminhos de feitiço raros§r + §6alma do guardião§r."
+			]
+			icon: "irons_spellbooks:keeper_spawn_egg"
+			id: "131FD257771A6236"
+			rewards: [
+				{
+					id: "1048D3A564A1D55F"
+					type: "xp"
+					xp: 2920
+				}
+				{
+					id: "6B120720B52F5473"
+					item: "irons_spellbooks:legendary_spell_book"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F011A", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.3d
+			subtitle: "Espectro arcano"
+			tasks: [{
+				entity: "irons_spellbooks:keeper"
+				id: "6FAB55A954CEB5AB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Chefe: The Keeper"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["131FD257771A6236"]
+			description: [
+				"§5Archevoker§r — versão chefe do invocador. Múltiplas fases, invocações agressivos."
+				""
+				"Recompensa: §6archevoker conjunto de armadura§r + §6diário archevoker§r (chave de história)."
+			]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:archevoker_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7827AF856CDF8A07"
+			rewards: [
+				{
+					id: "79DC8C98362E0EAA"
+					type: "xp"
+					xp: 5345
+				}
+				{
+					id: "6245FE7380AB55C3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55B986877414CE81"
+					item: "irons_spellbooks:archevoker_logbook_untranslated"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F011B", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.3d
+			subtitle: "Arquimago supremo"
+			tasks: [{
+				entity: "irons_spellbooks:archevoker"
+				id: "432CD6FD5CFDED1D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Chefe: Archevoker"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7827AF856CDF8A07"]
+			description: [
+				"§5Fire Boss§r — chefe elemental de fogo, no tag oficial §6#forge:bosses§r do mod."
+				""
+				"Invocação via §6Fire Apothecary§r ou aparece em §6estruturas de lago de lava§r."
+			]
+			icon: "irons_spellbooks:scroll"
+			id: "3EEF569C7DEC31F5"
+			rewards: [
+				{
+					id: "6CDF69932F47C884"
+					type: "xp"
+					xp: 8670
+				}
+				{
+					count: 3
+					id: "22C64ADA34D5349E"
+					item: "irons_spellbooks:scroll"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F011C", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.3d
+			subtitle: "Senhor das chamas"
+			tasks: [{
+				entity: "irons_spellbooks:fire_boss"
+				id: "29D69DCCC0581EFA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Chefe: Fire Boss"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EEF569C7DEC31F5"]
+			description: [
+				"§4The Dead King§r — chefe morto-vivo final do mod. No tag §6#forge:bosses§r."
+				""
+				"Invocação: monte o §6Corpo do Rei Morto§r (item) num pilar de pedra esculpida + ritual."
+				""
+				"Recompensa: §6legendary livro de feitiços§r encantado + pergaminhos profanos."
+			]
+			icon: "irons_spellbooks:dead_king_corpse_spawn_egg"
+			id: "075C12C4CBA2CA8F"
+			rewards: [
+				{
+					id: "7A6B0F72CED3E7E7"
+					type: "xp"
+					xp: 30970
+				}
+				{
+					id: "0E3F96044D331FE4"
+					item: "irons_spellbooks:legendary_spell_book"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F011D", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.5d
+			subtitle: "Lich final do Iron's Spells"
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				id: "398767FE6006AC15"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Chefe: The Dead King"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F08A58B9D875A1F"]
+			description: [
+				"§dArs 'n Spells§r conecta os dois sistemas de mana num só pool."
+				""
+				"§eConsequências práticas:§r"
+				"  §7• Mana regen do Ars Nouveau (Source) alimenta os feitiço casts do Iron's."
+				"  §7• Itens de mana do Iron's (mana potions, regen rings) afetam ambos."
+				"  §7• Source jars + livro de feitiços = stockpile gigante de mana."
+				""
+				"Invista em uma das duas fontes — qualquer construção de mago compartilha."
+			]
+			icon: "ars_nouveau:source_gem"
+			id: "6D0DA215B4254C6C"
+			rewards: [{
+				id: "266B1FF64BBEFBFB"
+				type: "xp"
+				xp: 55
+			}]
+			shape: "square"
+			size: 1.2d
+			subtitle: "Ponte Ars Nouveau ↔ Iron's Spells"
+			tasks: [{
+				id: "31EA69ABD486DC01"
+				title: "Entendi"
+				type: "checkmark"
+			}]
+			title: "Ars 'n Spells — Mana Unificada"
+			x: -10.5d
+			y: 5.0d
+		}
+	]
+	title: "Iron's Spells — Caminho do Mago"
+}

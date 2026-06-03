@@ -1,0 +1,12 @@
+{
+  "__comment": "Override EQSMP: o jar do liquidars carrega uma tabela orfa para 'liquidars:arcane_extractor', um bloco que foi RENOMEADO para 'source_extractor' e nao existe mais no registro — causando erro de parse no boot. O bloco fantasma nao e obtenivel, entao isto so silencia o erro; aponta para o bloco real (source_extractor) por correcao semantica.",
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "liquidars:source_extractor" }
+      ]
+    }
+  ]
+}

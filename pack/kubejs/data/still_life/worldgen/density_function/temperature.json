@@ -1,0 +1,43 @@
+{
+  "type": "cache_2d",
+  "argument": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": {
+        "type": "mul",
+        "argument1": 1.8,
+        "argument2": {
+          "type": "shifted_noise",
+          "noise": "minecraft:temperature",
+          "xz_scale": 0.4,
+          "y_scale": 0,
+          "shift_x": "minecraft:shift_x",
+          "shift_y": 0,
+          "shift_z": "minecraft:shift_z"
+        }
+      },
+      "points": [
+        {
+          "location": -1,
+          "value": -1,
+          "derivative": 0
+        },
+        {
+          "location": -1,
+          "value": -1,
+          "derivative": 1
+        },
+        {
+          "location": 1,
+          "value": 1,
+          "derivative": 1
+        },
+        {
+          "location": 1,
+          "value": 1,
+          "derivative": 0
+        }
+      ]
+    }
+  }
+}

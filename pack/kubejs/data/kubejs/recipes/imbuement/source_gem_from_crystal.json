@@ -1,0 +1,11 @@
+{
+  "_comment": "EQSMP #22: rota alternativa pra source_gem via imbuement chamber usando spirit_attuned_crystal (gate cascateia em F1 via amethyst_block). 1 crystal → 4 source_gem; crystal custa 1 amethyst_block + ritual spirit_fire, então 4-pra-1 amortiza o trabalho.",
+  "type": "ars_nouveau:imbuement",
+  "count": 4,
+  "input": {
+    "item": "occultism:spirit_attuned_crystal"
+  },
+  "output": "ars_nouveau:source_gem",
+  "pedestalItems": [],
+  "source": 1000
+}

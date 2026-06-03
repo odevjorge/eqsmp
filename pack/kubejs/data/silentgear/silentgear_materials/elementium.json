@@ -1,0 +1,79 @@
+{
+  "type": "silentgear:standard",
+  "simple": true,
+  "harvest_tier": "minecraft:diamond",
+  "availability": {
+    "tier": 6,
+    "categories": [
+      "metal",
+      "magical",
+      "elven"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "botania:elementium_ingot"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.elementium",
+    "fallback": "Elementium"
+  },
+  "stats": {
+    "main": {
+      "durability": 1800.0,
+      "armor_durability": 38.0,
+      "enchantment_value": 35.0,
+      "rarity": 110.0,
+      "charging_value": 3.5,
+      "harvest_speed": 10.0,
+      "melee_damage": 5.0,
+      "magic_damage": 4.5,
+      "attack_speed": 0.05,
+      "attack_speed/axe": 0.05,
+      "attack_speed/hoe": 0.0,
+      "ranged_damage": 3.0,
+      "ranged_speed": 0.35,
+      "projectile_speed": 1.4,
+      "projectile_accuracy": 1.4,
+      "armor": 26.0,
+      "armor/helmet": 3.0,
+      "armor/chestplate": 8.0,
+      "armor/leggings": 7.0,
+      "armor/boots": 4.0,
+      "magic_armor": 26.0
+    },
+    "tip": {
+      "durability": { "add": 450.0 },
+      "armor_durability": { "add": 10.0 },
+      "harvest_speed": { "add": 1.8 },
+      "melee_damage": { "add": 2.2 },
+      "ranged_speed": { "add": 0.5 },
+      "rarity": { "add": 25.0 }
+    }
+  },
+  "traits": {
+    "main": [
+      { "name": "silentgear:brilliant", "level": 4 },
+      { "name": "silentgear:holy", "level": 2 },
+      { "name": "silentgear:lustrous", "level": 3 },
+      { "name": "silentgear:lucky", "level": 1 }
+    ],
+    "tip": [
+      { "name": "silentgear:brilliant", "level": 3 },
+      { "name": "silentgear:lucky", "level": 1 }
+    ]
+  },
+  "model": {
+    "main/all": [
+      { "texture": "silentgear:main_generic_hc", "color": "#FB7DFF" },
+      { "texture": "silentgear:_highlight" }
+    ],
+    "main/fragment": [
+      { "texture": "silentgear:metal", "color": "#FB7DFF" }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "still_life:alpine_heathlands",
+    "still_life:alpine_plains",
+    "still_life:alpine_tundra",
+    "still_life:birch_forest",
+    "still_life:boreal_alpine_tundra",
+    "still_life:cold_taiga",
+    "still_life:cold_taiga_clearings",
+    "still_life:evergreen_taiga",
+    "still_life:larch_woodlands",
+    "still_life:mediterranean_forest",
+    "still_life:old_growth_temperate_forest",
+    "still_life:old_growth_tropical_rainforest",
+    "still_life:pine_woods",
+    "still_life:snowy_boreal_alpine_tundra",
+    "still_life:temperate_forest",
+    "still_life:temperate_mixed_forest",
+    "still_life:warm_temperate_woodlands"
+  ]
+}

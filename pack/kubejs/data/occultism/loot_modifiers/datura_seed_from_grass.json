@@ -1,0 +1,12 @@
+{
+  "_comment": "EQSMP F1 gate: datura NAO dropa mais de grass. Override do GLM do Occultism, neutralizado via random_chance 0.0 (nunca aplica). Datura so via petal_apothecary.",
+  "type": "occultism:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.0
+    }
+  ],
+  "count": 1,
+  "item": "occultism:datura_seeds"
+}

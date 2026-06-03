@@ -1,0 +1,1428 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "occultism"
+	group: "4677C57609F8F102"
+	icon: "occultism:dictionary_of_spirits"
+	id: "2E1BBCB47701FFD0"
+	order_index: 3
+	quest_links: []
+	quests: [
+		{
+			description: ["O grimório do Ocultista. Aqui você encontra todos os pentacles, rituais e demônios disponíveis pra invocar.", "", "Sem ele, você fica vagando no escuro — leia primeiro, sempre."]
+			hide_dependency_lines: false
+			icon: "occultism:dictionary_of_spirits"
+			id: "6FDB391F68DECFDE"
+			rewards: [
+				{
+					id: "10695728F00FE4B1"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "O guia ocultista"
+			tasks: [
+				{
+					id: "73AC6C852C52C049"
+					item: "occultism:dictionary_of_spirits"
+					type: "item"
+				}
+			]
+			title: "Dicionário dos Espíritos"
+			x: -16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FDB391F68DECFDE"]
+			description: ["datura_seeds NÃO quedaam mais de grass/tall_grass.", "", "§eÚnica forma:§r petal_apothecary (Botania) com 2 white_petal + 2 purple_petal + 1 black_petal + seed_reagent → 1 datura_seeds."]
+			hide_dependency_lines: false
+			icon: "occultism:datura_seeds"
+			id: "2A7D620BAE54E3A4"
+			rewards: [
+				{
+					id: "6D04F627E67EF75D"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			subtitle: "Cross-mod — só via apothecary"
+			tasks: [
+				{
+					id: "3E42F0E33E3F4484"
+					item: "occultism:datura_seeds"
+					type: "item"
+				}
+			]
+			title: "Datura Seeds"
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2A7D620BAE54E3A4"]
+			description: ["Plante datura_seeds em terra arada. Madura cai 1-2 datura. Datura é o reagente de ash e várias receitas Occultism."]
+			hide_dependency_lines: false
+			icon: "occultism:datura"
+			id: "64F6A72C51CC2190"
+			rewards: [
+				{
+					id: "31AC5E63EEBF988B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Plantação"
+			tasks: [
+				{
+					id: "5B8890FE92AAF55A"
+					item: "occultism:datura"
+					type: "item"
+				}
+			]
+			title: "Cultive Datura"
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6FDB391F68DECFDE"]
+			description: ["Chalk white impure: 4 bone_meal + 1 stick. Imprecisa mas funciona pra primeiros rituals."]
+			hide_dependency_lines: false
+			icon: "occultism:chalk_white_impure"
+			id: "269FBEBC697DE917"
+			rewards: [
+				{
+					id: "2791E6EA818D12C0"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Primeira chalk"
+			tasks: [
+				{
+					id: "0712BC16F055B53D"
+					item: "occultism:chalk_white_impure"
+					type: "item"
+				}
+			]
+			title: "Chalk White (Impure)"
+			x: -13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["269FBEBC697DE917"]
+			description: ["Purified ink: 1 ink_sac jogado em spirit_fire (ritual). Usado em chalk white \"pura\" e book_of_binding_empty."]
+			hide_dependency_lines: false
+			icon: "occultism:purified_ink"
+			id: "10A59234C40DB59C"
+			rewards: [
+				{
+					id: "48A2BB2202B1CF00"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Tinta pura"
+			tasks: [
+				{
+					id: "2C1F7794B52F61CB"
+					item: "occultism:purified_ink"
+					type: "item"
+				}
+			]
+			title: "Purified Ink"
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10A59234C40DB59C"]
+			description: ["Chalk white pura: 4 purified_ink + 1 stick. Pentacles mais precisos = chance maior de ritual sucesso."]
+			hide_dependency_lines: false
+			icon: "occultism:chalk_white"
+			id: "139D02C0B765CB8B"
+			rewards: [
+				{
+					id: "41A82B4ED5C7135C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Chalk de qualidade"
+			tasks: [
+				{
+					id: "61A5C0D4ED7D5CB0"
+					item: "occultism:chalk_white"
+					type: "item"
+				}
+			]
+			title: "Chalk White (Pure)"
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["269FBEBC697DE917"]
+			description: ["Spirit fire: monte pentacle white impure + flint_and_steel em center → spirit_fire ativa. Joga items pra converter (cobblestone→otherstone, amethyst_block→spirit_attuned_crystal, etc)."]
+			hide_dependency_lines: false
+			icon: "occultism:spirit_fire"
+			id: "16EDE5F05169464C"
+			rewards: [
+				{
+					id: "3C1C96277D2B9B1D"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "Ritual de fogo espiritual"
+			tasks: [
+				{
+					id: "197C8294883F39BE"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Spirit Fire"
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16EDE5F05169464C"]
+			description: ["§7Receita Occultism:§r 1 cobblestone jogado em spirit_fire → 1 otherstone.", "", "Otherstone é §eobrigatório§r pra fazer mana_pool e diluted_pool (Botania) do EQSMP."]
+			hide_dependency_lines: false
+			icon: "occultism:otherstone"
+			id: "5628AFF5CD1C074A"
+			rewards: [
+				{
+					id: "2F2A860081F0B328"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			subtitle: "Requisito Botania ↔ Occultism"
+			tasks: [
+				{
+					id: "5FB13EE39C422A97"
+					item: "occultism:otherstone"
+					type: "item"
+				}
+			]
+			title: "Otherstone (Requisito F1)"
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["16EDE5F05169464C"]
+			description: ["Aqui a receita segue outro caminho: 1 §damethyst shard§r jogado em spirit_fire → 1 spirit_attuned_gem.", "", "Era diamond no vanilla; agora é amethyst_shard (mais barato). Gem usada em chalks coloridas, spirit_lantern, infused picareta."]
+			hide_dependency_lines: false
+			icon: "occultism:spirit_attuned_gem"
+			id: "5DF5B59BB7DEE26C"
+			rewards: [
+				{
+					id: "3F2E63E5363AB221"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			subtitle: "Cross-mod — gema espiritual"
+			tasks: [
+				{
+					id: "68EF2FB222BCA8EC"
+					item: "occultism:spirit_attuned_gem"
+					type: "item"
+				}
+			]
+			title: "Gema Sintonizada"
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["16EDE5F05169464C"]
+			description: ["Aqui a receita segue outro caminho: 1 §damethyst block§r (que requer aglutinado Aglutinado!) jogado em spirit_fire → 1 spirit_attuned_crystal.", "", "Crystal usado em ritual candles, caminho do source_gem (4× via imbuement chamber!), demonic settings avançado."]
+			hide_dependency_lines: false
+			icon: "occultism:spirit_attuned_crystal"
+			id: "725715C7A40ED673"
+			rewards: [
+				{
+					id: "73467BA07BBE6703"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			subtitle: "Cross-mod — cristal F1 cascade"
+			tasks: [
+				{
+					id: "730B8B2825F2796A"
+					item: "occultism:spirit_attuned_crystal"
+					type: "item"
+				}
+			]
+			title: "Cristal Sintonizado"
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5DF5B59BB7DEE26C", "139D02C0B765CB8B"]
+			description: ["Chalk gold impure: 3 white_chalk + 1 spirit_attuned_gem + 1 gold_powder. Necessária pra pentacle afrit + djinni invocação."]
+			hide_dependency_lines: true
+			icon: "occultism:chalk_gold_impure"
+			id: "76572E2E36724C62"
+			rewards: [
+				{
+					id: "58EB4E671A9FCE99"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Chalk de fogo"
+			tasks: [
+				{
+					id: "396A748C5850FC63"
+					item: "occultism:chalk_gold_impure"
+					type: "item"
+				}
+			]
+			title: "Chalk Gold (Impure)"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5DF5B59BB7DEE26C", "139D02C0B765CB8B"]
+			description: ["Chalk purple impure: 3 white_chalk + 1 spirit_attuned_gem + 1 purple_dye + 1 ink_sac. Pra djinni rituals."]
+			hide_dependency_lines: true
+			icon: "occultism:chalk_purple_impure"
+			id: "2AC78DAF3187BB63"
+			rewards: [
+				{
+					id: "3377845828696EDA"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Chalk de djinni"
+			tasks: [
+				{
+					id: "0BF621CC183E16BD"
+					item: "occultism:chalk_purple_impure"
+					type: "item"
+				}
+			]
+			title: "Chalk Purple (Impure)"
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5DF5B59BB7DEE26C", "139D02C0B765CB8B"]
+			description: ["Chalk red impure: 3 white_chalk + 1 spirit_attuned_gem + 1 redstone + 1 nether_wart. Avançado afrit invocação."]
+			hide_dependency_lines: true
+			icon: "occultism:chalk_red_impure"
+			id: "6534D8198AA5929E"
+			rewards: [
+				{
+					id: "1AD4B109549F4B00"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Chalk de afrit"
+			tasks: [
+				{
+					id: "0797A82CF821C1EF"
+					item: "occultism:chalk_red_impure"
+					type: "item"
+				}
+			]
+			title: "Chalk Red (Impure)"
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["16EDE5F05169464C"]
+			description: ["Sacrificial bowl: 4 stone + 1 candle. Coloca em volta de pentacle pra item ingredients do ritual."]
+			hide_dependency_lines: false
+			icon: "occultism:sacrificial_bowl"
+			id: "7208101A847E11D6"
+			rewards: [
+				{
+					id: "57CB5B3510513471"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Receptáculo de items"
+			tasks: [
+				{
+					id: "68949688F362A7E0"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+			]
+			title: "Sacrificial Bowl"
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7208101A847E11D6"]
+			description: ["Golden bowl: 1 sacrificial_bowl + 4 gold_ingot. ATIVAÇÃO do ritual — joga o ritual_dummy aqui."]
+			hide_dependency_lines: false
+			icon: "occultism:golden_sacrificial_bowl"
+			id: "557FD4F4FF84E22F"
+			rewards: [
+				{
+					id: "2F573398562BDCEF"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Receptáculo principal"
+			tasks: [
+				{
+					id: "3629DE60BC6537ED"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+			]
+			title: "Golden Sacrificial Bowl"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["725715C7A40ED673"]
+			description: ["Candle white: 1 string + 1 tallow + 1 spirit_attuned_crystal. Necessário em quase todo pentacle."]
+			hide_dependency_lines: false
+			icon: "occultism:candle_white"
+			id: "491449996482EF8C"
+			rewards: [
+				{
+					id: "10FC012187E18F8A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Vela ritualistic"
+			tasks: [
+				{
+					id: "07273C5C3F4C16FE"
+					item: "occultism:candle_white"
+					type: "item"
+				}
+			]
+			title: "Candle White"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["16EDE5F05169464C", "10A59234C40DB59C"]
+			description: ["Livro de Vínculo empty: writable_book jogado em spirit_fire. Base pra criar books especializados."]
+			hide_dependency_lines: true
+			icon: "occultism:book_of_binding_empty"
+			id: "39DB897098388FB7"
+			rewards: [
+				{
+					id: "226FB8D93AA335E8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Base do binding"
+			tasks: [
+				{
+					id: "1AFB2864A0300519"
+					item: "occultism:book_of_binding_empty"
+					type: "item"
+				}
+			]
+			title: "Livro de Vínculo (Vazio)"
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["39DB897098388FB7"]
+			description: ["Aqui a receita segue outro caminho: book_of_binding_empty + 4 white_dye + 1 §dAglutinado Mágico§r (Aglutinado Mágico) → book_of_binding_foliot.", "", "Sem Aglutinado (Aglutinado), você não desbloqueia foliot — o nível mais barato de espíritos."]
+			hide_dependency_lines: false
+			icon: "occultism:book_of_binding_foliot"
+			id: "03AA604EB1F693D2"
+			rewards: [
+				{
+					id: "0AEB53137AB0C1D8"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			subtitle: "Requisito F1 — Aglutinado Mágico"
+			tasks: [
+				{
+					id: "0301432946983417"
+					item: "occultism:book_of_binding_foliot"
+					type: "item"
+				}
+			]
+			title: "Livro de Vínculo (Foliot)"
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["39DB897098388FB7", "2AC78DAF3187BB63"]
+			description: ["O livro de pacto djinni libera o nível médio do Ocultista. Djinns servem em rituais avançados.", "", "A receita aqui exige um §dCristal de Mana Pura§r — porque djinns só aceitam pactos lavrados em pureza absoluta."]
+			hide_dependency_lines: true
+			icon: "occultism:book_of_binding_djinni"
+			id: "1E74F7CCF3383CE7"
+			rewards: [
+				{
+					id: "0CB020B97E4A3551"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			subtitle: "Requisito F3 — Cristal Mana"
+			tasks: [
+				{
+					id: "0F899393369B61A9"
+					item: "occultism:book_of_binding_djinni"
+					type: "item"
+				}
+			]
+			title: "Livro de Vínculo (Djinni)"
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["03AA604EB1F693D2", "557FD4F4FF84E22F", "491449996482EF8C"]
+			description: ["Monte pentacle de chalk white_impure + 4 sacrificial_bowl + 1 golden_sacrificial_bowl + 1 candle_white. Jogue ritual_dummy + ingredients no golden → ativa ritual.", "", "Comece com summon_foliot_crusher pra ver o sistema funcionar."]
+			hide_dependency_lines: true
+			icon: "occultism:ritual_dummy/summon_foliot_crusher"
+			id: "72E4F7AF06392851"
+			rewards: [
+				{
+					id: "2C445678B05A37C7"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "Execute uma invocação"
+			tasks: [
+				{
+					id: "7D16B16C11B68BEB"
+					item: "occultism:ritual_dummy/summon_foliot_crusher"
+					type: "item"
+				}
+			]
+			title: "Primeiro Ritual"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["72E4F7AF06392851"]
+			description: ["Foliot crusher (bound): coloque no chunk e dê items (minério/ingot) — ele processa em dust (2× output médio). Permanente até unbinding."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "occultism:miner_foliot_unspecialized"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "45D3E26286D0DA71"
+			rewards: [
+				{
+					id: "4607072D3DFF40ED"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Esmaga ores em dust"
+			tasks: [
+				{
+					id: "3F8B146AE69F7CAD"
+					item: {
+						Count: 1b
+						id: "occultism:miner_foliot_unspecialized"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Foliot Crusher"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5DF5B59BB7DEE26C"]
+			description: ["Aqui a receita segue outro caminho: 6 iron_nugget + 1 spirit_attuned_gem + 3 §dmanasteel§r → spirit_lantern.", "", "Lantern emite luz mística e bloqueia aparições de criaturas em raio grande. Cross-mod Botania."]
+			hide_dependency_lines: false
+			icon: "occultism:spirit_lantern"
+			id: "2BDCFE3F41A97BF9"
+			rewards: [
+				{
+					id: "1E56C568184D9A9B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			subtitle: "Cross-mod — luz arcana"
+			tasks: [
+				{
+					id: "76E445A26AD30D9D"
+					item: "occultism:spirit_lantern"
+					type: "item"
+				}
+			]
+			title: "Lanterna Espiritual"
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1E74F7CCF3383CE7"]
+			description: ["Empty soul gem: ritual com chalk purple + book_of_binding_djinni + 4 spirit_attuned_gem. Usada pra capturar entities."]
+			hide_dependency_lines: false
+			icon: "occultism:soul_gem"
+			id: "2A820CCBE2001574"
+			rewards: [
+				{
+					id: "2B678C0EC00FFBAA"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Captura espíritos"
+			tasks: [
+				{
+					id: "169505300AA7D620"
+					item: "occultism:soul_gem"
+					type: "item"
+				}
+			]
+			title: "Empty Soul Gem"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2A820CCBE2001574"]
+			description: ["Use empty_soul_gem com clique direito em qualquer criatura com vida < 50% → captura. Gem cheia transporta o criatura salvo."]
+			hide_dependency_lines: false
+			icon: "occultism:soul_gem"
+			id: "6FCD3E665EABC3AC"
+			rewards: [
+				{
+					id: "1F08699C3A66BC96"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Salve um criatura no gem"
+			tasks: [
+				{
+					id: "3A1432EDBDD2FB4F"
+					item: "occultism:soul_gem"
+					type: "item"
+				}
+			]
+			title: "Captura uma entidade"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6FCD3E665EABC3AC"]
+			description: ["Blacksmith familiar: ritual djinni com 1 anvil + 1 iron_block + bound_djinni + nether_star. Restaura durability de tools em segundo plano."]
+			hide_dependency_lines: false
+			icon: "occultism:familiar_ring"
+			id: "5055E5A20078D414"
+			rewards: [
+				{
+					id: "4770537027714E76"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Familiar reparador"
+			tasks: [
+				{
+					id: "3FB263BA694A5B9C"
+					item: "occultism:familiar_ring"
+					type: "item"
+				}
+			]
+			title: "Blacksmith Familiar"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5DF5B59BB7DEE26C"]
+			description: ["Armazenamento controlador base: 1 obsidian + 4 spirit_attuned_gem + 4 redstone. Componente do storage_controller avançado."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "occultism:storage_controller_base"
+			id: "5D34338946363D24"
+			rewards: [
+				{
+					id: "09A8A43EC5D7C72D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Base de armazenamento"
+			tasks: [
+				{
+					id: "4F2D5B70B26CD685"
+					item: "occultism:storage_controller_base"
+					type: "item"
+				}
+			]
+			title: "Armazenamento Controller Base"
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5D34338946363D24", "1E74F7CCF3383CE7"]
+			description: ["Dimensional matrix: ritual djinni com 1 storage_base + 1 nether_star + items raros. Coração do sistema de armazenamento."]
+			hide_dependency_lines: true
+			icon: "occultism:dimensional_matrix"
+			id: "1421D434596C84D1"
+			rewards: [
+				{
+					id: "455D9ED8E10E34A9"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Matriz inter-dimensional"
+			tasks: [
+				{
+					id: "74ADA5AD763A321D"
+					item: "occultism:dimensional_matrix"
+					type: "item"
+				}
+			]
+			title: "Dimensional Matrix"
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1421D434596C84D1"]
+			description: ["Armazenamento controlador: storage_base + dimensional_matrix + frame. Acessa inventory infinito (limitado por stabilizers)."]
+			hide_dependency_lines: false
+			icon: "occultism:storage_controller"
+			id: "59A5D0BCF9B9E2D0"
+			rewards: [
+				{
+					id: "19EA1A6950C6C64D"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "Armazenamento system completo"
+			tasks: [
+				{
+					id: "549E00AC5BF154E2"
+					item: "occultism:storage_controller"
+					type: "item"
+				}
+			]
+			title: "Armazenamento Controller"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["59A5D0BCF9B9E2D0"]
+			description: ["Estabilizador nível 1: 4 stone + 1 spirit_attuned_gem. Adiciona espaços ao controlador (cada estabilizador = +500 espaços)."]
+			hide_dependency_lines: false
+			icon: "occultism:storage_stabilizer_tier1"
+			id: "10417BD89EB9BC4D"
+			rewards: [
+				{
+					id: "4872AB2199B06D80"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Expande armazenamento"
+			tasks: [
+				{
+					id: "440BCD0F9E72AFB8"
+					item: "occultism:storage_stabilizer_tier1"
+					type: "item"
+				}
+			]
+			title: "Armazenamento Estabilizador Nível 1"
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["59A5D0BCF9B9E2D0"]
+			description: ["Armazenamento remote: 1 controlador + 1 wormhole_frame. Acessa o armazenamento de qualquer lugar (item portátil)."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "occultism:storage_remote"
+			id: "1144C819F885DE00"
+			rewards: [
+				{
+					id: "0B804178C93C6AFA"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Acesso remoto"
+			tasks: [
+				{
+					id: "6D68B17F6CA4EF85"
+					item: "occultism:storage_remote"
+					type: "item"
+				}
+			]
+			title: "Armazenamento Remote"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1E74F7CCF3383CE7"]
+			description: ["Infused picareta: ritual djinni com 1 diamond_pickaxe + 4 spirit_attuned_gem. Vê iesnium_ore (invisível com normal picareta)."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "occultism:infused_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5909C601B6A937D1"
+			rewards: [
+				{
+					id: "6E6D9D3A53A4D303"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Picareta que vê iesnium"
+			tasks: [
+				{
+					id: "450870C354A19056"
+					item: {
+						Count: 1b
+						id: "occultism:infused_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Infused Picareta"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5909C601B6A937D1"]
+			description: ["Iesnium_ore aparece no nether só visível com infused_pickaxe ou otherworld_goggles. Queda iesnium_dust."]
+			hide_dependency_lines: false
+			icon: "occultism:iesnium_ore"
+			id: "3D5E79BB273EBCA9"
+			rewards: [
+				{
+					id: "16D390CE53E2A2A4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Minério dimensional"
+			tasks: [
+				{
+					id: "310E00F9F625DA13"
+					item: "occultism:iesnium_ore"
+					type: "item"
+				}
+			]
+			title: "Minério de Iesnium"
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["725715C7A40ED673"]
+			description: ["Goggles: ritual djinni com 4 spirit_attuned_crystal + 1 couro. Vê todos otherworld blocos (iesnium, otherworld_log) sem precisar de picareta."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "occultism:otherworld_goggles"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "107673CE01A58B3E"
+			rewards: [
+				{
+					id: "7F1FC127E2BBDD08"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Vê o invisível"
+			tasks: [
+				{
+					id: "788C77F4566C5678"
+					item: {
+						Count: 1b
+						id: "occultism:otherworld_goggles"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Otherworld Goggles"
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3D5E79BB273EBCA9"]
+			description: ["A picareta de iesnium é o ferramenta avançada do Ocultista. Minera minério de iesnium (invisível pra picaretas comuns) e abre o caminho pro nível marid.", "", "Marid são os espíritos mais poderosos — quem chega aqui dominou o ocultismo inteiro."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "occultism:iesnium_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3034F34D9C9F2239"
+			rewards: [
+				{
+					id: "7FECB42575F48CEF"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Picareta avançada"
+			tasks: [
+				{
+					id: "4399C97DE6474477"
+					item: {
+						Count: 1b
+						id: "occultism:iesnium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Iesnium Picareta"
+			x: 7.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["39DB897098388FB7", "6534D8198AA5929E"]
+			description: ["Livro de Vínculo afrit: book_of_binding_empty + 4 red_dye + 1 nether_star. Nível mais alto Occultism — afrit servos."]
+			hide_dependency_lines: true
+			icon: "occultism:book_of_binding_afrit"
+			id: "2527AE7D99870E96"
+			rewards: [
+				{
+					id: "120A95117AD8F832"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "Nível afrit"
+			tasks: [
+				{
+					id: "71ADC141A8DDEC67"
+					item: "occultism:book_of_binding_afrit"
+					type: "item"
+				}
+			]
+			title: "Livro de Vínculo (Afrit)"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2527AE7D99870E96"]
+			description: ["Afrit essence: ritual afrit (com nether_star) → essência. Usada em demonic_machine receitas."]
+			hide_dependency_lines: false
+			icon: "occultism:afrit_essence"
+			id: "16035ED5ED581BED"
+			rewards: [
+				{
+					id: "78B089A886311EBF"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Essência demoníaca"
+			tasks: [
+				{
+					id: "324630DC7D23473C"
+					item: "occultism:afrit_essence"
+					type: "item"
+				}
+			]
+			title: "Afrit Essence"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3034F34D9C9F2239", "2527AE7D99870E96"]
+			description: ["Livro Marid: ritual afrit + iesnium_ingot + nether_star. Marid são os espíritos mais poderosos."]
+			hide_dependency_lines: true
+			icon: "occultism:book_of_binding_marid"
+			id: "2E5C33EA9550EA9B"
+			rewards: [
+				{
+					id: "25C8C9783A432005"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "Nível marid (máximo)"
+			tasks: [
+				{
+					id: "0B3454E3E3D04B65"
+					item: "occultism:book_of_binding_marid"
+					type: "item"
+				}
+			]
+			title: "Livro de Vínculo (Marid)"
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2E5C33EA9550EA9B"]
+			description: ["Marid master minerador: ritual marid + iesnium_pickaxe + crystal_apparatus. Mina minério aleatório em segundo plano — fazenda avançada de Occultism."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "occultism:miner_marid_master"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1946293FE32510F3"
+			rewards: [
+				{
+					id: "3EF3B0386264A169"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Mineração infinita"
+			tasks: [
+				{
+					id: "381D4A048E8A227D"
+					item: {
+						Count: 1b
+						id: "occultism:miner_marid_master"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Minerador Marid (avançado)"
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2527AE7D99870E96"]
+			description: ["§7Lembrete Núcleo Espiritual EQSMP:§r o ars_nouveau:ritual_brazier (Ars) usa §dNúcleo Espiritual§r no craft.", "", "Brazier conecta Ars + Occultism via rituais. Avançado ritualistic."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "ars_nouveau:ritual_brazier"
+			id: "66082991AED39DA0"
+			rewards: [
+				{
+					id: "53AF58866555EA8B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			subtitle: "F4 cross — Ars + Occultism"
+			tasks: [
+				{
+					id: "51F654CC00791CC6"
+					item: "ars_nouveau:ritual_brazier"
+					type: "item"
+				}
+			]
+			title: "Braseiro Ritual (Ars)"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1946293FE32510F3", "3034F34D9C9F2239", "1144C819F885DE00", "66082991AED39DA0"]
+			description: ["Você completou o caminho do Ocultista EQSMP! Dominou rituais, invocações (foliot/djinni/afrit/marid), armazenamento system e mineração iesnium.", "", "§7Recipes EQSMP que você aprendeu:§r", "§7•§r datura_seeds via apothecary (Botania, sem grass saque)", "§7•§r spirit_attuned_gem via amethyst_shard (mais barato)", "§7•§r spirit_attuned_crystal via amethyst_block (cascade Aglutinado)", "§7•§r spirit_lantern com manasteel_ingot (Botania)", "§7•§r book_of_binding_foliot com aglutinado_magico (Aglutinado Mágico)", "§7•§r book_of_binding_djinni com cristal_mana_pura (Cristal de Mana Pura)", "§7•§r otherstone obrigatório pra mana_pool Botania (Aglutinado Mágico)", "", "Caminhos restantes: Pedra Filosofal (fim de jogo absoluto)."]
+			hide_dependency_lines: true
+			icon: "occultism:book_of_binding_marid"
+			id: "74F05A1762C414E6"
+			rewards: [
+				{
+					id: "57E7792012632927"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "2B90E16AFC82227A"
+					type: "xp"
+					xp: 315
+				}
+			 { id: "1A2B3C4D5E6F012C", table_id: 1885667171979165697L, type: "random" }]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Você dominou o Ocultista"
+			tasks: [
+				{
+					id: "2E83C37E7EB2C13D"
+					type: "checkmark"
+				}
+			]
+			title: "Mestria Oculta"
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["45D3E26286D0DA71"]
+			description: ["Há foliot crusher (mill), foliot lumberjack (corta), foliot transport (move items). Cada um precisa ritual + book_foliot. Coloque ao menos 2 tipos diferentes."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "occultism:miner_foliot_unspecialized"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "712E3EBE20BC182A"
+			rewards: [
+				{
+					id: "5DC60BE404ACB014"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Familiars foliot"
+			tasks: [
+				{
+					id: "1AE18F236995004F"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(occultism:miner_foliot_unspecialized)item(occultism:familiar_ring)item(occultism:familiar_ring))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Coleção de Foliot Workers"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5055E5A20078D414"]
+			description: ["Há djinni mineradores específicos (ores, deepslate, nether). Cada um mina blocos correspondentes em segundo plano. Fazenda avançada de minério."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "occultism:miner_djinni_ores"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3EF59D574D7CC318"
+			rewards: [
+				{
+					id: "0EDFDE8EEB705973"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Mineração djinni"
+			tasks: [
+				{
+					id: "708F1D0BD50D8B55"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(occultism:miner_djinni_ores)item(occultism:miner_djinni_ores)item(occultism:miner_afrit_deeps))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Coleção de Djinni Miners"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59A5D0BCF9B9E2D0"]
+			description: ["Wormhole frame conecta storage_actuator a output remoto. Crítico pra armazenamento anywhere."]
+			hide_dependency_lines: false
+			icon: "occultism:storage_remote"
+			id: "5F8C39AE9EE75AE5"
+			rewards: [
+				{
+					id: "00B444A4618269C5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Acesso armazenamento remoto"
+			tasks: [
+				{
+					id: "7F8C365452E84EBA"
+					item: "occultism:storage_remote"
+					type: "item"
+				}
+			]
+			title: "Wormhole Frame"
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["491449996482EF8C"]
+			description: ["Há candle_white, candle_red, etc. Cada chalk-color requer candle correspondente em pentacle."]
+			hide_dependency_lines: false
+			icon: "occultism:candle_white"
+			id: "192D827126D8DF67"
+			rewards: [
+				{
+					id: "58ADEF202927D24C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Velas ritualistic"
+			tasks: [
+				{
+					id: "343F407A8757B825"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(occultism:candle_white))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Coleção de Velas"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2A820CCBE2001574"]
+			description: ["Parrot familiar: ritual djinni + parrot egg. Companheiro voador, cai items."]
+			hide_dependency_lines: false
+			icon: "occultism:familiar_ring"
+			id: "4F798A9812CCE385"
+			rewards: [
+				{
+					id: "7859A03C1F1C6AA4"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Familiar voador"
+			tasks: [
+				{
+					id: "2E1CA4BE52285B32"
+					item: "occultism:familiar_ring"
+					type: "item"
+				}
+			]
+			title: "Parrot Familiar"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2A820CCBE2001574"]
+			description: ["Otherworld bird familiar: ritual djinni + otherworld feather. Vê items otherworld em raio."]
+			hide_dependency_lines: false
+			icon: "occultism:familiar_ring"
+			id: "2DECEB0DC4506B13"
+			rewards: [
+				{
+					id: "555277E609A0ADF5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Familiar otherworld"
+			tasks: [
+				{
+					id: "4FD9CA65B16AA929"
+					item: "occultism:familiar_ring"
+					type: "item"
+				}
+			]
+			title: "Otherworld Bird"
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3034F34D9C9F2239"]
+			description: ["Crystal apparatus: ritual afrit + spirit_attuned_crystal + iesnium. Componente do minerador marid (mineração avançada)."]
+			hide_dependency_lines: false
+			icon: "occultism:iesnium_ingot"
+			id: "576EEC7CF3CF20EF"
+			rewards: [
+				{
+					id: "1957882E0F0A678D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Estabilizador marid"
+			tasks: [
+				{
+					id: "60C0EC41BF481F3E"
+					item: "occultism:iesnium_ingot"
+					type: "item"
+				}
+			]
+			title: "Crystal Apparatus"
+			x: 10.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["10417BD89EB9BC4D"]
+			description: ["Estabilizador nível 4: ritual djinni + iesnium + spirit_crystal. Adiciona +2000 espaços ao storage_controller. Avançado."]
+			hide_dependency_lines: false
+			icon: "occultism:storage_stabilizer_tier4"
+			id: "3AE56186A0CA1A30"
+			rewards: [
+				{
+					id: "6498FE18668E9DF2"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Capacidade máxima"
+			tasks: [
+				{
+					id: "1FE56CF8E538AC7C"
+					item: "occultism:storage_stabilizer_tier4"
+					type: "item"
+				}
+			]
+			title: "Armazenamento Estabilizador Nível 4"
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2527AE7D99870E96"]
+			description: ["Dragon familiar: ritual afrit + ender_dragon scales. Combat support + auto-flight."]
+			hide_dependency_lines: false
+			icon: "occultism:familiar_ring"
+			id: "18D3E4535B857760"
+			rewards: [
+				{
+					id: "4CB7FA9301707C7D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Familiar avançado"
+			tasks: [
+				{
+					id: "570E1804F45EABEC"
+					item: "occultism:familiar_ring"
+					type: "item"
+				}
+			]
+			title: "Dragon Familiar"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["107673CE01A58B3E"]
+			description: ["Infused lenses (eye espaço via curio) revelam blocos otherworld sem precisar picareta específico."]
+			hide_dependency_lines: false
+			icon: "occultism:infused_lenses"
+			id: "19D8E5E2A48177D3"
+			rewards: [
+				{
+					id: "5A51DCC506940669"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Visão ocultista"
+			tasks: [
+				{
+					id: "0C38960EA43E1524"
+					item: "occultism:infused_lenses"
+					type: "item"
+				}
+			]
+			title: "Infused Lenses"
+			x: -1.5d
+			y: -5.5d
+		}
+	]
+	title: "Occultism — Caminho do Ocultista"
+}

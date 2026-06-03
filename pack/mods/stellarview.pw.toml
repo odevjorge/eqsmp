@@ -1,0 +1,13 @@
+name = "Stellar View"
+filename = "Stellar View-1.20.1-0.5.2-Forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Iairjv0A/versions/oLyZlWcr/Stellar%20View-1.20.1-0.5.2-Forge.jar"
+hash-format = "sha512"
+hash = "4dc9e76681d35bac99f735dfad877348689da1cf21e7085be681da8a63cfb947d8dfac3454f7cc23b2c7d8bed06b940291a1da11a5da41eadbac080d442406e3"
+
+[update]
+[update.modrinth]
+mod-id = "Iairjv0A"
+version = "oLyZlWcr"

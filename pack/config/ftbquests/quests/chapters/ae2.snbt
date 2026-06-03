@@ -1,0 +1,1068 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2"
+	group: "4677C57609F8F102"
+	icon: "ae2:controller"
+	id: "08D5FEDAFD7E50AC"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Minere §bCertus Quartz§r no subsolo ou ache num meteorito."
+				"É a base de toda a tecnologia do AE2."
+			]
+			icon: "ae2:certus_quartz_crystal"
+			id: "6F7C8417D875A691"
+			rewards: [{
+				id: "2A925C4EA35C2E1B"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.5d
+			subtitle: "O começo da rede"
+			tasks: [{
+				id: "4C301AE97F5E237B"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "Cristal de Certus Quartz"
+			x: -28.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F7C8417D875A691"]
+			description: ["Triture o cristal no §eGrindstone de Quartz§r (ou outro moedor)."]
+			icon: "ae2:certus_quartz_dust"
+			id: "40C6C8CD6FCB1E16"
+			rewards: [{
+				id: "462616DF0F2F8200"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			subtitle: "Triturando cristais"
+			tasks: [{
+				id: "3AC5E9E31D2EE5D9"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			title: "Pó de Certus Quartz"
+			x: -25.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F7C8417D875A691"]
+			description: [
+				"Use a §bMeteorite Compass§r pra achar um meteorito de §7Sky Stone§r."
+				"Dentro dele ficam as §ePresses§r de processador."
+			]
+			icon: "ae2:sky_stone_block"
+			id: "0BA7C3D4F7A36A65"
+			rewards: [{
+				id: "5B36E316648567FD"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			subtitle: "Caça ao meteorito"
+			tasks: [{
+				id: "3372E25D830B77B8"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
+			title: "Sky Stone — Meteorito"
+			x: -25.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["40C6C8CD6FCB1E16"]
+			description: ["Construa o §eCharger§r — ele carrega cristais e cobra energia."]
+			icon: "ae2:charger"
+			id: "3A74AF74766A2801"
+			rewards: [{
+				id: "1A24DECA6A552170"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			subtitle: "Energizando cristais"
+			tasks: [{
+				id: "7B0742664311797D"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			title: "Charger"
+			x: -22.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3A74AF74766A2801"]
+			description: ["Carregue um Certus Quartz no Charger."]
+			icon: "ae2:charged_certus_quartz_crystal"
+			id: "55C96D5F62390579"
+			rewards: [{
+				id: "497A207397688F06"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			subtitle: "Faísca azul"
+			tasks: [{
+				id: "4D9E0CD11D2DF802"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "Certus Carregado"
+			x: -19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55C96D5F62390579"]
+			description: [
+				"Jogue §bCertus carregado§r + §credstone§r + §epó de quartz§r na água."
+				"Nasce o §dFluix§r — o coração das conexões."
+			]
+			icon: "ae2:fluix_crystal"
+			id: "33CB938095170563"
+			rewards: [{
+				id: "078D3CF89C873A54"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			subtitle: "A reação"
+			tasks: [{
+				id: "644950E575ACFFA4"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			title: "Cristal de Fluix"
+			x: -16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33CB938095170563"]
+			description: ["Triture cristais de Fluix."]
+			icon: "ae2:fluix_dust"
+			id: "46476980BCE9E8B6"
+			rewards: [{
+				id: "4630A320ED33CE82"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "0CEB5497CEB3D68C"
+				item: "ae2:fluix_dust"
+				type: "item"
+			}]
+			title: "Pó de Fluix"
+			x: -13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["33CB938095170563"]
+			description: ["Conecta redes sem transmitir canais."]
+			icon: "ae2:quartz_fiber"
+			id: "56AA6C6657EC35A0"
+			rewards: [{
+				id: "5CA018CBB0884858"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			subtitle: "Isolante de energia"
+			tasks: [{
+				id: "77CE44E40CDF621B"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			title: "Fibra de Quartz"
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BA7C3D4F7A36A65"]
+			description: ["Obtido processando recursos — necessário pros processadores."]
+			icon: "ae2:silicon"
+			id: "683A078B58DDD74C"
+			rewards: [{
+				id: "53F1E83C177EA299"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			subtitle: "Matéria-prima dos chips"
+			tasks: [{
+				id: "5D010B495950FF60"
+				item: "ae2:silicon"
+				type: "item"
+			}]
+			title: "Silício"
+			x: -22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"33CB938095170563"
+				"0BA7C3D4F7A36A65"
+			]
+			description: ["Máquina que prensa silício e quartz em circuitos impressos."]
+			hide_dependency_lines: true
+			icon: "ae2:inscriber"
+			id: "1DAECECBF4CA4357"
+			rewards: [{
+				id: "2DBB66A34C8C5967"
+				type: "xp"
+				xp: 910
+			}]
+			size: 1.0d
+			subtitle: "A fábrica de chips"
+			tasks: [{
+				id: "01F83ABAA30E50BE"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			title: "Inscriber"
+			x: -13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0BA7C3D4F7A36A65"]
+			description: [
+				"As 3 §ePresses§r (Calculation, Engineering, Logic) vêm dos meteoritos."
+				"Não gastam — são moldes permanentes."
+			]
+			icon: "ae2:logic_processor_press"
+			id: "0199BA6195EA5EC8"
+			rewards: [{
+				id: "5D4881C2050F72BB"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			subtitle: "Tesouro do meteorito"
+			tasks: [{
+				id: "01204CF5EF2AA598"
+				item: "ae2:logic_processor_press"
+				type: "item"
+			}]
+			title: "Presses de Processador"
+			x: -22.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1DAECECBF4CA4357"
+				"683A078B58DDD74C"
+			]
+			description: ["Prense silício no Inscriber."]
+			hide_dependency_lines: true
+			icon: "ae2:printed_silicon"
+			id: "2EBB203C72213BB0"
+			rewards: [{
+				id: "2F59C2C18FDF9EB1"
+				type: "xp"
+				xp: 315
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "669923486845AAE7"
+				item: "ae2:printed_silicon"
+				type: "item"
+			}]
+			title: "Silício Impresso"
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0199BA6195EA5EC8"
+				"2EBB203C72213BB0"
+			]
+			description: ["Inscriber: silício impresso + redstone impresso."]
+			hide_dependency_lines: true
+			icon: "ae2:logic_processor"
+			id: "03FA047CFD454F9A"
+			rewards: [{
+				id: "408D1EC8B4DD9B56"
+				type: "xp"
+				xp: 550
+			}]
+			size: 1.0d
+			subtitle: "Primeiro chip"
+			tasks: [{
+				id: "7501C0DC640BF5F6"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			title: "Processador Lógico"
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["03FA047CFD454F9A"]
+			description: ["Chip de Certus impresso."]
+			icon: "ae2:calculation_processor"
+			id: "7B920AED7537D43A"
+			rewards: [{
+				id: "2E224D7D1CC5565F"
+				type: "xp"
+				xp: 550
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7295A307BCA260F8"
+				item: "ae2:calculation_processor"
+				type: "item"
+			}]
+			title: "Processador de Cálculo"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B920AED7537D43A"]
+			description: ["Chip de Fluix impresso — o mais avançado."]
+			icon: "ae2:engineering_processor"
+			id: "3E41341640BA46CE"
+			rewards: [{
+				id: "3CB1F5FC262DAFEB"
+				type: "xp"
+				xp: 910
+			}]
+			size: 1.0d
+			subtitle: "Topo dos chips"
+			tasks: [{
+				id: "5090AEF19B4D414A"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			title: "Processador de Engenharia"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33CB938095170563"]
+			description: ["Converte energia de outros mods (FE) em §eAE§r pra rede."]
+			icon: "ae2:energy_acceptor"
+			id: "24390C508A6CA48D"
+			rewards: [{
+				id: "1EADE0D0B80A503A"
+				type: "xp"
+				xp: 315
+			}]
+			size: 1.0d
+			subtitle: "Porta de entrada da FE"
+			tasks: [{
+				id: "37A159A4F795B424"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			title: "Energy Acceptor"
+			x: -13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24390C508A6CA48D"]
+			description: ["Armazena energia AE."]
+			icon: "ae2:energy_cell"
+			id: "0170FF9ED91E59CB"
+			rewards: [{
+				id: "079A49DB1E0B3EDF"
+				type: "xp"
+				xp: 315
+			}]
+			size: 1.0d
+			subtitle: "Bateria da rede"
+			tasks: [{
+				id: "35E6EB3F03A46EE5"
+				item: "ae2:energy_cell"
+				type: "item"
+			}]
+			title: "Energy Cell"
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0170FF9ED91E59CB"]
+			description: ["8x a capacidade da Energy Cell."]
+			icon: "ae2:dense_energy_cell"
+			id: "07EDE51D4A681BAF"
+			rewards: [{
+				id: "212B0F4D09B8E809"
+				type: "xp"
+				xp: 550
+			}]
+			size: 1.0d
+			subtitle: "Bateria grande"
+			tasks: [{
+				id: "1D37E3E4C3C83FE3"
+				item: "ae2:dense_energy_cell"
+				type: "item"
+			}]
+			title: "Dense Energy Cell"
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56AA6C6657EC35A0"]
+			description: ["O cabo básico que conecta os dispositivos da rede."]
+			icon: "ae2:fluix_glass_cable"
+			id: "3FD6AB847551AF2D"
+			rewards: [{
+				id: "6D4F90C2EB0396BF"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			subtitle: "Ligando tudo"
+			tasks: [{
+				id: "342223E213617DC9"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			title: "Cabo de Fluix"
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3E41341640BA46CE"
+				"07EDE51D4A681BAF"
+				"3FD6AB847551AF2D"
+			]
+			description: [
+				"O núcleo da rede ME. Sem ele, nada de armazenamento digital."
+				"§eMarco principal do capítulo.§r"
+			]
+			hide_dependency_lines: true
+			icon: "ae2:controller"
+			id: "62D094B38882810D"
+			rewards: [{
+				id: "6EA04693DC5C59E0"
+				type: "xp"
+				xp: 8670
+			}]
+			size: 1.0d
+			subtitle: "§2A REDE NASCE§r"
+			tasks: [{
+				id: "214E0825BE61DD6B"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "ME Controller"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["62D094B38882810D"]
+			description: ["Guarda até 10 células de armazenamento."]
+			icon: "ae2:drive"
+			id: "6BBAAE01ED3974AC"
+			rewards: [{
+				id: "16AB4ADF708FD91B"
+				type: "xp"
+				xp: 910
+			}]
+			size: 1.0d
+			subtitle: "Banco de células"
+			tasks: [{
+				id: "6193F909407FD819"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			title: "Unidade ME"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["03FA047CFD454F9A"]
+			description: ["Base das células de item."]
+			icon: "ae2:cell_component_1k"
+			id: "6AF31F08608E6BF3"
+			rewards: [{
+				id: "08ABC55FE6CFA553"
+				type: "xp"
+				xp: 315
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "35EFF5D27EF38263"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			title: "Componente de Célula 1k"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6AF31F08608E6BF3"
+				"6BBAAE01ED3974AC"
+			]
+			description: ["1024 tipos? Não — 1k de armazenamento. Coloque na Unidade."]
+			hide_dependency_lines: true
+			icon: "ae2:item_storage_cell_1k"
+			id: "4F2273749D840A3A"
+			rewards: [{
+				id: "24D9D06D0BB11D0B"
+				type: "xp"
+				xp: 550
+			}]
+			size: 1.0d
+			subtitle: "Primeiro armazenamento digital"
+			tasks: [{
+				id: "00E8349D72972602"
+				item: "ae2:item_storage_cell_1k"
+				type: "item"
+			}]
+			title: "Célula de Item 1k"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F2273749D840A3A"]
+			description: ["Bem mais capacidade."]
+			icon: "ae2:item_storage_cell_64k"
+			id: "25BCD2C65E508DF4"
+			rewards: [{
+				id: "6984ED80E30DE4FA"
+				type: "xp"
+				xp: 910
+			}]
+			size: 1.0d
+			subtitle: "Mais espaço"
+			tasks: [{
+				id: "4D2C58DA7823704E"
+				item: "ae2:item_storage_cell_64k"
+				type: "item"
+			}]
+			title: "Célula de Item 64k"
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["25BCD2C65E508DF4"]
+			description: ["O maior nível padrão."]
+			icon: "ae2:item_storage_cell_256k"
+			id: "3E368152F33C389C"
+			rewards: [{
+				id: "4916D19935AEE11E"
+				type: "xp"
+				xp: 1395
+			} { id: "1A2B3C4D5E6F0127", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Armazenamento gigante"
+			tasks: [{
+				id: "7C4D12DC9EFAEB5F"
+				item: "ae2:item_storage_cell_256k"
+				type: "item"
+			}]
+			title: "Célula de Item 256k"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62D094B38882810D"]
+			description: ["Acessa todos os itens da rede num só lugar."]
+			icon: "ae2:terminal"
+			id: "2705F4E4F163F94A"
+			rewards: [{
+				id: "15E07C3EB6932420"
+				type: "xp"
+				xp: 910
+			}]
+			size: 1.0d
+			subtitle: "Vendo a rede"
+			tasks: [{
+				id: "76281DC2C9299E51"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			title: "ME Terminal"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2705F4E4F163F94A"]
+			description: ["Terminal com grade de craft 3x3 usando os itens da rede."]
+			icon: "ae2:crafting_terminal"
+			id: "45DBBD350B6DCDFB"
+			rewards: [{
+				id: "0D3414705BD9D8F1"
+				type: "xp"
+				xp: 910
+			}]
+			size: 1.0d
+			subtitle: "Craft + acesso"
+			tasks: [{
+				id: "72992448EF5B615C"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			title: "Terminal de Criação"
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["45DBBD350B6DCDFB"]
+			description: ["Vê e edita todos os padrões de autocraft da rede."]
+			icon: "ae2:pattern_access_terminal"
+			id: "7DD9C27F9B0520BC"
+			rewards: [{
+				id: "2B6C73F8D994AD83"
+				type: "xp"
+				xp: 1395
+			}]
+			size: 1.0d
+			subtitle: "Gerencia padrões"
+			tasks: [{
+				id: "4B321E8CEF82A7D6"
+				item: "ae2:pattern_access_terminal"
+				type: "item"
+			}]
+			title: "Terminal de Acesso a Padrões"
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6BBAAE01ED3974AC"]
+			description: ["Importa itens de um inventário pra rede."]
+			icon: "ae2:import_bus"
+			id: "6A1B2EF5E3D5D81E"
+			rewards: [{
+				id: "5C3FADCB8D181444"
+				type: "xp"
+				xp: 550
+			}]
+			size: 1.0d
+			subtitle: "Puxando pra rede"
+			tasks: [{
+				id: "668F3373BE393734"
+				item: "ae2:import_bus"
+				type: "item"
+			}]
+			title: "Import Bus"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A1B2EF5E3D5D81E"]
+			description: ["Exporta itens da rede pra um inventário."]
+			icon: "ae2:export_bus"
+			id: "1D8A94E00FA820E7"
+			rewards: [{
+				id: "46D586BE59AB177A"
+				type: "xp"
+				xp: 550
+			}]
+			size: 1.0d
+			subtitle: "Empurrando pra fora"
+			tasks: [{
+				id: "6AF6D17FA2F29EC6"
+				item: "ae2:export_bus"
+				type: "item"
+			}]
+			title: "Export Bus"
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D8A94E00FA820E7"]
+			description: ["Expõe um inventário externo (baú, drawer) como armazenamento da rede."]
+			icon: "ae2:storage_bus"
+			id: "759875C297FF8E87"
+			rewards: [{
+				id: "654D8B43147E5C75"
+				type: "xp"
+				xp: 910
+			}]
+			size: 1.0d
+			subtitle: "Rede vê o baú"
+			tasks: [{
+				id: "7B06243B4D5BDE78"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			title: "Armazenamento Bus"
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7DD9C27F9B0520BC"]
+			description: ["Disponibiliza itens/padrões pra máquinas."]
+			icon: "ae2:cable_interface"
+			id: "6070A4C94C4F2242"
+			rewards: [{
+				id: "1259115965C62F8A"
+				type: "xp"
+				xp: 910
+			}]
+			size: 1.0d
+			subtitle: "Ponte da rede"
+			tasks: [{
+				id: "0C2865A2CFD2FD9C"
+				item: "ae2:cable_interface"
+				type: "item"
+			}]
+			title: "Interface"
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6070A4C94C4F2242"]
+			description: ["Envia ingredientes pras máquinas seguindo os padrões."]
+			icon: "ae2:pattern_provider"
+			id: "27BEA17571985C02"
+			rewards: [{
+				id: "721B07298893663D"
+				type: "xp"
+				xp: 1395
+			}]
+			size: 1.0d
+			subtitle: "Autocraft I"
+			tasks: [{
+				id: "15854970D0E7A0DE"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			title: "Provedor de Padrões"
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27BEA17571985C02"]
+			description: ["Monta receitas automaticamente a partir dos padrões."]
+			icon: "ae2:molecular_assembler"
+			id: "2A5D1F736D073040"
+			rewards: [{
+				id: "52E0C70F05A58512"
+				type: "xp"
+				xp: 1395
+			}]
+			size: 1.0d
+			subtitle: "Autocraft II"
+			tasks: [{
+				id: "3A4C223549D9CD85"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			title: "Molecular Assembler"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A5D1F736D073040"]
+			description: ["Bloco base do CPU de criação."]
+			icon: "ae2:crafting_unit"
+			id: "7CA5AED17631A25D"
+			rewards: [{
+				id: "1AF82813AC4406FA"
+				type: "xp"
+				xp: 910
+			}]
+			size: 1.0d
+			subtitle: "Estrutura de autocraft"
+			tasks: [{
+				id: "3307F5E1BEABCA70"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			title: "Unidade de Criação"
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7CA5AED17631A25D"]
+			description: ["Define quantos itens o CPU processa de uma vez."]
+			icon: "ae2:1k_crafting_storage"
+			id: "033FAD869950CDC4"
+			rewards: [{
+				id: "2A16D574E4AFF4F0"
+				type: "xp"
+				xp: 550
+			}]
+			size: 1.0d
+			subtitle: "Memória do CPU"
+			tasks: [{
+				id: "7F534EC11C6C8E8A"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			title: "Armazenamento de Criação 1k"
+			x: 25.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["033FAD869950CDC4"]
+			icon: "ae2:64k_crafting_storage"
+			id: "7F1A766E7479A743"
+			description: [
+				"O §eArmazenamento de Criação 64k§r é o §6componente mais robusto§r de uma CPU de craft do sistema ME."
+				""
+				"Encaixe-o numa CPU de autocrafting para ampliar quantos §7•§r padrões e itens uma única tarefa comporta."
+				"Quanto maior o componente, mais complexa a receita que a CPU consegue resolver de uma vez."
+			]
+			rewards: [{
+				id: "4DB783DBCBD91EA0"
+				type: "xp"
+				xp: 910
+			}]
+			size: 1.0d
+			subtitle: "CPU robusto"
+			tasks: [{
+				id: "03A3A09736F71B50"
+				item: "ae2:64k_crafting_storage"
+				type: "item"
+			}]
+			title: "Armazenamento de Criação 64k"
+			x: 28.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7CA5AED17631A25D"]
+			description: ["Acelera o autocraft do CPU."]
+			icon: "ae2:crafting_accelerator"
+			id: "223B47023739FF32"
+			rewards: [{
+				id: "4CE3B2856D8FE0EA"
+				type: "xp"
+				xp: 910
+			}]
+			size: 1.0d
+			subtitle: "Mais velocidade"
+			tasks: [{
+				id: "3EE16AB4236173DE"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			title: "Coprocessador de Criação"
+			x: 25.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"033FAD869950CDC4"
+				"223B47023739FF32"
+			]
+			description: [
+				"Forme um CPU (unit + armazenamento + monitor) e ative o autocrafting."
+				"§eSegundo grande marco.§r"
+			]
+			hide_dependency_lines: true
+			icon: "ae2:crafting_monitor"
+			id: "6B2CE1C2421BA236"
+			rewards: [{
+				id: "024DD898CB0CFA3C"
+				type: "xp"
+				xp: 5345
+			}]
+			size: 1.0d
+			subtitle: "§2AUTOCRAFT COMPLETO§r"
+			tasks: [{
+				id: "730393F4C9A9EEA9"
+				item: "ae2:crafting_monitor"
+				type: "item"
+			}]
+			title: "Monitor de Criação"
+			x: 28.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["62D094B38882810D"]
+			description: ["Emite o sinal da rede pra terminais sem fio."]
+			icon: "ae2:wireless_access_point"
+			id: "03637CC2B232D6A8"
+			rewards: [{
+				id: "44C60236DA3AA0F0"
+				type: "xp"
+				xp: 910
+			}]
+			size: 1.0d
+			subtitle: "Sinal sem fio"
+			tasks: [{
+				id: "79A538E69DAFE5A4"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			title: "Wireless Access Point"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"03637CC2B232D6A8"
+				"45DBBD350B6DCDFB"
+			]
+			description: ["Acesse a rede de longe. Precisa de energia."]
+			hide_dependency_lines: true
+			icon: "ae2:wireless_terminal"
+			id: "0748B447D83FF731"
+			rewards: [{
+				id: "2B2A79A25F94E719"
+				type: "xp"
+				xp: 2045
+			}]
+			size: 1.0d
+			subtitle: "Rede no bolso"
+			tasks: [{
+				id: "456932B46DF34F2B"
+				item: "ae2:wireless_terminal"
+				type: "item"
+			}]
+			title: "Wireless Terminal"
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["62D094B38882810D"]
+			description: ["Mostra o status dos dispositivos e dá acesso a melhorias."]
+			icon: "ae2:network_tool"
+			id: "3FAE41B505A01BAB"
+			rewards: [{
+				id: "1658AD7CE037E2FB"
+				type: "xp"
+				xp: 315
+			}]
+			size: 1.0d
+			subtitle: "Diagnóstico"
+			tasks: [{
+				id: "6EABD455F458EAE3"
+				item: "ae2:network_tool"
+				type: "item"
+			}]
+			title: "Network Tool"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62D094B38882810D"]
+			description: ["Copia configurações entre dispositivos."]
+			icon: "ae2:memory_card"
+			id: "083F375AFD56BB04"
+			rewards: [{
+				id: "4E2542DBEA889188"
+				type: "xp"
+				xp: 315
+			}]
+			size: 1.0d
+			subtitle: "Copia config"
+			tasks: [{
+				id: "5DF1271CBA903E24"
+				item: "ae2:memory_card"
+				type: "item"
+			}]
+			title: "Memory Card"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4F2273749D840A3A"]
+			description: ["Filtra/particiona o que cada célula aceita."]
+			icon: "ae2:cell_workbench"
+			id: "62DEF4405C883451"
+			rewards: [{
+				id: "3B52EA133AC41B1F"
+				type: "xp"
+				xp: 550
+			}]
+			size: 1.0d
+			subtitle: "Configurando células"
+			tasks: [{
+				id: "68EDD26D6D5808C3"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			title: "Cell Workbench"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25BCD2C65E508DF4"]
+			description: ["Destrói itens em excesso (ou faz singularidades)."]
+			icon: "ae2:condenser"
+			id: "6EFEA417045B66B7"
+			rewards: [{
+				id: "453801AC8790BD10"
+				type: "xp"
+				xp: 550
+			}]
+			size: 1.0d
+			subtitle: "Lixo & cobblestone"
+			tasks: [{
+				id: "23D36389CBA146EA"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			title: "Matter Condenser"
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24390C508A6CA48D"]
+			description: ["Gera AE queimando combustível — backup de energia."]
+			icon: "ae2:vibration_chamber"
+			id: "70D99441B57D3336"
+			rewards: [{
+				id: "2CCE188E0DD28189"
+				type: "xp"
+				xp: 315
+			}]
+			size: 1.0d
+			subtitle: "Energia a combustível"
+			tasks: [{
+				id: "4362EE730E95E851"
+				item: "ae2:vibration_chamber"
+				type: "item"
+			}]
+			title: "Vibration Chamber"
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["33CB938095170563"]
+			description: ["Gera energia AE de forma passiva."]
+			icon: "ae2:crystal_resonance_generator"
+			id: "0A6BF39DB726103D"
+			rewards: [{
+				id: "58E0CD1DD3E4EF96"
+				type: "xp"
+				xp: 550
+			}]
+			size: 1.0d
+			subtitle: "Energia limpa"
+			tasks: [{
+				id: "0884C0BE1E627E13"
+				item: "ae2:crystal_resonance_generator"
+				type: "item"
+			}]
+			title: "Crystal Resonance Generator"
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3E41341640BA46CE"]
+			description: ["Parte do sistema de armazenamento espacial (dimensões de bolso)."]
+			icon: "ae2:spatial_pylon"
+			id: "04235322CEC85B45"
+			rewards: [{
+				id: "1F679D743E979B73"
+				type: "xp"
+				xp: 1395
+			}]
+			size: 1.0d
+			subtitle: "Avançado: espacial"
+			tasks: [{
+				id: "2F103655CD4DD23F"
+				item: "ae2:spatial_pylon"
+				type: "item"
+			}]
+			title: "Spatial Pylon"
+			x: 1.5d
+			y: 1.0d
+		}
+	]
+	title: "AE2 — Caminho do Engenheiro de Rede"
+}

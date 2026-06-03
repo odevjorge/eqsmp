@@ -1,0 +1,1248 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "create"
+	group: "4677C57609F8F102"
+	icon: "create:large_cogwheel"
+	id: "50BE3D9621E5275D"
+	order_index: 0
+	quest_links: []
+	quests: [
+		{
+			description: ["O caminho do Engenheiro começa aqui. A chave inglesa do Create é sua primeira ferramenta — usa pra girar eixos, ajustar máquinas e desmontar componentes sem perder.", "", "§eClique direito§r em qualquer bloco do Create pra rotacionar; §eShift+clique direito§r pra pegar de volta."]
+			hide_dependency_lines: false
+			icon: "create:wrench"
+			id: "071B21472B9CAFC2"
+			rewards: [
+				{
+					id: "2FB6E1EC63D54DCC"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "O primeiro passo do Engenheiro"
+			tasks: [
+				{
+					id: "31FF54A308EA366E"
+					item: "create:wrench"
+					type: "item"
+				}
+			]
+			title: "A Chave Inglesa"
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["071B21472B9CAFC2"]
+			description: ["Primeira liga do Engenheiro. Aqui ela exige um §dAglutinado Mágico§r no centro — quem ainda não passou pelo caminho do Druida vai precisar voltar atrás.", "", "Sem essa liga, nenhuma máquina toma forma. É a porta de entrada do Create."]
+			hide_dependency_lines: false
+			icon: "create:andesite_alloy"
+			id: "3E182C9C9E7C7BB4"
+			rewards: [
+				{
+					id: "156CC37F81F4B965"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			subtitle: "Liga base de tudo Create"
+			tasks: [
+				{
+					id: "39C9A18A2F2D720A"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			title: "Liga de Andesito"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E182C9C9E7C7BB4"]
+			description: ["Andesite encapsulamento encapsula a maioria das máquinas Create início-meio. Forma: liga nas bordas, log no centro (qualquer madeira)."]
+			hide_dependency_lines: false
+			icon: "create:andesite_casing"
+			id: "39057A5D83FECF13"
+			rewards: [
+				{
+					id: "00BE8118FF7953A6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Encapsulamento básico"
+			tasks: [
+				{
+					id: "46E4D4E428265381"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+			]
+			title: "Andesite Encapsulamento"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["071B21472B9CAFC2"]
+			description: ["Shafts transportam rotação em linha reta. 6 andesite_alloy → 6 eixos. Combina com cogwheels pra mudar direção."]
+			hide_dependency_lines: false
+			icon: "create:shaft"
+			id: "79EE0F2917A87655"
+			rewards: [
+				{
+					id: "6CA63ECEDAE3AEA2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Transmissão básica de rotação"
+			tasks: [
+				{
+					id: "2349EFBEA7D1E2C1"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			title: "Eixo"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["79EE0F2917A87655"]
+			description: ["Cogwheel pequena: 1 eixo + planks. Permite transferir rotação em ângulo reto. Cogs adjacentes giram juntas (sem ser na mesma face)."]
+			hide_dependency_lines: false
+			icon: "create:cogwheel"
+			id: "49838931EDC302C4"
+			rewards: [
+				{
+					id: "7C0D9B8DF841D81E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Rotação muda de direção"
+			tasks: [
+				{
+					id: "1591F52F0B0B59FB"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			title: "Cogwheel"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["49838931EDC302C4"]
+			description: ["Large cogwheel + small cogwheel adjacentes alteram a velocidade (2× faster com small girando large; 0.5× ao contrário)."]
+			hide_dependency_lines: false
+			icon: "create:large_cogwheel"
+			id: "401F0BFE5F34B95A"
+			rewards: [
+				{
+					id: "192AD440401B1379"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Mudança de velocidade"
+			tasks: [
+				{
+					id: "7568F2970FB66D2F"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "Large Cogwheel"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["39057A5D83FECF13", "79EE0F2917A87655"]
+			description: ["Belts conectam 2 eixos em qualquer ângulo (até 90°). Carregam items E entidades. 2 couro + andesite_alloy + dried kelp string → 3 belts."]
+			hide_dependency_lines: true
+			icon: "create:belt_connector"
+			id: "566B77BE2238F816"
+			rewards: [
+				{
+					id: "26C59893CAE034E7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Logística básica"
+			tasks: [
+				{
+					id: "6DFAE769811046B1"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
+			title: "Belt (Esteira)"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["49838931EDC302C4"]
+			description: ["Gearbox transfere rotação em todas 4 direções horizontais. Útil pra centralizar eixos."]
+			hide_dependency_lines: false
+			icon: "create:gearbox"
+			id: "6B7BE26E26BF12DC"
+			rewards: [
+				{
+					id: "73D2B5A8BF0D2B63"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Caixa de transmissão"
+			tasks: [
+				{
+					id: "233086FD0F71BF23"
+					item: "create:gearbox"
+					type: "item"
+				}
+			]
+			title: "Gearbox"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B7BE26E26BF12DC"]
+			description: ["Clutch desconecta rotação quando recebe redstone — equivalente mecânico de um switch."]
+			hide_dependency_lines: false
+			icon: "create:clutch"
+			id: "5B03AB38C3D2DC90"
+			rewards: [
+				{
+					id: "15CEC1CFEADCDC83"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Liga/desliga via redstone"
+			tasks: [
+				{
+					id: "7025E55A200F6387"
+					item: "create:clutch"
+					type: "item"
+				}
+			]
+			title: "Clutch"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6B7BE26E26BF12DC"]
+			description: ["Gearshift inverte a direção do eixo quando recebe redstone. Útil pra deployers e pumps reversíveis."]
+			hide_dependency_lines: false
+			icon: "create:gearshift"
+			id: "15597489E4770386"
+			rewards: [
+				{
+					id: "00C29A27B9D2B7C4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Inverte direção via redstone"
+			tasks: [
+				{
+					id: "57F4FE4D81843320"
+					item: "create:gearshift"
+					type: "item"
+				}
+			]
+			title: "Gearshift"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["49838931EDC302C4"]
+			description: ["Transmissão por correntes transferem rotação entre eixos paralelos a até 3 blocos de distância. Bom pra layout compacto."]
+			hide_dependency_lines: false
+			icon: "create:encased_chain_drive"
+			id: "642032C8973A2BA9"
+			rewards: [
+				{
+					id: "0DEC78EF6ADFE179"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Transmissão paralela"
+			tasks: [
+				{
+					id: "067F3D5521791B61"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+			]
+			title: "Transmissão por Corrente"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["071B21472B9CAFC2"]
+			description: ["§7Item novo do EQSMP:§r vidro infundido com mana e source fluid.", "", "§eCreate compacting:§r 1 glass + 1000mB §dsource_fluid§r (Ars Nouveau) → 1 mana_pane. Requer heated (qualquer fonte de calor).", "", "Pré-requisito do create:goggles (requisito."]
+			hide_dependency_lines: false
+			icon: "kubejs:mana_pane"
+			id: "4AB6ADD7C03802C6"
+			rewards: [
+				{
+					id: "418E1963C7AE4942"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			subtitle: "Item EQSMP — requisito"
+			tasks: [
+				{
+					id: "721D4263B03BF976"
+					item: "kubejs:mana_pane"
+					type: "item"
+				}
+			]
+			title: "Painel de Mana"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4AB6ADD7C03802C6"]
+			description: ["Aqui a receita segue outro caminho: 1 string + 2 §dmana_pane§r + 1 couro (no formato \" S \", \"PCP\") → 1 goggles.", "", "Os goggles permitem ver stress, RPM e fluidos em real-time. Essencial pra debug de máquinas."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "create:goggles"
+			id: "52096E9E1D51D4EC"
+			rewards: [
+				{
+					id: "6D331BF5FF03D12D"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			subtitle: "Visualize SU/RPM/fluido"
+			tasks: [
+				{
+					id: "7B87FB7180C9DF4A"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
+			title: "Engineer's Goggles"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["566B77BE2238F816"]
+			description: ["Depot mantém um item parado pra processamento (drill, saw, deployer, press). Belt alternativa pra processos sequenciais."]
+			hide_dependency_lines: false
+			icon: "create:depot"
+			id: "1EB207A4DB3F75BC"
+			rewards: [
+				{
+					id: "49286BE8FFDF995F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Plataforma estática pra processamento"
+			tasks: [
+				{
+					id: "42EC4B54956B88D1"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			title: "Depot"
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["566B77BE2238F816"]
+			description: ["Chutes transportam items verticalmente (gravity-fed ou com fan boost). Conecta com belts, depots, inventories."]
+			hide_dependency_lines: false
+			icon: "create:chute"
+			id: "6820B2DEAF16B055"
+			rewards: [
+				{
+					id: "382C91EBE6FE44E6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Transporte vertical de items"
+			tasks: [
+				{
+					id: "49803DE1CA004DD2"
+					item: "create:chute"
+					type: "item"
+				}
+			]
+			title: "Chute"
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["566B77BE2238F816"]
+			description: ["Funnels movem items entre inventories e belts/depots. Direção configurável via clique. Andesite variant é mais lento; brass é configurável."]
+			hide_dependency_lines: false
+			icon: "create:andesite_funnel"
+			id: "7398D62E72C41A7A"
+			rewards: [
+				{
+					id: "0F0EDC03EE84C0BE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Input/output de inventários"
+			tasks: [
+				{
+					id: "3641CC2CDC19D940"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+			]
+			title: "Funnel"
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["39057A5D83FECF13"]
+			description: ["Brass encapsulamento precisa de brass_ingot (Create mixing: copper + zinc). Permite componentes mais avançados — funnels configuráveis, mechanical arm, etc."]
+			hide_dependency_lines: false
+			icon: "create:brass_casing"
+			id: "2BB41BF9FFF5F2E1"
+			rewards: [
+				{
+					id: "75C0D20F54949E4C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Encapsulamento intermediário"
+			tasks: [
+				{
+					id: "0BA7DA24E4CBF427"
+					item: "create:brass_casing"
+					type: "item"
+				}
+			]
+			title: "Brass Encapsulamento"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["39057A5D83FECF13"]
+			description: ["A prensa força chapas de metal — cobre, ouro, ferro. É o que destrava o nível de fluidos e os mecanismos mais finos do Engenheiro."]
+			hide_dependency_lines: false
+			icon: "create:mechanical_press"
+			id: "0DB980B05B2E81DA"
+			rewards: [
+				{
+					id: "375D5305D8EE896C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Pressing & forging"
+			tasks: [
+				{
+					id: "389BE9903EC08390"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+			]
+			title: "Mechanical Press"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0DB980B05B2E81DA"]
+			description: ["Em grade, esses crafters montam qualquer receita complexa sozinhos. É como ter mil mãos forjando em paralelo.", "", "Você vai precisar deles pra forjar o §dPrecision Mechanism§r — peça crítica do meio de jogo do Create."]
+			hide_dependency_lines: false
+			icon: "create:mechanical_crafter"
+			id: "5AD9297290CBA43C"
+			rewards: [
+				{
+					id: "5597EB0AB38205C0"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Criação automatizada avançada"
+			tasks: [
+				{
+					id: "2E714C95B7317784"
+					item: "create:mechanical_crafter"
+					type: "item"
+				}
+			]
+			title: "Mechanical Crafter"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0DB980B05B2E81DA"]
+			description: ["Mixer + basin processa receitas de mixing (brass, andesite liga refining, source_fluid via EQSMP). Combina com heater pra receitas heated."]
+			hide_dependency_lines: false
+			icon: "create:mechanical_mixer"
+			id: "3EF677CFABA6BA27"
+			rewards: [
+				{
+					id: "45B9E1587A420E2A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Mistura líquidos/items"
+			tasks: [
+				{
+					id: "716248DAA619F876"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+			]
+			title: "Mechanical Mixer"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DB980B05B2E81DA"]
+			description: ["Blaze burner aceita combustíveis variados pra fornecer calor a basins, crucibles, etc. Heated vs superheated muda receitas disponíveis (blaze cake = superheated)."]
+			hide_dependency_lines: false
+			icon: "create:blaze_burner"
+			id: "61D5630307136C4C"
+			rewards: [
+				{
+					id: "4032BD4534FC1FAE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Fonte de calor"
+			tasks: [
+				{
+					id: "5AFD6FC726B83647"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "Blaze Burner"
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5AD9297290CBA43C"]
+			description: ["Aqui a receita segue outro caminho: mechanical_crafting com cogwheel + golden_sheet + §dsource_gem§r (Ars).", "", "Precision mechanism libera componentes Create intermediário-final (mechanical arm, deployer advance, etc). Source_gem garante que jogador passou por Ars Nouveau."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "create:precision_mechanism"
+			id: "3539EFABFC5B2EF5"
+			rewards: [
+				{
+					id: "2280EB8C89AA99D0"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			subtitle: "Componente intermediário (cross-mod)"
+			tasks: [
+				{
+					id: "4E99DD5815B77F64"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+			]
+			title: "Precision Mechanism"
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0DB980B05B2E81DA"]
+			description: ["Canhão de Esquema dispara blocos pra construir uma esquema salva. Combina com esquema e pena (próxima quest) e brick of fuel."]
+			hide_dependency_lines: false
+			icon: "create:schematicannon"
+			id: "12CE6E9875DD1591"
+			rewards: [
+				{
+					id: "48EFA13F3F593537"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Construa estruturas automaticamente"
+			tasks: [
+				{
+					id: "67C0B568B8478A4E"
+					item: "create:schematicannon"
+					type: "item"
+				}
+			]
+			title: "Canhão de Esquema"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["12CE6E9875DD1591"]
+			description: ["Esquema e Pena seleciona área (2 cliques shift+direito) e salva como esquema pra reuso. Combina com esquemaannon pra mass construção."]
+			hide_dependency_lines: false
+			icon: "create:schematic_and_quill"
+			id: "447384705C535937"
+			rewards: [
+				{
+					id: "434BDD45C2930C5A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Salve estruturas"
+			tasks: [
+				{
+					id: "1E0FE9632AC859A6"
+					item: "create:schematic_and_quill"
+					type: "item"
+				}
+			]
+			title: "Esquema e Pena"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0DB980B05B2E81DA"]
+			description: ["Copper encapsulamento exige mechanical_press pra forjar copper_sheets. pra tudo de fluido: hose pulley, spout, smart pipes."]
+			hide_dependency_lines: false
+			icon: "create:copper_casing"
+			id: "5309AB20B43F9D7A"
+			rewards: [
+				{
+					id: "01B43F0538AD4384"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Encapsulamento de fluid nível"
+			tasks: [
+				{
+					id: "4CF480155E3E7561"
+					item: "create:copper_casing"
+					type: "item"
+				}
+			]
+			title: "Copper Encapsulamento"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5309AB20B43F9D7A"]
+			description: ["Fluid pipes movem líquidos entre tanks, basins, e máquinas. Conectam automaticamente em até 16 blocos. Combinam com mechanical_pump pra pressure."]
+			hide_dependency_lines: false
+			icon: "create:fluid_pipe"
+			id: "420FF5CF6EE201F7"
+			rewards: [
+				{
+					id: "01666F298F0D2533"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Transporte de líquidos"
+			tasks: [
+				{
+					id: "5FC43FE7A3F8A710"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "Fluid Pipe"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5309AB20B43F9D7A"]
+			description: ["Pump gera pressão pra mover fluidos via pipes. Direção configurada por clique direito + wrench."]
+			hide_dependency_lines: false
+			icon: "create:mechanical_pump"
+			id: "7F1249A3D3AAE8C7"
+			rewards: [
+				{
+					id: "2BB4A4631FC9D779"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Pressão pra fluidos"
+			tasks: [
+				{
+					id: "325DF667E36C866E"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			title: "Mechanical Pump"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5309AB20B43F9D7A"]
+			description: ["Hose pulley aspira fluidos de body de líquido (oceano, lago, lava). Source infinita se body é > 10000 blocos."]
+			hide_dependency_lines: false
+			icon: "create:hose_pulley"
+			id: "11F1769AC021A9A6"
+			rewards: [
+				{
+					id: "2CF91535A58A43AF"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Sucção infinita de fluidos"
+			tasks: [
+				{
+					id: "489ED39788A6A431"
+					item: "create:hose_pulley"
+					type: "item"
+				}
+			]
+			title: "Hose Pulley"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5309AB20B43F9D7A"]
+			description: ["Spout despeja fluidos em items (potion bottles, balde de águas, blaze cake mix). Funciona com belt/depot."]
+			hide_dependency_lines: false
+			icon: "create:spout"
+			id: "7F1D2D5C97E519E5"
+			rewards: [
+				{
+					id: "6517CF8286B828E7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Preenche items com fluido"
+			tasks: [
+				{
+					id: "72354D5D81F7F5D2"
+					item: "create:spout"
+					type: "item"
+				}
+			]
+			title: "Spout"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7F1249A3D3AAE8C7", "420FF5CF6EE201F7"]
+			description: ["Portable fluid interface permite trocar fluidos entre tank estático e contraption móvel (train, cart). Avançado de criaturaile factories."]
+			hide_dependency_lines: true
+			icon: "create:portable_fluid_interface"
+			id: "077FE2E442F3700D"
+			rewards: [
+				{
+					id: "31E57612D8606B10"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Transferência fluida via contraption"
+			tasks: [
+				{
+					id: "7DE17DCB9031EE35"
+					item: "create:portable_fluid_interface"
+					type: "item"
+				}
+			]
+			title: "Portable Fluid Interface"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3EF677CFABA6BA27"]
+			description: ["Receita do mundo: 1000mB §3water§r + 64 §asourceberry_bush§r no mechanical_mixer → 250mB §dsource_fluid§r.", "", "Esta é uma fonte alternativa. Vai usar source_fluid pra fazer §dmana_pane§r (que libera o goggles) e qualquer outro processo Ars."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:source_gem"
+			id: "764506F56FACE661"
+			rewards: [
+				{
+					id: "64C2BEBE79BC88E8"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			subtitle: "Cross-mod EQSMP — fonte alternativa"
+			tasks: [
+				{
+					id: "17D3DF86E8381615"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+			]
+			title: "Source Fluid via Create"
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["764506F56FACE661"]
+			description: ["§eO Ars Nouveau no EQSMP foi modificado:§r source_gem agora vem só via:", "", "§71)§r §dmana_diamond§r (1 diamond + Botania mana_pool) → spirit_fire ritual (Occultism) → 1 source_gem", "§72)§r §dspirit_attuned_crystal§r (cascade Aglutinado → amethyst_block) → imbuement chamber → 4 source_gem", "", "Você vai precisar de source_gem pra muitas receitas Ars E pros requisitos Create precision_mechanism)."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:source_gem"
+			id: "56DF50D6324509B8"
+			rewards: [
+				{
+					id: "17CE9F2C5139742E"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			subtitle: "Cross-mod EQSMP — Ars precisa de você"
+			tasks: [
+				{
+					id: "5B4FE547B7A576C6"
+					item: "ars_nouveau:source_gem"
+					type: "item"
+				}
+			]
+			title: "Lembrete: Source Gem"
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["401F0BFE5F34B95A"]
+			description: ["Water wheel gera SU a partir de água corrente. Não precisa combustível — só rio/cachoeira. Fonte de rotação intermediária."]
+			hide_dependency_lines: false
+			icon: "create:water_wheel"
+			id: "7A963B07D0C47857"
+			rewards: [
+				{
+					id: "3ABE210D46075D3D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Geração via água corrente"
+			tasks: [
+				{
+					id: "685693A7069CCEFC"
+					item: "create:water_wheel"
+					type: "item"
+				}
+			]
+			title: "Water Wheel"
+			x: 1.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7F1D2D5C97E519E5"]
+			description: ["Blaze cake (cake base + cinder flour + sugar via mixer) é combustível supercharged pro blaze burner. Necessário pra receitas superheated (steel liga etc)."]
+			hide_dependency_lines: false
+			icon: "create:blaze_cake"
+			id: "55B8D9B751219B21"
+			rewards: [
+				{
+					id: "19CB4C7FA4A925FB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Combustível superheated"
+			tasks: [
+				{
+					id: "7F56D5B688D4FF05"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+			]
+			title: "Blaze Cake"
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["642032C8973A2BA9"]
+			description: ["Encased transmissão por corrente é versão compacta — combina eixo + andesite encapsulamento. Útil pra construções limpos."]
+			hide_dependency_lines: false
+			icon: "create:encased_chain_drive"
+			id: "3ADA15344F5BD416"
+			rewards: [
+				{
+					id: "3E84A86536ABE92E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Transmissão por corrente escondida em bloco"
+			tasks: [
+				{
+					id: "16B6A118F21A9A1D"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+			]
+			title: "Transmissão por Corrente Encapsulada"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0DB980B05B2E81DA"]
+			description: ["Weighted ejector lança items adiante com força tunable. Configurável via wrench (distância) e clique (filtro de item count)."]
+			hide_dependency_lines: false
+			icon: "create:weighted_ejector"
+			id: "04700A2D6AE62B7C"
+			rewards: [
+				{
+					id: "72741CE140265BEC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Lança items com timing"
+			tasks: [
+				{
+					id: "46BD9765C648F4F8"
+					item: "create:weighted_ejector"
+					type: "item"
+				}
+			]
+			title: "Weighted Ejector"
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3539EFABFC5B2EF5", "55B8D9B751219B21", "077FE2E442F3700D", "56DF50D6324509B8"]
+			description: ["Completou o caminho do Engenheiro EQSMP! Você dominou rotação, transmissão, processamento, fluido, automação e requisitos.", "", "Próximos passos:", "§71)§r Caminho Botania §a→§r Mana e flora viva (chapter dedicado)", "§72)§r Caminho Ars Nouveau §a→§r Feitiços e source (chapter dedicado)", "§73)§r Caminho Occultism §a→§r Espíritos e rituais (chapter dedicado)", "§74)§r Pedra Filosofal §a→§r Fim de jogo absoluto"]
+			hide_dependency_lines: true
+			icon: "create:large_cogwheel"
+			id: "4D05093A5E0FB936"
+			rewards: [
+				{
+					id: "63EB8E3A3FABC229"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "58F29FAC2679F076"
+					type: "xp"
+					xp: 160
+				}
+			 { id: "1A2B3C4D5E6F012B", table_id: 1885667171979165697L, type: "random" }]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Você dominou o Engenheiro"
+			tasks: [
+				{
+					id: "1AEA877D1497E6CA"
+					type: "checkmark"
+				}
+			]
+			title: "Mestria Create"
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2BB41BF9FFF5F2E1"]
+			description: ["Train encapsulamento: brass_casing + andesite + iron_sheet. pra trains, schedules, stations. Multiplayer/long-distance transport."]
+			hide_dependency_lines: false
+			icon: "create:railway_casing"
+			id: "67E41AC277CA9840"
+			rewards: [
+				{
+					id: "1B22B4AD0A8C6FC8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Nível de transporte"
+			tasks: [
+				{
+					id: "749BA384DC72D15F"
+					item: "create:railway_casing"
+					type: "item"
+				}
+			]
+			title: "Train Encapsulamento"
+			x: 1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["67E41AC277CA9840"]
+			description: ["Train track: 1 train_casing + 6 iron_sheet + 2 andesite_alloy. Coloca em chunk loaded ou ele desativa."]
+			hide_dependency_lines: false
+			icon: "create:track"
+			id: "74ADB5255F953B57"
+			rewards: [
+				{
+					id: "475D616AB46046A9"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Trilho de trem"
+			tasks: [
+				{
+					id: "436B4E7013E12ECE"
+					item: "create:track"
+					type: "item"
+				}
+			]
+			title: "Train Track"
+			x: 4.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["74ADB5255F953B57"]
+			description: ["Schedule é um item-document. Configura paradas, condições, ações. Coloque em train conductor pra autonomia."]
+			hide_dependency_lines: false
+			icon: "create:schedule"
+			id: "051334D6FCEF3266"
+			rewards: [
+				{
+					id: "6CCF4C67B31C3637"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Programa trens"
+			tasks: [
+				{
+					id: "67BF45F6EB81205B"
+					item: "create:schedule"
+					type: "item"
+				}
+			]
+			title: "Schedule"
+			x: 7.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7F1249A3D3AAE8C7"]
+			description: ["Steam engine + multi-block boiler com water + calor. Fonte de rotação intermediária — 256+ SU stress capacity."]
+			hide_dependency_lines: false
+			icon: "create:steam_engine"
+			id: "3DA8B7FDC6F4365D"
+			rewards: [
+				{
+					id: "6A77711D3E81DE0E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Geração steam-power"
+			tasks: [
+				{
+					id: "0D7486529474EA6C"
+					item: "create:steam_engine"
+					type: "item"
+				}
+			]
+			title: "Steam Engine + Boiler"
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3DA8B7FDC6F4365D"]
+			description: ["Steam whistle conectado a boiler emite som musical. Combinado com note_blocks, music systems."]
+			hide_dependency_lines: false
+			icon: "create:steam_whistle"
+			id: "6EF6B1192A9AC924"
+			rewards: [
+				{
+					id: "4BF1CD202A49E285"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Som configurável"
+			tasks: [
+				{
+					id: "0509948CE682D012"
+					item: "create:steam_whistle"
+					type: "item"
+				}
+			]
+			title: "Steam Whistle"
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5309AB20B43F9D7A"]
+			description: ["Há andesite_casing, brass_casing, copper_casing, railway_casing. Crafte ao menos 1 de cada — requisitos de níveis diferentes."]
+			hide_dependency_lines: false
+			icon: "create:brass_casing"
+			id: "55E621C067F20416"
+			rewards: [
+				{
+					id: "2465A93957C080FD"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Coleção de casings"
+			tasks: [
+				{
+					id: "3A593C6FF421D794"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(create:casing)"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Variantes de Encapsulamento"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BB41BF9FFF5F2E1"]
+			description: ["Com o §6Brass Encapsulamento§r em mãos, várias máquinas de precisão da Create se abrem.", "", "Esta é uma lista — fabrique cada uma delas pra completar o caminho do Engenheiro nesse nível.", "", "§7Speedometer · Stressometer · Brass Funnel · Brass Tunnel · Mechanical Arm · Smart Chute · Smart Observer · Sequenced Gearshift"]
+			icon: "create:brass_casing"
+			id: "5278A46D0D7207E6"
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "Engenharia de precisão"
+			tasks: [
+				{
+					id: "244ED3003B2DA505"
+					item: "create:speedometer"
+					type: "item"
+				}
+				{
+					id: "3C110584D20DCE2E"
+					item: "create:stressometer"
+					type: "item"
+				}
+				{
+					id: "3894E03395FB5EEE"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					id: "57DE935CFE534DBE"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+				{
+					id: "7B2C6EF7F8979A6E"
+					item: "create:mechanical_arm"
+					type: "item"
+				}
+				{
+					id: "4955B88D88DF2A2D"
+					item: "create:smart_chute"
+					type: "item"
+				}
+				{
+					id: "09F036AB2F4B6042"
+					item: "create:smart_chute"
+					type: "item"
+				}
+				{
+					id: "12335A52B0AE8313"
+					item: "create:sequenced_gearshift"
+					type: "item"
+				}
+			]
+			title: "Máquinas Brass"
+			x: 1.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["39057A5D83FECF13"]
+			description: ["O §6Andesite Encapsulamento§r abre o nível básico da Create — máquinas simples mas necessárias pra começar a automatizar.", "", "Fabrique cada uma delas pra completar o passo.", "", "§7Windmill Bearing · Mechanical Bearing · Deployer · Mechanical Drill · Mechanical Saw · Encased Fan"]
+			icon: "create:andesite_casing"
+			id: "262D36427FE3C7C8"
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "O essencial da engenharia"
+			tasks: [
+				{
+					id: "3064C60BACED1D57"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					id: "5212E2EBAEBFFD4D"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					id: "3A7F6404265062B3"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "3CF2B14F2B1AFAB5"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+				{
+					id: "21A4C2F894650FBE"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "27FC1E2E283950E2"
+					item: "create:encased_fan"
+					type: "item"
+				}
+			]
+			title: "Máquinas Andesite"
+			x: -1.5d
+			y: -6.0d
+		}
+	]
+	title: "Create — Caminho do Engenheiro"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "botania:block/shapes/mana_pool",
+  "textures": {
+    "bottom": "occultism:block/otherstone",
+    "inside": "occultism:block/otherstone",
+    "side": "occultism:block/otherstone",
+    "top": "occultism:block/otherstone"
+  }
+}

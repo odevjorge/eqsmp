@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": { "item": "botania:terrasteel_ingot" },
+    "title": { "translate": "advancement.eqsmp.terrasteel_obtained.title", "fallback": "Terrasteel obtido" },
+    "description": { "translate": "advancement.eqsmp.terrasteel_obtained.description", "fallback": "Você forjou terrasteel. Silent Gear tools de terrasteel destravados." },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "has_terrasteel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["botania:terrasteel_ingot"] }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "eqsmp:grant_terrasteel_stage"
+  }
+}

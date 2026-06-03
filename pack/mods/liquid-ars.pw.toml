@@ -1,0 +1,13 @@
+name = "Liquid Ars"
+filename = "liquidars-1.20.1-1.6.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a43e3c2cd5cc22f05ed194aa57e7bc5d8b7144bf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7551381
+project-id = 1415817

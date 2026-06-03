@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": { "item": "botania:elementium_ingot" },
+    "title": { "translate": "advancement.eqsmp.elementium_obtained.title", "fallback": "Elementium obtido" },
+    "description": { "translate": "advancement.eqsmp.elementium_obtained.description", "fallback": "Você obteve elementium dos elfos. Silent Gear tools de elementium destravados." },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "has_elementium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["botania:elementium_ingot"] }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "eqsmp:grant_elementium_stage"
+  }
+}

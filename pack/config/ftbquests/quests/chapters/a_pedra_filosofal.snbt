@@ -1,0 +1,181 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a_pedra_filosofal"
+	group: "3BC8F27B987E08F9"
+	icon: "kubejs:pedra_filosofal"
+	id: "5ACE06CB931BC6AE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&7&o[Registro Inicial Recuperado: A Era da Utopia]&r"
+				""
+				"{image:kubejs:textures/static/utopia.png width:200 height:100 align:center}"
+				""
+				"Houve um tempo, antes das cinzas, conhecido como a &6Era Dourada&r. Uma sociedade unificada, onde o &3vapor das máquinas&r dançava em harmonia com o &3fluxo de mana&r e a humanidade havia rompido a barreira do etéreo, firmando pactos com &bespíritos antigos&r."
+				""
+				"Mas, nas sombras dessa utopia, um grupo isolado de visionários rejeitava os limites impostos pela natureza. Eles viviam e respiravam por um único objetivo: a criação da &5Pedra Filosofal&r."
+				""
+				"Este artefato não era apenas uma lenda sobre transformar chumbo em ouro; ele representava a &6quebra&r final das leis do universo. A Pedra concederia ao seu portador a &5Transmutação Perfeita&r: a capacidade de criar matéria a partir do nada, de gerar energia infinita sem custo e de moldar a própria realidade sem sofrer as consequências da Troca Equivalente."
+				""
+				"Movidos por essa ambição de alcançar o divino, o grupo operava em uma competição feroz e silenciosa. Cada membro, trancado em sua própria torre de conhecimento, buscava provar que o seu método era o único caminho para o &5poder absoluto&r."
+			]
+			hide_dependency_lines: false
+			icon: "enigmaticlegacy:unholy_grail"
+			id: "32E375165DD1FA9C"
+			rewards: [{
+				id: "1AB20B3AEB902E1C"
+				type: "xp"
+				xp: 7
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Onde tudo começou..."
+			tasks: [{
+				id: "2C545417969E33EE"
+				type: "checkmark"
+			}]
+			title: "A Utopia Perdida"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32E375165DD1FA9C"]
+			description: ["Enquanto os outros forjavam metal, o Druida isolou-se nos &2bosques profundos&r, convencido de que a &5Pedra Filosofal&r não deveria ser construída, mas &acultivada.&r Ele manipulou a genética das flores místicas ao extremo, forçando &eportais instáveis&r para &2Alfheim&r e desafiando os &aGuardiões de Gaia&r, na tentativa de fundir &2Terrasteel&r com a própria alma da natureza para gerar uma &5semente de poder infinito&r."]
+			hide_dependency_lines: false
+			icon: "botania:pure_daisy"
+			id: "3CF2BD950F857013"
+			rewards: [{
+				id: "0DE91BE39E753248"
+				type: "xp"
+				xp: 16
+			}]
+			subtitle: "A Busca"
+			tasks: [{
+				id: "6311D652A08664B4"
+				type: "checkmark"
+			}]
+			title: "O Druida (Botania)"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["32E375165DD1FA9C"]
+			description: ["Trancado em sua torre de escriba, o &dArcanista&r rejeitava a matéria física. Para ele, o caminho para a &5Transmutação Perfeita&r era a reescrita da realidade. Obcecado, ele buscava compor o &lGlifo Primordial&r, drenando jarras de Source até a última gota para solidificar a magia pura, na esperança de &ltecer um feitiço&r de criação que desafiasse as &6leis do universo&r."]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:archmage_spell_book"
+			id: "3767F01920B31AAC"
+			rewards: [{
+				id: "49CE454698B61253"
+				type: "xp"
+				xp: 16
+			}]
+			subtitle: "A Busca"
+			tasks: [{
+				id: "7D48148D8D2E2070"
+				type: "checkmark"
+			}]
+			title: "O Arcanista (Ars Nouveau)"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["32E375165DD1FA9C"]
+			description: ["O Engenheiro via a criação da Pedra como uma &dequação&r a ser resolvida pela força bruta. Em sua fortaleza de latão e zinco, sua obsessão manifestou-se na construção da &2Prensa do Infinito&r. Levando Blaze Burners à beira da explosão e gerando uma &2Energia Rotacional &rcapaz de mover montanhas, ele tentava comprimir a matéria em nível &2atômico,&r buscando forjar a divindade sob pressão e calor absolutos."]
+			hide_dependency_lines: false
+			icon: "create:wrench"
+			id: "6E27D4CE7BC4377F"
+			rewards: [{
+				id: "0D07223DA9682BD1"
+				type: "xp"
+				xp: 16
+			}]
+			subtitle: "A Busca"
+			tasks: [{
+				id: "4238DE3970396C7A"
+				type: "checkmark"
+			}]
+			title: "O Engenheiro (Create)"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["32E375165DD1FA9C"]
+			description: ["O Ocultista sabia que o segredo não pertencia a este &dplano material&r. Através de rituais &4proibidos&r e guiado pelo &dTerceiro Olho&r, ele buscou atalhos nas sombras, negociando com &7Djinns&r e &6Afrits.&r Sua ambição não era criar a Pedra, mas trocá-la; ele preparava o ritual supremo, oferecendo a estabilidade da própria dimensão em troca do artefato, sussurrando para entidades que &cnunca deveriam ser ouvidas&r."]
+			hide_dependency_lines: false
+			icon: "occultism:book_of_binding_djinni"
+			id: "27C507EB27CA7200"
+			rewards: [{
+				id: "03DF55DA8937870D"
+				type: "xp"
+				xp: 16
+			}]
+			subtitle: "A Busca"
+			tasks: [{
+				id: "72EB974813674A7A"
+				type: "checkmark"
+			}]
+			title: "O Ocultista (Occultism)"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"32E375165DD1FA9C"
+				"3CF2BD950F857013"
+				"3767F01920B31AAC"
+				"6E27D4CE7BC4377F"
+				"27C507EB27CA7200"
+			]
+			description: [
+				"&7&o[Registro Final Recuperado: O Grande Colapso]&r"
+				""
+				"{image:kubejs:textures/static/caos.png width:200 height:100 align:center}"
+				""
+				"Infelizmente, nem o que &3vive é eterno&r, e nem mesmo a busca pelo &5infinito dura para sempre&r."
+				""
+				"Quando os &3rituais&r atingiram seu &4ápice&r, a realidade não suportou a pressão. A tentativa de materializar a &5Pedra Filosofal&r não trouxe a &6divindade&r, mas a &cdevastação&r. A reação em cadeia rasgou o tecido do mundo."
+				""
+				"{@pagebreak}"
+				""
+				"{image:kubejs:textures/static/deusa.png width:200 height:100 align:center}"
+				""
+				"Do centro da explosão, não surgiu um objeto, mas uma presença. Uma &dDeusa antiga&r, adorada por um povo esquecido antes mesmo da história ser escrita. Ela não veio para salvar, mas para julgar."
+				""
+				"&o\"Ó vós, que outrora banquetearam-se na bonança e, insaciáveis, ousaram cobiçar o inefável infinito. Vós, cujas almas se apartaram do suplício e desconheciam o martírio; vós, detentores da plenitude, mas que, em vossa húbris, anelastes usurpar a onipotência... Que este horizonte em chamas seja o vosso derradeiro ocaso.\"&r"
+				""
+				"Ela fragmentou a realidade, espalhando as leis da magia e da tecnologia aos ventos, condenando os sobreviventes a um horizonte em chamas. &7&oCada mod, antes unificado, virou uma ilha isolada de conhecimento — e a Pedra, a única ponte para reunificá-los.&r"
+				""
+				"{@pagebreak}"
+				""
+				"&l&nGlossário:&r"
+				""
+				"&eHúbris:&r Orgulho excessivo ou autoconfiança que desafia os deuses, levando à queda."
+				"&eInefável:&r Algo tão grandioso ou terrível que não pode ser expresso em palavras."
+				"&eOcaso:&r O pôr do sol; figurativamente, o fim de uma era ou decadência."
+			]
+			hide_dependency_lines: false
+			icon: "kubejs:pedra_filosofal"
+			id: "0DE50D0F47B0B93C"
+			rewards: [{
+				id: "414DAE1BD8C1415F"
+				type: "xp"
+				xp: 55
+			} { id: "1A2B3C4D5E6F0126", table_id: 1885667171979165697L, type: "random" }]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "O Fim da Era Dourada"
+			tasks: [{
+				id: "645B6A2F8380F79B"
+				item: "kubejs:pedra_filosofal"
+				type: "item"
+			}]
+			title: "O Grande Colapso"
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	title: "Capítulo Perdido: A Ambição"
+}

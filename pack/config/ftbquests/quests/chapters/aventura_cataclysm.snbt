@@ -1,0 +1,270 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "aventura_cataclysm"
+	group: "51486254BB46A86A"
+	icon: "cataclysm:ignitium_ingot"
+	id: "74F7A8EAF9183885"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"§4Cataclysm§r traz 7 chefes únicos espalhados em estruturas customizadas pelo mundo."
+				""
+				"Cada um tem mecânicas próprias e recompensas poderosas. Não são fáceis — prepare-se."
+				""
+				"§7Estruturas geram naturalmente em biomas específicos."
+			]
+			icon: "cataclysm:ignitium_ingot"
+			id: "614B009BBD9EAE92"
+			rewards: [{
+				id: "7A3F531916758C09"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.5d
+			subtitle: "Chefes dimensionais de elite"
+			tasks: [{
+				id: "5111CD0D070D88B5"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
+			title: "Cataclysm — Os Sete Pesadelos"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["614B009BBD9EAE92"]
+			description: [
+				"Bastion gigante do Nether. dano em área devastador. Cuidado com o pisão."
+				""
+				"§eRecompensa:§r 40 níveis de XP + item único"
+			]
+			icon: "cataclysm:monstrous_horn"
+			id: "56C829025A2869AE"
+			rewards: [
+				{
+					id: "3CC56D761F4E5D8F"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "2DA6F38889380A7E"
+					item: "cataclysm:monstrous_horn"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0102", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Monstruosidade do Nether"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "6B7FEF4354568649"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Derrote a Monstruosidade de Netherite"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["614B009BBD9EAE92"]
+			description: [
+				"Forja Ancestral no Nether. Mestre das flames e da Ignitium."
+				""
+				"§eRecompensa:§r 50 níveis de XP + item único"
+			]
+			icon: "cataclysm:ignitium_ingot"
+			id: "5AA2177BF0CADDE0"
+			rewards: [
+				{
+					id: "26420F17EEF29B3F"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "39AD18FDD7113EBB"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0103", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Senhor das Forjas"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "37FC30F073E38785"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Derrote Ignis"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["614B009BBD9EAE92"]
+			description: [
+				"Cidade Submersa sob o ocean monument. Voa, cuspia fogo, quedas dragon horn."
+				""
+				"§eRecompensa:§r 60 níveis de XP + item único"
+			]
+			icon: "cataclysm:ancient_metal_ingot"
+			id: "6BF6163AEB9108F1"
+			rewards: [
+				{
+					id: "6057FF744DE73FBA"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "1B53232C5B580A9E"
+					item: "cataclysm:ancient_metal_ingot"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0104", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Dragão ancestral"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "210575B5E206464F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Derrote o Ancient Remnant"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["614B009BBD9EAE92"]
+			description: [
+				"Caverna do End. Teleporta, conjura projéteis. Saque: manopla da guarda."
+				""
+				"§eRecompensa:§r 55 níveis de XP + item único"
+			]
+			icon: "cataclysm:gauntlet_of_guard"
+			id: "65AC63843AC20232"
+			rewards: [
+				{
+					id: "4F3D0DE7F5670674"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "6578E6852A7BEAE5"
+					item: "cataclysm:gauntlet_of_guard"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0105", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Sentinela do Vazio"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "1BA0530C56C4CE88"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Derrote o Guardião do Ender"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["614B009BBD9EAE92"]
+			description: [
+				"Cidade Submersa no oceano. Chefe mais difícil — Eye of Abyss + sacrifice no altar."
+				""
+				"§eRecompensa:§r 80 níveis de XP + item único"
+			]
+			icon: "cataclysm:the_baby_leviathan_bucket"
+			id: "6CF9949F72E1227D"
+			rewards: [
+				{
+					id: "0DD2311C468F2FB5"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "76A6275FC246F874"
+					item: "cataclysm:the_baby_leviathan_bucket"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0106", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Terror Abissal"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "1886895ED4182548"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Derrote o Leviathan"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["614B009BBD9EAE92"]
+			description: [
+				"Fábrica de Aço Manchado de Alma. Cinematográfico, sons de canto."
+				""
+				"§eRecompensa:§r 65 níveis de XP + item único"
+			]
+			icon: "cataclysm:music_disc_maledictus"
+			id: "51F9BBA3171B7DCF"
+			rewards: [
+				{
+					id: "057EA70F8040B08F"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "2989D52596D07A39"
+					item: "cataclysm:music_disc_maledictus"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0107", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "O Animatrônico Amaldiçoado"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "6739595944BF5268"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Derrote Maledictus"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["614B009BBD9EAE92"]
+			description: [
+				"Tumba do Harbinger. Chefe final do Cataclysm. Multi-fase, quedas abyssal_sacrifice."
+				""
+				"§eRecompensa:§r 100 níveis de XP + item único"
+			]
+			icon: "cataclysm:abyssal_sacrifice"
+			id: "6E613013EF086B43"
+			rewards: [
+				{
+					id: "6416BE48859F3829"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "2080C9B1AAB53972"
+					item: "cataclysm:abyssal_sacrifice"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0108", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Arauto do Fim"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "347665F31C7DC936"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Derrote o Harbinger"
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	title: "Cataclysm — Sete Pesadelos"
+}

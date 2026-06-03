@@ -1,0 +1,10 @@
+{
+  "_comment": "EQSMP #20: spirit_attuned_gem agora vem de amethyst_shard (era diamond).",
+  "type": "occultism:spirit_fire",
+  "ingredient": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "result": {
+    "item": "occultism:spirit_attuned_gem"
+  }
+}

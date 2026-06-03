@@ -1,0 +1,147 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lootr"
+	group: "4677C57609F8F102"
+	icon: "lootr:trophy"
+	id: "7DE28888F914F951"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"O Saquer dá um baú instanciado §apor jogador§r — todos pegam saque."
+				"Abra seu §eprimeiro§r baú de saque."
+			]
+			icon: "lootr:lootr_chest"
+			id: "37C6978A2F9F2F90"
+			rewards: [{
+				id: "2792B48E41060987"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.5d
+			subtitle: "§2Baús por jogador§r"
+			tasks: [{
+				id: "155EA369BA90B92C"
+				stat: "lootr:looted_stat"
+				type: "stat"
+				value: 1
+			}]
+			title: "Primeiro Baú"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37C6978A2F9F2F90"]
+			description: ["Abra §e10§r baús de saque."]
+			icon: "lootr:lootr_chest"
+			id: "0D853F67C689D420"
+			rewards: [{
+				id: "52D7D8B0D22B899D"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			subtitle: "Década encantadora"
+			tasks: [{
+				id: "1CFFCF8B0AD2078F"
+				stat: "lootr:looted_stat"
+				type: "stat"
+				value: 10
+			}]
+			title: "10 Baús Abertos"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D853F67C689D420"]
+			description: ["Abra §e20§r baús de saque."]
+			icon: "lootr:lootr_barrel"
+			id: "0D1B8F4EF84BE177"
+			rewards: [{
+				id: "71FF4651EB703D50"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			subtitle: "Pegando o ritmo"
+			tasks: [{
+				id: "1B4477D9F90278A9"
+				stat: "lootr:looted_stat"
+				type: "stat"
+				value: 20
+			}]
+			title: "20 Baús Abertos"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D1B8F4EF84BE177"]
+			description: ["Abra §e50§r baús de saque."]
+			icon: "lootr:lootr_shulker"
+			id: "33FDEF46BC5C5197"
+			rewards: [{
+				id: "339C3F89E744F9F1"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			subtitle: "Penteconter"
+			tasks: [{
+				id: "5E04FEEBAB323D4E"
+				stat: "lootr:looted_stat"
+				type: "stat"
+				value: 50
+			}]
+			title: "50 Baús Abertos"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33FDEF46BC5C5197"]
+			description: ["Abra §e70§r baús de saque."]
+			icon: "lootr:lootr_trapped_chest"
+			id: "62F74C5FD7F6BC2D"
+			rewards: [{
+				id: "48B90AC16E21673F"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			subtitle: "Caçador veterano"
+			tasks: [{
+				id: "508F059C241E3E06"
+				stat: "lootr:looted_stat"
+				type: "stat"
+				value: 70
+			}]
+			title: "70 Baús Abertos"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62F74C5FD7F6BC2D"]
+			description: ["Abra §e100§r baús de saque e ganhe o §6Troféu§r!"]
+			icon: "lootr:trophy"
+			id: "3357E9CD330940DE"
+			rewards: [{
+				id: "744C08C01CFAE4D0"
+				type: "xp"
+				xp: 30970
+			} { id: "1A2B3C4D5E6F0132", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "§6Troféu Centenário§r"
+			tasks: [{
+				id: "5156FC1DE99C3B29"
+				stat: "lootr:looted_stat"
+				type: "stat"
+				value: 100
+			}]
+			title: "100 Baús Abertos"
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+	title: "Saquer — Caminho do Saqueador"
+}

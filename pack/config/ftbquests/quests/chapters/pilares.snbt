@@ -1,0 +1,495 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "pilares"
+	group: "016C51A0AB48BF9A"
+	icon: "enigmaticlegacy:unwitnessed_amulet"
+	id: "133D10862D3D5E8C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Pegue o §dAmuleto Testemunho§r e abra os quatro caminhos."
+				""
+				"§aNorte:§r §6Engenheiro§r — domínio da rotação e da força mecânica"
+				"§aSul:§r §2Druida§r — comunhão com a mana viva"
+				"§aLeste:§r §bArcanista§r — tecelagem de feitiços e source"
+				"§aOeste:§r §5Ocultista§r — pactos com espíritos"
+				""
+				"Cada caminho tem seu próprio capítulo. Este é só o mapa."
+				""
+				"Quem dominar os quatro pode tentar a §dPedra Filosofal§r — o fim absoluto."
+			]
+			hide_dependency_lines: false
+			icon: "kubejs:pedra_filosofal"
+			id: "49B257A4E8CE4D88"
+			rewards: [
+				{
+					id: "4832B570B76A4D71"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "10839E483C2E6B8A"
+					item: "enigmaticlegacy:unwitnessed_amulet"
+					type: "item"
+				}
+					{
+						id: "2C7F9A04E1B6D830"
+						item: "enigmaticlegacy:cursed_ring"
+						type: "item"
+					}
+					{ id: "1A2B3C4D5E6F012E", table_id: 1885667171979165697L, type: "random" }]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Os 4 Caminhos se abrem"
+			tasks: [{
+				id: "70F59976DDF23AF4"
+				type: "checkmark"
+			}]
+			title: "O Amuleto Testemunho"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49B257A4E8CE4D88"]
+			description: [
+				"Primeira liga do Engenheiro. Aqui ela exige um §dAglutinado Mágico§r no centro — quem ainda não passou pelo caminho do Druida vai precisar voltar atrás."
+				""
+				"Sem essa liga, nenhuma máquina toma forma. É a porta de entrada do Create."
+			]
+			hide_dependency_lines: false
+			icon: "create:andesite_alloy"
+			id: "79F16AAE5980043F"
+			rewards: [{
+				id: "56539D1196498E2A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "Liga base do Create"
+			tasks: [{
+				id: "3F9341BE15DA20CE"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Liga de Andesito"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79F16AAE5980043F"]
+			description: ["A prensa força chapas de metal — cobre, ouro, ferro. É o que destrava o nível de fluidos e os mecanismos mais finos do Engenheiro."]
+			hide_dependency_lines: false
+			icon: "create:mechanical_press"
+			id: "6E34D5741B44D37B"
+			rewards: [{
+				id: "0052180E5CB81E8D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "Forja & sheets"
+			tasks: [{
+				id: "06631DC3ED42AC66"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "Mechanical Press"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6E34D5741B44D37B"]
+			description: [
+				"Em grade, esses crafters montam qualquer receita complexa sozinhos. É como ter mil mãos forjando em paralelo."
+				""
+				"Você vai precisar deles pra forjar o §dPrecision Mechanism§r — peça crítica do meio de jogo do Create."
+			]
+			hide_dependency_lines: false
+			icon: "create:mechanical_crafter"
+			id: "12285E91B2823CD6"
+			rewards: [{
+				id: "1712FB036BC755A2"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "Criação automatizada"
+			tasks: [{
+				id: "7016FDD7189A21DF"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "Mechanical Crafter"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12285E91B2823CD6"]
+			description: [
+				"O motor a vapor é o coração do Engenheiro veterano. Conectado a uma caldeira, gera mais força que qualquer roda d'água ou moinho."
+				""
+				"Quem chegou aqui dominou rotação, calor e fluido."
+			]
+			hide_dependency_lines: false
+			icon: "create:steam_engine"
+			id: "01E4D228A52B8536"
+			rewards: [{
+				id: "54C5941EBDE0D5B8"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Create avançado"
+			tasks: [{
+				id: "77BF2FB14A4BA2E0"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			title: "Steam Engine"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["49B257A4E8CE4D88"]
+			description: [
+				"O pool é o coração da Botania — onde toda mana se acumula."
+				""
+				"Aqui não se faz com livingrock comum: a fórmula pede §6otherstone§r, aquela pedra que os ocultistas fabricam com fogo espiritual. Sem passar pelo caminho do Ocultismo, o Druida não enche seu pool."
+			]
+			hide_dependency_lines: false
+			icon: "botania:mana_pool"
+			id: "64DFAC011ACBEF7D"
+			rewards: [{
+				id: "005937C207AFC491"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "Armazena mana"
+			tasks: [{
+				id: "252BBA6C92B99920"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			title: "Mana Pool"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["64DFAC011ACBEF7D"]
+			description: [
+				"O altar das runas é onde a mana toma forma elemental. Aqui se forjam runas de água, fogo, terra e ar."
+				""
+				"Pra montá-lo, você vai precisar de um §dNúcleo Cinético§r — sem o domínio do movimento, as runas não se fixam."
+			]
+			hide_dependency_lines: false
+			icon: "botania:runic_altar"
+			id: "44B224C543FC87C1"
+			rewards: [{
+				id: "32EBA67CF3ECFAE0"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "Criação de runas"
+			tasks: [{
+				id: "5AD1109D85BEE6F0"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			title: "Runic Altar"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44B224C543FC87C1"]
+			description: [
+				"O pilar acelera o fluxo de mana ao redor do pool — quem coloca quatro pylons em volta vê suas máquinas botânicas dobrarem de ritmo."
+				""
+				"A receita aqui inclui uma §dsource gem§r dos Arcanistas — porque o pilar canaliza mana mágica e source ao mesmo tempo."
+			]
+			hide_dependency_lines: false
+			icon: "botania:mana_pylon"
+			id: "29490E0EC3DD58E9"
+			rewards: [{
+				id: "5BC5C8E8EB6589AC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "Acelera o pool"
+			tasks: [{
+				id: "4DB1878B4BFE3D5F"
+				item: "botania:mana_pylon"
+				type: "item"
+			}]
+			title: "Mana Pylon"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["29490E0EC3DD58E9"]
+			description: [
+				"O material mais forte que a Botania pode oferecer. Forjado na Terra Plate, consumindo meio milhão de mana."
+				""
+				"É a base do §dNúcleo Espiritual§r — o quarto e último dos pilares mágicos."
+			]
+			hide_dependency_lines: false
+			icon: "botania:terrasteel_ingot"
+			id: "55402C0A1C5787CE"
+			rewards: [{
+				id: "39A00D9D6ADB0605"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Botania avançado"
+			tasks: [{
+				id: "56A87B4502035C79"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			title: "Terrasteel Ingot"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49B257A4E8CE4D88"]
+			description: [
+				"A câmara absorve source dos jarros ao redor pra transformar items. Tudo no caminho do Arcanista passa por aqui."
+				""
+				"Aqui ela inclui livingwood na receita — porque madeira viva canaliza source melhor que qualquer outra."
+			]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:imbuement_chamber"
+			id: "0925C19C204B0A6D"
+			rewards: [{
+				id: "7997A1B56E310EB9"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "Central Ars"
+			tasks: [{
+				id: "626792EDB50FEED3"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			title: "Imbuement Chamber"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0925C19C204B0A6D"]
+			description: [
+				"A gema source é a moeda de mana do Arcanista. Sem ela, nada se imbui, nada se canaliza, nada se enchanta."
+				""
+				"Há dois caminhos pra obtê-la:"
+				"§71)§r jogue uma §dmana diamond§r no fogo espiritual dos ocultistas — uma gema sai"
+				"§72)§r coloque um §dspirit attuned crystal§r na imbuement chamber — quatro gemas saem (mas exige o caminho completo do Druida + Aglutinado)"
+			]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:source_gem"
+			id: "16011FCD6C61AA02"
+			rewards: [{
+				id: "278FEEF7B910C3E0"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "Base de tudo Ars"
+			tasks: [{
+				id: "57B22165DBAB6CAC"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "Source Gem"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["16011FCD6C61AA02"]
+			description: [
+				"O aparato é o núcleo de criação do Arcanista veterano. Tomos, parchments, items avançado — tudo nasce aqui."
+				""
+				"Pra montá-lo, você precisa de um §dNúcleo Cinético§r — mecânica e magia se encontram nesse ponto."
+			]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "54C84C7BE1EA8903"
+			rewards: [{
+				id: "4A59957C872C43C2"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "Criação arcana"
+			tasks: [{
+				id: "4C2DAC38CD894753"
+				item: "ars_nouveau:enchanting_apparatus"
+				type: "item"
+			}]
+			title: "Enchanting Apparatus"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["54C84C7BE1EA8903"]
+			description: [
+				"A Quimera Wilden é o chefe da Ars Nouveau. Invoque-a com um chifre wilden no braseiro ritual."
+				""
+				"Recompensas: asas pra voo permanente, espinho pra criação avançada."
+			]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:wilden_horn"
+			id: "3A027FBA21003761"
+			rewards: [{
+				id: "793E1139F5954408"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Chefe final (Ars)"
+			tasks: [{
+				id: "5BC86AFBF9039095"
+				item: "ars_nouveau:wilden_horn"
+				type: "item"
+			}]
+			title: "Wilden Chimera"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["49B257A4E8CE4D88"]
+			description: [
+				"O grimório do Ocultista. Aqui você encontra todos os pentacles, rituais e demônios disponíveis pra invocar."
+				""
+				"Sem ele, você fica vagando no escuro — leia primeiro, sempre."
+			]
+			hide_dependency_lines: false
+			icon: "occultism:dictionary_of_spirits"
+			id: "6DE8C1306C62F894"
+			rewards: [{
+				id: "4E4749E864C9021B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "Guide do mod"
+			tasks: [{
+				id: "36C1C17868EE5D6F"
+				item: "occultism:dictionary_of_spirits"
+				type: "item"
+			}]
+			title: "Dicionário dos Espíritos"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6DE8C1306C62F894"]
+			description: [
+				"A pedra do outro mundo. Nasce quando você joga cobblestone num fogo espiritual — fogo espiritual que purifica a pedra comum."
+				""
+				"Sem otherstone, o Druida não monta seu pool. Mesmo quem nunca quer tocar em pacto demoníaco vai precisar passar por aqui pelo menos uma vez."
+			]
+			hide_dependency_lines: false
+			icon: "occultism:otherstone"
+			id: "6451E6E385BCF00A"
+			rewards: [{
+				id: "0DF5D1E399BA5492"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "Requisito F1"
+			tasks: [{
+				id: "056A9B213AF06EE6"
+				item: "occultism:otherstone"
+				type: "item"
+			}]
+			title: "Otherstone"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6451E6E385BCF00A"]
+			description: ["Livro de Vínculo djinni libera nível médio do Occultism. requer Cristal de Mana Pura."]
+			hide_dependency_lines: false
+			icon: "occultism:book_of_binding_djinni"
+			id: "7E6BB2C509910A40"
+			rewards: [{
+				id: "4B6514C31D7ADFA0"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "Nível djinni"
+			tasks: [{
+				id: "5F804BC165321E7D"
+				item: "occultism:book_of_binding_djinni"
+				type: "item"
+			}]
+			title: "Livro de Vínculo Djinni"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E6BB2C509910A40"]
+			description: [
+				"A picareta de iesnium é o ferramenta avançada do Ocultista. Minera minério de iesnium (invisível pra picaretas comuns) e abre o caminho pro nível marid."
+				""
+				"Marid são os espíritos mais poderosos — quem chega aqui dominou o ocultismo inteiro."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "occultism:iesnium_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0FE6AB0FC85230BC"
+			rewards: [{
+				id: "305103245BE52F3A"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Occultism avançado"
+			tasks: [{
+				id: "0BA9BB76805580A0"
+				item: {
+					Count: 1
+					id: "occultism:iesnium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Iesnium Picareta"
+			x: 8.0d
+			y: 1.0d
+		}
+	]
+	title: "Pilares — Roteiro dos 4 Caminhos"
+}

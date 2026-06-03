@@ -1,0 +1,11 @@
+{
+  "_comment": "EQSMP #21: imbuement_lapis desativado. Source_gem agora vem do ritual spirit_fire em mana_diamond. Tag 'forge:eqsmp_disabled' não existe → recipe nunca executa.",
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "tag": "forge:eqsmp_disabled"
+  },
+  "output": "ars_nouveau:source_gem",
+  "pedestalItems": [],
+  "source": 500
+}

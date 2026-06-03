@@ -1,0 +1,283 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "f1_aglutinado"
+	group: "016C51A0AB48BF9A"
+	icon: "kubejs:aglutinado_magico"
+	id: "33879B2304024895"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["54C42AF051BF0447"]
+			description: [
+				"Processe as Sourceberries no Create. Três caminhos com eficiência crescente:"
+				""
+				"§7•§r §eMillstone§r — 25% chance de queda extra"
+				"§7•§r §6Crushing Wheels§r — 50% chance"
+				"§7•§r §bSqueezer§r — 100% + 100mB Source Fluid"
+				""
+				"A receita customizada do Squeezer não usa iron — só 4 livingwood_twig + 4 andesite_1x + 1 andesite_2x."
+			]
+			hide_dependency_lines: false
+			icon: "kubejs:cursed_aglutinado_magico"
+			id: "4B0469CCC37E5D3E"
+			rewards: [{
+				id: "52F25AF1808BA952"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 1.3d
+			subtitle: "Massa crua, ainda corrompida"
+			tasks: [{
+				id: "2DC4A028F05FCA9A"
+				item: "kubejs:cursed_aglutinado_magico"
+				type: "item"
+			}]
+			title: "Cursed Aglutinado Mágico"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B0469CCC37E5D3E"]
+			description: [
+				"A receita do Mana Pool foi reescrita: §c5× occultism:otherstone§r (não livingrock)."
+				""
+				"Para abrir esse requisito você precisa antes processar Otherstone via Spirit Fire do Occultism."
+			]
+			hide_dependency_lines: false
+			icon: "botania:mana_pool"
+			id: "7ECABB898739D877"
+			rewards: [{
+				id: "24266134E4BACE69"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "hexagon"
+			subtitle: "Requisito entre mods: Botania ↔ Occultism"
+			tasks: [{
+				id: "7DD34DC1B1C1884B"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			title: "Mana Pool (Otherstone)"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4B0469CCC37E5D3E"
+				"7ECABB898739D877"
+			]
+			description: [
+				"Jogue o Cursed Aglutinado num Mana Pool com pelo menos §b50.000 mana§r."
+				""
+				"Esse é o item-signatura da F1: ele destrava §eCreate§r (andesite_alloy), §eBotania§r (pools de pedra preta) e §eOccultism§r (binding foliot)."
+				""
+				"Cada outro mod vai exigir Aglutinado em seus próximos níveis."
+			]
+			hide_dependency_lines: false
+			icon: "kubejs:aglutinado_magico"
+			id: "3BFF59F53C1A846E"
+			rewards: [
+				{
+					count: 4
+					id: "1F8BCE56591E2A93"
+					item: "kubejs:aglutinado_magico"
+					type: "item"
+				}
+				{
+					id: "1A2B3C4D5E6F0100"
+					table_id: 1885667171979165697L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "O coração da F1"
+			tasks: [{
+				id: "2EB6F0531247C0BE"
+				item: "kubejs:aglutinado_magico"
+				type: "item"
+			}]
+			title: "§6Aglutinado Mágico"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BFF59F53C1A846E"]
+			description: [
+				"Receita reescrita: §c8 andesite + 1 Aglutinado Mágico → 4 andesite_alloy§r."
+				""
+				"As receitas vanilla (iron + andesite mixing) foram removidas. A única alternativa preservada é decompact do andesite_alloy_block."
+			]
+			hide_dependency_lines: false
+			icon: "create:andesite_alloy"
+			id: "607E53E822CD3AB0"
+			rewards: [{
+				id: "5C4A9815519A6DE9"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "square"
+			subtitle: "Create destravado"
+			tasks: [{
+				id: "503E2183E3410777"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Liga de Andesito via Aglutinado"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BFF59F53C1A846E"]
+			description: [
+				"Entrada para todos os rituais de summon foliot (cleaner, crusher, lumberjack, transport)."
+				""
+				"Receita reescrita: §c4× dye white + book_of_binding_empty + 1 Aglutinado Mágico§r."
+				""
+				"Vanilla receitas (4 dyes only) foram removidas."
+			]
+			hide_dependency_lines: false
+			icon: "occultism:book_of_binding_foliot"
+			id: "4FF303BA10E7A887"
+			rewards: [{
+				id: "45FB900C8C452D2A"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "rsquare"
+			subtitle: "Occultism destravado"
+			tasks: [{
+				id: "68629BA7140EDA41"
+				item: "occultism:book_of_binding_foliot"
+				type: "item"
+			}]
+			title: "Livro de Vínculo Foliot"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3BFF59F53C1A846E"]
+			description: [
+				"Esse é o NOSSO sack, diferente do Apothecary one. Compactação 3x3:"
+				""
+				"9 berries → x1, 9 x1 → x2, ..., 9 x8 → x9."
+				""
+				"É um item-utility separado da chain ars_nouveau:sourceberry_sack."
+			]
+			hide_dependency_lines: false
+			icon: "kubejs:sourceberry_sack_x1"
+			id: "4F0E000A7097E8E5"
+			rewards: [{
+				id: "4BF7D355A636E52D"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "pentagon"
+			subtitle: "3x3 berries → x1"
+			tasks: [{
+				id: "63A693295800CB21"
+				item: "kubejs:sourceberry_sack_x1"
+				type: "item"
+			}]
+			title: "Sourceberry Sack X1 (Compaction)"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"§4Sourceberry Bushes não aparecem mais em Taiga/Archwood — a única fonte é craftar a primeira no Apothecary.§r"
+				""
+				"§eReceita Apothecary:§r 3 pétalas azuis + 1 sweet_berry vanilla → 1 sourceberry_bush."
+				""
+				"Depois de obter o primeiro, plante em terra arada ou grass. Quando maduro (age 3, com bagas vermelhas visíveis), quebre o bloco com Fortune:"
+				"• §a2-3× sourceberry_bush§r (escala com Fortune)"
+				""
+				"O próprio bush serve como item e como muda — você replanta, come, ou usa nas próximas etapas. Vai precisar de muitos: cada cursed_aglutinado consome 9 bushes no squeezer."
+			]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:sourceberry_bush"
+			id: "54C42AF051BF0447"
+			rewards: [{
+				id: "4F792ECE7BF9892C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			subtitle: "Apothecary craft + cultivo"
+			tasks: [{
+				count: 9L
+				id: "7F29989AA0D8433E"
+				item: "ars_nouveau:sourceberry_bush"
+				type: "item"
+			}]
+			title: "Sourceberry Bush via Apothecary"
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Pra alcançar o nível máximo de processing do Cursed Aglutinado, você precisa do Squeezer do Integrated Dynamics."
+				""
+				"Receita customizada: §c4 livingwood_twig + 4 andesite_1x + 1 andesite_2x§r — não exige iron, mantendo F1 puramente Botania+Create."
+			]
+			hide_dependency_lines: false
+			icon: "integrateddynamics:squeezer"
+			id: "08D1887C3AB6F872"
+			rewards: [{
+				id: "26613519F5DECF64"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "circle"
+			subtitle: "Sem iron na receita"
+			tasks: [{
+				id: "632BEBD72F457AD8"
+				item: "integrateddynamics:squeezer"
+				type: "item"
+			}]
+			title: "Squeezer (custom receita)"
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4F0E000A7097E8E5"]
+			description: [
+				"Você fez tudo. 387.420.489 berries num espaço."
+				""
+				"§oVocê não precisava disso. Mas você fez mesmo assim.§r"
+			]
+			hide_dependency_lines: false
+			icon: "kubejs:sourceberry_sack_x9"
+			id: "3AEDAFB44EE7F179"
+			rewards: [
+				{
+					id: "120A853EEF692B48"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 9
+					id: "4DE2B9D700340E7B"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "Compaction master"
+			tasks: [{
+				id: "1930D6CC0BF7FCC2"
+				item: "kubejs:sourceberry_sack_x9"
+				type: "item"
+			}]
+			title: "§dSourceberry Sack X9"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "F1 — Aglutinado Mágico"
+}

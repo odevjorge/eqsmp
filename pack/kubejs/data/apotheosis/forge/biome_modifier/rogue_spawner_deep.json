@@ -1,0 +1,4 @@
+{
+  "_comment": "EQSMP: desativa o rogue spawner do Apotheosis (1 bau + 1 mob spawner que poluia o mundo). Override forge:none anula o spawn. Demais features do Apotheosis (enchanting, affix loot, boss_dungeon) mantidas.",
+  "type": "forge:none"
+}

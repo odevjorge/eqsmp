@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "still_life:tropical_rainforest",
+    "still_life:old_growth_tropical_rainforest",
+    "still_life:monsoon_forest",
+    "still_life:tropical_wetlands",
+    "still_life:lush_tundra",
+    "still_life:mangrove_marsh"
+  ]
+}

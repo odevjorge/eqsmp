@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "still_life:arctic_beach",
+    "still_life:arctic_deep_ocean",
+    "still_life:arctic_shallow_ocean",
+    "still_life:arid_beach",
+    "still_life:cold_deep_ocean",
+    "still_life:cold_shallow_ocean",
+    "still_life:cold_tundra_beach",
+    "still_life:mediterranean_beach",
+    "still_life:savanna_beach",
+    "still_life:subtropical_deep_ocean",
+    "still_life:subtropical_shallow_ocean",
+    "still_life:taiga_beach",
+    "still_life:temperate_beach",
+    "still_life:temperate_deep_ocean",
+    "still_life:temperate_shallow_ocean",
+    "still_life:tropical_beach",
+    "still_life:tropical_deep_ocean",
+    "still_life:tropical_shallow_ocean",
+    "still_life:tundra_beach"
+  ]
+}

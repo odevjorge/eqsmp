@@ -1,0 +1,11 @@
+{
+  "type": "botania:petal_apothecary",
+  "ingredients": [
+    {"tag": "botania:petals/blue"},
+    {"tag": "botania:petals/blue"},
+    {"tag": "botania:petals/blue"},
+    {"item": "minecraft:sweet_berries"}
+  ],
+  "output": {"item": "ars_nouveau:sourceberry_bush"},
+  "reagent": {"tag": "botania:seed_apothecary_reagent"}
+}

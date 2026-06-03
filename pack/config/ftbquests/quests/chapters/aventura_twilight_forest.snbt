@@ -1,0 +1,237 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "aventura_twilight_forest"
+	group: "51486254BB46A86A"
+	icon: "twilightforest:naga_scale"
+	id: "13947BB691FEDFA4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"A §dFloresta Crepuscular§r é uma dimensão de penumbra eterna, repleta de criaturas antigas e tesouros esquecidos."
+				""
+				"Use o §6Portal da Floresta Crepuscular§r (água + 4 flores em quadrado, jogue um diamante) pra entrar."
+				""
+				"§7Lá dentro: 6 chefes na ordem de progressão."
+			]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "5AD3FE37BF6D66D4"
+			rewards: [{
+				id: "1F4C7FC4A167305A"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.5d
+			subtitle: "O primeiro passo na aventura"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "2D66F6D44863AD22"
+				type: "dimension"
+			}]
+			title: "Entrar na Floresta Crepuscular"
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AD3FE37BF6D66D4"]
+			description: [
+				"Chefe inicial da Floresta Crepuscular. Encontre em ruínas de pedra musgosa."
+				""
+				"§eRecompensa:§r 20 níveis de XP + trofeu do chefe"
+			]
+			icon: "twilightforest:naga_scale"
+			id: "13AA5F368949DF26"
+			rewards: [
+				{
+					id: "6D0A9DA97C4CD4DA"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "2DD88D5BBB3D8C70"
+					item: "twilightforest:naga_scale"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F010F", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "A serpente das ruínas"
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "458CF15919FC7F06"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Derrote a Naga"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13AA5F368949DF26"]
+			description: [
+				"Torre do Lich — uma torre alta no meio da floresta. Tem 3 fases: blindada, projéteis, corpo a corpo."
+				""
+				"§eRecompensa:§r 30 níveis de XP + trofeu do chefe"
+			]
+			icon: "twilightforest:lich_trophy"
+			id: "5B64012A0840B461"
+			rewards: [
+				{
+					id: "70F606E4F35A722D"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "421E9CA511D0040C"
+					item: "twilightforest:lich_trophy"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0110", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Magister dos mortos"
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "1F3BB635BFD52EA5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Derrote o Lich"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B64012A0840B461"]
+			description: [
+				"Caverna em Labirinto — labirinto subterrâneo. Chefe-master das vacas mutadas."
+				""
+				"§eRecompensa:§r 35 níveis de XP + trofeu do chefe"
+			]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "6F66A6F0F5847A84"
+			rewards: [
+				{
+					id: "196A64DF4CE67984"
+					type: "xp"
+					xp: 160
+				}
+				{
+					id: "43F8B9854973F2F0"
+					item: "twilightforest:minoshroom_trophy"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0111", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Minotauro corrompido"
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "3AABB513DE81F4A6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Derrote o Minoshroom"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F66A6F0F5847A84"]
+			description: [
+				"Hydra Hill — colina característica com lava. Cabeças regeneram, ataque rapidamente."
+				""
+				"§eRecompensa:§r 50 níveis de XP + trofeu do chefe"
+			]
+			icon: "twilightforest:hydra_chop"
+			id: "665FFCE21F8EEDE5"
+			rewards: [
+				{
+					id: "75D84279B6C17E65"
+					type: "xp"
+					xp: 160
+				}
+				{
+					id: "31B33E93063A6356"
+					item: "twilightforest:hydra_chop"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0112", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Três cabeças, três terrores"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "757CB997BA7047CD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Derrote a Hydra"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["665FFCE21F8EEDE5"]
+			description: [
+				"Torre Sombria — torre obsidiana no centro. Ur-Ghast é um ghast gigante."
+				""
+				"§eRecompensa:§r 70 níveis de XP + trofeu do chefe"
+			]
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "0A8B9B166AC803B2"
+			rewards: [
+				{
+					id: "76FB4D85589E32A2"
+					type: "xp"
+					xp: 12895
+				}
+				{
+					id: "5ADE17EA08A4E61B"
+					item: "twilightforest:ur_ghast_trophy"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0113", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Fantasma supremo da Torre Escura"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "75E451F7EFEC852D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Derrote o Ur-Ghast"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A8B9B166AC803B2"]
+			description: [
+				"Covil do Yeti — caverna gelada no Floresta Nevada. Alpha Yeti tem armadura grossa."
+				""
+				"§eRecompensa:§r 60 níveis de XP + trofeu do chefe"
+			]
+			icon: "twilightforest:alpha_yeti_fur"
+			id: "4679EE79C2A6A46C"
+			rewards: [
+				{
+					id: "3FB53F0214685EC9"
+					type: "xp"
+					xp: 8670
+				}
+				{
+					id: "300DA02FED74C750"
+					item: "twilightforest:alpha_yeti_fur"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0114", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Rei do gelo"
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "5698D92EF6A4CA93"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Derrote o Alpha Yeti"
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+	title: "Floresta Crepuscular"
+}

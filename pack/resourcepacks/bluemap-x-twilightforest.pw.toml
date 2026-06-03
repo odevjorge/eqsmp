@@ -1,0 +1,13 @@
+name = "Bluemap x TwilightForest"
+filename = "Twilightforest.bluemap.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/B4aN7vfK/versions/RR0dcM2E/Twilightforest.bluemap.zip"
+hash-format = "sha512"
+hash = "1b5db32fa2d67bd0218995f857544b8181a08f8c76f8ea9cacae756715e23738c43fb7cf9b852ee2e345713b1e936cacdb4d760703c28ba59570e055df489d5a"
+
+[update]
+[update.modrinth]
+mod-id = "B4aN7vfK"
+version = "RR0dcM2E"

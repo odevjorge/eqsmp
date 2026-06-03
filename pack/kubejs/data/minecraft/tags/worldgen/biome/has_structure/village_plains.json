@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "still_life:alpine_heathlands",
+    "still_life:alpine_plains",
+    "still_life:cold_steppe",
+    "still_life:dry_cold_steppe",
+    "still_life:flooded_grasslands",
+    "still_life:mediterranean_shrubland",
+    "still_life:mediterranean_steppe",
+    "still_life:mixed_forest_steppe",
+    "still_life:shrub_steppe",
+    "still_life:warm_temperate_clearings",
+    "still_life:wooded_mediterranean_steppe",
+    "still_life:xeric_shrubland"
+  ]
+}

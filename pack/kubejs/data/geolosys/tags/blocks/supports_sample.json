@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:dirt",
+    "#minecraft:sand",
+    "minecraft:gravel",
+    "#forge:stone",
+    "#minecraft:base_stone_nether",
+    "minecraft:netherrack",
+    "minecraft:basalt",
+    "minecraft:blackstone"
+  ]
+}

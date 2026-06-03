@@ -1,0 +1,276 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "f4_nucleo_espiritual"
+	group: "016C51A0AB48BF9A"
+	icon: "kubejs:nucleo_espiritual"
+	id: "52C2AC55021601D0"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: false
+			icon: "occultism:soul_gem"
+			id: "5A2AC224F5B13979"
+			title: "Soul Gem"
+			description: [
+				"§dSoul Gem§r de Occultism captura a alma de uma criatura viva — use-a num ser dócil para selar o espírito na gema."
+				""
+				"Essa alma capturada é o combustível espiritual do núcleo final."
+			]
+			rewards: [{
+				id: "3C8234ABBB167E69"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "45E65021FBFFC32C"
+				item: "occultism:soul_gem"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: "kubejs:aglutinado_magico"
+			id: "2C39178B382722A8"
+			title: "Aglutinado Mágico (F1)"
+			description: [
+				"O §eAglutinado Mágico§r da primeira fase retorna — e desta vez será consumido de vez."
+				""
+				"Ele entrega ao núcleo final o elo original que uniu Create, Botania e Occultism."
+			]
+			rewards: [{
+				id: "1A351F3039D2E7B3"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "3D5262CF33BA33EF"
+				item: "kubejs:aglutinado_magico"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: "kubejs:nucleo_cinetico"
+			id: "61FE4A1A091F8893"
+			title: "Núcleo Cinético (F2)"
+			description: [
+				"O §eNúcleo Cinético§r também é sacrificado aqui — o movimento domado do Create entra na soma final."
+				""
+				"Três núcleos, três mods, uma só obra-prima."
+			]
+			rewards: [{
+				id: "7B8D91EB6CCE0260"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1E7E21E897FCF8C1"
+				item: "kubejs:nucleo_cinetico"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: "kubejs:cristal_mana_pura"
+			id: "6C0DB05FCAE3195A"
+			title: "Cristal de Mana Pura (F3)"
+			description: [
+				"O §eCristal de Mana Pura§r fecha o trio consumido: mana de Botania e Source de Ars em forma estável."
+				""
+				"Com F1, F2 e F3 reunidos, a montagem da fase final pode começar."
+			]
+			rewards: [{
+				id: "23019B4F0E0BB7DE"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "7E75C9B0E548C3B0"
+				item: "kubejs:cristal_mana_pura"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A2AC224F5B13979"]
+			hide_dependency_lines: false
+			icon: "create:depot"
+			id: "60B38AD0A66B6A9A"
+			title: "Depot"
+			description: [
+				"O §6Depot§r de Create é a bancada estática onde itens repousam para serem processados por um §6Deployer§r."
+				""
+				"É o palco da montagem sequenciada que dará à luz o núcleo espiritual."
+			]
+			rewards: [{
+				id: "2E7DF4519936E984"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0B9D2C0D05B37087"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2C39178B382722A8"
+				"61FE4A1A091F8893"
+				"6C0DB05FCAE3195A"
+			]
+			hide_dependency_lines: false
+			icon: "create:deployer"
+			id: "01691F992F578B48"
+			title: "Deployer"
+			description: [
+				"O §6Deployer§r aplica itens e ferramentas sobre o que estiver no §6Depot§r, passo a passo."
+				""
+				"Aqui ele combinará §eAglutinado§r, §eNúcleo Cinético§r e §eCristal de Mana Pura§r numa sequência precisa."
+			]
+			rewards: [{
+				id: "0E51B5ADB4787ADB"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6D686A14C8D71997"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"60B38AD0A66B6A9A"
+				"01691F992F578B48"
+			]
+			hide_dependency_lines: false
+			icon: "kubejs:cursed_nucleo_espiritual"
+			id: "0E767CA74B3B8EB6"
+			title: "Cursed Núcleo Espiritual"
+			description: [
+				"§cCursed Núcleo Espiritual§r é o resultado bruto da montagem sequenciada — os três núcleos fundidos com a alma, mas ainda instáveis."
+				""
+				"O poder combinado de quatro mods ribomba sem controle. Falta o último refino."
+			]
+			rewards: [{
+				id: "2B903F7CBCFA277F"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "080C3698A38E8AD9"
+				item: "kubejs:cursed_nucleo_espiritual"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E767CA74B3B8EB6"]
+			hide_dependency_lines: false
+			icon: "kubejs:nucleo_espiritual"
+			id: "3BE6BD7EE8F56235"
+			title: "O Núcleo Espiritual"
+			description: [
+				"§eNúcleo Espiritual§r — o marco final desta jornada. A §dSoul Gem§r e os três núcleos anteriores convergem numa única obra estável."
+				""
+				"Create, Botania, Ars e Occultism num só objeto. Ele destrava §bArs§r e o §2Terrasteel§r de Botania."
+			]
+			rewards: [
+				{
+					count: 4
+					id: "500175B0878C5D45"
+					item: "kubejs:nucleo_espiritual"
+					type: "item"
+				}
+				{
+					id: "5E3AB35E8739316B"
+					type: "xp"
+					xp: 1000
+				}
+			 { id: "1A2B3C4D5E6F0131", table_id: 1885667171979165697L, type: "random" }]
+			shape: "heart"
+			size: 2.5d
+			tasks: [{
+				id: "4C857F4727237BDF"
+				item: "kubejs:nucleo_espiritual"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BE6BD7EE8F56235"]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:ritual_brazier"
+			id: "6274B936460CBB82"
+			title: "Ritual Brazier Liberado"
+			description: [
+				"O §bRitual Brazier§r de Ars Nouveau foi destravado pelo §eNúcleo Espiritual§r."
+				""
+				"É o braseiro dos rituais mágicos mais avançados — o ápice da automação Source."
+			]
+			rewards: [{
+				id: "3D9CAEAD9ED6331B"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "745F6BCE2FC8B890"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3BE6BD7EE8F56235"]
+			hide_dependency_lines: false
+			icon: "botania:terrasteel_ingot"
+			id: "68B0D48131E4048D"
+			title: "Terrasteel Liberado"
+			description: [
+				"O §2Terrasteel§r de Botania foi destravado pelo §eNúcleo Espiritual§r."
+				""
+				"O metal sagrado nascido no §aTerrestrial Agglomeration Plate§r — o ápice da progressão mágica, recompensa por unir os quatro caminhos."
+			]
+			rewards: [{
+				id: "632B0D833DD014D7"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "34DBCB95FE694BD5"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+	]
+	title: "F4 — Núcleo Espiritual"
+}

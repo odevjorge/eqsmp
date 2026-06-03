@@ -1,0 +1,684 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "aventura_progressao"
+	group: "51486254BB46A86A"
+	icon: "twilightforest:ur_ghast_trophy"
+	id: "00D37C9D2AB66AD3"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"§eEsse capítulo guia a progressão de chefes do EQSMP.§r"
+				""
+				"A linha principal cobre 8 marcos — chefes essenciais que abrem o caminho até o avançado."
+				"Missões secundárias adicionam variedade: chefes elementais, modos hard, e mestres únicos de cada mod."
+				""
+				"§7Comece pelo Naga (mais fácil) e avance até o Harbinger (mais difícil)."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "17483F40DBEC0AFB"
+			rewards: [{
+				id: "268AD7059D47B6D0"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.5d
+			subtitle: "Confronte os chefes do mundo"
+			tasks: [{
+				id: "39E6AA632B11EF89"
+				item: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "O Caminho do Caçador"
+			x: -20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17483F40DBEC0AFB"]
+			description: [
+				"Chefe inicial. Floresta Crepuscular, ruínas de pedra musgosa. Defina sua coragem com a Serpente."
+				""
+				"§eRecompensa:§r 20 níveis de XP + trofeu do chefe"
+			]
+			icon: "twilightforest:naga_scale"
+			id: "7896F7D36063417E"
+			rewards: [
+				{
+					id: "5C9FC34472856E32"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "270C2C4D7E7C9268"
+					item: "twilightforest:naga_scale"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F011E", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.3d
+			subtitle: "Primeiro chefe"
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "0AA98FCACEC956F5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Nível 1: Naga"
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7896F7D36063417E"]
+			description: [
+				"Torre do Lich. Aprenda a desviar de projéteis arcanos. Recompensa: Lich Crown."
+				""
+				"§eRecompensa:§r 30 níveis de XP + trofeu do chefe"
+			]
+			icon: "twilightforest:lich_trophy"
+			id: "3C4527C189F0544B"
+			rewards: [
+				{
+					id: "3E7B4C33917F30E0"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "0BC83F6D3BE28EF4"
+					item: "twilightforest:lich_trophy"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F011F", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.3d
+			subtitle: "Magister dos mortos"
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "4A5DECF68FF4F4DF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Nível 2: Lich"
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C4527C189F0544B"]
+			description: [
+				"Botania avançado. Invoque com 4 pylons + beacon + espírito de gaia. Chefe de magia."
+				""
+				"§eRecompensa:§r 40 níveis de XP + trofeu do chefe"
+			]
+			icon: "botania:life_essence"
+			id: "249B0D60EA056C60"
+			rewards: [
+				{
+					id: "3EEAD6EC6BFE988C"
+					type: "xp"
+					xp: 160
+				}
+				{
+					id: "1B76904FC094B39F"
+					item: "botania:life_essence"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0120", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.3d
+			subtitle: "Sentinela do paraíso"
+			tasks: [{
+				entity: "botania:doppleganger"
+				id: "27C47AC7E22D8107"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Nível 3: Guardião de Gaia"
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["249B0D60EA056C60"]
+			description: [
+				"Ars Nouveau. 3 fases, cada uma com elemento diferente. Recompensa: trophy completo."
+				""
+				"§eRecompensa:§r 50 níveis de XP + trofeu do chefe"
+			]
+			icon: "ars_nouveau:wilden_horn"
+			id: "6F24854DC43DA2F9"
+			rewards: [
+				{
+					id: "469EB8A2029B17E8"
+					type: "xp"
+					xp: 160
+				}
+				{
+					id: "6B2DF28933979F0C"
+					item: "ars_nouveau:wilden_horn"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0121", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.3d
+			subtitle: "A fera selvagem"
+			tasks: [{
+				entity: "ars_nouveau:wilden_chimera"
+				id: "2FEA12DC246E8B4F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Nível 4: Wilden Chimera"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F24854DC43DA2F9"]
+			description: [
+				"Hydra Hill na Floresta Crepuscular. Cabeças regeneram, dragões pequenos. Bom prep pra Ender Dragon."
+				""
+				"§eRecompensa:§r 55 níveis de XP + trofeu do chefe"
+			]
+			icon: "twilightforest:hydra_chop"
+			id: "37612FAA4E2B0097"
+			rewards: [
+				{
+					id: "70D884CB341503D7"
+					type: "xp"
+					xp: 6895
+				}
+				{
+					id: "2170680A6F4C5B17"
+					item: "twilightforest:hydra_chop"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0122", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.3d
+			subtitle: "Três cabeças, três terrores"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "55D99DE01BADD07D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Nível 5: Hydra"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37612FAA4E2B0097"]
+			description: [
+				"Torre Sombria na Floresta Crepuscular. Chefe final da Floresta Crepuscular."
+				""
+				"§eRecompensa:§r 70 níveis de XP + trofeu do chefe"
+			]
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "16D79B3A3A9C95FB"
+			rewards: [
+				{
+					id: "3F7D3139A642A0A2"
+					type: "xp"
+					xp: 12895
+				}
+				{
+					id: "4B5E1666CABEBE68"
+					item: "twilightforest:ur_ghast_trophy"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0123", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.3d
+			subtitle: "Senhor da Torre Escura"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "7382916A9EE9C133"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Nível 6: Ur-Ghast"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["16D79B3A3A9C95FB"]
+			description: [
+				"Cataclysm. Cidade Submersa. de nível dragão chefe com mecânicas únicas."
+				""
+				"§eRecompensa:§r 85 níveis de XP + trofeu do chefe"
+			]
+			icon: "cataclysm:ancient_metal_ingot"
+			id: "254D07FA5FF91291"
+			rewards: [
+				{
+					id: "10F7055FD02386DC"
+					type: "xp"
+					xp: 20920
+				}
+				{
+					id: "3B851693B3F90BC5"
+					item: "cataclysm:ancient_metal_ingot"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0124", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.3d
+			subtitle: "Dragão ancestral"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "4269ACD8EFDEF4F6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Nível 7: Ancient Remnant"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["254D07FA5FF91291"]
+			description: [
+				"Cataclysm. Tumba do Harbinger. Chefe final do nível máximo. Recompensas: abyssal_sacrifice (item-chave avançado)."
+				""
+				"§eRecompensa:§r 150 níveis de XP + trofeu do chefe"
+			]
+			icon: "cataclysm:abyssal_sacrifice"
+			id: "4E12A78689A458A2"
+			rewards: [
+				{
+					id: "153F4531B286BF28"
+					type: "xp"
+					xp: 79095
+				}
+				{
+					id: "193123A3EF4C64B5"
+					item: "cataclysm:abyssal_sacrifice"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0125", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.3d
+			subtitle: "Arauto do Fim — chefe final"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "6749DBEB81243765"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Nível 8: The Harbinger"
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7896F7D36063417E"]
+			description: [
+				"Chefe secundário da Floresta Crepuscular. Caverna em labirinto subterrâneo."
+				""
+				"§eRecompensa:§r 35 níveis de XP + item"
+			]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "3005D251021F3B39"
+			rewards: [
+				{
+					id: "71EC55F312221061"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "23DF136317226358"
+					item: "twilightforest:minoshroom_trophy"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Minotauro corrompido"
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "40B78AA31DCA567E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Secundário: Minoshroom"
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C4527C189F0544B"]
+			description: [
+				"Covil do Yeti no Floresta Nevada. Chefe intermediário."
+				""
+				"§eRecompensa:§r 45 níveis de XP + item"
+			]
+			icon: "twilightforest:alpha_yeti_fur"
+			id: "391FE107A7D08C5D"
+			rewards: [
+				{
+					id: "0419454ABE73CAFB"
+					type: "xp"
+					xp: 160
+				}
+				{
+					id: "5F0BC336DFEB6559"
+					item: "twilightforest:alpha_yeti_fur"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Rei do gelo"
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "3D42F77C632692EA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Secundário: Alpha Yeti"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["249B0D60EA056C60"]
+			description: [
+				"Versão difícil da Gaia. Invocada com 4 espírito de gaias. Recompensa: dragonstone."
+				""
+				"§eRecompensa:§r 80 níveis de XP + item"
+			]
+			icon: "botania:dragonstone"
+			id: "755599C495DADCB4"
+			rewards: [
+				{
+					id: "1E53827C20B693B5"
+					type: "xp"
+					xp: 160
+				}
+				{
+					id: "3918385ECC4DFB51"
+					item: "botania:dragonstone"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Modo hard mode"
+			tasks: [{
+				entity: "botania:doppleganger"
+				id: "3657C143013030E2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Secundário: Guardião de Gaia II"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F24854DC43DA2F9"]
+			description: [
+				"Chefe elemental terra. Aparece em planícies."
+				""
+				"§eRecompensa:§r 45 níveis de XP + item"
+			]
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			id: "6B3A9349E2EB52FE"
+			rewards: [
+				{
+					id: "62A1EFB965C2BC02"
+					type: "xp"
+					xp: 4020
+				}
+				{
+					id: "38744C3C20E2E493"
+					item: "bosses_of_mass_destruction:blazing_eye"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Punho das Plains"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				id: "346C6EB245571FC4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Secundário: BOMD Gauntlet"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["37612FAA4E2B0097"]
+			description: [
+				"Chefe elemental vazio. Aparece no End."
+				""
+				"§eRecompensa:§r 55 níveis de XP + item"
+			]
+			icon: "bosses_of_mass_destruction:obsidian_heart"
+			id: "569BD9E9F727948B"
+			rewards: [
+				{
+					id: "43C7D78260767451"
+					type: "xp"
+					xp: 6895
+				}
+				{
+					id: "1FDFBE9636CA21F4"
+					item: "bosses_of_mass_destruction:obsidian_heart"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Pilar do Vazio"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				id: "37C550AF29F56B28"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Secundário: BOMD Obsidilith"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["16D79B3A3A9C95FB"]
+			description: [
+				"Cataclysm. Bastion no Nether. Chefe alternativo do nível 6."
+				""
+				"§eRecompensa:§r 75 níveis de XP + item"
+			]
+			icon: "cataclysm:monstrous_horn"
+			id: "1D2BC1E862147C51"
+			rewards: [
+				{
+					id: "55B2752494B220EB"
+					type: "xp"
+					xp: 15345
+				}
+				{
+					id: "0180E59EC320500B"
+					item: "cataclysm:monstrous_horn"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Monstruosidade do Nether"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "31F362D223DB45B4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Secundário: Netherite Monstrosity"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["254D07FA5FF91291"]
+			description: [
+				"Cataclysm. Forja Ancestral no Nether. Recompensa: Ignitium ingot avançado."
+				""
+				"§eRecompensa:§r 75 níveis de XP + item"
+			]
+			icon: "cataclysm:ignitium_ingot"
+			id: "2CF62037B3A5C2F0"
+			rewards: [
+				{
+					id: "2C96E26C1B2D0BBC"
+					type: "xp"
+					xp: 15345
+				}
+				{
+					id: "2B526E047263EFC5"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Senhor das Forjas"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "72622AA99908C973"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Secundário: Ignis"
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["254D07FA5FF91291"]
+			description: [
+				"Cataclysm. Fábrica de Aço Manchado de Alma."
+				""
+				"§eRecompensa:§r 80 níveis de XP + item"
+			]
+			icon: "cataclysm:music_disc_maledictus"
+			id: "72625D28CAB980C6"
+			rewards: [
+				{
+					id: "7F391439885C3382"
+					type: "xp"
+					xp: 18020
+				}
+				{
+					id: "175C17AF338DF147"
+					item: "cataclysm:music_disc_maledictus"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "O Animatrônico Amaldiçoado"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "2733DB7AABAC3A95"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Secundário: Maledictus"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E12A78689A458A2"]
+			description: [
+				"Cataclysm. Cidade Submersa. Possivelmente o mais difícil do mod."
+				""
+				"§eRecompensa:§r 120 níveis de XP + item"
+			]
+			icon: "cataclysm:the_baby_leviathan_bucket"
+			id: "023FAE93A2B61CAC"
+			rewards: [
+				{
+					id: "25BFEC39F32BE756"
+					type: "xp"
+					xp: 47520
+				}
+				{
+					id: "512BD270ACA631D9"
+					item: "cataclysm:the_baby_leviathan_bucket"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Terror Abissal"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "438BEFA54014946C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Secundário: The Leviathan"
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37612FAA4E2B0097"]
+			description: [
+				"§5Fire Boss§r do Iron's Spells. Chefe secundário do nível 5."
+				""
+				"Aparece via §6Fire Apothecary§r ou estruturas de lava."
+				""
+				"§eRecompensa:§r 60 XP + 3 pergaminhos de fogo"
+			]
+			icon: "irons_spellbooks:scroll"
+			id: "6B1725A9C6B820C7"
+			rewards: [
+				{
+					id: "0572AF230A2998BE"
+					type: "xp"
+					xp: 8670
+				}
+				{
+					count: 3
+					id: "35117A9E9CCA1FFA"
+					item: "irons_spellbooks:scroll"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Iron's Spells — chefe de fogo"
+			tasks: [{
+				entity: "irons_spellbooks:fire_boss"
+				id: "51C4918B759FF08A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Secundário: Fire Boss"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["16D79B3A3A9C95FB"]
+			description: [
+				"§4The Dead King§r — chefe final do Iron's Spells, no tag #forge:bosses."
+				""
+				"Invocação manual via §6Corpo do Rei Morto§r ritual. Recompensas avançadas."
+				""
+				"§eRecompensa:§r 100 XP + Livro de Feitiços Lendário"
+			]
+			icon: "irons_spellbooks:dead_king_corpse_spawn_egg"
+			id: "49F3F5A01C6EADA5"
+			rewards: [
+				{
+					id: "2555C1232C2E2B01"
+					type: "xp"
+					xp: 30970
+				}
+				{
+					id: "0700112D169B0A71"
+					item: "irons_spellbooks:legendary_spell_book"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Iron's Spells — lich final"
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				id: "6C09C32CC7068B9A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Secundário: The Dead King"
+			x: 8.0d
+			y: 3.0d
+		}
+	]
+	title: "Progressão dos Chefes"
+}

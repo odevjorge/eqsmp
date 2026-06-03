@@ -1,0 +1,10 @@
+{
+  "_comment": "EQSMP #21: source_gem agora vem de mana_diamond via spirit_fire ritual (era lapis/amethyst no imbuement chamber). Resolve deadlock chamber-needs-source_gem.",
+  "type": "occultism:spirit_fire",
+  "ingredient": {
+    "item": "botania:mana_diamond"
+  },
+  "result": {
+    "item": "ars_nouveau:source_gem"
+  }
+}

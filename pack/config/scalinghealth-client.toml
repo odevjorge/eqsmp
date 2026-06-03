@@ -1,0 +1,25 @@
+
+#Settings for difficulty display, health rendering, and other client-side options.
+[difficulty]
+	#Display a warning to players trying to sleep, to remind them their difficulty may change. Sleeping is still allowed.
+	warnWhenSleeping = true
+	[difficulty.meter]
+		#When to show the difficulty meter.
+		#Allowed Values: ALWAYS, SOMETIMES, NEVER
+		show = "ALWAYS"
+		#Show the difficulty meter for this many seconds (only on SOMETIMES mode)
+		#Range: 1.0 ~ 30.0
+		showDuration = 4.0
+		[difficulty.meter.position]
+			#Position of the difficulty meter.
+			#Allowed Values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+			anchor = "BOTTOM_LEFT"
+			#Fine-tune the difficulty meter's position
+			#Range: > -2147483648
+			offsetX = 0
+			#Range: > -2147483648
+			offsetY = 0
+		[difficulty.meter.text]
+			#Scale of text on the difficulty meter
+			#Range: 0.05 ~ 4.0
+			scale = 1.0

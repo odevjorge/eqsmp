@@ -1,0 +1,174 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "preco_dos_pecados"
+	group: "3BC8F27B987E08F9"
+	icon: "minecraft:totem_of_undying"
+	id: "1DEF645C5EFC312B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["O mundo conheceu o &cfim&r. A &cganância&r, a guerra e os incontáveis &cpecados&r da humanidade corromperam a terra e quase a arrastaram à &4extinção total&r."]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "6588677E552899DC"
+			rewards: [{
+				id: "4A311535FA2E3770"
+				type: "xp"
+				xp: 55
+			} { id: "1A2B3C4D5E6F0135", table_id: 1885667171979165697L, type: "random" }]
+			size: 2.0d
+			tasks: [{
+				id: "71C1BC97C4C96893"
+				type: "checkmark"
+			}]
+			title: "A Quase-Extinção"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6588677E552899DC"]
+			description: [
+				"Quando toda esperança se apagava, a &dDeusa&r interveio. Ela &apoupou a humanidade&r da destruição final."
+				"Mas misericórdia &enão é&r o mesmo que perdão."
+			]
+			icon: "minecraft:totem_of_undying"
+			id: "1D5762182FF288D9"
+			rewards: [{
+				id: "692C7647883E9E1C"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "2B4DD7834EAF8759"
+				type: "checkmark"
+			}]
+			title: "A Dádiva da Deusa"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D5762182FF288D9"]
+			description: [
+				"Salvar não é &eisentar&r. A Deusa não livrou os mortais de &cpagar pelos seus pecados&r."
+				"O mundo renasceu &chostil&r: as criaturas ficam mais &cfortes a cada dia&r que passa. O começo será brutal."
+			]
+			icon: "minecraft:chain"
+			id: "74929077A84856C4"
+			rewards: [{
+				id: "5E2DEE349198AAED"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "52C0A7375115DBE2"
+				type: "checkmark"
+			}]
+			title: "A Justiça Cobra Seu Preço"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74929077A84856C4"]
+			description: [
+				"Como parte da penitência, a Deusa &etomou o gume&r das ferramentas forjadas pela mão mortal."
+				"Madeira, pedra, ferro, ouro, diamante e netherite &7perderam a força e a durabilidade&r. Elas ainda servem — mas mal."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1119A0C2942258B8"
+			rewards: [{
+				id: "1BA8C1F31863D78B"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "1085EF47061366F6"
+				type: "checkmark"
+			}]
+			title: "As Ferramentas Mortais"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1119A0C2942258B8"]
+			description: [
+				"A salvação está em &btranscender o comum&r. Ferramentas e armas além das mortais — &6Silent Gear&r, magia, engenharia — não carregam a maldição e batem &amais forte&r."
+				"Trilhe os &eCaminhos dos Mods&r e forje as suas."
+			]
+			icon: "minecraft:anvil"
+			id: "17D98576B8A56FF4"
+			rewards: [{
+				id: "1E0F67B9FC517BF4"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "24FF8885804BB40F"
+				type: "checkmark"
+			}]
+			title: "Forje o Seu Próprio Caminho"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17D98576B8A56FF4"]
+			description: [
+				"O começo será &cimplacável&r. Mas cada passo na progressão te aproxima da &dredenção&r."
+				"Pague seus pecados, fique mais forte, e prospere num mundo que não perdoa."
+			]
+			icon: "minecraft:nether_star"
+			id: "7CB21B243D585645"
+			rewards: [{
+				id: "68F8E46DD2B006DA"
+				type: "xp"
+				xp: 910
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "6FB978A63F47104A"
+				type: "checkmark"
+			}]
+			title: "Sobreviva à Penitência"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74929077A84856C4"]
+			description: [
+				"A Deusa pesa cada morte numa &dbalança invisível&r."
+				""
+				"Tirar a vida de criaturas &apacíficas ou neutras&r — os inocentes — é &cpecado&r: o mundo fica &cmais difícil&r (a dificuldade do Scaling Health sobe)."
+				""
+				"Abater os &cmonstros hostis&r é &epenitência&r: a dificuldade &acede&r um pouco."
+				""
+				"Mortes em sequência criam &6momentum&r — uma trilha de pecados pesa cada vez mais, e uma caçada constante de monstros acalma o mundo aos poucos."
+			]
+			icon: "minecraft:bell"
+			id: "2A7F0C13B5E64D88"
+			rewards: [{
+				id: "3C1E5A9077B24F60"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "4B82D6E190A3C755"
+				type: "checkmark"
+			}]
+			title: "A Balança da Deusa"
+			x: -1.5d
+			y: 2.0d
+		}
+	]
+	title: "O Preço dos Pecados"
+}

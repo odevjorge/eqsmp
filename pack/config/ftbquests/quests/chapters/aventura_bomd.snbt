@@ -1,0 +1,186 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "aventura_bomd"
+	group: "51486254BB46A86A"
+	icon: "bosses_of_mass_destruction:soul_star"
+	id: "6E5027BF55B458C1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"§9BOMD§r adiciona 4 chefes únicos, cada um em um bioma específico:"
+				""
+				"§7- Gauntlet — Plains/Savanna"
+				"§7- Lich — Snowy biomes"
+				"§7- Obsidilith — End"
+				"§7- Void Blossom — Ilhas Cogumelo"
+				""
+				"Cada um cai uma Soul Star — material avançado raro."
+			]
+			icon: "bosses_of_mass_destruction:soul_star"
+			id: "3C75FD2842D5A444"
+			rewards: [{
+				id: "3D8397A07A3E0255"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.5d
+			subtitle: "4 chefes elementais"
+			tasks: [{
+				id: "7A4E801B61020021"
+				item: "bosses_of_mass_destruction:blazing_eye"
+				type: "item"
+			}]
+			title: "Bosses of Mass Destruction"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C75FD2842D5A444"]
+			description: [
+				"Aparece em planícies. Chefe corpo a corpo, multi-fase."
+				""
+				"§eRecompensa:§r 35 níveis de XP + essência elementar"
+			]
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			id: "6B87A1AD464A0A60"
+			rewards: [
+				{
+					id: "32EC147EB3FF3E18"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "349E2E5E3AA36122"
+					item: "bosses_of_mass_destruction:blazing_eye"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F0109", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Punho das Plains"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				id: "49E8BD3DA9F3C4F1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Derrote o Gauntlet"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C75FD2842D5A444"]
+			description: [
+				"Aparece em biomas nevados. Convoca skeletons."
+				""
+				"§eRecompensa:§r 40 níveis de XP + essência elementar"
+			]
+			icon: {
+				Count: 1
+				id: "bosses_of_mass_destruction:earthdive_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "64D174A7341C9E7E"
+			rewards: [
+				{
+					id: "2BB13BE00A83736C"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "5A6CA0061CA31118"
+					item: {
+						Count: 1
+						id: "bosses_of_mass_destruction:earthdive_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F010A", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Necromante de Gelo"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				id: "562BCE999F28186B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Derrote o Lich (BOMD)"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C75FD2842D5A444"]
+			description: [
+				"Aparece no End. Projeteis múltiplos."
+				""
+				"§eRecompensa:§r 45 níveis de XP + essência elementar"
+			]
+			icon: "bosses_of_mass_destruction:obsidian_heart"
+			id: "7AB96DD073843E0C"
+			rewards: [
+				{
+					id: "1FF60076FD3817C2"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "14750E4BB3E26784"
+					item: "bosses_of_mass_destruction:obsidian_heart"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F010B", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Pilar do Vazio"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				id: "71C00D6EF9610E08"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Derrote o Obsidilith"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C75FD2842D5A444"]
+			description: [
+				"Aparece em Ilhas Cogumelo. Sporos e tentaculos."
+				""
+				"§eRecompensa:§r 40 níveis de XP + essência elementar"
+			]
+			icon: "bosses_of_mass_destruction:void_thorn"
+			id: "00A295065AD2C817"
+			rewards: [
+				{
+					id: "0A416F6DB1C39EAD"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "01128AA3BC246D29"
+					item: "bosses_of_mass_destruction:void_thorn"
+					type: "item"
+				}
+			 { id: "1A2B3C4D5E6F010C", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Flor do Vazio"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				id: "51EAD1D8C4876960"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Derrote a Void Blossom"
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "Bosses of Mass Destruction"
+}

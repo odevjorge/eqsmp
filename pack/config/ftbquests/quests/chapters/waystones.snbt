@@ -1,0 +1,333 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "waystones"
+	group: "4677C57609F8F102"
+	icon: "waystones:waystone"
+	id: "4B86B4795DBE84EF"
+	order_index: 8
+	quest_links: []
+	quests: [
+		{
+			description: ["Ative uma §eWaystone§r pra criar pontos de viagem rápida."]
+			icon: "waystones:waystone"
+			id: "5308482D02A79856"
+			rewards: [
+				{
+					id: "62719E91FA39081C"
+					type: "xp"
+					xp: 55
+				}
+			 { id: "1A2B3C4D5E6F0134", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.5d
+			subtitle: "§2Rede de teleporte§r"
+			tasks: [
+				{
+					id: "5AA2BC1F13A53E47"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			title: "Pedra de Viagem"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5308482D02A79856"]
+			icon: "waystones:mossy_waystone"
+			id: "53C02F9EA32FB8B2"
+			description: [
+				"A §eWaystone Musgosa§r é uma variante §bestética§r da pedra de viagem."
+				""
+				"§7•§r Ative-a e ela entra na sua rede de §6teleporte§r entre waystones."
+				"§7•§r Mesma função da waystone comum, com visual coberto de musgo."
+			]
+			rewards: [
+				{
+					id: "24055F7CA308CF61"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			subtitle: "Variante"
+			tasks: [
+				{
+					id: "56640EEA4FBFF2E4"
+					item: "waystones:mossy_waystone"
+					type: "item"
+				}
+			]
+			title: "Waystone Musgosa"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5308482D02A79856"]
+			icon: "waystones:sandy_waystone"
+			id: "30DACF0F1200FFD0"
+			description: [
+				"A §eWaystone de Areia§r é a variante §bestética§r perfeita para bases no §6deserto§r."
+				""
+				"§7•§r Ative-a e teleporte-se entre ela e qualquer outra waystone da rede."
+				"§7•§r Função idêntica à waystone padrão, só muda o visual arenoso."
+			]
+			rewards: [
+				{
+					id: "614EA71FA878B753"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			subtitle: "Deserto"
+			tasks: [
+				{
+					id: "68177E6EA6CDAB21"
+					item: "waystones:sandy_waystone"
+					type: "item"
+				}
+			]
+			title: "Waystone de Areia"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5308482D02A79856"]
+			icon: "waystones:return_scroll"
+			id: "5624CD07174A4AD7"
+			description: [
+				"O §ePergaminho de Retorno§r te leva de volta à §6waystone mais próxima§r."
+				""
+				"§7•§r É §cconsumível§r: cada uso gasta um pergaminho."
+				"§7•§r Ideal como volta rápida para casa depois de uma expedição."
+			]
+			rewards: [
+				{
+					id: "563D228E67F6FE8B"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			subtitle: "Volta pra waystone mais próxima"
+			tasks: [
+				{
+					id: "7F98A8DBB1C9E4C5"
+					item: "waystones:return_scroll"
+					type: "item"
+				}
+			]
+			title: "Pergaminho de Retorno"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5624CD07174A4AD7"]
+			icon: "waystones:warp_scroll"
+			id: "7F5912748974A533"
+			description: [
+				"O §ePergaminho de Salto§r te leva a §bqualquer waystone§r que você já tenha ativado."
+				""
+				"§7•§r É §2reutilizável§r, mas entra em §6cooldown§r após cada viagem."
+				"§7•§r O passe livre para se mover pela sua rede de teleporte."
+			]
+			rewards: [
+				{
+					id: "14936C9AD56BF668"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			subtitle: "Viaja pra qualquer waystone"
+			tasks: [
+				{
+					id: "02EB8A586E19C030"
+					item: "waystones:warp_scroll"
+					type: "item"
+				}
+			]
+			title: "Pergaminho de Salto"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7F5912748974A533"]
+			icon: "waystones:bound_scroll"
+			id: "05CD90901501D6D7"
+			description: [
+				"O §ePergaminho Vinculado§r fica §bfixado§r numa waystone específica de sua escolha."
+				""
+				"§7•§r Sempre te leva ao mesmo destino, sem precisar abrir a lista."
+				"§7•§r Perfeito para uma rota direta e constante até um ponto-chave."
+			]
+			rewards: [
+				{
+					id: "49330A2B1CD8C57C"
+					type: "xp"
+					xp: 160
+				}
+			]
+			size: 1.0d
+			subtitle: "Ligado a uma waystone fixa"
+			tasks: [
+				{
+					id: "65EF3B83151A7EB1"
+					item: "waystones:bound_scroll"
+					type: "item"
+				}
+			]
+			title: "Pergaminho Vinculado"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5308482D02A79856"]
+			description: ["Item recarregável — não gasta como pergaminho."]
+			icon: {
+				Count: 1b
+				id: "waystones:warp_stone"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D3EC01F11CE2101"
+			rewards: [
+				{
+					id: "6C5CF79B4E634CB8"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			subtitle: "Teleporte reutilizável"
+			tasks: [
+				{
+					id: "586B678E1044B600"
+					item: {
+						Count: 1b
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Pedra de Salto"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5308482D02A79856"]
+			description: ["Rede separada da das waystones globais."]
+			icon: "waystones:sharestone"
+			id: "4522A9903A053E1E"
+			rewards: [
+				{
+					id: "409E91CCA60DD478"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			subtitle: "Rede compartilhada"
+			tasks: [
+				{
+					id: "40510CAB3BC7C528"
+					item: "waystones:sharestone"
+					type: "item"
+				}
+			]
+			title: "Sharestone"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4522A9903A053E1E"]
+			description: ["O §6Fragmento Sintonizado§r vincula Placas de Teletransporte entre si, formando uma rede de teleporte com escopo de destinos."]
+			icon: "waystones:attuned_shard"
+			id: "10ECCC51CDCDAB60"
+			rewards: [
+				{
+					id: "17FF1C33B68AF7F8"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			subtitle: "Vincule seus Placas de Teletransporte numa rede"
+			tasks: [
+				{
+					id: "39BE049D7E51055C"
+					item: "waystones:attuned_shard"
+					type: "item"
+				}
+			]
+			title: "Fragmento Sintonizado"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D3EC01F11CE2101"]
+			icon: "waystones:warp_plate"
+			id: "7E56147AB9F34877"
+			description: [
+				"A §ePlaca de Salto§r teleporta §bautomaticamente§r quem pisar nela."
+				""
+				"§7•§r Vincule-a a uma waystone de destino e basta pisar para viajar."
+				"§7•§r Ótima para automatizar rotas e atalhos pela base."
+			]
+			rewards: [
+				{
+					id: "74E0B7E52E5CA35E"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			subtitle: "Teleporte automático ao pisar"
+			tasks: [
+				{
+					id: "0AF0C77CF5F8B9E9"
+					item: "waystones:warp_plate"
+					type: "item"
+				}
+			]
+			title: "Placa de Salto"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4522A9903A053E1E"]
+			icon: "waystones:portstone"
+			id: "2E260FC5FFEB8CCF"
+			description: [
+				"O §ePortstone§r é um receptor de teleporte §6privado§r."
+				""
+				"§7•§r Diferente da waystone, ele §cnão aparece§r na lista global de destinos."
+				"§7•§r Use para criar pontos pessoais e discretos, acessíveis só por pergaminhos vinculados."
+			]
+			rewards: [
+				{
+					id: "3C2707A44B71A6EA"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "2DD2147537D0C2A5"
+					item: "waystones:portstone"
+					type: "item"
+				}
+			]
+			title: "Portstone"
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "Waystones — Caminho do Viajante"
+}

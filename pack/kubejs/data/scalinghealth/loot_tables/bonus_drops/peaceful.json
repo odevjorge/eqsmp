@@ -1,0 +1,61 @@
+{
+  "_comment": "EQSMP override: blight de mob pacífico não dropa mais heart_crystal/power_crystal INTEIRO, só shards. Pools 1 (shards normais) e 2 (cursed_heart) mantidos como o default. 9 shards = 1 heart_crystal.",
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        { "chance": 0.055, "condition": "minecraft:random_chance_with_looting", "looting_multiplier": 0.005 },
+        { "condition": "minecraft:killed_by_player" }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [ { "add": false, "count": { "type": "minecraft:uniform", "max": 8.0, "min": 1.0 }, "function": "minecraft:set_count" } ],
+          "name": "scalinghealth:heart_crystal_shard",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [ { "add": false, "count": { "type": "minecraft:uniform", "max": 5.0, "min": 0.0 }, "function": "minecraft:set_count" } ],
+          "name": "scalinghealth:power_crystal_shard"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        { "chance": 0.015, "condition": "minecraft:random_chance_with_looting", "looting_multiplier": 0.025 }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "functions": [ { "add": false, "count": 1.0, "function": "minecraft:set_count" } ], "name": "scalinghealth:cursed_heart" }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "_comment": "BLIGHT pacífico: só shards (era crystal inteiro).",
+      "bonus_rolls": 0.0,
+      "conditions": [
+        { "condition": "scalinghealth:mob_properties", "difficulty": { "max": 2147483650.0, "min": 0.0 }, "entity": "this", "is_blight": true },
+        { "condition": "minecraft:killed_by_player" }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [ { "add": false, "count": { "type": "minecraft:uniform", "max": 6.0, "min": 2.0 }, "function": "minecraft:set_count" } ],
+          "name": "scalinghealth:heart_crystal_shard",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [ { "add": false, "count": { "type": "minecraft:uniform", "max": 3.0, "min": 1.0 }, "function": "minecraft:set_count" } ],
+          "name": "scalinghealth:power_crystal_shard",
+          "weight": 2
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "scalinghealth:bonus_drops/peaceful"
+}

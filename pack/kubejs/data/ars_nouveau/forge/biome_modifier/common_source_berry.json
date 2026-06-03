@@ -1,0 +1,4 @@
+{
+  "_comment": "EQSMP F1 gate: sourceberry NAO spawna mais naturalmente. Override do biome modifier do Ars Nouveau com lista de biomas VAZIA, anulando o forge:add_features. Sourceberry so via petal_apothecary.",
+  "type": "forge:none"
+}

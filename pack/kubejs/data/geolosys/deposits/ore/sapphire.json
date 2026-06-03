@@ -1,0 +1,25 @@
+{
+  "type": "geolosys:deposit_sparse",
+  "config": {
+    "yMin": -64,
+    "yMax": 296,
+    "size": 7,
+    "spread": 12,
+    "biomeTag": "#minecraft:is_overworld",
+    "blocks": {
+      "default": [
+        {
+          "block": "alltheores:sapphire_ore",
+          "chance": 1.0
+        }
+      ],
+      "minecraft:deepslate": [
+        {
+          "block": "alltheores:deepslate_sapphire_ore",
+          "chance": 1.0
+        }
+      ]
+    },
+    "generationWeight": 2
+  }
+}

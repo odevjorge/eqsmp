@@ -1,0 +1,4 @@
+{
+  "_comment": "EQSMP: desativa geracao de veios do AllTheOres (Geolosys e a fonte de minerio). Override forge:none anula o add_features original.",
+  "type": "forge:none"
+}

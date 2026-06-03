@@ -1,0 +1,13 @@
+name = "Silent Gear"
+filename = "silent-gear-1.20.1-3.6.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/73mSSnCf/versions/2Chvw4VA/silent-gear-1.20.1-3.6.7.jar"
+hash-format = "sha512"
+hash = "b1d3d30e20aa95672425de2d503c686157108e7541e70ca9742f228887c3092aa1a5099aa64c9f15f737a7b5c317a974db6a42d25a424af2a1a9b831b3fefeeb"
+
+[update]
+[update.modrinth]
+mod-id = "73mSSnCf"
+version = "2Chvw4VA"

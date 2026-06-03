@@ -1,0 +1,20 @@
+{
+  "__comment": "Override EQSMP: a tabela original referenciava 'quark:abacus', mas o Quark NAO esta instalado neste pack, fazendo a tabela falhar no parse (bau do banco da vila saia vazio). Trocado por uma moeda de ouro do proprio Lightman's Currency — tematico pra um banco e item garantido de existir.",
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "lightmanscurrency:coin_gold",
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1.0, "max": 4.0 } }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "lightmanscurrency:chest/village/idas_taiga_large_bank"
+}

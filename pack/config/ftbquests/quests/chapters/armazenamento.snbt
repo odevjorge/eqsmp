@@ -1,0 +1,836 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armazenamento"
+	group: "4677C57609F8F102"
+	icon: "sophisticatedstorage:netherite_chest"
+	id: "62FE60D6D509B71B"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Crie sua primeira §eMochila§r — armazenamento que anda com você."]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "530E5A90C40E638B"
+			rewards: [{
+				id: "1BBFF279506A8676"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.5d
+			subtitle: "§2Bolsos extras§r"
+			tasks: [{
+				id: "015D27F78EDA1EDC"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Mochila"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["530E5A90C40E638B"]
+			icon: "sophisticatedbackpacks:copper_backpack"
+			id: "14CD28F6A9C0C904"
+			description: [
+				"A primeira mochila de verdade, com bem mais espaço que a de couro."
+				"§7•§r Já aceita §eUpgrades§r, então é a base de todo o resto."
+				"Clique com ela na mão pra abrir em qualquer lugar."
+			]
+			rewards: [{
+				id: "1A7514BC4F106D9C"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			subtitle: "Mais espaço"
+			tasks: [{
+				id: "5C1D3E7E1825DE67"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			title: "Mochila de Cobre"
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["14CD28F6A9C0C904"]
+			icon: "sophisticatedbackpacks:iron_backpack"
+			id: "6D3B3AAF1A90F782"
+			description: [
+				"Sobe a §eMochila de Cobre§r um degrau: mais slots e mais slots de upgrade."
+				"§7•§r Crafte cercando a mochila anterior com ferro."
+				"Bom companheiro pra mineração e expedições médias."
+			]
+			rewards: [{
+				id: "7047E1A0EE4FE726"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7CE5A87A6E15DBC1"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			title: "Mochila de Ferro"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6D3B3AAF1A90F782"]
+			icon: "sophisticatedbackpacks:gold_backpack"
+			id: "7BF20FCBE6AE7B5C"
+			description: [
+				"A §eMochila de Ouro§r amplia ainda mais o inventário e os upgrades disponíveis."
+				"§7•§r Feita a partir da Mochila de Ferro."
+				"O degrau intermediário antes do diamante."
+			]
+			rewards: [{
+				id: "7B4DE2414F043B6F"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "5D5E9B95FF3F2575"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			title: "Mochila de Ouro"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7BF20FCBE6AE7B5C"]
+			icon: "sophisticatedbackpacks:diamond_backpack"
+			id: "016C26968B073CC3"
+			description: [
+				"Capacidade enorme e muitos slots de §eupgrade§r ao mesmo tempo."
+				"§7•§r Aqui dá pra empilhar coleta, ímã, fundição e mais sem apertar."
+				"O salto que transforma a mochila num sistema de logística ambulante."
+			]
+			rewards: [{
+				id: "7B252BACDC042861"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "57A3FF41D3263256"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			title: "Mochila de Diamante"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["016C26968B073CC3"]
+			icon: "sophisticatedbackpacks:netherite_backpack"
+			id: "4E788DD700E567A5"
+			description: [
+				"O §6topo§r da linha: capacidade máxima e §eà prova de lava e fogo§r."
+				"§7•§r Suas coisas sobrevivem mesmo se você cair num lago de lava."
+				"Vale o netherite — é a última mochila que você vai precisar craftar."
+			]
+			rewards: [{
+				id: "1486CCA822492E23"
+				type: "xp"
+				xp: 1395
+			} { id: "1A2B3C4D5E6F0128", table_id: 1885667171979165697L, type: "random" }]
+			size: 1.0d
+			subtitle: "Topo das mochilas"
+			tasks: [{
+				id: "27003464FB2526EF"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			title: "Mochila de Netherite"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["530E5A90C40E638B"]
+			icon: "sophisticatedbackpacks:pickup_upgrade"
+			id: "4D21AAF1A5BEF6EC"
+			description: [
+				"Pega automaticamente os itens que caem no chão e guarda na mochila."
+				"§7•§r Configure os filtros pra escolher o que entra e o que ignora."
+				"Mineração sem parar pra catar drop do chão."
+			]
+			rewards: [{
+				id: "3F9215F24F79C958"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			subtitle: "Pega itens do chão"
+			tasks: [{
+				id: "0052023F27EE8A19"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			title: "Melhoria: Coleta"
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4D21AAF1A5BEF6EC"]
+			icon: "sophisticatedbackpacks:magnet_upgrade"
+			id: "156570B45AB0518D"
+			description: [
+				"Como a §eColeta§r, mas atrai itens e XP de §blonge§r até você."
+				"§7•§r O raio é bem maior — limpa o chão de uma área inteira."
+				"Cuidado pra não puxar o que você não quer; use os filtros."
+			]
+			rewards: [{
+				id: "4BD1293F11A57C9F"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			subtitle: "Atrai itens de longe"
+			tasks: [{
+				id: "537561881DCEB005"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			title: "Melhoria: Ímã"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6D3B3AAF1A90F782"]
+			icon: "sophisticatedbackpacks:compacting_upgrade"
+			id: "14CE03D862C378EC"
+			description: [
+				"Junta automaticamente itens em blocos: nuggets viram ingots, ingots viram blocos."
+				"§7•§r Economiza espaço guardando tudo já compactado."
+				"Ótimo pra mineração de recursos em massa."
+			]
+			rewards: [{
+				id: "68592A52DAA353D8"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			subtitle: "Vira blocos automaticamente"
+			tasks: [{
+				id: "6ACE2D597452F1B7"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+				type: "item"
+			}]
+			title: "Melhoria: Compactação"
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7BF20FCBE6AE7B5C"]
+			icon: "sophisticatedbackpacks:auto_smelting_upgrade"
+			id: "75560E86A21DAD18"
+			description: [
+				"§eFunde§r minérios e comidas enquanto você carrega a mochila."
+				"§7•§r Precisa de combustível, igual a uma fornalha normal."
+				"Pegue o minério na coleta e ele já sai fundido pronto pra usar."
+			]
+			rewards: [{
+				id: "55E6A7B24A553710"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			subtitle: "Funde enquanto carrega"
+			tasks: [{
+				id: "3A8DC0A706BEBEBA"
+				item: "sophisticatedbackpacks:auto_smelting_upgrade"
+				type: "item"
+			}]
+			title: "Melhoria: Auto-Fundição"
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["016C26968B073CC3"]
+			icon: "sophisticatedbackpacks:crafting_upgrade"
+			id: "44C263A885C4364B"
+			description: [
+				"Adiciona uma grade de §ecrafting§r dentro da própria mochila."
+				"§7•§r Crafte usando os itens guardados, sem precisar de bancada."
+				"Combine com Compactação e você vira uma fábrica andante."
+			]
+			rewards: [{
+				id: "1F108287BCBBC32E"
+				type: "xp"
+				xp: 550
+			}]
+			size: 1.0d
+			subtitle: "Craft na mochila"
+			tasks: [{
+				id: "596D04B24C46ED51"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			title: "Melhoria: Bancada"
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D3B3AAF1A90F782"]
+			icon: "sophisticatedbackpacks:feeding_upgrade"
+			id: "314CA09B4DF07ECD"
+			description: [
+				"Te §ealimenta automaticamente§r usando a comida guardada na mochila."
+				"§7•§r Configure os filtros pra escolher o que pode ser comido."
+				"Nunca mais morra de fome no meio de uma masmorra."
+			]
+			rewards: [{
+				id: "04CBF00EE7A9A051"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			subtitle: "Come sozinho"
+			tasks: [{
+				id: "6CC13672BAC5E56F"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			title: "Melhoria: Alimentação"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["016C26968B073CC3"]
+			icon: "sophisticatedbackpacks:void_upgrade"
+			id: "23B6CC80F93CBE7A"
+			description: [
+				"§cJoga fora§r os itens que você marcar no filtro, assim que entram."
+				"§7•§r Perfeito pra descartar pedregulho e lixo durante a mineração."
+				"Use com cuidado: o que cai aqui some de vez."
+			]
+			rewards: [{
+				id: "451CD8207B618044"
+				type: "xp"
+				xp: 315
+			}]
+			size: 1.0d
+			subtitle: "Joga fora o lixo filtrado"
+			tasks: [{
+				id: "7D7A0D27ED28A813"
+				item: "sophisticatedbackpacks:void_upgrade"
+				type: "item"
+			}]
+			title: "Melhoria: Descarte"
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			description: ["O §eBaú Sofisticado§r aceita melhorias e níveis."]
+			icon: "sophisticatedstorage:chest"
+			id: "58A260CB8418E4F1"
+			rewards: [{
+				id: "3427593633A9ED23"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.5d
+			subtitle: "§2Baús turbinados§r"
+			tasks: [{
+				id: "379F851D4CE17A4C"
+				item: "sophisticatedstorage:chest"
+				type: "item"
+			}]
+			title: "Baú Sofisticado"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58A260CB8418E4F1"]
+			icon: "sophisticatedstorage:barrel"
+			id: "78CA4F614D45C40A"
+			description: [
+				"O bloco de armazenamento básico do Sophisticated Storage."
+				"§7•§r Aceita §eupgrades§r e melhorias de nível, igual às mochilas."
+				"Comece simples e suba a capacidade conforme precisar."
+			]
+			rewards: [{
+				id: "1A2B33E95CA32424"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "2D39F14D651B8B44"
+				item: "sophisticatedstorage:barrel"
+				type: "item"
+			}]
+			title: "Barril Sofisticado"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58A260CB8418E4F1"]
+			icon: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+			id: "71E123832BF54B46"
+			description: [
+				"Aplica essa melhoria num baú ou barril pra subir o §enível§r dele."
+				"§7•§r Cada nível adiciona mais slots de armazenamento."
+				"Há uma escada de níveis: cobre, ferro, ouro, diamante e netherite."
+			]
+			rewards: [{
+				id: "7E5B0D73EB9536D0"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			subtitle: "Aumenta a capacidade"
+			tasks: [{
+				id: "6B115BDFF43D40F2"
+				item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+				type: "item"
+			}]
+			title: "Melhoria de Nível"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71E123832BF54B46"]
+			icon: "sophisticatedstorage:copper_chest"
+			id: "0C8A6271B4E039EE"
+			description: [
+				"Um baú com §emais capacidade§r que o de madeira e que aceita upgrades."
+				"§7•§r Pode ainda subir de nível com as melhorias de tier."
+				"O começo de um sistema de baús de verdade."
+			]
+			rewards: [{
+				id: "465130B3F4274E45"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "5319328F11B81CF4"
+				item: "sophisticatedstorage:copper_chest"
+				type: "item"
+			}]
+			title: "Baú de Cobre"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C8A6271B4E039EE"]
+			icon: "sophisticatedstorage:iron_chest"
+			id: "6EE1FA9F18DE52F4"
+			description: [
+				"Sobe o §eBaú de Cobre§r um degrau, com ainda mais slots."
+				"§7•§r Aceita os mesmos upgrades de coleta, filtro e exibição."
+				"Bom pra organizar uma sala de estoque crescente."
+			]
+			rewards: [{
+				id: "6DBD156020EC00EB"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "5CE50B00B700BE61"
+				item: "sophisticatedstorage:iron_chest"
+				type: "item"
+			}]
+			title: "Baú de Ferro"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6EE1FA9F18DE52F4"]
+			icon: "sophisticatedstorage:diamond_chest"
+			id: "593F35F2A58DB752"
+			description: [
+				"Capacidade alta e vários slots de §eupgrade§r ao mesmo tempo."
+				"§7•§r Ideal pro armazém central da sua base."
+				"Combine com o Controller pra acessar tudo de um ponto só."
+			]
+			rewards: [{
+				id: "74C3E6D530E12897"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "69DE97132CA31353"
+				item: "sophisticatedstorage:diamond_chest"
+				type: "item"
+			}]
+			title: "Baú de Diamante"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["593F35F2A58DB752"]
+			icon: "sophisticatedstorage:netherite_chest"
+			id: "675EA51F2647972A"
+			description: [
+				"O §6topo§r dos baús: capacidade máxima e §eà prova de fogo§r."
+				"§7•§r O baú definitivo pra guardar tudo o que importa."
+				"Sobreviva a explosões e lava sem perder o estoque."
+			]
+			rewards: [{
+				id: "39468DC50A62E226"
+				type: "xp"
+				xp: 1395
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "6BCD15CCAEE9ABDF"
+				item: "sophisticatedstorage:netherite_chest"
+				type: "item"
+			}]
+			title: "Baú de Netherite"
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0C8A6271B4E039EE"]
+			icon: "sophisticatedstorage:copper_shulker_box"
+			id: "0150F38BD9453295"
+			description: [
+				"Um shulker box turbinado: §eportátil§r e aceita upgrades."
+				"§7•§r Leve o conteúdo com você e ainda use coleta ou filtros dentro dele."
+				"Junta o melhor do shulker com o sistema Sophisticated."
+			]
+			rewards: [{
+				id: "6372FEFB0DDAC979"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			subtitle: "Portátil e melhorável"
+			tasks: [{
+				id: "114D40D21360BDFE"
+				item: "sophisticatedstorage:copper_shulker_box"
+				type: "item"
+			}]
+			title: "Shulker de Cobre"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["593F35F2A58DB752"]
+			icon: "sophisticatedstorage:controller"
+			id: "3A7667F2D9CD57A3"
+			description: [
+				"Liga vários baús e barris num só ponto de acesso."
+				"§7•§r Encoste os blocos de armazenamento no Controller pra unificá-los."
+				"Acesse todo o estoque conectado abrindo apenas um bloco."
+			]
+			rewards: [{
+				id: "3B0FD523F0A70ECE"
+				type: "xp"
+				xp: 910
+			}]
+			size: 1.0d
+			subtitle: "Liga vários baús"
+			tasks: [{
+				id: "02616DDCA88404B5"
+				item: "sophisticatedstorage:controller"
+				type: "item"
+			}]
+			title: "Armazenamento Controller"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			description: ["§eGavetas§r guardam MUITO de um item só."]
+			icon: "storagedrawers:oak_full_drawers_1"
+			id: "6994F02B064C263C"
+			rewards: [{
+				id: "30923BE844FCB289"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.5d
+			subtitle: "§2Estoque organizado§r"
+			tasks: [{
+				id: "61FC8A4CD0F0289C"
+				item: "storagedrawers:oak_full_drawers_1"
+				type: "item"
+			}]
+			title: "Gaveta (1 espaço)"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6994F02B064C263C"]
+			icon: "storagedrawers:oak_full_drawers_2"
+			id: "253C4CA48256ACB6"
+			description: [
+				"Uma gaveta com §e2 espaços§r, cada um guarda um tipo de item em grande quantidade."
+				"§7•§r Clique pra inserir, clique de novo pra tirar uma unidade."
+				"A base da organização visual com Storage Drawers."
+			]
+			rewards: [{
+				id: "5C6B7D6FBE95F95E"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7B178356F45B1C81"
+				item: "storagedrawers:oak_full_drawers_2"
+				type: "item"
+			}]
+			title: "Gaveta (2 espaços)"
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["253C4CA48256ACB6"]
+			icon: "storagedrawers:oak_full_drawers_4"
+			id: "2EA04765C5A1F88C"
+			description: [
+				"Como a gaveta de 2, mas com §e4 espaços§r no mesmo bloco."
+				"§7•§r Mais tipos de item por bloco, ótimo pra economizar parede."
+				"Cada espaço ainda segura uma pilha enorme do mesmo item."
+			]
+			rewards: [{
+				id: "44002622342512F3"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "5A2A31377FC9984D"
+				item: "storagedrawers:oak_full_drawers_4"
+				type: "item"
+			}]
+			title: "Gaveta (4 espaços)"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6994F02B064C263C"]
+			icon: "storagedrawers:oak_half_drawers_2"
+			id: "3BA9C2299B88C42E"
+			description: [
+				"Gavetas menores, pensadas pra §eitens pequenos§r e variados."
+				"§7•§r Mesma ideia, mas com mais divisões e menor capacidade por slot."
+				"Bom pra organizar matéria-prima miúda."
+			]
+			rewards: [{
+				id: "7F758E8413C081BE"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			subtitle: "Itens pequenos"
+			tasks: [{
+				id: "2543907BFE0C7B59"
+				item: "storagedrawers:oak_half_drawers_2"
+				type: "item"
+			}]
+			title: "Meia-Gaveta"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2EA04765C5A1F88C"]
+			icon: "storagedrawers:compacting_drawers_2"
+			id: "1D8C001F1FD16C14"
+			description: [
+				"Guarda os três formatos juntos: §enugget§r, §eingot§r e §ebloco§r."
+				"§7•§r Coloca ingot e ela já converte sozinha entre as formas."
+				"Acabou o vai-e-vem de craftar blocos só pra guardar."
+			]
+			rewards: [{
+				id: "0C994D1C5AACBD3C"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			subtitle: "Bloco/ingot/nugget juntos"
+			tasks: [{
+				id: "16988EC571453DB5"
+				item: "storagedrawers:compacting_drawers_2"
+				type: "item"
+			}]
+			title: "Gaveta Compactadora"
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6994F02B064C263C"]
+			icon: "storagedrawers:drawer_key"
+			id: "43E7D757BA81444E"
+			description: [
+				"§eTranca§r o conteúdo da gaveta no tipo de item atual."
+				"§7•§r Mesmo vazia, a gaveta continua reservada pra aquele item."
+				"Evita que você guarde a coisa errada por engano."
+			]
+			rewards: [{
+				id: "597831158AF903BE"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			subtitle: "Tranca o conteúdo"
+			tasks: [{
+				id: "5AF2F355E45E778A"
+				item: "storagedrawers:drawer_key"
+				type: "item"
+			}]
+			title: "Chave de Gaveta"
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43E7D757BA81444E"]
+			icon: "storagedrawers:personal_key"
+			id: "44FC81F643639B8D"
+			description: [
+				"Vincula a gaveta a §evocê§r: só o dono consegue abrir e usar."
+				"§7•§r Protege seu estoque em servidor de outros jogadores."
+				"Ideal pra baús e gavetas com itens valiosos."
+			]
+			rewards: [{
+				id: "03C5EA14E07552B5"
+				type: "xp"
+				xp: 55
+			}]
+			size: 1.0d
+			subtitle: "Só você abre"
+			tasks: [{
+				id: "4CB904DA3B2DD53D"
+				item: "storagedrawers:personal_key"
+				type: "item"
+			}]
+			title: "Chave Pessoal"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2EA04765C5A1F88C"]
+			icon: "storagedrawers:copper_storage_upgrade"
+			id: "77C54F4775B47880"
+			description: [
+				"Aplica numa gaveta pra §eaumentar a capacidade§r de cada espaço."
+				"§7•§r O upgrade de cobre é o primeiro degrau acima do padrão."
+				"Empilhe upgrades pra guardar muito mais do mesmo item."
+			]
+			rewards: [{
+				id: "64F265E8FA3258C6"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			subtitle: "+ capacidade"
+			tasks: [{
+				id: "4C180100F8043591"
+				item: "storagedrawers:copper_storage_upgrade"
+				type: "item"
+			}]
+			title: "Melhoria de Estoque (Cobre)"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["77C54F4775B47880"]
+			icon: "storagedrawers:iron_storage_upgrade"
+			id: "2B153572BFCC5FCB"
+			description: [
+				"O degrau de §eferro§r das melhorias de estoque, acima do cobre."
+				"§7•§r Aumenta ainda mais quantos itens cada espaço da gaveta segura."
+				"Continue subindo os tiers pra capacidades absurdas."
+			]
+			rewards: [{
+				id: "423EF2CBE5EC97BC"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "0A07210E1D519988"
+				item: "storagedrawers:iron_storage_upgrade"
+				type: "item"
+			}]
+			title: "Melhoria de Estoque (Ferro)"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EA04765C5A1F88C"]
+			icon: "storagedrawers:controller"
+			id: "02F32BCF59D476D5"
+			description: [
+				"Conecta todas as gavetas próximas num §eponto central§r de acesso."
+				"§7•§r Insira itens pelo controlador e eles vão pra gaveta certa sozinhos."
+				"Pegue e guarde sem correr de gaveta em gaveta."
+			]
+			rewards: [{
+				id: "5B0250585342D9CC"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			subtitle: "Acesso central às gavetas"
+			tasks: [{
+				id: "4A3FACF7B582FDD3"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			title: "Drawer Controller"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02F32BCF59D476D5"]
+			icon: "storagedrawers:controller_slave"
+			id: "01FA587EAAECBC0B"
+			description: [
+				"§eEstende o alcance§r do Drawer Controller para gavetas mais distantes."
+				"§7•§r Coloque-o no caminho pra conectar grupos de gavetas afastados."
+				"Permite armazéns maiores sem perder a central de acesso."
+			]
+			rewards: [{
+				id: "1CC1821C43B62DD9"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			subtitle: "Estende o alcance do controlador"
+			tasks: [{
+				id: "534011C5A31F9C3C"
+				item: "storagedrawers:controller_slave"
+				type: "item"
+			}]
+			title: "Controller Slave"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D8C001F1FD16C14"]
+			icon: "storagedrawers:conversion_upgrade"
+			id: "60E85A3D245613A5"
+			description: [
+				"Converte uma gaveta comum num formato §eatualizado§r ou de outro tipo."
+				"§7•§r Use pra migrar gavetas antigas sem perder o conteúdo."
+				"Mantém seus itens enquanto você troca o bloco por uma versão melhor."
+			]
+			rewards: [{
+				id: "2C7D78C42BC5A98D"
+				type: "xp"
+				xp: 160
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "0BCA264B33AD431B"
+				item: "storagedrawers:conversion_upgrade"
+				type: "item"
+			}]
+			title: "Melhoria de Conversão"
+			x: 4.5d
+			y: 5.0d
+		}
+	]
+	title: "Armazenamento — Caminho do Organizador"
+}

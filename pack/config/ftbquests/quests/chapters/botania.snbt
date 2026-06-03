@@ -1,0 +1,1698 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "botania"
+	group: "4677C57609F8F102"
+	icon: "botania:lexicon"
+	id: "2353E71EF0D24B73"
+	order_index: 1
+	quest_links: []
+	quests: [
+		{
+			description: ["Pegue uma Lexica Botania (1 livro + 1 muda em mesa de trabalho). Esse é seu guia no jogo pra TODAS as flores funcionais, mecânicas de mana e progressão Botania."]
+			hide_dependency_lines: false
+			icon: "botania:lexicon"
+			id: "45260D3E9717B28D"
+			rewards: [
+				{
+					id: "5E742F0287814D1E"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "O guia do druida"
+			tasks: [
+				{
+					id: "60B633A6E5E3F2C8"
+					item: "botania:lexicon"
+					type: "item"
+				}
+			]
+			title: "Lexica Botania"
+			x: -25.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45260D3E9717B28D"]
+			description: ["Mystical flowers aparecem naturalmente. Use bone meal em qualquer grass pra acelerar. Vai precisar de todas as 16 cores em algum momento — sair colhendo já."]
+			hide_dependency_lines: false
+			icon: "botania:white_mystical_flower"
+			id: "3D24D99C2D136D92"
+			rewards: [
+				{
+					id: "481ABF37FF4EBD92"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "A primeira colheita"
+			tasks: [
+				{
+					id: "7EF6AB4B99E8179E"
+					item: "botania:white_mystical_flower"
+					type: "item"
+				}
+			]
+			title: "Mystical Flowers"
+			x: -22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D24D99C2D136D92"]
+			description: ["Mystical flower → 4 pétalas no mesa de trabalho. Reúna pelo menos 4 cores diferentes (white, red, yellow, blue) pra começar petal_apothecary."]
+			hide_dependency_lines: false
+			icon: "botania:white_petal"
+			id: "045BFA201FD4D70E"
+			rewards: [
+				{
+					id: "798B454476B9DA0D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Crafte pétalas de cada cor"
+			tasks: [
+				{
+					id: "0E78EF434DB6A8A5"
+					item: "botania:white_petal"
+					type: "item"
+				}
+			]
+			title: "Pétalas Básicas"
+			x: -19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["045BFA201FD4D70E"]
+			description: ["Petal apothecary é o bloco de criação central pra flores funcionais. Coloque pétalas + reagente, derrame balde de água pra ativar.", "", "a apothecary também é o único caminho pra fazer §asourceberry_bush§r e §asem datura_seeds§r (requer Aglutinado)."]
+			hide_dependency_lines: false
+			icon: "botania:apothecary_default"
+			id: "07110F7FE64E8F0B"
+			rewards: [
+				{
+					id: "378574305B47C3E3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Altar de criação botânica"
+			tasks: [
+				{
+					id: "50CADF3FFA356DDD"
+					item: "botania:apothecary_default"
+					type: "item"
+				}
+			]
+			title: "Petal Apothecary"
+			x: -16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07110F7FE64E8F0B"]
+			description: ["Pure daisy converte cobblestone em §alivingrock§r e log em §alivingwood§r ao seu redor (lento). 4 pétalas white no apothecary → 1 pure_daisy."]
+			hide_dependency_lines: false
+			icon: "botania:pure_daisy"
+			id: "62148A6DDE69428E"
+			rewards: [
+				{
+					id: "590494F423C2EFAB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Conversora de pureza"
+			tasks: [
+				{
+					id: "590173C785A8FE14"
+					item: "botania:pure_daisy"
+					type: "item"
+				}
+			]
+			title: "Pure Daisy"
+			x: -13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["62148A6DDE69428E"]
+			description: ["Coloque uma pure_daisy ao lado de logs (não planks!) — converte gradualmente em livingwood. Material base pra mana_spreader, mana_pylon e várias outras estruturas."]
+			hide_dependency_lines: false
+			icon: "botania:livingwood"
+			id: "13F667C677069107"
+			rewards: [
+				{
+					id: "3CFE71FB96516873"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Madeira viva"
+			tasks: [
+				{
+					id: "73D48D11B757C019"
+					item: "botania:livingwood"
+					type: "item"
+				}
+			]
+			title: "Livingwood"
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["62148A6DDE69428E"]
+			description: ["Pure_daisy + cobblestone = livingrock. Material principal de mana_pool (com avanço do EQSMP), mana_spreader stones e várias decorações."]
+			hide_dependency_lines: false
+			icon: "botania:livingrock"
+			id: "6F3C31298049070C"
+			rewards: [
+				{
+					id: "382E5C932EDE708D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Pedra viva"
+			tasks: [
+				{
+					id: "11D12191433D6AE6"
+					item: "botania:livingrock"
+					type: "item"
+				}
+			]
+			title: "Livingrock"
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F3C31298049070C"]
+			description: ["O pool é o coração da Botania — onde toda mana se acumula.", "", "Aqui não se faz com livingrock comum: a fórmula pede §6otherstone§r, aquela pedra que os ocultistas fabricam com fogo espiritual. Sem passar pelo caminho do Ocultismo, o Druida não enche seu pool."]
+			hide_dependency_lines: false
+			icon: "botania:mana_pool"
+			id: "7D495DAC8024FE2A"
+			rewards: [
+				{
+					id: "6508B04E85DC9D7A"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			subtitle: "Cross-mod F1 — armazena mana"
+			tasks: [
+				{
+					id: "748D780854F20E8E"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+			]
+			title: "Mana Pool"
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D495DAC8024FE2A"]
+			description: ["Aqui a receita segue outro caminho: 4× §6otherstone slab§r → 1 diluted_pool. Capacidade menor (10000 mana) mas barata pra runic_altar."]
+			hide_dependency_lines: false
+			icon: "botania:diluted_pool"
+			id: "20557B0806A699B9"
+			rewards: [
+				{
+					id: "7E01AAFB5B83CA6E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Cross-mod F1 — pool reduzida"
+			tasks: [
+				{
+					id: "06B9E647F8B8061F"
+					item: "botania:diluted_pool"
+					type: "item"
+				}
+			]
+			title: "Diluted Pool"
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["13F667C677069107", "6F3C31298049070C"]
+			description: ["Mana spreader dispara mana em linha reta até atingir bloco recebedor (pool, ring, etc). Sem ele, mana fica parada nas flores geradoras."]
+			hide_dependency_lines: true
+			icon: "botania:mana_spreader"
+			id: "7600B79D99D5BDFB"
+			rewards: [
+				{
+					id: "04AEA66CB8604161"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Transferência de mana"
+			tasks: [
+				{
+					id: "0C9D31F7A4A1DA9B"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+			]
+			title: "Mana Spreader"
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D495DAC8024FE2A", "7600B79D99D5BDFB"]
+			description: ["Endoflame queima fuels (coal, log, etc) pra gerar mana. ~3 mana/tick. Pétalas: 2 brown + 2 red + 1 gray no apothecary com seed_reagent."]
+			hide_dependency_lines: true
+			icon: "botania:endoflame"
+			id: "4AAC1EB471652088"
+			rewards: [
+				{
+					id: "6C64B0FF93888509"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Gerador básico"
+			tasks: [
+				{
+					id: "39BCCE7CDAADEECF"
+					item: "botania:endoflame"
+					type: "item"
+				}
+			]
+			title: "Endoflame"
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4AAC1EB471652088"]
+			description: ["Gourmaryllis come comidas. Quanto mais variado o cardápio, mais mana — até ~30 mana/tick em peak. Auto-feed via hopper."]
+			hide_dependency_lines: false
+			icon: "botania:gourmaryllis"
+			id: "45FA93D5646B8426"
+			rewards: [
+				{
+					id: "682423BF74C23A74"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Gerador via comida"
+			tasks: [
+				{
+					id: "7A487E74F23A0E0A"
+					item: "botania:gourmaryllis"
+					type: "item"
+				}
+			]
+			title: "Gourmaryllis"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4AAC1EB471652088"]
+			description: ["Kekimurus come cake (vanilla) pra gerar mana — ~120k mana por cake. Auto-feed via cake-stacking belt do Create."]
+			hide_dependency_lines: false
+			icon: "botania:kekimurus"
+			id: "19D72A7F5EE326F5"
+			rewards: [
+				{
+					id: "257750CBA4DFB6F3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Gerador via cake"
+			tasks: [
+				{
+					id: "2FDF7A6FF5B2BAF5"
+					item: "botania:kekimurus"
+					type: "item"
+				}
+			]
+			title: "Kekimurus"
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7D495DAC8024FE2A"]
+			description: ["Mana tablet armazena 500k mana. Carregar no inventário pra usar com mana_lens em distância, ou descarregar em pool."]
+			hide_dependency_lines: false
+			icon: "botania:mana_tablet"
+			id: "31D0547CB8D1E302"
+			rewards: [
+				{
+					id: "5C421A9F42742FEF"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Armazenamento portátil"
+			tasks: [
+				{
+					id: "350C7DD6E8B8FC49"
+					item: "botania:mana_tablet"
+					type: "item"
+				}
+			]
+			title: "Mana Tablet"
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7600B79D99D5BDFB"]
+			description: ["Mana distributor recebe mana de UM spreader e redistribui pra até 4 spreaders adjacentes. Útil pra alimentar fazendas múltiplas."]
+			hide_dependency_lines: false
+			icon: "botania:mana_distributor"
+			id: "143A3595A3A9E8E8"
+			rewards: [
+				{
+					id: "78081CFC12598258"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Distribui mana pra múltiplos pools"
+			tasks: [
+				{
+					id: "6DD6F5BA5A6FBC3D"
+					item: "botania:mana_distributor"
+					type: "item"
+				}
+			]
+			title: "Mana Distributor"
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7D495DAC8024FE2A"]
+			description: ["Mana pearl: 1 ender_pearl jogado em mana_pool com 8000 mana. Crítico pra mana_pylon, mana_ring melhorias, etc."]
+			hide_dependency_lines: false
+			icon: "botania:mana_pearl"
+			id: "7923CBBDBCE57052"
+			rewards: [
+				{
+					id: "18193BDAA2EF7742"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Cristal de mana"
+			tasks: [
+				{
+					id: "527231BEA5B3FA18"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+			]
+			title: "Mana Pearl"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7D495DAC8024FE2A"]
+			description: ["Iron ingot jogado em mana_pool com 3000 mana → manasteel_ingot. Material de ferramenta durável (intermediário (diamante))."]
+			hide_dependency_lines: false
+			icon: "botania:manasteel_ingot"
+			id: "5215124815D45DFA"
+			rewards: [
+				{
+					id: "1A62087BF48097BF"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Liga de mana"
+			tasks: [
+				{
+					id: "525F4C8A753B5DD4"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+			]
+			title: "Manasteel Ingot"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5215124815D45DFA"]
+			description: ["Manasteel picareta consome mana ao invés de durabilidade. Combinado com mana_ring no espaço, tools quase eternos."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "botania:manasteel_pick"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "014032E40C374349"
+			rewards: [
+				{
+					id: "7AAC45124B9DCC11"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Picareta consumindo mana"
+			tasks: [
+				{
+					id: "589813478F70A73B"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_pick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Manasteel Picareta"
+			x: -1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5215124815D45DFA"]
+			description: ["Manasteel sword tem damage similar diamond. Consome mana em vez de durabilidade."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "botania:manasteel_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5E11C9C5F7912BED"
+			rewards: [
+				{
+					id: "115F2C1A2C0E2B43"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Espada de mana"
+			tasks: [
+				{
+					id: "08AB1218F37CCF0E"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Manasteel Sword"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5215124815D45DFA"]
+			description: ["Manaweave cloth: 4 manasteel_thread (de manasteel_ingot via livingwood twig+thread) + reagente. Usado em manaweave armor + decoração."]
+			hide_dependency_lines: false
+			icon: "botania:manaweave_cloth"
+			id: "0FA2DAF0E23BE5FC"
+			rewards: [
+				{
+					id: "475FAC8687D0BA74"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Tecido de manasteel"
+			tasks: [
+				{
+					id: "2E5AAFDB01E23C23"
+					item: "botania:manaweave_cloth"
+					type: "item"
+				}
+			]
+			title: "Manaweave Cloth"
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7600B79D99D5BDFB"]
+			description: ["Mana lens: 3 livingrock + glass no formato. Sem efeito sozinha, é base pra outras lenses customizadas."]
+			hide_dependency_lines: false
+			icon: "botania:lens_normal"
+			id: "059452AA483EC0C7"
+			rewards: [
+				{
+					id: "4275C864DE26748D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Modificador básico do spreader"
+			tasks: [
+				{
+					id: "0DF1BDA468038A74"
+					item: "botania:lens_normal"
+					type: "item"
+				}
+			]
+			title: "Mana Lens"
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["059452AA483EC0C7"]
+			description: ["Speed lens: mana_lens + sugar + redstone. Spreader com speed lens dispara mais rápido (útil pra receitas time-sensitive)."]
+			hide_dependency_lines: false
+			icon: "botania:lens_speed"
+			id: "0A332B0F29151AD7"
+			rewards: [
+				{
+					id: "58EC5745B45CE775"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Lens de velocidade"
+			tasks: [
+				{
+					id: "500029F75C964A02"
+					item: "botania:lens_speed"
+					type: "item"
+				}
+			]
+			title: "Speed Lens"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7D495DAC8024FE2A", "7923CBBDBCE57052"]
+			description: ["O altar das runas é onde a mana toma forma elemental. Aqui se forjam runas de água, fogo, terra e ar.", "", "Pra montá-lo, você vai precisar de um §dNúcleo Cinético§r — sem o domínio do movimento, as runas não se fixam."]
+			hide_dependency_lines: true
+			icon: "botania:runic_altar"
+			id: "24DAE300D62ABE80"
+			rewards: [
+				{
+					id: "0489B5E50D7780F6"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			subtitle: "Cross-mod F2 — avanço do Núcleo Cinético"
+			tasks: [
+				{
+					id: "06FD8925BF201143"
+					item: "botania:runic_altar"
+					type: "item"
+				}
+			]
+			title: "Runic Altar"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24DAE300D62ABE80"]
+			description: ["Aqui a receita segue outro caminho: 2× manasteel + 2× prismarine_crystals + 1× §dCristal de Mana Pura§r (Cristal de Mana Pura) → 1 rune_water.", "", "8000 mana no runic_altar."]
+			hide_dependency_lines: false
+			icon: "botania:rune_water"
+			id: "3D3B6799C11FA917"
+			rewards: [
+				{
+					id: "07196EF105DEA541"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			subtitle: "Cross-mod F3 — runa elemental"
+			tasks: [
+				{
+					id: "70010986A6D4F20A"
+					item: "botania:rune_water"
+					type: "item"
+				}
+			]
+			title: "Runa da Água"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["24DAE300D62ABE80"]
+			description: ["Aqui a receita segue outro caminho: 2× manasteel + 2× blaze_powder + 1× §dCristal de Mana Pura§r (Cristal de Mana Pura) → 1 rune_fire."]
+			hide_dependency_lines: false
+			icon: "botania:rune_fire"
+			id: "596316A02613FA3F"
+			rewards: [
+				{
+					id: "5E8D1F9C46A96FF4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			subtitle: "Cross-mod F3 — runa elemental"
+			tasks: [
+				{
+					id: "5C08C4CCAE87FC2D"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+			]
+			title: "Runa do Fogo"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["24DAE300D62ABE80"]
+			description: ["Aqui a receita segue outro caminho: 2× manasteel + 2× wheat + 1× §dCristal de Mana Pura§r (Cristal de Mana Pura) → 1 rune_earth."]
+			hide_dependency_lines: false
+			icon: "botania:rune_earth"
+			id: "4123C1F1910C5929"
+			rewards: [
+				{
+					id: "35BD969BF64415B6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			subtitle: "Cross-mod F3 — runa elemental"
+			tasks: [
+				{
+					id: "0D38F177D1DFEA9C"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+			]
+			title: "Runa da Terra"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["24DAE300D62ABE80"]
+			description: ["Aqui a receita segue outro caminho: 2× manasteel + 2× feather + 1× §dCristal de Mana Pura§r (Cristal de Mana Pura) → 1 rune_air."]
+			hide_dependency_lines: false
+			icon: "botania:rune_air"
+			id: "488677E1F53C6044"
+			rewards: [
+				{
+					id: "1660173B893DF2BE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			subtitle: "Cross-mod F3 — runa elemental"
+			tasks: [
+				{
+					id: "46514E49F2C7F018"
+					item: "botania:rune_air"
+					type: "item"
+				}
+			]
+			title: "Runa do Ar"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["24DAE300D62ABE80"]
+			description: ["Conjuration catalyst no mana_pool habilita receitas especiais (mana_diamond, mana_pearl extra, etc). Permanente após colocado."]
+			hide_dependency_lines: false
+			icon: "botania:conjuration_catalyst"
+			id: "205AE6A03613BFE6"
+			rewards: [
+				{
+					id: "616310B12323C142"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Catalisador de mana_pool"
+			tasks: [
+				{
+					id: "2A3F35F6D1EF2127"
+					item: "botania:conjuration_catalyst"
+					type: "item"
+				}
+			]
+			title: "Conjuration Catalyst"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D495DAC8024FE2A"]
+			description: ["Brewery cria poções customizadas Botania (absorção, allure, clear sight, etc). Pétalas + livingrock + reagente."]
+			hide_dependency_lines: false
+			icon: "botania:brewery"
+			id: "2E733F6BCC7C7D34"
+			rewards: [
+				{
+					id: "79F9CAF2ABDE75AB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Poções botânicas"
+			tasks: [
+				{
+					id: "21EFCE38E38CCC47"
+					item: "botania:brewery"
+					type: "item"
+				}
+			]
+			title: "Brewery"
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7923CBBDBCE57052"]
+			description: ["Mana ring (com mana_pearl) armazena mana pra usar em tools. Equipa em curio espaço (ring). Recarrega ao tocar pool."]
+			hide_dependency_lines: false
+			icon: "botania:mana_ring"
+			id: "320CE693F4FF644D"
+			rewards: [
+				{
+					id: "5BD53DBAB691BE89"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Anel armazena mana"
+			tasks: [
+				{
+					id: "2D9C9E92E7F1DB43"
+					item: "botania:mana_ring"
+					type: "item"
+				}
+			]
+			title: "Anel de Mana"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["320CE693F4FF644D"]
+			description: ["Mana ring greater: 2× ring + 1× gaia_ingot ou similar. Capacidade 5x maior. Armazenamento portátil avançado."]
+			hide_dependency_lines: false
+			icon: "botania:mana_ring_greater"
+			id: "1AFB6301F67149E2"
+			rewards: [
+				{
+					id: "38165B1481985937"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Anel upgraded"
+			tasks: [
+				{
+					id: "769AC68F8D7CFC2A"
+					item: "botania:mana_ring_greater"
+					type: "item"
+				}
+			]
+			title: "Anel de Mana Maior"
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["320CE693F4FF644D"]
+			description: ["Aura ring regenera ~1 mana/tick passivamente. Combinada com mana_ring greater pra autossustentabilidade."]
+			hide_dependency_lines: false
+			icon: "botania:aura_ring"
+			id: "5EDA4644FC22BCC1"
+			rewards: [
+				{
+					id: "23E49B359B7E76FB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Gera mana passivamente"
+			tasks: [
+				{
+					id: "7517A860BCF0488E"
+					item: "botania:aura_ring"
+					type: "item"
+				}
+			]
+			title: "Anel de Aura"
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["205AE6A03613BFE6"]
+			description: ["Diamond no mana_pool com conjuration_catalyst + 10000 mana → mana_diamond. Item-chave pra mana_pylon, terra_plate e (no EQSMP) §dpra fazer source_gem§r via spirit_fire ritual!"]
+			hide_dependency_lines: false
+			icon: "botania:mana_diamond"
+			id: "45E3E29E213743DF"
+			rewards: [
+				{
+					id: "1D6B32038A7BA5AB"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "Diamante infundido"
+			tasks: [
+				{
+					id: "144E9CD75A8C91FF"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+			]
+			title: "Mana Diamond"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["45E3E29E213743DF"]
+			description: ["Terra plate é estrutura multi-bloco que recebe ingredients e mana pra forjar terrasteel. Crafte com 4 livingrock + 1 mana_diamond + 4 manasteel_ingot."]
+			hide_dependency_lines: false
+			icon: "botania:terra_plate"
+			id: "3BBA4B57171FCE82"
+			rewards: [
+				{
+					id: "1910B75593F3C438"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Forja do terrasteel"
+			tasks: [
+				{
+					id: "45132C09259EB3B5"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+			]
+			title: "Terra Plate"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3BBA4B57171FCE82"]
+			description: ["O material mais forte que a Botania pode oferecer. Forjado na Terra Plate, consumindo meio milhão de mana.", "", "É a base do §dNúcleo Espiritual§r — o quarto e último dos pilares mágicos."]
+			hide_dependency_lines: false
+			icon: "botania:terrasteel_ingot"
+			id: "1D7E669BF9E90286"
+			rewards: [
+				{
+					id: "6DD71CCABA82B479"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "Material avançado"
+			tasks: [
+				{
+					id: "6C790C20272D41EE"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+			]
+			title: "Terrasteel Ingot"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24DAE300D62ABE80", "45E3E29E213743DF"]
+			description: ["O pilar acelera o fluxo de mana ao redor do pool — quem coloca quatro pylons em volta vê suas máquinas botânicas dobrarem de ritmo.", "", "A receita aqui inclui uma §dsource gem§r dos Arcanistas — porque o pilar canaliza mana mágica e source ao mesmo tempo."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "botania:mana_pylon"
+			id: "3DB142DEEF4E4431"
+			rewards: [
+				{
+					id: "3C03596522AA78D3"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			subtitle: "Cross-mod — boost de pool"
+			tasks: [
+				{
+					id: "38DFDD35CABE9FC4"
+					item: "botania:mana_pylon"
+					type: "item"
+				}
+			]
+			title: "Mana Pylon"
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D7E669BF9E90286"]
+			description: ["Terrasteel helmet: 5× terrasteel_ingot. Parte do conjunto de armadura Gaia."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "botania:terrasteel_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6524175367DB0A6F"
+			rewards: [
+				{
+					id: "293CDB12A52ACA61"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Casco avançado"
+			tasks: [
+				{
+					id: "5AD6AC595C20030E"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Terrasteel Helmet"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D7E669BF9E90286"]
+			description: ["Terrasteel chestplate: 8× terrasteel_ingot. Boost defense + mana regen."]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "botania:terrasteel_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1C069DDAD9AE8EA6"
+			rewards: [
+				{
+					id: "20F4927EB6447495"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Peitoral avançado"
+			tasks: [
+				{
+					id: "65AAEC4B01CB26F1"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Terrasteel Chestplate"
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D7E669BF9E90286", "3DB142DEEF4E4431"]
+			description: ["Gaia pylon (4× terrasteel_ingot + 1× elementium + 1× black_lotus) é colocado no centro da arena. Beacon_block + lapis_block = arena minimum."]
+			hide_dependency_lines: true
+			icon: "botania:gaia_pylon"
+			id: "48784E0754EEE1D6"
+			rewards: [
+				{
+					id: "3B6C9390F05333D9"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Invoca o Guardião"
+			tasks: [
+				{
+					id: "424417D81FD05EFA"
+					item: "botania:gaia_pylon"
+					type: "item"
+				}
+			]
+			title: "Gaia Pylon"
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48784E0754EEE1D6", "6524175367DB0A6F", "1C069DDAD9AE8EA6"]
+			description: ["Invoque o Guardião de Gaia: gaia_pylon no centro de arena 22x22 com beacon_block ativo (pirâmide level 3+). Lance dice of fate pra começar.", "", "§eRecompensa:§r gaia_ingot (8-12 por abate)."]
+			hide_dependency_lines: true
+			icon: "botania:dice"
+			id: "2BA3EDABD691146B"
+			rewards: [
+				{
+					id: "7FBFB6DE8B47B252"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Chefe final (Botania)"
+			tasks: [
+				{
+					id: "70B64E9A7BBE480D"
+					item: "botania:dice"
+					type: "item"
+				}
+			]
+			title: "Guardião de Gaia"
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BA3EDABD691146B"]
+			description: ["Elementium: 2× manasteel + 2× mana_pearl + alfheim_resources. Obtido após gaia_guardian e alfheim_portal."]
+			hide_dependency_lines: false
+			icon: "botania:elementium_ingot"
+			id: "00782577E51CBB5F"
+			rewards: [
+				{
+					id: "38C1F1E70C6969A6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Liga alfheim"
+			tasks: [
+				{
+					id: "332BCE886C63FB1C"
+					item: "botania:elementium_ingot"
+					type: "item"
+				}
+			]
+			title: "Elementium Ingot"
+			x: 19.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2BA3EDABD691146B"]
+			description: ["Alfheim portal (livingwood + gaia + glimmering livingwood) abre passagem temporária pra Alfheim. Recursos: dragonstone, elementium, alfsteel."]
+			hide_dependency_lines: false
+			icon: "botania:alfheim_portal"
+			id: "0A893276B7953291"
+			rewards: [
+				{
+					id: "196C411B80CDC1B4"
+					type: "xp"
+					xp: 75
+				}
+			]
+			shape: "circle"
+			size: 1.3d
+			subtitle: "Dimensão dos elfos"
+			tasks: [
+				{
+					id: "66D01D8631D94D07"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+			]
+			title: "Alfheim Portal"
+			x: 19.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2BA3EDABD691146B"]
+			description: ["Gaia ingot cai do Guardião. Crítico pra gaia_spreader, ring_of_thor, ring_of_loki."]
+			hide_dependency_lines: false
+			icon: "botania:life_essence"
+			id: "52E5589B3A1C1B8D"
+			rewards: [
+				{
+					id: "6FD28BBCA620BFA2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Material divino"
+			tasks: [
+				{
+					id: "729A93BA07996A89"
+					item: "botania:life_essence"
+					type: "item"
+				}
+			]
+			title: "Gaia Ingot"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A893276B7953291"]
+			description: ["Gaia spreader: 4× gaia_ingot + dreamwood + dragonstone. Velocidade e capacidade máximas. Usado em fazendas avançado."]
+			hide_dependency_lines: false
+			icon: "botania:gaia_spreader"
+			id: "63942FA596F0D42B"
+			rewards: [
+				{
+					id: "27C83F19E8EF1EC4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Disseminador avançado"
+			tasks: [
+				{
+					id: "4738D34F8D4A0567"
+					item: "botania:gaia_spreader"
+					type: "item"
+				}
+			]
+			title: "Gaia Spreader"
+			x: 22.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A893276B7953291"]
+			description: ["Flügel tiara: 5× gaia_ingot + 1× elytra. Permite voo limited mana-based. Combina com aura_ring greater."]
+			hide_dependency_lines: false
+			icon: "botania:flight_tiara"
+			id: "4B4751C10E776B3F"
+			rewards: [
+				{
+					id: "5E96347AB11C657C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Anel de voo"
+			tasks: [
+				{
+					id: "65ED3A47F6D43305"
+					item: "botania:flight_tiara"
+					type: "item"
+				}
+			]
+			title: "Flügel Tiara"
+			x: 22.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52E5589B3A1C1B8D"]
+			description: ["Anel de Loki permite colocar blocos em padrão (até 9x9). Combinado com baú cheio, construções em massa."]
+			hide_dependency_lines: false
+			icon: "botania:loki_ring"
+			id: "266731209DF722B9"
+			rewards: [
+				{
+					id: "7FE0B9576E3E5ACD"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Multi-place de blocos"
+			tasks: [
+				{
+					id: "045A44569BF91799"
+					item: "botania:loki_ring"
+					type: "item"
+				}
+			]
+			title: "Anel de Loki"
+			x: 22.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["52E5589B3A1C1B8D"]
+			description: ["Anel de Thor mina padrão 3x3x1 simultaneamente. Combo com manasteel_pickaxe pra mineração avançada."]
+			hide_dependency_lines: false
+			icon: "botania:thor_ring"
+			id: "311EB32138F7A3A1"
+			rewards: [
+				{
+					id: "625C707DB379C763"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "circle"
+			subtitle: "Mine 3x3 blocos"
+			tasks: [
+				{
+					id: "49083F54396263BC"
+					item: "botania:thor_ring"
+					type: "item"
+				}
+			]
+			title: "Anel de Thor"
+			x: 22.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B4751C10E776B3F", "266731209DF722B9", "311EB32138F7A3A1", "63942FA596F0D42B"]
+			description: ["Você completou o caminho do Druida EQSMP! Dominou mana, runas (com cristal Cristal de Mana Pura como requisito), terrasteel, Gaia e Alfheim.", "", "§7Recipes EQSMP que você aprendeu:§r", "§7•§r mana_pool/diluted_pool com otherstone (Aglutinado Mágico)", "§7•§r runic_altar com nucleo_cinetico (Núcleo Cinético)", "§7•§r runas elementais com cristal_mana_pura (Cristal de Mana Pura)", "§7•§r mana_pylon com source_gem (Ars)", "", "Próximos caminhos: Ars Nouveau, Occultism, Pedra Filosofal."]
+			hide_dependency_lines: true
+			icon: "botania:gaia_pylon"
+			id: "7322CCE81684BE59"
+			rewards: [
+				{
+					id: "0E48EA5B34B42A67"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "4CB24D6EC5425209"
+					type: "xp"
+					xp: 315
+				}
+			 { id: "1A2B3C4D5E6F012A", table_id: 1885667171979165697L, type: "random" }]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Você dominou o Druida"
+			tasks: [
+				{
+					id: "078A1B823AF67F55"
+					type: "checkmark"
+				}
+			]
+			title: "Mestria Botania"
+			x: 25.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07110F7FE64E8F0B"]
+			description: ["Colete pétalas de todas as 16 cores místicas. Bone meal em mystical_flower acelera a coleção. Necessário pra receitas apothecary variadas."]
+			hide_dependency_lines: false
+			icon: "botania:black_petal"
+			id: "73994EE3D6D83E4F"
+			rewards: [
+				{
+					id: "6C6E0E6DAECB9D07"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Todas as 16 cores"
+			tasks: [
+				{
+					id: "1349D56422A41A0E"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(botania:petals)"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Coleção de Pétalas"
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D3B6799C11FA917"]
+			description: ["Crafte ao menos uma runa de cada tipo (elementais já cobertas em quests anteriores, mas há runas zodíaco, lust, gluttony etc)."]
+			hide_dependency_lines: false
+			icon: "botania:rune_pride"
+			id: "094FF40CB5BECD86"
+			rewards: [
+				{
+					id: "52553B948935CBDF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Todas as runas Botania"
+			tasks: [
+				{
+					id: "68A2D543CC4D2AF6"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(botania:runes)"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Coleção de Runas"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4AAC1EB471652088"]
+			description: ["Thermalily consome balde de lava (~30s de recarga). Excelente densidade de mana, mas exige fazendas de lava (Create bomba em nether)."]
+			hide_dependency_lines: false
+			icon: "botania:thermalily"
+			id: "05123EECDFA1C145"
+			rewards: [
+				{
+					id: "179D9489A6AA13B2"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Gerador de lava"
+			tasks: [
+				{
+					id: "3E1F21320ABE217A"
+					item: "botania:thermalily"
+					type: "item"
+				}
+			]
+			title: "Thermalily"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4AAC1EB471652088"]
+			description: ["Hydroangeas consome water_lily nas proximidades. Passivo mas mana per tick baixa. Bom início de jogo."]
+			hide_dependency_lines: false
+			icon: "botania:hydroangeas"
+			id: "4FEA7259B9159FE2"
+			rewards: [
+				{
+					id: "5B4DAC77DEC6EE0E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Gerador passivo de water"
+			tasks: [
+				{
+					id: "677DA84B130032CA"
+					item: "botania:hydroangeas"
+					type: "item"
+				}
+			]
+			title: "Hydroangeas"
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["19D72A7F5EE326F5"]
+			description: ["Narslimmus mata slimes (precisa de slime chunks ou fazenda). Mana proporcional ao tamanho do slime."]
+			hide_dependency_lines: false
+			icon: "botania:narslimmus"
+			id: "016B4C4A9E9F5AC5"
+			rewards: [
+				{
+					id: "0D4E0326EE9B2C6A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Gerador via slime"
+			tasks: [
+				{
+					id: "15B62941C1D822C9"
+					item: "botania:narslimmus"
+					type: "item"
+				}
+			]
+			title: "Narslimmus"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["19D72A7F5EE326F5"]
+			description: ["Entropinnyum consome TNT detonado ao redor (explosion-immune). Mana densidade alta — gerador avançado."]
+			hide_dependency_lines: false
+			icon: "botania:entropinnyum"
+			id: "4ECC753A6F92E6F7"
+			rewards: [
+				{
+					id: "7D64DECA126EA1E5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Gerador via TNT"
+			tasks: [
+				{
+					id: "38CAC42111E2CEE4"
+					item: "botania:entropinnyum"
+					type: "item"
+				}
+			]
+			title: "Entropinnyum"
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["19D72A7F5EE326F5"]
+			description: ["Rosa arcana consome XP orbs próximos. Combine com fazenda de criaturas pra mana constante."]
+			hide_dependency_lines: false
+			icon: "botania:rosa_arcana"
+			id: "77F83D20DF0E6D10"
+			rewards: [
+				{
+					id: "5BF29C8FE04D8635"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Gerador via XP"
+			tasks: [
+				{
+					id: "6212DD8D4ECD91B0"
+					item: "botania:rosa_arcana"
+					type: "item"
+				}
+			]
+			title: "Rosa Arcana"
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7D495DAC8024FE2A"]
+			description: ["Agricarnation acelera crescimento de cultivos ao redor. Mana cost por crop. Combina com vegetal_baby pra fazendas massivas."]
+			hide_dependency_lines: false
+			icon: "botania:agricarnation"
+			id: "1FFA1B0C43DE05B3"
+			rewards: [
+				{
+					id: "03EB692AA9E4B9C4"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Flor de crescimento"
+			tasks: [
+				{
+					id: "5609CAF001273CE1"
+					item: "botania:agricarnation"
+					type: "item"
+				}
+			]
+			title: "Agricarnation"
+			x: -4.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7D495DAC8024FE2A"]
+			description: ["Bellethorn pickup damage em criaturas próximos. Boa defesa passiva pra base, com mana cost."]
+			hide_dependency_lines: false
+			icon: "botania:bellethorn"
+			id: "721CC1C009E5896D"
+			rewards: [
+				{
+					id: "7ECE7D12D9614CFD"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Flor que ataca criaturas"
+			tasks: [
+				{
+					id: "1375AF87003573D2"
+					item: "botania:bellethorn"
+					type: "item"
+				}
+			]
+			title: "Bellethorn"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4ECC753A6F92E6F7"]
+			description: ["Dandelifeon simula Conway Game of Life com células (cellular_block). Cada geração = mana. Montagem complexa mas densidade absurda."]
+			hide_dependency_lines: false
+			icon: "botania:dandelifeon"
+			id: "5CC77A9041A3A9A6"
+			rewards: [
+				{
+					id: "73A98EF2980FD2FE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Game of Life mana"
+			tasks: [
+				{
+					id: "2D8356DBBAE26480"
+					item: "botania:dandelifeon"
+					type: "item"
+				}
+			]
+			title: "Dandelifeon"
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0A893276B7953291"]
+			description: ["Elven spreader: 4× dreamwood + dragonstone + elementium. Velocidade 2× normal, range maior."]
+			hide_dependency_lines: false
+			icon: "botania:elven_spreader"
+			id: "5BA8BE35BC4A3C8A"
+			rewards: [
+				{
+					id: "20A52D8D89D84EBF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Spreader Alfheim"
+			tasks: [
+				{
+					id: "22A8AE4F0AA55CAC"
+					item: "botania:elven_spreader"
+					type: "item"
+				}
+			]
+			title: "Elven Spreader"
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D495DAC8024FE2A"]
+			description: ["Corporea index recebe requests via text/voice (\"dame iron_ingot\"). Conecta a corporea_funnels ligadas a chests pra retrieval automático."]
+			hide_dependency_lines: false
+			icon: "botania:corporea_index"
+			id: "7D54ED633AB2E197"
+			rewards: [
+				{
+					id: "75C04D30DF75B8D3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Sistema de armazenamento botânico"
+			tasks: [
+				{
+					id: "09071B555B31D8AF"
+					item: "botania:corporea_index"
+					type: "item"
+				}
+			]
+			title: "Corporea Index"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7923CBBDBCE57052"]
+			description: ["Magnet ring puxa itens que caem em raio grande. Equipa em curio espaço. Combina com fazendas de criaturas."]
+			hide_dependency_lines: false
+			icon: "botania:magnet_ring"
+			id: "336E7EADEB3E226A"
+			rewards: [
+				{
+					id: "302A018EF5873282"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Atrai items"
+			tasks: [
+				{
+					id: "5ECEF046C920A344"
+					item: "botania:magnet_ring"
+					type: "item"
+				}
+			]
+			title: "Anel de Magnetização"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7D495DAC8024FE2A"]
+			description: ["Hourglass emite redstone em intervalos configuráveis. Útil pra automation timing."]
+			hide_dependency_lines: false
+			icon: "botania:hourglass"
+			id: "554C866E6CB5D435"
+			rewards: [
+				{
+					id: "4A77A51FE0E4D731"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			subtitle: "Timer redstone"
+			tasks: [
+				{
+					id: "3A359866764709C5"
+					item: "botania:hourglass"
+					type: "item"
+				}
+			]
+			title: "Hovering Hourglass"
+			x: -4.5d
+			y: -3.0d
+		}
+	]
+	title: "Botania — Caminho do Druida"
+}

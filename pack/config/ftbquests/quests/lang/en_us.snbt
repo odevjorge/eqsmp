@@ -1,0 +1,1418 @@
+{
+	chapter.00D37C9D2AB66AD3.title: "Boss Progression"
+	chapter.08D5FEDAFD7E50AC.title: "AE2 — Path of the Network Engineer"
+	chapter.0A57395831669CFE.title: "Iron's Spells — Path of the Mage"
+	chapter.133D10862D3D5E8C.title: "Pillars — Roadmap of the 4 Paths"
+	chapter.13947BB691FEDFA4.title: "Twilight Forest"
+	chapter.1DEF645C5EFC312B.title: "The Price of Sins"
+	chapter.2353E71EF0D24B73.title: "Botania — Path of the Druid"
+	chapter.2E1BBCB47701FFD0.title: "Occultism — The Occultist's Path"
+	chapter.300CDADBCCA0BAE8.title: "Pillars — The Four Paths"
+	chapter.307978D1209AFE6A.title: "Tombstone — Path of the Necromancer"
+	chapter.33879B2304024895.title: "F1 — Magical Agglutinate"
+	chapter.3C595FB3F3CC5EE1.title: "Pam's HarvestCraft — The Chef's Path"
+	chapter.4B86B4795DBE84EF.title: "Waystones — The Traveler's Path"
+	chapter.4C09B2211D890E64.title: "Masters of the Mods"
+	chapter.50BE3D9621E5275D.title: "Create — The Engineer's Path"
+	chapter.52C2AC55021601D0.title: "F4 — Spiritual Core"
+	chapter.56B2321EA19BF7A9.title: "Ars Nouveau — Path of the Arcanist"
+	chapter.5ACE06CB931BC6AE.title: "Lost Chapter: The Ambition"
+	chapter.5D2A1C89F6FAC362.title: "F2 — Kinetic Core"
+	chapter.62FE60D6D509B71B.title: "Storage — Path of the Organizer"
+	chapter.6E5027BF55B458C1.title: "Bosses of Mass Destruction"
+	chapter.723C60F21B19E7C7.title: "F3 — Pure Mana Crystal"
+	chapter.74F7A8EAF9183885.title: "Cataclysm — Seven Nightmares"
+	chapter.7DE28888F914F951.title: "Lootr — Path of the Looter"
+	chapter_group.016C51A0AB48BF9A.title: "EQSMP Phases"
+	chapter_group.3BC8F27B987E08F9.title: "Lore"
+	chapter_group.4677C57609F8F102.title: "Mod Paths"
+	chapter_group.51486254BB46A86A.title: "Adventure"
+	quest.00121B2A0D92AD80.quest_desc: ["Obtain a §6scroll_holy§r and activate it to learn spells from this school.", "", "§7Scrolls are generated in structures, bought from wandering traders, or dropped by mages."]
+	quest.00121B2A0D92AD80.quest_subtitle: "Heal, Wisp, Angel Wings"
+	quest.00121B2A0D92AD80.title: "School of Holy"
+	quest.00782577E51CBB5F.quest_desc: ["Elementium: 2× manasteel + 2× mana_pearl + alfheim_resources. Obtained after the gaia_guardian and alfheim_portal.", "botania:elementium_ingot", "00782577E51CBB5F", "38C1F1E70C6969A6", "xp"]
+	quest.00782577E51CBB5F.quest_subtitle: "Alfheim alloy"
+	quest.00782577E51CBB5F.title: "Elementium Ingot"
+	quest.00A295065AD2C817.quest_desc: ["Spawns in Mushroom Islands. Spores and tentacles.", "", "§eReward:§r 40 XP levels + elemental essence"]
+	quest.00A295065AD2C817.quest_subtitle: "Flower of the Void"
+	quest.00A295065AD2C817.title: "Slay Void Blossom"
+	quest.00A4B34EE77FF30A.quest_desc: ["§bSource Gem§r is crystallized Source, produced in the §bImbuement Chamber§r.", "", "Pure magical energy from Ars Nouveau — the reagent that stabilizes the mana crystal."]
+	quest.00A4B34EE77FF30A.title: "Source Gem"
+	quest.00CF092C304CB005.quest_desc: ["Grab the Worn Notebook (1 book + 1 sapling in a crafting grid). This is your in-game guide to Ars Nouveau — glyphs, creatures, rituals.", "ars_nouveau:worn_notebook", "00CF092C304CB005", "29269E80FBEA97F9", "xp"]
+	quest.00CF092C304CB005.quest_subtitle: "The Arcanist's notebook"
+	quest.00CF092C304CB005.title: "Worn Notebook"
+	quest.014032E40C374349.quest_desc: ["The manasteel pickaxe consumes mana instead of durability. Paired with a mana_ring in its slot, your tools last almost forever.", "botania:manasteel_pick", "014032E40C374349", "7AAC45124B9DCC11", "xp"]
+	quest.014032E40C374349.quest_subtitle: "Pickaxe that consumes mana"
+	quest.014032E40C374349.title: "Manasteel Pickaxe"
+	quest.0150F38BD9453295.quest_desc: ["A souped-up shulker box: §eportable§r and it accepts upgrades.", "§7•§r Carry the contents with you and still use pickup or filters inside it.", "Combines the best of the shulker with the Sophisticated system."]
+	quest.0150F38BD9453295.quest_subtitle: "Portable and upgradable"
+	quest.0150F38BD9453295.title: "Copper Shulker"
+	quest.01691F992F578B48.quest_desc: ["The §6Deployer§r applies items and tools onto whatever sits on the §6Depot§r, step by step.", "", "Here it will combine the §eAgglutinate§r, §eKinetic Core§r and §ePure Mana Crystal§r in a precise sequence."]
+	quest.01691F992F578B48.title: "Deployer"
+	quest.016B4C4A9E9F5AC5.quest_desc: ["The narslimmus kills slimes (needs slime chunks or a farm). Mana is proportional to the slime's size.", "botania:narslimmus", "016B4C4A9E9F5AC5", "0D4E0326EE9B2C6A", "xp"]
+	quest.016B4C4A9E9F5AC5.quest_subtitle: "Slime-powered generator"
+	quest.016B4C4A9E9F5AC5.title: "Narslimmus"
+	quest.016C26968B073CC3.quest_desc: ["Huge capacity and many §eupgrade§r slots at once.", "§7•§r Here you can stack pickup, magnet, smelting and more without running out of room.", "The leap that turns the backpack into a walking logistics system."]
+	quest.016C26968B073CC3.title: "Diamond Backpack"
+	quest.0170FF9ED91E59CB.quest_subtitle: "Network battery"
+	quest.0170FF9ED91E59CB.title: "Energy Cell"
+	quest.0179046F142675BC.quest_desc: ["The most important item: §akeeps your items§r when you die.", "tombstone:ankh_of_prayer", "0179046F142675BC", "50FAEED34A072C9F", "xp_levels"]
+	quest.0179046F142675BC.quest_subtitle: "Keeps your inventory on death!"
+	quest.0179046F142675BC.title: "Ankh of Prayer"
+	quest.0199BA6195EA5EC8.quest_desc: ["The 3 §ePresses§r (Calculation, Engineering, Logic) come from meteorites.", "They're not consumed — they're permanent molds."]
+	quest.0199BA6195EA5EC8.quest_subtitle: "Meteorite treasure"
+	quest.0199BA6195EA5EC8.title: "Processor Presses"
+	quest.01E4D228A52B8536.quest_desc: ["The steam engine is the veteran Engineer's heart. Connected to a boiler, it generates more force than any water wheel or windmill.", "", "Whoever reaches here has mastered rotation, heat and fluid."]
+	quest.01E4D228A52B8536.quest_subtitle: "Advanced Create"
+	quest.01E4D228A52B8536.title: "Steam Engine"
+	quest.01FA587EAAECBC0B.quest_desc: ["§eExtends the reach§r of the Drawer Controller to more distant drawers.", "§7•§r Place it along the way to connect far-off groups of drawers.", "Allows larger warehouses without losing the central access point."]
+	quest.01FA587EAAECBC0B.quest_subtitle: "Extends the controller's reach"
+	quest.01FA587EAAECBC0B.title: "Controller Slave"
+	quest.023FAE93A2B61CAC.quest_desc: ["Cataclysm. Sunken City. Possibly the hardest in the mod.", "", "§eReward:§r 120 XP levels + drop"]
+	quest.023FAE93A2B61CAC.quest_subtitle: "Abyssal Terror"
+	quest.023FAE93A2B61CAC.title: "Side: The Leviathan"
+	quest.02F32BCF59D476D5.quest_desc: ["Connects all nearby drawers into a §ecentral§r access point.", "§7•§r Insert items through the controller and they go to the right drawer on their own.", "Take and store without running from drawer to drawer."]
+	quest.02F32BCF59D476D5.quest_subtitle: "Central access to drawers"
+	quest.02F32BCF59D476D5.title: "Drawer Controller"
+	quest.0337B201C5266C96.quest_desc: ["The source relay collector centralizes mana from multiple source_jars/relays into 1 point. Useful in large factories.", "ars_nouveau:relay_collector", "0337B201C5266C96", "3618C233BE545DBF", "xp"]
+	quest.0337B201C5266C96.quest_subtitle: "Collects mana from relays"
+	quest.0337B201C5266C96.title: "Source Relay Collector"
+	quest.033FAD869950CDC4.quest_subtitle: "CPU memory"
+	quest.033FAD869950CDC4.title: "1k Crafting Storage"
+	quest.03637CC2B232D6A8.quest_subtitle: "Wireless signal"
+	quest.03637CC2B232D6A8.title: "Wireless Access Point"
+	quest.03AA604EB1F693D2.quest_desc: ["Here the recipe takes a different path: book_of_binding_empty + 4 white_dye + 1 §dMagical Agglutinate§r (Magical Agglutinate) → book_of_binding_foliot.", "", "Without the Agglutinate, you don't unlock the foliot — the cheapest tier of spirits.", "occultism:book_of_binding_foliot", "03AA604EB1F693D2", "0AEB53137AB0C1D8", "xp"]
+	quest.03AA604EB1F693D2.quest_subtitle: "F1 Requirement — Magical Agglutinate"
+	quest.03AA604EB1F693D2.title: "Book of Binding (Foliot)"
+	quest.03FA047CFD454F9A.quest_subtitle: "First chip"
+	quest.03FA047CFD454F9A.title: "Logic Processor"
+	quest.04235322CEC85B45.quest_subtitle: "Advanced: spatial"
+	quest.04235322CEC85B45.title: "Spatial Pylon"
+	quest.045BFA201FD4D70E.quest_desc: ["Mystical flower → 4 petals on the crafting table. Gather at least 4 different colors (white, red, yellow, blue) to get the petal_apothecary going.", "botania:white_petal", "045BFA201FD4D70E", "798B454476B9DA0D", "xp"]
+	quest.045BFA201FD4D70E.quest_subtitle: "Craft petals of each color"
+	quest.045BFA201FD4D70E.title: "Basic Petals"
+	quest.04700A2D6AE62B7C.quest_desc: ["A weighted ejector launches items forward with tunable force. Configurable via wrench (distance) and click (item count filter).", "create:weighted_ejector", "04700A2D6AE62B7C", "72741CE140265BEC", "xp"]
+	quest.04700A2D6AE62B7C.quest_subtitle: "Launches items with timing"
+	quest.04700A2D6AE62B7C.title: "Weighted Ejector"
+	quest.05123EECDFA1C145.quest_desc: ["The thermalily consumes a lava bucket (~30s cooldown). Excellent mana density, but requires lava farms (Create pumping in the nether).", "botania:thermalily", "05123EECDFA1C145", "179D9489A6AA13B2", "xp"]
+	quest.05123EECDFA1C145.quest_subtitle: "Lava generator"
+	quest.05123EECDFA1C145.title: "Thermalily"
+	quest.051334D6FCEF3266.quest_desc: ["A schedule is a document-item. It configures stops, conditions, actions. Place it in a train conductor for autonomy.", "create:schedule", "051334D6FCEF3266", "6CCF4C67B31C3637", "xp"]
+	quest.051334D6FCEF3266.quest_subtitle: "Programs trains"
+	quest.051334D6FCEF3266.title: "Schedule"
+	quest.059452AA483EC0C7.quest_desc: ["Mana lens: 3 livingrock + glass in the right shape. No effect on its own, it's the base for other custom lenses.", "botania:lens_normal", "059452AA483EC0C7", "4275C864DE26748D", "xp"]
+	quest.059452AA483EC0C7.quest_subtitle: "Basic spreader modifier"
+	quest.059452AA483EC0C7.title: "Mana Lens"
+	quest.05CD90901501D6D7.quest_desc: ["The §eBound Scroll§r stays §bfixed§r to a specific waystone of your choice.", "", "§7•§r It always takes you to the same destination, no need to open the list.", "§7•§r Perfect for a direct, constant route to a key point."]
+	quest.05CD90901501D6D7.quest_subtitle: "Tied to a fixed waystone"
+	quest.05CD90901501D6D7.title: "Bound Scroll"
+	quest.07110F7FE64E8F0B.quest_desc: ["The petal apothecary is the central crafting block for functional flowers. Place petals + reagent, then pour a water bucket to activate.", "", "the apothecary is also the only path to make §asourceberry_bush§r and §asem datura_seeds§r (requires Aglutinado).", "botania:apothecary_default", "07110F7FE64E8F0B", "378574305B47C3E3", "xp"]
+	quest.07110F7FE64E8F0B.quest_subtitle: "Botanical crafting altar"
+	quest.07110F7FE64E8F0B.title: "Petal Apothecary"
+	quest.071B21472B9CAFC2.quest_desc: ["The Engineer's path begins here. Create's wrench is your first tool — use it to rotate shafts, adjust machines and dismantle components without losing them.", "", "§eRight-click§r on any Create block to rotate it; §eShift+right-click§r to pick it back up.", "create:wrench", "071B21472B9CAFC2", "2FB6E1EC63D54DCC", "xp"]
+	quest.071B21472B9CAFC2.quest_subtitle: "The Engineer's first step"
+	quest.071B21472B9CAFC2.title: "The Wrench"
+	quest.0748B447D83FF731.quest_subtitle: "Network in your pocket"
+	quest.0748B447D83FF731.title: "Wireless Terminal"
+	quest.075C12C4CBA2CA8F.quest_desc: ["§4The Dead King§r — the mod's final undead boss. In the §6#forge:bosses§r tag.", "", "Summon: assemble the §6Dead King Corpse§r (item) on a pillar of chiseled stone + ritual.", "", "Drop: enchanted §6legendary spell book§r + eldritch scrolls."]
+	quest.075C12C4CBA2CA8F.quest_subtitle: "Iron's Spells final lich"
+	quest.075C12C4CBA2CA8F.title: "Boss: The Dead King"
+	quest.077FE2E442F3700D.quest_desc: ["The portable fluid interface lets you exchange fluids between a static tank and a moving contraption (train, cart). Advanced mobile factory work.", "create:portable_fluid_interface", "077FE2E442F3700D", "31E57612D8606B10", "xp"]
+	quest.077FE2E442F3700D.quest_subtitle: "Fluid transfer via contraption"
+	quest.077FE2E442F3700D.title: "Portable Fluid Interface"
+	quest.07EDE51D4A681BAF.quest_subtitle: "Large battery"
+	quest.07EDE51D4A681BAF.title: "Dense Energy Cell"
+	quest.083F375AFD56BB04.quest_subtitle: "Copies config"
+	quest.083F375AFD56BB04.title: "Memory Card"
+	quest.08D1887C3AB6F872.quest_desc: ["To reach the top processing tier for the Cursed Magical Agglutinate, you need the Integrated Dynamics Squeezer.", "", "Custom recipe: §c4 livingwood_twig + 4 andesite_1x + 1 andesite_2x§r — requires no iron, keeping F1 purely Botania+Create."]
+	quest.08D1887C3AB6F872.quest_subtitle: "No iron in the recipe"
+	quest.08D1887C3AB6F872.title: "Squeezer (custom recipe)"
+	quest.08ECE6DF02FF3BA0.quest_desc: ["Touch triggers the spell when you click a nearby block/entity. Useful for ritualistic spells.", "ars_nouveau:glyph_touch", "08ECE6DF02FF3BA0", "0EDF4A0A60901CE7", "xp"]
+	quest.08ECE6DF02FF3BA0.quest_subtitle: "Form — touch"
+	quest.08ECE6DF02FF3BA0.title: "Glyph: Touch"
+	quest.0925C19C204B0A6D.quest_desc: ["The chamber absorbs source from the jars around it to transform items. Everything on the Arcanist's path passes through here.", "", "Here it includes livingwood in the recipe — because living wood channels source better than any other."]
+	quest.0925C19C204B0A6D.quest_subtitle: "Ars hub"
+	quest.0925C19C204B0A6D.title: "Imbuement Chamber"
+	quest.094FF40CB5BECD86.quest_desc: ["Craft at least one rune of each type (the elemental ones are already covered in earlier quests, but there are zodiac, lust, gluttony runes etc).", "botania:rune_pride", "094FF40CB5BECD86", "52553B948935CBDF", "xp"]
+	quest.094FF40CB5BECD86.quest_subtitle: "All Botania runes"
+	quest.094FF40CB5BECD86.title: "Rune Collection"
+	quest.09C725DAB97F639E.quest_desc: ["Craft or obtain the §6Diamond Tome§r. Each tier allows §emore inscribed spells§r and §emore powerful casts§r.", "", "§7Crafting: recipe similar to the base spell book, with the ingredient of the corresponding tier."]
+	quest.09C725DAB97F639E.quest_subtitle: "Endgame craftable"
+	quest.09C725DAB97F639E.title: "Diamond Tome"
+	quest.09E4E8A133AE1DC2.quest_desc: ["Take your search to the §edesert and savanna§r.", "", "Even in dry lands, heat-resistant §6wild gardens§r appear.", "Break each one §7•§r and discover ingredients that only grow in arid climates."]
+	quest.09E4E8A133AE1DC2.title: "Found and broke the garden"
+	quest.0A32640B71555B7A.quest_desc: ["The §6Mechanical Crafter§r assembles patterned recipes using rotation. Build it with §6Brass Ingot§r and §6Andesite Alloy§r.", "", "It's the workbench that gives motion physical form — the first step toward forging the core."]
+	quest.0A32640B71555B7A.title: "Mechanical Crafter"
+	quest.0A332B0F29151AD7.quest_desc: ["Speed lens: mana_lens + sugar + redstone. A spreader with a speed lens fires faster (useful for time-sensitive recipes).", "botania:lens_speed", "0A332B0F29151AD7", "58EC5745B45CE775", "xp"]
+	quest.0A332B0F29151AD7.quest_subtitle: "Speed lens"
+	quest.0A332B0F29151AD7.title: "Speed Lens"
+	quest.0A6AA4F3F564300F.quest_desc: ["Wild starbuncles appear in archwood biomes. Kill or feed them gold_nugget to get shards. 5 shards = 1 charm.", "ars_nouveau:starbuncle_shards", "0A6AA4F3F564300F", "16053A8F6EE166D7", "xp"]
+	quest.0A6AA4F3F564300F.quest_subtitle: "Drop from wild starbuncle"
+	quest.0A6AA4F3F564300F.title: "Starbuncle Shards"
+	quest.0A6BF39DB726103D.quest_subtitle: "Clean energy"
+	quest.0A6BF39DB726103D.title: "Crystal Resonance Generator"
+	quest.0A893276B7953291.quest_desc: ["The alfheim portal (livingwood + gaia + glimmering livingwood) opens a temporary gateway to Alfheim. Resources: dragonstone, elementium, alfsteel.", "botania:alfheim_portal", "0A893276B7953291", "196C411B80CDC1B4", "xp"]
+	quest.0A893276B7953291.quest_subtitle: "Dimension of the elves"
+	quest.0A893276B7953291.title: "Alfheim Portal"
+	quest.0A8B9B166AC803B2.quest_desc: ["Dark Tower — an obsidian tower at the center. The Ur-Ghast is a giant ghast.", "", "§eReward:§r 70 XP levels + boss trophy"]
+	quest.0A8B9B166AC803B2.quest_subtitle: "Supreme ghast of the Dark Tower"
+	quest.0A8B9B166AC803B2.title: "Slay the Ur-Ghast"
+	quest.0A9B6B7C9450AEED.quest_desc: ["Make §e4§r soups from Pam's.", "pamhc2foodextended:cactussoupitem", "0A9B6B7C9450AEED", "29D2A323979B33C2", "xp_levels"]
+	quest.0A9B6B7C9450AEED.quest_subtitle: "19 recipes in Pam's"
+	quest.0A9B6B7C9450AEED.title: "Cauldron — Soups"
+	quest.0BA7C3D4F7A36A65.quest_desc: ["Use the §bMeteorite Compass§r to find a §7Sky Stone§r meteorite.", "Inside it are the processor §ePresses§r."]
+	quest.0BA7C3D4F7A36A65.quest_subtitle: "Meteorite hunt"
+	quest.0BA7C3D4F7A36A65.title: "Sky Stone — Meteorite"
+	quest.0BC9B86289D37FFF.quest_desc: ["Kill an §capothecarist§r. These mages spawn in §6Mage Towers§r and drop gear pieces + school scrolls.", "", "§eReward:§r XP + a chance to drop an armor set or scroll."]
+	quest.0BC9B86289D37FFF.quest_subtitle: "Boss pyromancer"
+	quest.0BC9B86289D37FFF.title: "Hunt Apothecarist"
+	quest.0C8A6271B4E039EE.quest_desc: ["A chest with §emore capacity§r than the wooden one, and it accepts upgrades.", "§7•§r It can still climb tiers with the tier upgrades.", "The beginning of a real chest system."]
+	quest.0C8A6271B4E039EE.title: "Copper Chest"
+	quest.0CBB79825E7A5703.quest_desc: ["A mature magebloom plant drops 1-3 mage_bloom. Craft 1 fiber from 4 blooms.", "ars_nouveau:magebloom", "0CBB79825E7A5703", "2B0CE23E5A4A80B7", "xp"]
+	quest.0CBB79825E7A5703.quest_subtitle: "Magical fiber"
+	quest.0CBB79825E7A5703.title: "Magebloom Fiber"
+	quest.0D0D989BDF3BCD68.quest_desc: ["Head out across the §eplains§r and open fields in search of Pam's §6wild gardens§r.", "", "They sprout from the ground like small tufts of plants.", "Break them §7•§r to harvest seeds and assorted ingredients."]
+	quest.0D0D989BDF3BCD68.title: "Found and broke the garden"
+	quest.0D1B8F4EF84BE177.quest_subtitle: "Getting into the rhythm"
+	quest.0D1B8F4EF84BE177.title: "20 Chests Opened"
+	quest.0D853F67C689D420.quest_subtitle: "A charming decade"
+	quest.0D853F67C689D420.title: "10 Chests Opened"
+	quest.0DB980B05B2E81DA.quest_desc: ["The press forces metal sheets — copper, gold, iron. It's what unlocks the fluids tier and the Engineer's finer mechanisms.", "create:mechanical_press", "0DB980B05B2E81DA", "375D5305D8EE896C", "xp"]
+	quest.0DB980B05B2E81DA.quest_subtitle: "Pressing & forging"
+	quest.0DB980B05B2E81DA.title: "Mechanical Press"
+	quest.0DE50D0F47B0B93C.quest_desc: ["&7&o[Final Record Recovered: The Great Collapse]&r", "", "{image:kubejs:textures/static/caos.png width:200 height:100 align:center}", "", "Alas, not even what &3lives is eternal&r, and not even the pursuit of the &5infinite endures forever&r.", "", "When the &3rituals&r reached their &4apex&r, reality could not withstand the pressure. The attempt to materialize the &5Philosopher's Stone&r did not bring &6divinity&r, but &cdevastation&r. The chain reaction tore the fabric of the world.", "", "{@pagebreak}", "", "{image:kubejs:textures/static/deusa.png width:200 height:100 align:center}", "", "From the center of the blast, no object arose, but a presence. An &dancient Goddess&r, worshipped by a people forgotten even before history was written. She came not to save, but to judge.", "", "&o\"O ye, who once feasted upon abundance and, insatiable, dared to covet the ineffable infinite. Ye, whose souls were spared from torment and knew not suffering; ye, holders of plenitude, yet who, in your hubris, yearned to usurp omnipotence... Let this horizon in flames be your final twilight.\"&r", "", "She fragmented reality, scattering the laws of magic and technology to the winds, condemning the survivors to a horizon in flames. &7&oEach mod, once unified, became an isolated island of knowledge — and the Stone, the only bridge to reunite them.&r", "", "{@pagebreak}", "", "&l&nGlossary:&r", "", "&eHubris:&r Excessive pride or self-confidence that defies the gods, leading to one's downfall.", "&eIneffable:&r Something so grand or terrible that it cannot be expressed in words.", "&eTwilight:&r The setting of the sun; figuratively, the end of an era or its decline."]
+	quest.0DE50D0F47B0B93C.quest_subtitle: "The End of the Golden Age"
+	quest.0DE50D0F47B0B93C.title: "The Great Collapse"
+	quest.0E443E43FD0DACCD.quest_desc: ["Here the recipe takes another path: 1 §dlivingwood twig§r + 1 source_gem + 1 gold_ingot in the pattern \" S \" / \" WS\" / \"G  \".", "", "The dominion wand configures familiars (target inventory, filter blocks, etc). Right-click a familiar → right-click the destination.", "ars_nouveau:dominion_wand", "0E443E43FD0DACCD", "1FA90AD515D6EE89", "xp"]
+	quest.0E443E43FD0DACCD.quest_subtitle: "Cross-mod — controls familiars"
+	quest.0E443E43FD0DACCD.title: "Dominion Wand"
+	quest.0E767CA74B3B8EB6.quest_desc: ["§cCursed Spiritual Core§r is the raw result of the sequenced assembly — the three cores fused with the soul, but still unstable.", "", "The combined power of four mods rumbles out of control. The final refinement is still missing."]
+	quest.0E767CA74B3B8EB6.title: "Cursed Spiritual Core"
+	quest.0FA2DAF0E23BE5FC.quest_desc: ["Manaweave cloth: 4 manasteel_thread (from manasteel_ingot via livingwood twig+thread) + reagent. Used in manaweave armor + decoration.", "botania:manaweave_cloth", "0FA2DAF0E23BE5FC", "475FAC8687D0BA74", "xp"]
+	quest.0FA2DAF0E23BE5FC.quest_subtitle: "Manasteel fabric"
+	quest.0FA2DAF0E23BE5FC.title: "Manaweave Cloth"
+	quest.0FB2719CC60623F1.quest_desc: ["The potion jar stores a single potion and applies it as an area effect (regen, strength). Useful for a permanent base bonus.", "ars_nouveau:potion_jar", "0FB2719CC60623F1", "6770D49D42800C79", "xp"]
+	quest.0FB2719CC60623F1.quest_subtitle: "Stores potions"
+	quest.0FB2719CC60623F1.title: "Potion Jar"
+	quest.0FC8871F46B24FEC.quest_desc: ["To forge it: throw 1 §dmana diamond§r into §6spirit fire§r (an Occultism ritual with chalk_white + cobblestone) → 1 source_gem.", "", "Source_gem is the base of EVERYTHING in Ars. This path requires Botania (a working mana_pool) + Occultism (chalk).", "ars_nouveau:source_gem", "0FC8871F46B24FEC", "4197ADC4485F3046", "xp"]
+	quest.0FC8871F46B24FEC.quest_subtitle: "Cross-mod — main path"
+	quest.0FC8871F46B24FEC.title: "Source Gem (Mana Diamond)"
+	quest.0FE6AB0FC85230BC.quest_desc: ["The iesnium pickaxe is the Occultist's advanced tool. It mines iesnium ore (invisible to ordinary pickaxes) and opens the path to the marid tier.", "", "Marid are the most powerful spirits — whoever reaches here has mastered the whole of occultism."]
+	quest.0FE6AB0FC85230BC.quest_subtitle: "Advanced Occultism"
+	quest.0FE6AB0FC85230BC.title: "Iesnium Pickaxe"
+	quest.10417BD89EB9BC4D.quest_desc: ["Stabilizer tier 1: 4 stone + 1 spirit_attuned_gem. Adds slots to the controller (each stabilizer = +500 slots).", "occultism:storage_stabilizer_tier1", "10417BD89EB9BC4D", "4872AB2199B06D80", "xp"]
+	quest.10417BD89EB9BC4D.quest_subtitle: "Expands storage"
+	quest.10417BD89EB9BC4D.title: "Storage Stabilizer Tier 1"
+	quest.107673CE01A58B3E.quest_desc: ["Goggles: djinni ritual with 4 spirit_attuned_crystal + 1 leather. See all otherworld blocks (iesnium, otherworld_log) without needing a pickaxe.", "occultism:otherworld_goggles", "107673CE01A58B3E", "7F1FC127E2BBDD08", "xp"]
+	quest.107673CE01A58B3E.quest_subtitle: "Sees the invisible"
+	quest.107673CE01A58B3E.title: "Otherworld Goggles"
+	quest.10A59234C40DB59C.quest_desc: ["Purified ink: 1 ink_sac tossed into spirit_fire (ritual). Used in \"pure\" chalk white and book_of_binding_empty.", "occultism:purified_ink", "10A59234C40DB59C", "48A2BB2202B1CF00", "xp"]
+	quest.10A59234C40DB59C.quest_subtitle: "Pure ink"
+	quest.10A59234C40DB59C.title: "Purified Ink"
+	quest.10ECCC51CDCDAB60.quest_desc: ["The §6Attuned Shard§r links Warp Plates to one another, forming a teleport network with scoped destinations.", "waystones:attuned_shard", "10ECCC51CDCDAB60", "17FF1C33B68AF7F8", "xp_levels"]
+	quest.10ECCC51CDCDAB60.quest_subtitle: "Link your Warp Plates into a network"
+	quest.10ECCC51CDCDAB60.title: "Attuned Shard"
+	quest.1119A0C2942258B8.quest_desc: ["As part of the penance, the Goddess &etook the edge&r from tools forged by mortal hands.", "Wood, stone, iron, gold, diamond and netherite &7lost their strength and durability&r. They still work — but barely."]
+	quest.1119A0C2942258B8.title: "The Mortal Tools"
+	quest.1144C819F885DE00.quest_desc: ["Storage remote: 1 controller + 1 wormhole_frame. Access your storage from anywhere (portable item).", "occultism:storage_remote", "1144C819F885DE00", "0B804178C93C6AFA", "xp"]
+	quest.1144C819F885DE00.quest_subtitle: "Remote access"
+	quest.1144C819F885DE00.title: "Storage Remote"
+	quest.1166CF581183294D.quest_desc: ["The §ePot§r is the utensil for §6soups and stews§r.", "", "Combine fresh water, vegetables and meats for hot dishes that fill the hunger bar nicely.", "Reusable: once made, cook to your heart's content."]
+	quest.1166CF581183294D.quest_subtitle: "Soups and stews"
+	quest.1166CF581183294D.title: "Pot"
+	quest.11F1769AC021A9A6.quest_desc: ["A hose pulley draws fluids from a body of liquid (ocean, lake, lava). An infinite source if the body is > 10000 blocks.", "create:hose_pulley", "11F1769AC021A9A6", "2CF91535A58A43AF", "xp"]
+	quest.11F1769AC021A9A6.quest_subtitle: "Infinite fluid suction"
+	quest.11F1769AC021A9A6.title: "Hose Pulley"
+	quest.12285E91B2823CD6.quest_desc: ["Arranged in a grid, these crafters assemble any complex recipe on their own. It's like having a thousand hands forging in parallel.", "", "You'll need them to forge the §dPrecision Mechanism§r — a critical mid-game part of Create."]
+	quest.12285E91B2823CD6.quest_subtitle: "Automated crafting"
+	quest.12285E91B2823CD6.title: "Mechanical Crafter"
+	quest.12CE6E9875DD1591.quest_desc: ["The schematicannon fires blocks to build a saved schematic. Combine it with a schematic and quill (next quest) and a brick of fuel.", "create:schematicannon", "12CE6E9875DD1591", "48EFA13F3F593537", "xp"]
+	quest.12CE6E9875DD1591.quest_subtitle: "Build structures automatically"
+	quest.12CE6E9875DD1591.title: "Schematicannon"
+	quest.131FD257771A6236.quest_desc: ["§5The Keeper§r — a wraith found in ruins. An §dender§r-element boss.", "", "Drop: rare §6spell scrolls§r + §6keeper soul§r."]
+	quest.131FD257771A6236.quest_subtitle: "Arcane wraith"
+	quest.131FD257771A6236.title: "Boss: The Keeper"
+	quest.1384646025CA3D53.quest_desc: ["The mycelial link generates mana from mushroom farms. Useful in swamp/mushroom_island.", "ars_nouveau:mycelial_sourcelink", "1384646025CA3D53", "07C90040FFF61F94", "xp"]
+	quest.1384646025CA3D53.quest_subtitle: "Link via mushrooms"
+	quest.1384646025CA3D53.title: "Source Link Mycelial"
+	quest.139CAC5805D05307.quest_desc: ["Source gem block: 9 source_gem → 1 block. Storage + decoration + a component of several structures.", "ars_nouveau:source_gem_block", "139CAC5805D05307", "2D80846FDD0AA731", "xp"]
+	quest.139CAC5805D05307.quest_subtitle: "Compacted block"
+	quest.139CAC5805D05307.title: "Source Gem Block"
+	quest.139D02C0B765CB8B.quest_desc: ["Chalk white pure: 4 purified_ink + 1 stick. More precise pentacles = higher chance of ritual success.", "occultism:chalk_white", "139D02C0B765CB8B", "41A82B4ED5C7135C", "xp"]
+	quest.139D02C0B765CB8B.quest_subtitle: "Quality chalk"
+	quest.139D02C0B765CB8B.title: "Chalk White (Pure)"
+	quest.13AA5F368949DF26.quest_desc: ["The Twilight Forest's opening boss. Find it in mossy stone ruins.", "", "§eReward:§r 20 XP levels + boss trophy"]
+	quest.13AA5F368949DF26.quest_subtitle: "The serpent of the ruins"
+	quest.13AA5F368949DF26.title: "Slay the Naga"
+	quest.13F667C677069107.quest_desc: ["Place a pure_daisy next to logs (not planks!) — it gradually converts them into livingwood. Base material for mana_spreader, mana_pylon and many other structures.", "botania:livingwood", "13F667C677069107", "3CFE71FB96516873", "xp"]
+	quest.13F667C677069107.quest_subtitle: "Living wood"
+	quest.13F667C677069107.title: "Livingwood"
+	quest.1421D434596C84D1.quest_desc: ["Dimensional matrix: djinni ritual with 1 storage_base + 1 nether_star + rare items. The heart of the storage system.", "occultism:dimensional_matrix", "1421D434596C84D1", "455D9ED8E10E34A9", "xp"]
+	quest.1421D434596C84D1.quest_subtitle: "Inter-dimensional matrix"
+	quest.1421D434596C84D1.title: "Dimensional Matrix"
+	quest.142572AABD3DFC3A.quest_desc: ["To forge it: 1 §6spirit attuned crystal§r in the imbuement_chamber → 4 source_gem + 1000 source mana.", "", "A path 4× as efficient for mass production. The crystal comes from amethyst_block (a turning point — Magical Agglutinate).", "ars_nouveau:source_gem", "142572AABD3DFC3A", "6057B872DF053AA6", "xp"]
+	quest.142572AABD3DFC3A.quest_subtitle: "Cross-mod — premium path"
+	quest.142572AABD3DFC3A.title: "Source Gem (Spirit Crystal)"
+	quest.143A3595A3A9E8E8.quest_desc: ["The mana distributor receives mana from ONE spreader and redistributes it to up to 4 adjacent spreaders. Handy for feeding multiple farms.", "botania:mana_distributor", "143A3595A3A9E8E8", "78081CFC12598258", "xp"]
+	quest.143A3595A3A9E8E8.quest_subtitle: "Distributes mana to multiple pools"
+	quest.143A3595A3A9E8E8.title: "Mana Distributor"
+	quest.149688E1047E1961.quest_desc: ["Ritual warding protects an area from creature spawns. Useful for bases.", "ars_nouveau:ritual_warping", "149688E1047E1961", "2B1B4C0772E2CB93", "xp"]
+	quest.149688E1047E1961.quest_subtitle: "Area protection"
+	quest.149688E1047E1961.title: "Ritual Warding"
+	quest.14CD28F6A9C0C904.quest_desc: ["The first real backpack, with much more space than the leather one.", "§7•§r It already accepts §eUpgrades§r, so it's the foundation for everything else.", "Hold it and click to open it anywhere."]
+	quest.14CD28F6A9C0C904.quest_subtitle: "More space"
+	quest.14CD28F6A9C0C904.title: "Copper Backpack"
+	quest.14CE03D862C378EC.quest_desc: ["Automatically merges items into blocks: nuggets become ingots, ingots become blocks.", "§7•§r Saves space by storing everything already compacted.", "Great for mass resource mining."]
+	quest.14CE03D862C378EC.quest_subtitle: "Turns things into blocks automatically"
+	quest.14CE03D862C378EC.title: "Upgrade: Compacting"
+	quest.151AC074067A49BD.quest_desc: ["The ritual binding tablet lets you convert shards into charms. Run it at the brazier with shards + base items.", "ars_nouveau:ritual_binding", "151AC074067A49BD", "4D7C38BC87675D00", "xp"]
+	quest.151AC074067A49BD.quest_subtitle: "Binds familiar shards → charm"
+	quest.151AC074067A49BD.title: "Ritual Binding"
+	quest.15597489E4770386.quest_desc: ["A gearshift reverses the shaft's direction when it receives redstone. Useful for reversible deployers and pumps.", "create:gearshift", "15597489E4770386", "00C29A27B9D2B7C4", "xp"]
+	quest.15597489E4770386.quest_subtitle: "Reverses direction via redstone"
+	quest.15597489E4770386.title: "Gearshift"
+	quest.156570B45AB0518D.quest_desc: ["Like §ePickup§r, but pulls items and XP toward you from §bafar§r.", "§7•§r The radius is much larger — it clears the floor of an entire area.", "Be careful not to pull in what you don't want; use the filters."]
+	quest.156570B45AB0518D.quest_subtitle: "Attracts items from afar"
+	quest.156570B45AB0518D.title: "Upgrade: Magnet"
+	quest.159F86B53CE63848.quest_desc: ["§2Wilden Chimera§r — Ars Nouveau boss. Summon it with a §6Wilden Chimera Spawn Egg§r or summon it at the §6Ritual Brazier of Wilden Summoning§r.", "", "3 phases (defender/hunter/stalker), each with its own mechanics.", "", "§eReward:§r 50 XP levels + Wilden Trophy"]
+	quest.159F86B53CE63848.quest_subtitle: "The wild beast of the forest"
+	quest.159F86B53CE63848.title: "Slay Wilden Chimera"
+	quest.15C4F7F1763E716E.quest_desc: ["The vitalic link generates mana from nearby creature spawns. Good for creature farms.", "ars_nouveau:vitalic_sourcelink", "15C4F7F1763E716E", "79E6B0FA395A1851", "xp"]
+	quest.15C4F7F1763E716E.quest_subtitle: "Mana link via life"
+	quest.15C4F7F1763E716E.title: "Source Link Vitalic"
+	quest.15E2785AE7B5C110.quest_desc: ["There are 70+ glyphs available in Ars. Build a collection of at least 25 — the apprentice threshold. Each glyph is unlocked at the scribes_table.", "ars_nouveau:blank_glyph", "15E2785AE7B5C110", "5910EBEDB3B62D02", "xp"]
+	quest.15E2785AE7B5C110.quest_subtitle: "Learn 25+ glyphs"
+	quest.15E2785AE7B5C110.title: "Glyph Collection"
+	quest.16011FCD6C61AA02.quest_desc: ["The source gem is the Arcanist's mana currency. Without it, nothing is imbued, nothing is channeled, nothing is enchanted.", "", "There are two ways to obtain it:", "§71)§r throw a §dmana diamond§r into the occultists' spirit fire — one gem comes out", "§72)§r place a §dspirit attuned crystal§r in the imbuement chamber — four gems come out (but it requires the full Druid path + Agglutinate)"]
+	quest.16011FCD6C61AA02.quest_subtitle: "The base of all Ars"
+	quest.16011FCD6C61AA02.title: "Source Gem"
+	quest.16035ED5ED581BED.quest_desc: ["Afrit essence: afrit ritual (with nether_star) → essence. Used in demonic_machine recipes.", "occultism:afrit_essence", "16035ED5ED581BED", "78B089A886311EBF", "xp"]
+	quest.16035ED5ED581BED.quest_subtitle: "Demonic essence"
+	quest.16035ED5ED581BED.title: "Afrit Essence"
+	quest.163565E425D947A6.quest_desc: ["There are ~10 Ars forms: projectile, touch, self, area, beam, underfoot, etc. Each defines HOW the spell manifests. Place at LEAST 5 different forms at the scribes_table.", "ars_nouveau:glyph_orbit", "163565E425D947A6", "609BA2BEF3159563", "xp"]
+	quest.163565E425D947A6.quest_subtitle: "Basic and advanced forms"
+	quest.163565E425D947A6.title: "Form Collection (Glyphs)"
+	quest.168FAA46D89F457B.quest_desc: ["§eDough§r + §eBakeware§r.", "pamhc2foodextended:pancakesitem", "168FAA46D89F457B", "5865474D0D5699A2", "xp_levels"]
+	quest.168FAA46D89F457B.quest_subtitle: "First dish"
+	quest.168FAA46D89F457B.title: "Pancakes"
+	quest.16D79B3A3A9C95FB.quest_desc: ["Dark Tower in the Twilight. Endgame boss of the Twilight Forest.", "", "§eReward:§r 70 XP levels + boss trophy"]
+	quest.16D79B3A3A9C95FB.quest_subtitle: "Lord of the Dark Tower"
+	quest.16D79B3A3A9C95FB.title: "Tier 6: Ur-Ghast"
+	quest.16EDE5F05169464C.quest_desc: ["Spirit fire: build the white impure pentacle + flint_and_steel in the center → spirit_fire ignites. Toss items in to convert them (cobblestone→otherstone, amethyst_block→spirit_attuned_crystal, etc).", "occultism:spirit_fire", "16EDE5F05169464C", "3C1C96277D2B9B1D", "xp"]
+	quest.16EDE5F05169464C.quest_subtitle: "Spirit fire ritual"
+	quest.16EDE5F05169464C.title: "Spirit Fire"
+	quest.1706DED5F3EDA6B9.quest_desc: ["Explore the §eshaded corners and mushroom fields§r.", "", "In damp, dark lands grow the most uncommon §6wild gardens§r.", "Break them §7•§r and take home ingredients that few know about."]
+	quest.1706DED5F3EDA6B9.title: "Found and broke the garden"
+	quest.17483F40DBEC0AFB.quest_desc: ["§eThis chapter guides EQSMP's boss progression.§r", "", "The main line covers 8 milestones — essential bosses that open the path to the endgame.", "Side quests add variety: elemental bosses, hard modes, and each mod's unique masters.", "", "§7Start with the Naga (easiest) and work up to the Harbinger (hardest)."]
+	quest.17483F40DBEC0AFB.quest_subtitle: "Confront the world's bosses"
+	quest.17483F40DBEC0AFB.title: "The Path of the Hunter"
+	quest.17D98576B8A56FF4.quest_desc: ["Salvation lies in &btranscending the ordinary&r. Tools and weapons beyond the mortal — &6Silent Gear&r, magic, engineering — don't carry the curse and hit &aharder&r.", "Walk the &eMod Paths&r and forge your own."]
+	quest.17D98576B8A56FF4.title: "Forge Your Own Path"
+	quest.18D3E4535B857760.quest_desc: ["Dragon familiar: afrit ritual + ender_dragon scales. Combat support + auto-flight.", "occultism:familiar_ring", "18D3E4535B857760", "4CB7FA9301707C7D", "xp"]
+	quest.18D3E4535B857760.quest_subtitle: "Advanced familiar"
+	quest.18D3E4535B857760.title: "Dragon Familiar"
+	quest.1922B0380E2A5219.quest_desc: ["The §eGrave Plate§r identifies and decorates the grave, marking whose resting place it is.", "", "§7•§r Useful for telling graves apart on a server with several players.", "§7•§r Also works as a memorial ornament in a homemade cemetery."]
+	quest.1922B0380E2A5219.quest_subtitle: "Identifies the grave"
+	quest.1922B0380E2A5219.title: "Grave Plate"
+	quest.192D827126D8DF67.quest_desc: ["There's candle_white, candle_red, etc. Each chalk color requires the corresponding candle in the pentacle.", "occultism:candle_white", "192D827126D8DF67", "58ADEF202927D24C", "xp"]
+	quest.192D827126D8DF67.quest_subtitle: "Ritual candles"
+	quest.192D827126D8DF67.title: "Collection of Candles"
+	quest.1946293FE32510F3.quest_desc: ["Marid master miner: marid ritual + iesnium_pickaxe + crystal_apparatus. Mines random ore in the background — Occultism's advanced farm.", "occultism:miner_marid_master", "1946293FE32510F3", "3EF3B0386264A169", "xp"]
+	quest.1946293FE32510F3.quest_subtitle: "Infinite mining"
+	quest.1946293FE32510F3.title: "Marid Miner (advanced)"
+	quest.19D72A7F5EE326F5.quest_desc: ["The kekimurus eats cake (vanilla) to generate mana — ~120k mana per cake. Auto-feed via a Create cake-stacking belt.", "botania:kekimurus", "19D72A7F5EE326F5", "257750CBA4DFB6F3", "xp"]
+	quest.19D72A7F5EE326F5.quest_subtitle: "Cake-powered generator"
+	quest.19D72A7F5EE326F5.title: "Kekimurus"
+	quest.19D8E5E2A48177D3.quest_desc: ["Infused lenses (eye slot via curio) reveal otherworld blocks without needing a specific pickaxe.", "occultism:infused_lenses", "19D8E5E2A48177D3", "5A51DCC506940669", "xp"]
+	quest.19D8E5E2A48177D3.quest_subtitle: "Occultist's sight"
+	quest.19D8E5E2A48177D3.title: "Infused Lenses"
+	quest.1AFB6301F67149E2.quest_desc: ["Greater mana ring: 2× ring + 1× gaia_ingot or similar. 5x the capacity. Advanced portable storage.", "botania:mana_ring_greater", "1AFB6301F67149E2", "38165B1481985937", "xp"]
+	quest.1AFB6301F67149E2.quest_subtitle: "Upgraded ring"
+	quest.1AFB6301F67149E2.title: "Greater Mana Ring"
+	quest.1B83CECB49BDB010.quest_desc: ["There are ~15 augments: amplify, dampen, extend_time, accelerate, fortune, sensitive, etc. They modify intensity/duration/behavior.", "ars_nouveau:glyph_extend_time", "1B83CECB49BDB010", "22236E9D8F8AF6B1", "xp"]
+	quest.1B83CECB49BDB010.quest_subtitle: "Modifier augments"
+	quest.1B83CECB49BDB010.title: "Augment Collection"
+	quest.1C069DDAD9AE8EA6.quest_desc: ["Terrasteel chestplate: 8× terrasteel_ingot. Boosts defense + mana regen.", "botania:terrasteel_chestplate", "1C069DDAD9AE8EA6", "20F4927EB6447495", "xp"]
+	quest.1C069DDAD9AE8EA6.quest_subtitle: "Advanced chestplate"
+	quest.1C069DDAD9AE8EA6.title: "Terrasteel Chestplate"
+	quest.1CE40655E324434F.quest_desc: ["The §eDecorative Grave§r is a purely §bdecorative§r memorial.", "", "§7•§r Use it to build cemeteries, shrines or tributes at your base.", "§7•§r It doesn't store items or appear when you die: it's just aesthetics."]
+	quest.1CE40655E324434F.quest_subtitle: "Memorial"
+	quest.1CE40655E324434F.title: "Decorative Grave"
+	quest.1D2BC1E862147C51.quest_desc: ["Cataclysm. Bastion in the Nether. Alternative tier 6 boss.", "", "§eReward:§r 75 XP levels + drop"]
+	quest.1D2BC1E862147C51.quest_subtitle: "Monstrosity of the Nether"
+	quest.1D2BC1E862147C51.title: "Side: Netherite Monstrosity"
+	quest.1D5762182FF288D9.quest_desc: ["When all hope was fading, the &dGoddess&r intervened. She &aspared humanity&r from final destruction.", "But mercy &eis not&r the same as forgiveness."]
+	quest.1D5762182FF288D9.title: "The Goddess's Gift"
+	quest.1D7156B161DD41D4.quest_desc: ["Amethyst golem charm: 5 amethyst_shard + ritual binding. Automatically collects amethyst from geodes.", "ars_nouveau:amethyst_golem_charm", "1D7156B161DD41D4", "6FBAD61155993851", "xp"]
+	quest.1D7156B161DD41D4.quest_subtitle: "Amethyst-collecting familiar"
+	quest.1D7156B161DD41D4.title: "Amethyst Golem"
+	quest.1D7E669BF9E90286.quest_desc: ["The strongest material Botania can offer. Forged on the Terra Plate, consuming half a million mana.", "", "It's the base of the §dSpiritual Core§r — the fourth and last of the magical pillars.", "botania:terrasteel_ingot", "1D7E669BF9E90286", "6DD71CCABA82B479", "xp"]
+	quest.1D7E669BF9E90286.quest_subtitle: "Advanced material"
+	quest.1D7E669BF9E90286.title: "Terrasteel Ingot"
+	quest.1D8A94E00FA820E7.quest_subtitle: "Pushing out"
+	quest.1D8A94E00FA820E7.title: "Export Bus"
+	quest.1D8C001F1FD16C14.quest_desc: ["Stores all three forms together: §enugget§r, §eingot§r and §eblock§r.", "§7•§r Put in an ingot and it converts between the forms on its own.", "No more back-and-forth crafting blocks just to store them."]
+	quest.1D8C001F1FD16C14.quest_subtitle: "Block/ingot/nugget together"
+	quest.1D8C001F1FD16C14.title: "Compacting Drawer"
+	quest.1D9DB440D41F4D36.quest_desc: ["§dBook of Binding (Djinni)§r was unlocked by the §ePure Mana Crystal§r — now you can bind a greater spirit from Occultism.", "", "The djinni opens rituals of power far beyond the humble foliot."]
+	quest.1D9DB440D41F4D36.title: "Pact with the Djinni"
+	quest.1DAECECBF4CA4357.quest_subtitle: "The chip factory"
+	quest.1DAECECBF4CA4357.title: "Inscriber"
+	quest.1DFACF67B8011238.quest_desc: ["The §eMixing Bowl§r is used to combine raw ingredients.", "", "Salads, fillings and light doughs pass through it.", "Like the other utensils, it §6stays in your inventory§r after the recipe."]
+	quest.1DFACF67B8011238.title: "Mixing Bowl"
+	quest.1E13439C75C88343.quest_desc: ["Craft or obtain the §6Gold Tome§r. Each tier allows §emore inscribed spells§r and §emore powerful casts§r.", "", "§7Crafting: recipe similar to the base spell book, with the ingredient of the corresponding tier."]
+	quest.1E13439C75C88343.quest_subtitle: "Intermediate tier"
+	quest.1E13439C75C88343.title: "Gold Tome"
+	quest.1E74F7CCF3383CE7.quest_desc: ["The djinni pact book unlocks the Occultist's middle tier. Djinn serve in advanced rituals.", "", "The recipe here demands a §dPure Mana Crystal§r — because djinn only accept pacts forged in absolute purity.", "occultism:book_of_binding_djinni", "1E74F7CCF3383CE7", "0CB020B97E4A3551", "xp"]
+	quest.1E74F7CCF3383CE7.quest_subtitle: "F3 Requirement — Mana Crystal"
+	quest.1E74F7CCF3383CE7.title: "Book of Binding (Djinni)"
+	quest.1EB207A4DB3F75BC.quest_desc: ["A depot holds an item still for processing (drill, saw, deployer, press). A belt alternative for sequential processes.", "create:depot", "1EB207A4DB3F75BC", "49286BE8FFDF995F", "xp"]
+	quest.1EB207A4DB3F75BC.quest_subtitle: "Static platform for processing"
+	quest.1EB207A4DB3F75BC.title: "Depot"
+	quest.1FFA1B0C43DE05B3.quest_desc: ["The agricarnation speeds up the growth of nearby crops. Mana cost per crop. Combine with vegetal_baby for massive farms.", "botania:agricarnation", "1FFA1B0C43DE05B3", "03EB692AA9E4B9C4", "xp"]
+	quest.1FFA1B0C43DE05B3.quest_subtitle: "Growth flower"
+	quest.1FFA1B0C43DE05B3.title: "Agricarnation"
+	quest.200A178BD7771EB8.quest_desc: ["§eKinetic Core§r — this phase's milestone. The foliot ritual purifies the §ccorrupted core§r, locking Create's motion into a stable form.", "", "It's the cross-key: it unlocks the next level of §aBotania§r and §bArs Nouveau§r."]
+	quest.200A178BD7771EB8.title: "The Kinetic Core"
+	quest.204066C0F1D2B212.quest_desc: ["The §eCutting Board§r is your first kitchen tool.", "", "Use it in recipes that call for slicing §7•§r meats, fruits and vegetables.", "It stays in the crafting grid alongside the ingredients and §6is not consumed§r. A good start for the kitchen."]
+	quest.204066C0F1D2B212.quest_subtitle: "First tool"
+	quest.204066C0F1D2B212.title: "Cutting Board"
+	quest.20557B0806A699B9.quest_desc: ["Here the recipe takes another route: 4× §6otherstone slab§r → 1 diluted_pool. Smaller capacity (10000 mana) but cheap, ideal for the runic_altar.", "botania:diluted_pool", "20557B0806A699B9", "7E01AAFB5B83CA6E", "xp"]
+	quest.20557B0806A699B9.quest_subtitle: "Cross-mod F1 — smaller pool"
+	quest.20557B0806A699B9.title: "Diluted Pool"
+	quest.205AE6A03613BFE6.quest_desc: ["A conjuration catalyst under the mana_pool enables special recipes (mana_diamond, extra mana_pearl, etc). Permanent once placed.", "botania:conjuration_catalyst", "205AE6A03613BFE6", "616310B12323C142", "xp"]
+	quest.205AE6A03613BFE6.quest_subtitle: "Mana_pool catalyst"
+	quest.205AE6A03613BFE6.title: "Conjuration Catalyst"
+	quest.209FD25B5B9ADBC1.quest_desc: ["Wixie charm + ritual binding → wixie pet. Program recipes for it to craft automatically at the enchanting_apparatus.", "ars_nouveau:wixie_charm", "209FD25B5B9ADBC1", "152240C1374F0428", "xp"]
+	quest.209FD25B5B9ADBC1.quest_subtitle: "Crafter familiar"
+	quest.209FD25B5B9ADBC1.title: "Wixie Charm"
+	quest.20DA5D1B156DA58F.quest_desc: ["Self applies the spell to the caster. Critical for haste, healing and jump-boost combinations.", "ars_nouveau:glyph_self", "20DA5D1B156DA58F", "3DE1CFCE3E6AB402", "xp"]
+	quest.20DA5D1B156DA58F.quest_subtitle: "Form — on yourself"
+	quest.20DA5D1B156DA58F.title: "Glyph: Self"
+	quest.21B3E46BB4545D75.quest_desc: ["The §eTome of Disenchantment§r §cremoves§r the enchantments from an item so you can §brecover them§r.", "", "§7•§r The extracted enchantments can be reapplied to other gear.", "§7•§r Great for reusing a rare enchantment before discarding the piece."]
+	quest.21B3E46BB4545D75.quest_subtitle: "Recovers enchantments"
+	quest.21B3E46BB4545D75.title: "Tome of Disenchantment"
+	quest.223B47023739FF32.quest_subtitle: "More speed"
+	quest.223B47023739FF32.title: "Crafting Co-Processor"
+	quest.224608376584E2BA.quest_desc: ["Create's §6Mechanical Arm§r was unlocked by the §ePure Mana Crystal§r.", "", "It moves and distributes items between depots and machines — the automatic arm essential for the sequenced assembly of the final phase."]
+	quest.224608376584E2BA.title: "Mechanical Arm Unlocked"
+	quest.22B64EE5468FBBBF.quest_desc: ["Amplify intensifies the preceding effect. Heal + 3× amplify = massive healing. Damage spells benefit too.", "ars_nouveau:glyph_amplify", "22B64EE5468FBBBF", "1DA1807EAEC8D328", "xp"]
+	quest.22B64EE5468FBBBF.quest_subtitle: "Augment — increases power"
+	quest.22B64EE5468FBBBF.title: "Glyph: Amplify"
+	quest.231DA6F30E12A68C.quest_desc: ["Make §e4§r fresh juices from Pam's.", "pamhc2foodextended:apricotjuiceitem", "231DA6F30E12A68C", "7A75F21E658E7DE7", "xp_levels"]
+	quest.231DA6F30E12A68C.quest_subtitle: "46 recipes in Pam's"
+	quest.231DA6F30E12A68C.title: "Fresh Juices"
+	quest.239774567E7A636A.quest_desc: ["Drygmies appear in archwood biomes. Kill around 5 for enough shards.", "ars_nouveau:drygmy_shard", "239774567E7A636A", "118032E8E3D96A23", "xp"]
+	quest.239774567E7A636A.quest_subtitle: "Drop from drygmy"
+	quest.239774567E7A636A.title: "Drygmy Shards"
+	quest.239D5DEFA45318B1.quest_desc: ["§6Occultism§r has no entity bosses, but the §dLord of Stone§r (summoned via ritual) is the narrative equivalent.", "", "Perform the §6Summon Lord of Stone§r ritual with the proper sacrifice.", "", "Drop: §6dimensional_matrix§r — the key to other advanced rituals."]
+	quest.239D5DEFA45318B1.quest_subtitle: "Demonic summoning ritual"
+	quest.239D5DEFA45318B1.title: "Conjure the Lord of Stone"
+	quest.23B6CC80F93CBE7A.quest_desc: ["§cTosses out§r the items you mark in the filter, the moment they come in.", "§7•§r Perfect for discarding cobblestone and junk while mining.", "Use it carefully: whatever falls in here is gone for good."]
+	quest.23B6CC80F93CBE7A.quest_subtitle: "Tosses out filtered junk"
+	quest.23B6CC80F93CBE7A.title: "Upgrade: Void"
+	quest.24390C508A6CA48D.quest_subtitle: "FE gateway"
+	quest.24390C508A6CA48D.title: "Energy Acceptor"
+	quest.248B7F048FDCB864.quest_desc: ["Break + Projectile/Touch breaks blocks remotely. Mining at a distance.", "ars_nouveau:glyph_break", "248B7F048FDCB864", "6F649B7F183A25A3", "xp"]
+	quest.248B7F048FDCB864.quest_subtitle: "Effect — break block"
+	quest.248B7F048FDCB864.title: "Glyph: Break"
+	quest.249B0D60EA056C60.quest_desc: ["Botania endgame. Summon with 4 pylons + beacon + gaia spirit. A magic-tier boss.", "", "§eReward:§r 40 XP levels + boss trophy"]
+	quest.249B0D60EA056C60.quest_subtitle: "Sentinel of paradise"
+	quest.249B0D60EA056C60.title: "Tier 3: Gaia Guardian"
+	quest.24DAE300D62ABE80.quest_desc: ["The runic altar is where mana takes elemental form. Here you forge runes of water, fire, earth and air.", "", "To build it you'll need a §dKinetic Core§r — without mastery over motion, the runes won't set.", "botania:runic_altar", "24DAE300D62ABE80", "0489B5E50D7780F6", "xp"]
+	quest.24DAE300D62ABE80.quest_subtitle: "Cross-mod F2 — Kinetic Core gate"
+	quest.24DAE300D62ABE80.title: "Runic Altar"
+	quest.24DE329035C33FC4.quest_desc: ["The §eBakeware§r is the tool for §6baked goods§r.", "", "Breads, pies and cakes need it in the recipe.", "Combine dough and filling for hearty desserts and treats."]
+	quest.24DE329035C33FC4.quest_subtitle: "Baked goods"
+	quest.24DE329035C33FC4.title: "Bakeware"
+	quest.2527AE7D99870E96.quest_desc: ["Book of binding afrit: book_of_binding_empty + 4 red_dye + 1 nether_star. Occultism's highest tier — afrit servants.", "occultism:book_of_binding_afrit", "2527AE7D99870E96", "120A95117AD8F832", "xp"]
+	quest.2527AE7D99870E96.quest_subtitle: "Afrit tier"
+	quest.2527AE7D99870E96.title: "Book of Binding (Afrit)"
+	quest.253C4CA48256ACB6.quest_desc: ["A drawer with §e2 slots§r, each holding one type of item in large quantity.", "§7•§r Click to insert, click again to take out a single unit.", "The foundation of visual organization with Storage Drawers."]
+	quest.253C4CA48256ACB6.title: "Drawer (2 slots)"
+	quest.254D07FA5FF91291.quest_desc: ["Cataclysm. Sunken City. A dragon-tier boss with unique mechanics.", "", "§eReward:§r 85 XP levels + boss trophy"]
+	quest.254D07FA5FF91291.quest_subtitle: "Ancient dragon"
+	quest.254D07FA5FF91291.title: "Tier 7: Ancient Remnant"
+	quest.25BCD2C65E508DF4.quest_subtitle: "More space"
+	quest.25BCD2C65E508DF4.title: "64k Item Storage Cell"
+	quest.262D36427FE3C7C8.quest_desc: ["The §6Andesite Casing§r opens Create's basic tier — simple but necessary machines to start automating.", "", "Craft each of them to complete the step.", "", "§7Windmill Bearing · Mechanical Bearing · Deployer · Mechanical Drill · Mechanical Saw · Encased Fan"]
+	quest.262D36427FE3C7C8.quest_subtitle: "Engineering essentials"
+	quest.262D36427FE3C7C8.title: "Andesite Machines"
+	quest.266731209DF722B9.quest_desc: ["The Ring of Loki lets you place blocks in a pattern (up to 9x9). Paired with a full chest, mass building.", "botania:loki_ring", "266731209DF722B9", "7FE0B9576E3E5ACD", "xp"]
+	quest.266731209DF722B9.quest_subtitle: "Multi-block placement"
+	quest.266731209DF722B9.title: "Ring of Loki"
+	quest.269FBEBC697DE917.quest_desc: ["Chalk white impure: 4 bone_meal + 1 stick. Imprecise but works for your first rituals.", "occultism:chalk_white_impure", "269FBEBC697DE917", "2791E6EA818D12C0", "xp"]
+	quest.269FBEBC697DE917.quest_subtitle: "First chalk"
+	quest.269FBEBC697DE917.title: "Chalk White (Impure)"
+	quest.2705F4E4F163F94A.quest_subtitle: "Viewing the network"
+	quest.2705F4E4F163F94A.title: "ME Terminal"
+	quest.2782C967594AF9B9.quest_desc: ["Alfsteel pickaxe: 3 alfsteel_ingot + 2 stick. Alfsteel comes from an alfheim_portal + manasteel recipe. Faster + sharper than iesnium.", "ars_nouveau:wilden_horn", "2782C967594AF9B9", "0F2F6C24B051A3F5", "xp"]
+	quest.2782C967594AF9B9.quest_subtitle: "Advanced pickaxe (Ars)"
+	quest.2782C967594AF9B9.title: "Alfsteel Pickaxe"
+	quest.27BEA17571985C02.quest_subtitle: "Autocraft I"
+	quest.27BEA17571985C02.title: "Pattern Provider"
+	quest.27C507EB27CA7200.quest_desc: ["The Occultist knew the secret did not belong to this &dmaterial plane&r. Through &4forbidden&r rituals and guided by the &dThird Eye&r, he sought shortcuts in the shadows, bargaining with &7Djinn&r and &6Afrits.&r His ambition was not to create the Stone, but to trade for it; he prepared the supreme ritual, offering the stability of his own dimension in exchange for the artifact, whispering to entities that &cshould never be heard&r."]
+	quest.27C507EB27CA7200.quest_subtitle: "The Pursuit"
+	quest.27C507EB27CA7200.title: "The Occultist (Occultism)"
+	quest.28F9E30A0166A38F.quest_desc: ["Prepare §e64§r dishes from §ePam's§r. You've mastered Pam's kitchen!", "pamhc2foodextended:bbqchickenpizzaitem", "28F9E30A0166A38F", "09E71089EDE1AFB9", "xp_levels"]
+	quest.28F9E30A0166A38F.quest_subtitle: "§6The pinnacle of cooking§r"
+	quest.28F9E30A0166A38F.title: "Master Chef"
+	quest.29490E0EC3DD58E9.quest_desc: ["The pylon speeds up the flow of mana around the pool — placing four pylons around it makes your botanical machines double their pace.", "", "The recipe here includes a §dsource gem§r from the Arcanists — because the pylon channels magical mana and source at the same time."]
+	quest.29490E0EC3DD58E9.quest_subtitle: "Speeds up the pool"
+	quest.29490E0EC3DD58E9.title: "Mana Pylon"
+	quest.29BC341B1EBC00EF.quest_desc: ["The §eTome of Soulbound§r keeps your items §bwith you§r even when you die.", "", "§7•§r Apply the bind to the gear you can't afford to lose.", "§7•§r A §6high-value§r item: it's the ultimate insurance against losing your inventory."]
+	quest.29BC341B1EBC00EF.quest_subtitle: "Items don't vanish on death"
+	quest.29BC341B1EBC00EF.title: "Tome of Soulbound"
+	quest.2A5D1F736D073040.quest_subtitle: "Autocraft II"
+	quest.2A5D1F736D073040.title: "Molecular Assembler"
+	quest.2A7D620BAE54E3A4.quest_desc: ["datura_seeds NO longer drop from grass/tall_grass.", "", "§eOnly way:§r petal_apothecary (Botania) with 2 white_petal + 2 purple_petal + 1 black_petal + seed_reagent → 1 datura_seeds.", "occultism:datura_seeds", "2A7D620BAE54E3A4", "6D04F627E67EF75D", "xp"]
+	quest.2A7D620BAE54E3A4.quest_subtitle: "Cross-mod — only via apothecary"
+	quest.2A7D620BAE54E3A4.title: "Datura Seeds"
+	quest.2A7F0C13B5E64D88.quest_desc: ["The Goddess weighs every death on an &dinvisible scale&r.", "", "Taking the life of &apeaceful or neutral&r creatures — the innocent — is a &csin&r: the world grows &charder&r (Scaling Health difficulty rises).", "", "Slaying &chostile monsters&r is &epenance&r: the difficulty &aeases&r a little.", "", "Deaths in a row build &6momentum&r — a trail of sins weighs heavier and heavier, and a steady hunt of monsters calms the world little by little."]
+	quest.2A7F0C13B5E64D88.title: "The Goddess's Scales"
+	quest.2A820CCBE2001574.quest_desc: ["Empty soul gem: ritual with chalk purple + book_of_binding_djinni + 4 spirit_attuned_gem. Used to capture entities.", "occultism:soul_gem", "2A820CCBE2001574", "2B678C0EC00FFBAA", "xp"]
+	quest.2A820CCBE2001574.quest_subtitle: "Captures spirits"
+	quest.2A820CCBE2001574.title: "Empty Soul Gem"
+	quest.2AB9B99A6CD15CA0.quest_desc: ["The volcanic link generates mana from nearby lava blocks. Place it in the nether or a home with a lava lake.", "ars_nouveau:volcanic_sourcelink", "2AB9B99A6CD15CA0", "0D90FE79AA3FAE22", "xp"]
+	quest.2AB9B99A6CD15CA0.quest_subtitle: "Link via lava"
+	quest.2AB9B99A6CD15CA0.title: "Source Link Volcanic"
+	quest.2AC78DAF3187BB63.quest_desc: ["Chalk purple impure: 3 white_chalk + 1 spirit_attuned_gem + 1 purple_dye + 1 ink_sac. For djinni rituals.", "occultism:chalk_purple_impure", "2AC78DAF3187BB63", "3377845828696EDA", "xp"]
+	quest.2AC78DAF3187BB63.quest_subtitle: "Djinni chalk"
+	quest.2AC78DAF3187BB63.title: "Chalk Purple (Impure)"
+	quest.2B153572BFCC5FCB.quest_desc: ["The §eiron§r step of the storage upgrades, above copper.", "§7•§r Increases even further how many items each drawer slot holds.", "Keep climbing the tiers for absurd capacities."]
+	quest.2B153572BFCC5FCB.title: "Storage Upgrade (Iron)"
+	quest.2BA3EDABD691146B.quest_desc: ["Summon the Gaia Guardian: gaia_pylon at the center of a 22x22 arena with an active beacon_block (level 3+ pyramid). Throw the dice of fate to begin.", "", "§eReward:§r gaia_ingot (8-12 per kill).", "botania:dice", "2BA3EDABD691146B", "7FBFB6DE8B47B252", "xp"]
+	quest.2BA3EDABD691146B.quest_subtitle: "Final boss (Botania)"
+	quest.2BA3EDABD691146B.title: "Gaia Guardian"
+	quest.2BB41BF9FFF5F2E1.quest_desc: ["Brass casing needs brass_ingot (Create mixing: copper + zinc). It enables more advanced components — configurable funnels, mechanical arm, etc.", "create:brass_casing", "2BB41BF9FFF5F2E1", "75C0D20F54949E4C", "xp"]
+	quest.2BB41BF9FFF5F2E1.quest_subtitle: "Intermediate casing"
+	quest.2BB41BF9FFF5F2E1.title: "Brass Casing"
+	quest.2BDCFE3F41A97BF9.quest_desc: ["Here the recipe takes a different path: 6 iron_nugget + 1 spirit_attuned_gem + 3 §dmanasteel§r → spirit_lantern.", "", "The lantern emits mystical light and blocks creature spawns in a large radius. Cross-mod Botania.", "occultism:spirit_lantern", "2BDCFE3F41A97BF9", "1E56C568184D9A9B", "xp"]
+	quest.2BDCFE3F41A97BF9.quest_subtitle: "Cross-mod — arcane light"
+	quest.2BDCFE3F41A97BF9.title: "Spirit Lantern"
+	quest.2C39178B382722A8.quest_desc: ["The first-phase §eMagical Agglutinate§r returns — and this time it will be consumed for good.", "", "It hands the final core the original link that united Create, Botania and Occultism."]
+	quest.2C39178B382722A8.title: "Magical Agglutinate (F1)"
+	quest.2CF62037B3A5C2F0.quest_desc: ["Cataclysm. Ancient Forge in the Nether. Drop: endgame Ignitium ingot.", "", "§eReward:§r 75 XP levels + drop"]
+	quest.2CF62037B3A5C2F0.quest_subtitle: "Lord of the Forges"
+	quest.2CF62037B3A5C2F0.title: "Side: Ignis"
+	quest.2DB5F4CEFF5AA0BA.quest_desc: ["Starbuncle charm + 5 shards + a ritual at the ritual_brazier → starbuncle pet. Collects configurable items (item filter via shift+click).", "ars_nouveau:starbuncle_charm", "2DB5F4CEFF5AA0BA", "5EEB962A31A70BE2", "xp"]
+	quest.2DB5F4CEFF5AA0BA.quest_subtitle: "Collector familiar"
+	quest.2DB5F4CEFF5AA0BA.title: "Starbuncle Charm"
+	quest.2DECEB0DC4506B13.quest_desc: ["Otherworld bird familiar: djinni ritual + otherworld feather. Sees otherworld items within a radius.", "occultism:familiar_ring", "2DECEB0DC4506B13", "555277E609A0ADF5", "xp"]
+	quest.2DECEB0DC4506B13.quest_subtitle: "Otherworld familiar"
+	quest.2DECEB0DC4506B13.title: "Otherworld Bird"
+	quest.2DFD01E33932BE0C.quest_desc: ["There are 4 archwood biomes: cascading (blue), blazing (red), vexing (purple), flourishing (green). Each spawns different creatures (starbuncles, drygmys, whirlisprigs).", "ars_nouveau:purple_archwood_sapling", "2DFD01E33932BE0C", "04FD37EC71D8D336", "xp"]
+	quest.2DFD01E33932BE0C.quest_subtitle: "Explore the 4 types"
+	quest.2DFD01E33932BE0C.title: "Archwood Biomes"
+	quest.2E13E3C7C6A5C426.quest_desc: ["Archmage book: 10 spells, 10 glyphs each. Craft it at the apparatus with apprentice_book + 8 source_gem_block + 1 alfsteel.", "ars_nouveau:archmage_spell_book", "2E13E3C7C6A5C426", "357ACE30E745E88C", "xp"]
+	quest.2E13E3C7C6A5C426.quest_subtitle: "Max level — 10 spells"
+	quest.2E13E3C7C6A5C426.title: "Archmage Spell Book"
+	quest.2E260FC5FFEB8CCF.quest_desc: ["The §ePortstone§r is a §6private§r teleport receiver.", "", "§7•§r Unlike the waystone, it §cdoes not appear§r in the global destination list.", "§7•§r Use it to create personal, discreet points, accessible only via bound scrolls."]
+	quest.2E260FC5FFEB8CCF.title: "Portstone"
+	quest.2E5C33EA9550EA9B.quest_desc: ["Marid book: afrit ritual + iesnium_ingot + nether_star. Marid are the most powerful spirits.", "occultism:book_of_binding_marid", "2E5C33EA9550EA9B", "25C8C9783A432005", "xp"]
+	quest.2E5C33EA9550EA9B.quest_subtitle: "Marid tier (maximum)"
+	quest.2E5C33EA9550EA9B.title: "Book of Binding (Marid)"
+	quest.2E733F6BCC7C7D34.quest_desc: ["The brewery creates custom Botania brews (absorption, allure, clear sight, etc). Petals + livingrock + reagent.", "botania:brewery", "2E733F6BCC7C7D34", "79F9CAF2ABDE75AB", "xp"]
+	quest.2E733F6BCC7C7D34.quest_subtitle: "Botanical brews"
+	quest.2E733F6BCC7C7D34.title: "Brewery"
+	quest.2EA04765C5A1F88C.quest_desc: ["Like the 2-slot drawer, but with §e4 slots§r in the same block.", "§7•§r More item types per block, great for saving wall space.", "Each slot still holds a huge stack of the same item."]
+	quest.2EA04765C5A1F88C.title: "Drawer (4 slots)"
+	quest.2EBB203C72213BB0.title: "Printed Silicon"
+	quest.2F184971F6DDD9FE.quest_desc: ["Kill a §cnecromancer§r. These mages spawn in §6Mage Towers§r and drop gear pieces + school scrolls.", "", "§eReward:§r XP + a chance to drop an armor set or scroll."]
+	quest.2F184971F6DDD9FE.quest_subtitle: "Mage of the dead"
+	quest.2F184971F6DDD9FE.title: "Hunt Necromancer"
+	quest.2F2B9FB9D7D35497.quest_desc: ["Mundane belt: 4 magebloom_fiber + 1 string + 1 leather. Equip it in the \"belt\" curio slot for spell parchment slots.", "ars_nouveau:mundane_belt", "2F2B9FB9D7D35497", "532E4C4FF1A3A25D", "xp"]
+	quest.2F2B9FB9D7D35497.quest_subtitle: "Starter belt"
+	quest.2F2B9FB9D7D35497.title: "Mundane Belt"
+	quest.3005D251021F3B39.quest_desc: ["Twilight side boss. Cave in an underground labyrinth.", "", "§eReward:§r 35 XP levels + drop"]
+	quest.3005D251021F3B39.quest_subtitle: "Corrupted minotaur"
+	quest.3005D251021F3B39.title: "Side: Minoshroom"
+	quest.3034F34D9C9F2239.quest_desc: ["The iesnium pickaxe is the Occultist's advanced tool. It mines iesnium ore (invisible to common pickaxes) and opens the path to the marid tier.", "", "Marid are the most powerful spirits — whoever reaches here has mastered the whole of occultism.", "occultism:iesnium_pickaxe", "3034F34D9C9F2239", "7FECB42575F48CEF", "xp"]
+	quest.3034F34D9C9F2239.quest_subtitle: "Advanced pickaxe"
+	quest.3034F34D9C9F2239.title: "Iesnium Pickaxe"
+	quest.309DC7FA77D19D80.quest_desc: ["Potion flask: 1 glass_bottle + source_gem + magebloom_fiber. Stores 8 doses of a potion (reusable).", "ars_nouveau:potion_flask", "309DC7FA77D19D80", "62F8CDABF12ACCDF", "xp"]
+	quest.309DC7FA77D19D80.quest_subtitle: "Holds 8 doses"
+	quest.309DC7FA77D19D80.title: "Potion Flask"
+	quest.30B5FFC763CBC1E5.quest_desc: ["The §eTome of Repair§r §2restores§r the durability of your gear.", "", "§7•§r Restores weapons, armor and tools without needing an anvil.", "§7•§r Keep your favorite gear always in shape."]
+	quest.30B5FFC763CBC1E5.quest_subtitle: "Repairs gear"
+	quest.30B5FFC763CBC1E5.title: "Tome of Repair"
+	quest.30DACF0F1200FFD0.quest_desc: ["The §eSandy Waystone§r is the §baesthetic§r variant perfect for bases in the §6desert§r.", "", "§7•§r Activate it and teleport between it and any other waystone in the network.", "§7•§r Identical function to the standard waystone, only the sandy look differs."]
+	quest.30DACF0F1200FFD0.quest_subtitle: "Desert"
+	quest.30DACF0F1200FFD0.title: "Sandy Waystone"
+	quest.31094F326A7FC887.quest_desc: ["The chamber draws source from surrounding jars to transform items. Everything on the Arcanist's path passes through here.", "", "Here it includes livingwood in the recipe — because living wood channels source better than any other.", "ars_nouveau:imbuement_chamber", "31094F326A7FC887", "640EBD11DF1BA24F", "xp"]
+	quest.31094F326A7FC887.quest_subtitle: "Cross-mod — processing hub"
+	quest.31094F326A7FC887.title: "Imbuement Chamber"
+	quest.311EB32138F7A3A1.quest_desc: ["The Ring of Thor mines a 3x3x1 pattern at once. Combo with a manasteel_pickaxe for advanced mining.", "botania:thor_ring", "311EB32138F7A3A1", "625C707DB379C763", "xp"]
+	quest.311EB32138F7A3A1.quest_subtitle: "Mine 3x3 blocks"
+	quest.311EB32138F7A3A1.title: "Ring of Thor"
+	quest.314CA09B4DF07ECD.quest_desc: ["§eAutomatically feeds§r you using the food stored in the backpack.", "§7•§r Set the filters to choose what can be eaten.", "Never starve in the middle of a dungeon again."]
+	quest.314CA09B4DF07ECD.quest_subtitle: "Eats on its own"
+	quest.314CA09B4DF07ECD.title: "Upgrade: Feeding"
+	quest.31D0547CB8D1E302.quest_desc: ["The mana tablet stores 500k mana. Carry it in your inventory to use with a mana_lens at range, or drain it into a pool.", "botania:mana_tablet", "31D0547CB8D1E302", "5C421A9F42742FEF", "xp"]
+	quest.31D0547CB8D1E302.quest_subtitle: "Portable storage"
+	quest.31D0547CB8D1E302.title: "Mana Tablet"
+	quest.320CE693F4FF644D.quest_desc: ["The mana ring (with mana_pearl) stores mana to power your tools. Equip it in a curio ring slot. Recharges when it touches a pool.", "botania:mana_ring", "320CE693F4FF644D", "5BD53DBAB691BE89", "xp"]
+	quest.320CE693F4FF644D.quest_subtitle: "Ring that stores mana"
+	quest.320CE693F4FF644D.title: "Mana Ring"
+	quest.32E375165DD1FA9C.quest_desc: ["&7&o[Initial Record Recovered: The Age of Utopia]&r", "", "{image:kubejs:textures/static/utopia.png width:200 height:100 align:center}", "", "There was a time, before the ashes, known as the &6Golden Age&r. A unified society, where the &3steam of machines&r danced in harmony with the &3flow of mana&r, and humanity had broken the barrier of the ethereal, sealing pacts with &bancient spirits&r.", "", "But in the shadows of that utopia, an isolated group of visionaries rejected the limits imposed by nature. They lived and breathed for a single goal: the creation of the &5Philosopher's Stone&r.", "", "This artifact was not merely a legend about turning lead into gold; it represented the final &6breaking&r of the laws of the universe. The Stone would grant its bearer &5Perfect Transmutation&r: the ability to create matter from nothing, to generate infinite energy at no cost, and to mold reality itself without suffering the consequences of Equivalent Exchange.", "", "Driven by this ambition to reach the divine, the group operated in a fierce and silent competition. Each member, locked away in their own tower of knowledge, sought to prove that their method was the only path to &5absolute power&r."]
+	quest.32E375165DD1FA9C.quest_subtitle: "Where it all began..."
+	quest.32E375165DD1FA9C.title: "The Lost Utopia"
+	quest.3357E9CD330940DE.quest_subtitle: "§6Centennial Trophy§r"
+	quest.3357E9CD330940DE.title: "100 Chests Opened"
+	quest.336E7EADEB3E226A.quest_desc: ["The magnet ring pulls in dropped items over a large radius. Equip it in a curio slot. Combine with mob farms.", "botania:magnet_ring", "336E7EADEB3E226A", "302A018EF5873282", "xp"]
+	quest.336E7EADEB3E226A.quest_subtitle: "Attracts items"
+	quest.336E7EADEB3E226A.title: "Ring of Magnetization"
+	quest.33AC8FC4874F9ABC.quest_desc: ["§cCursed Kinetic Core§r is the corrupted, unstable form of the core, spat out raw by the §6Mechanical Crafter§r.", "", "The raw motion hasn't been tamed yet. It must be purified by an Occultism ritual before it can serve."]
+	quest.33AC8FC4874F9ABC.title: "Cursed Kinetic Core"
+	quest.33CB938095170563.quest_desc: ["Drop §bCharged Certus§r + §credstone§r + §equartz dust§r into water.", "The §dFluix§r is born — the heart of all connections."]
+	quest.33CB938095170563.quest_subtitle: "The reaction"
+	quest.33CB938095170563.title: "Fluix Crystal"
+	quest.33FDEF46BC5C5197.quest_subtitle: "Fiftyfold"
+	quest.33FDEF46BC5C5197.title: "50 Chests Opened"
+	quest.348896FAB1D5A00B.quest_desc: ["Archwood (cascading, blazing, vexing, flourishing) appears in Ars Nouveau biomes. Each type has a specific effect on nearby creatures.", "ars_nouveau:blue_archwood_log", "348896FAB1D5A00B", "0D73B8B241F02C18", "xp"]
+	quest.348896FAB1D5A00B.quest_subtitle: "Source wood"
+	quest.348896FAB1D5A00B.title: "Archwood Logs"
+	quest.35161A34CE3747CB.quest_desc: ["Make §e3§r fresh salads from Pam's.", "pamhc2foodextended:berryvinaigrettesaladitem", "35161A34CE3747CB", "389186526F0C5036", "xp_levels"]
+	quest.35161A34CE3747CB.quest_subtitle: "13 recipes in Pam's"
+	quest.35161A34CE3747CB.title: "Fresh Salads"
+	quest.3539EFABFC5B2EF5.quest_desc: ["Here the recipe takes a different path: mechanical_crafting with cogwheel + golden_sheet + §dsource_gem§r (Ars).", "", "The precision mechanism unlocks mid-to-late Create components (mechanical arm, deployer advance, etc). Source_gem ensures the player has gone through Ars Nouveau.", "create:precision_mechanism", "3539EFABFC5B2EF5", "2280EB8C89AA99D0", "xp"]
+	quest.3539EFABFC5B2EF5.quest_subtitle: "Intermediate component (cross-mod)"
+	quest.3539EFABFC5B2EF5.title: "Precision Mechanism"
+	quest.35A21FE8CEE89682.quest_desc: ["Make §e3§r pizzas from Pam's.", "pamhc2foodextended:anchovypepperonipizzaitem", "35A21FE8CEE89682", "230E1CD2F3C82EC0", "xp_levels"]
+	quest.35A21FE8CEE89682.quest_subtitle: "6 recipes in Pam's"
+	quest.35A21FE8CEE89682.title: "Pizzeria"
+	quest.35E9E6C9E993847D.quest_desc: ["Make §e5§r pies from Pam's.", "pamhc2foodextended:apricotpieitem", "35E9E6C9E993847D", "0D3677ACC655A730", "xp_levels"]
+	quest.35E9E6C9E993847D.quest_subtitle: "54 recipes in Pam's"
+	quest.35E9E6C9E993847D.title: "Pastry Chef — Pies"
+	quest.361F4B76C4882401.quest_desc: ["Obtain a §6scroll_fire§r and activate it to learn spells from this school.", "", "§7Scrolls are generated in structures, bought from wandering traders, or dropped by mages."]
+	quest.361F4B76C4882401.quest_subtitle: "Fireball, Burning Dash, Magma Bomb"
+	quest.361F4B76C4882401.title: "School of Fire"
+	quest.363C36DBD3BC5F8D.quest_desc: ["Venture into the §ejungle§r to find lush §6wild gardens§r.", "", "The dense vegetation hides tufts full of tropical fruits and spices.", "Break them §7•§r and expand your pantry with exotic flavors."]
+	quest.363C36DBD3BC5F8D.title: "Found and broke the garden"
+	quest.36D0073E0AC82656.quest_desc: ["The apparatus is the crafting core of the veteran Arcanist. Tomes, parchments, advanced items — all are born here.", "", "To assemble it, you need a §dKinetic Core§r — mechanics and magic meet at this point.", "ars_nouveau:enchanting_apparatus", "36D0073E0AC82656", "7E3336D920A0B98E", "xp"]
+	quest.36D0073E0AC82656.quest_subtitle: "F2 requirement — arcane crafting"
+	quest.36D0073E0AC82656.title: "Enchanting Apparatus"
+	quest.37612FAA4E2B0097.quest_desc: ["Hydra Hill in the Twilight. Heads regenerate, small dragons. Good prep for the Ender Dragon.", "", "§eReward:§r 55 XP levels + boss trophy"]
+	quest.37612FAA4E2B0097.quest_subtitle: "Three heads, three terrors"
+	quest.37612FAA4E2B0097.title: "Tier 5: Hydra"
+	quest.3767F01920B31AAC.quest_desc: ["Locked in his scribe's tower, the &dArcanist&r rejected physical matter. To him, the path to &5Perfect Transmutation&r was the rewriting of reality. Obsessed, he sought to compose the &lPrimordial Glyph&r, draining jars of Source to the last drop to solidify pure magic, in the hope of &lweaving a spell&r of creation that would defy the &6laws of the universe&r."]
+	quest.3767F01920B31AAC.quest_subtitle: "The Pursuit"
+	quest.3767F01920B31AAC.title: "The Arcanist (Ars Nouveau)"
+	quest.37C6978A2F9F2F90.quest_desc: ["Lootr gives an instanced chest §aper player§r — everyone gets loot.", "Open your §efirst§r loot chest."]
+	quest.37C6978A2F9F2F90.quest_subtitle: "§2Per-player chests§r"
+	quest.37C6978A2F9F2F90.title: "First Chest"
+	quest.38559AAC9086747D.quest_desc: ["A spell parchment records a spell for reuse. Use scribes_table → spell_book → parchment.", "ars_nouveau:spell_parchment", "38559AAC9086747D", "07C30FC836E0919D", "xp"]
+	quest.38559AAC9086747D.quest_subtitle: "Spell parchment"
+	quest.38559AAC9086747D.title: "Spell Parchment"
+	quest.39057A5D83FECF13.quest_desc: ["Andesite casing encases most early-to-mid Create machines. Shape: alloy on the edges, log in the center (any wood).", "create:andesite_casing", "39057A5D83FECF13", "00BE8118FF7953A6", "xp"]
+	quest.39057A5D83FECF13.quest_subtitle: "Basic casing"
+	quest.39057A5D83FECF13.title: "Andesite Casing"
+	quest.391FE107A7D08C5D.quest_desc: ["Yeti Lair in the Snowy Forest. Intermediate boss.", "", "§eReward:§r 45 XP levels + drop"]
+	quest.391FE107A7D08C5D.quest_subtitle: "King of ice"
+	quest.391FE107A7D08C5D.title: "Side: Alpha Yeti"
+	quest.3951827CD3324795.quest_desc: ["Wild wixies appear in archwood biomes (rarer). Provide an enchanting_apparatus for automated wixie crafting.", "ars_nouveau:wixie_shards", "3951827CD3324795", "65AD8ADB2AD73DDC", "xp"]
+	quest.3951827CD3324795.quest_subtitle: "Drop from wild wixie"
+	quest.3951827CD3324795.title: "Wixie Shards"
+	quest.39DB897098388FB7.quest_desc: ["Book of binding empty: writable_book tossed into spirit_fire. The base for creating specialized books.", "occultism:book_of_binding_empty", "39DB897098388FB7", "226FB8D93AA335E8", "xp"]
+	quest.39DB897098388FB7.quest_subtitle: "Binding base"
+	quest.39DB897098388FB7.title: "Book of Binding (Empty)"
+	quest.3A027FBA21003761.quest_desc: ["The Wilden Chimera is the boss of Ars Nouveau. Summon it with a wilden horn on the ritual brazier.", "", "Rewards: wings for permanent flight, spike for advanced crafting."]
+	quest.3A027FBA21003761.quest_subtitle: "Final boss (Ars)"
+	quest.3A027FBA21003761.title: "Wilden Chimera"
+	quest.3A74AF74766A2801.quest_subtitle: "Energizing crystals"
+	quest.3A74AF74766A2801.title: "Charger"
+	quest.3A7667F2D9CD57A3.quest_desc: ["Links multiple chests and barrels into a single access point.", "§7•§r Place the storage blocks against the Controller to unify them.", "Access all the connected stock by opening a single block."]
+	quest.3A7667F2D9CD57A3.quest_subtitle: "Links multiple chests"
+	quest.3A7667F2D9CD57A3.title: "Storage Controller"
+	quest.3ABDCDBB650E1726.quest_desc: ["Craft or obtain the §6Netherite Tome§r. Each tier allows §emore inscribed spells§r and §emore powerful casts§r.", "", "§7Crafting: recipe similar to the base spell book, with the ingredient of the corresponding tier."]
+	quest.3ABDCDBB650E1726.quest_subtitle: "Top of the craftable progression"
+	quest.3ABDCDBB650E1726.title: "Netherite Tome"
+	quest.3ADA15344F5BD416.quest_desc: ["The encased chain drive is a compact version — it combines a shaft + andesite casing. Useful for clean builds.", "create:encased_chain_drive", "3ADA15344F5BD416", "3E84A86536ABE92E", "xp"]
+	quest.3ADA15344F5BD416.quest_subtitle: "Chain drive hidden in a block"
+	quest.3ADA15344F5BD416.title: "Encased Chain Drive"
+	quest.3AE56186A0CA1A30.quest_desc: ["Stabilizer tier 4: djinni ritual + iesnium + spirit_crystal. Adds +2000 slots to the storage_controller. Advanced.", "occultism:storage_stabilizer_tier4", "3AE56186A0CA1A30", "6498FE18668E9DF2", "xp"]
+	quest.3AE56186A0CA1A30.quest_subtitle: "Maximum capacity"
+	quest.3AE56186A0CA1A30.title: "Storage Stabilizer Tier 4"
+	quest.3AEDAFB44EE7F179.quest_desc: ["You did it all. 387,420,489 berries in one slot.", "", "§oYou didn't need this. But you did it anyway.§r"]
+	quest.3AEDAFB44EE7F179.quest_subtitle: "Compaction master"
+	quest.3AEDAFB44EE7F179.title: "§dSourceberry Sack X9"
+	quest.3AF5F89CDE0D5156.quest_desc: ["The §eKinetic Core§r you forged in the previous phase is required again — the progression is truly cross-cutting.", "", "Create's movement enters as the soul of the new Botania crystal."]
+	quest.3AF5F89CDE0D5156.title: "Kinetic Core (F2)"
+	quest.3BA9C2299B88C42E.quest_desc: ["Smaller drawers, designed for §esmall§r and varied items.", "§7•§r Same idea, but with more divisions and lower capacity per slot.", "Good for organizing small raw materials."]
+	quest.3BA9C2299B88C42E.quest_subtitle: "Small items"
+	quest.3BA9C2299B88C42E.title: "Half Drawer"
+	quest.3BBA4B57171FCE82.quest_desc: ["The terra plate is a multi-block structure that takes ingredients and mana to forge terrasteel. Craft it with 4 livingrock + 1 mana_diamond + 4 manasteel_ingot.", "botania:terra_plate", "3BBA4B57171FCE82", "1910B75593F3C438", "xp"]
+	quest.3BBA4B57171FCE82.quest_subtitle: "Terrasteel forge"
+	quest.3BBA4B57171FCE82.title: "Terra Plate"
+	quest.3BE6BD7EE8F56235.quest_desc: ["§eSpiritual Core§r — the final milestone of this journey. The §dSoul Gem§r and the three previous cores converge into a single stable work.", "", "Create, Botania, Ars and Occultism in one object. It unlocks §bArs§r and Botania's §2Terrasteel§r."]
+	quest.3BE6BD7EE8F56235.title: "The Spiritual Core"
+	quest.3BFF59F53C1A846E.quest_desc: ["Throw the Cursed Magical Agglutinate into a Mana Pool with at least §b50,000 mana§r.", "", "This is F1's signature item: it unlocks §eCreate§r (andesite_alloy), §eBotania§r (black stone pools), and §eOccultism§r (binding foliot).", "", "Every other mod will require the Agglutinate in its next tiers."]
+	quest.3BFF59F53C1A846E.quest_subtitle: "The heart of F1"
+	quest.3BFF59F53C1A846E.title: "§6Magical Agglutinate"
+	quest.3C17415BAD9B6370.quest_desc: ["Make §e4§r smoothies from Pam's.", "pamhc2foodextended:apricotsmoothieitem", "3C17415BAD9B6370", "5E31ED99FD55459E", "xp_levels"]
+	quest.3C17415BAD9B6370.quest_subtitle: "45 recipes in Pam's"
+	quest.3C17415BAD9B6370.title: "Smoothies"
+	quest.3C4527C189F0544B.quest_desc: ["Lich Tower. Learn to dodge arcane projectiles. Drop: Lich Crown.", "", "§eReward:§r 30 XP levels + boss trophy"]
+	quest.3C4527C189F0544B.quest_subtitle: "Magister of the dead"
+	quest.3C4527C189F0544B.title: "Tier 2: Lich"
+	quest.3C75FD2842D5A444.quest_desc: ["§9BOMD§r adds 4 unique bosses, each in a specific biome:", "", "§7- Gauntlet — Plains/Savanna", "§7- Lich — Snowy biomes", "§7- Obsidilith — End", "§7- Void Blossom — Mushroom Islands", "", "Each one drops a Soul Star — a rare endgame material."]
+	quest.3C75FD2842D5A444.quest_subtitle: "4 elemental bosses"
+	quest.3C75FD2842D5A444.title: "Bosses of Mass Destruction"
+	quest.3CF2BD950F857013.quest_desc: ["While the others forged metal, the Druid secluded himself in the &2deep woods&r, convinced that the &5Philosopher's Stone&r should not be built, but &acultivated.&r He manipulated the genetics of mystical flowers to the extreme, forcing &eunstable portals&r to &2Alfheim&r and challenging the &aGaia Guardians&r, in an attempt to fuse &2Terrasteel&r with the very soul of nature to grow a &5seed of infinite power&r."]
+	quest.3CF2BD950F857013.quest_subtitle: "The Pursuit"
+	quest.3CF2BD950F857013.title: "The Druid (Botania)"
+	quest.3D24D99C2D136D92.quest_desc: ["Mystical flowers spawn naturally. Use bone meal on any grass to speed it up. You'll need all 16 colors at some point — start collecting now.", "botania:white_mystical_flower", "3D24D99C2D136D92", "481ABF37FF4EBD92", "xp"]
+	quest.3D24D99C2D136D92.quest_subtitle: "The first harvest"
+	quest.3D24D99C2D136D92.title: "Mystical Flowers"
+	quest.3D3B6799C11FA917.quest_desc: ["Here the recipe takes another route: 2× manasteel + 2× prismarine_crystals + 1× §dPure Mana Crystal§r (Pure Mana Crystal) → 1 rune_water.", "", "8000 mana in the runic_altar.", "botania:rune_water", "3D3B6799C11FA917", "07196EF105DEA541", "xp"]
+	quest.3D3B6799C11FA917.quest_subtitle: "Cross-mod F3 — elemental rune"
+	quest.3D3B6799C11FA917.title: "Rune of Water"
+	quest.3D5E79BB273EBCA9.quest_desc: ["Iesnium_ore appears in the nether, only visible with infused_pickaxe or otherworld_goggles. Drops iesnium_dust.", "occultism:iesnium_ore", "3D5E79BB273EBCA9", "16D390CE53E2A2A4", "xp"]
+	quest.3D5E79BB273EBCA9.quest_subtitle: "Dimensional ore"
+	quest.3D5E79BB273EBCA9.title: "Iesnium Ore"
+	quest.3D62C92D16E7A35F.quest_desc: ["Obtain a §6scroll_ice§r and activate it to learn spells from this school.", "", "§7Scrolls are generated in structures, bought from wandering traders, or dropped by mages."]
+	quest.3D62C92D16E7A35F.quest_subtitle: "Cone of Cold, Ice Block, Frost Step"
+	quest.3D62C92D16E7A35F.title: "School of Ice"
+	quest.3D6AEEEDB70DCA28.quest_desc: ["Get §eSalt§r — the base of almost every recipe.", "pamhc2foodcore:saltitem", "3D6AEEEDB70DCA28", "39A4D5E330F75F49", "xp_levels"]
+	quest.3D6AEEEDB70DCA28.quest_subtitle: "The basic seasoning"
+	quest.3D6AEEEDB70DCA28.title: "Salt"
+	quest.3DA8B7FDC6F4365D.quest_desc: ["Steam engine + multi-block boiler with water + heat. An intermediate rotation source — 256+ SU stress capacity.", "create:steam_engine", "3DA8B7FDC6F4365D", "6A77711D3E81DE0E", "xp"]
+	quest.3DA8B7FDC6F4365D.quest_subtitle: "Steam-power generation"
+	quest.3DA8B7FDC6F4365D.title: "Steam Engine + Boiler"
+	quest.3DB142DEEF4E4431.quest_desc: ["The pylon speeds up mana flow around the pool — place four pylons around it and your botanical machines double their pace.", "", "The recipe here includes a §dsource gem§r from the Arcanists — because the pylon channels both magic mana and source at once.", "botania:mana_pylon", "3DB142DEEF4E4431", "3C03596522AA78D3", "xp"]
+	quest.3DB142DEEF4E4431.quest_subtitle: "Cross-mod — pool boost"
+	quest.3DB142DEEF4E4431.title: "Mana Pylon"
+	quest.3DDABD3F2D36F0C9.quest_desc: ["§5Gaia Guardian§r — Botania boss. Summoned with 4 §dGaia Pylons§r + a Beacon in the correct configuration.", "", "Summon it by throwing the §6Gaia Spirit§r into the center of the platform.", "", "§eReward:§r 40 XP levels + Gaia Spirit Ingot"]
+	quest.3DDABD3F2D36F0C9.quest_subtitle: "The guardian of the enchanted paradise"
+	quest.3DDABD3F2D36F0C9.title: "Slay Gaia Guardian I"
+	quest.3E182C9C9E7C7BB4.quest_desc: ["The Engineer's first alloy. Here it requires a §dMagical Agglutinate§r at the center — anyone who hasn't yet walked the Druid's path will need to backtrack.", "", "Without this alloy, no machine takes shape. It's Create's gateway.", "create:andesite_alloy", "3E182C9C9E7C7BB4", "156CC37F81F4B965", "xp"]
+	quest.3E182C9C9E7C7BB4.quest_subtitle: "The base alloy of all things Create"
+	quest.3E182C9C9E7C7BB4.title: "Andesite Alloy"
+	quest.3E368152F33C389C.quest_subtitle: "Giant storage"
+	quest.3E368152F33C389C.title: "256k Item Storage Cell"
+	quest.3E41341640BA46CE.quest_subtitle: "Top-tier chip"
+	quest.3E41341640BA46CE.title: "Engineering Processor"
+	quest.3EEF569C7DEC31F5.quest_desc: ["§5Fire Boss§r — a fire elemental boss, in the mod's official §6#forge:bosses§r tag.", "", "Summon via the §6Fire Apothecary§r or spawn in §6Lava Lake structures§r."]
+	quest.3EEF569C7DEC31F5.quest_subtitle: "Lord of flames (Apothecarist's Fire Lord)"
+	quest.3EEF569C7DEC31F5.title: "Boss: Fire Boss"
+	quest.3EF59D574D7CC318.quest_desc: ["There are specific djinni miners (ores, deepslate, nether). Each mines the corresponding blocks in the background. An advanced ore farm.", "occultism:miner_djinni_ores", "3EF59D574D7CC318", "0EDFDE8EEB705973", "xp"]
+	quest.3EF59D574D7CC318.quest_subtitle: "Djinni mining"
+	quest.3EF59D574D7CC318.title: "Collection of Djinni Miners"
+	quest.3EF677CFABA6BA27.quest_desc: ["Mixer + basin processes mixing recipes (brass, andesite alloy refining, source_fluid via EQSMP). Combine with a heater for heated recipes.", "create:mechanical_mixer", "3EF677CFABA6BA27", "45B9E1587A420E2A", "xp"]
+	quest.3EF677CFABA6BA27.quest_subtitle: "Mixes liquids/items"
+	quest.3EF677CFABA6BA27.title: "Mechanical Mixer"
+	quest.3F9E85FD26AD09F9.quest_desc: ["Obtain a §6scroll_lightning§r and activate it to learn spells from this school.", "", "§7Scrolls are generated in structures, bought from wandering traders, or dropped by mages."]
+	quest.3F9E85FD26AD09F9.quest_subtitle: "Chain Lightning, Lightning Bolt, Ascension"
+	quest.3F9E85FD26AD09F9.title: "School of Lightning"
+	quest.3FAE41B505A01BAB.quest_subtitle: "Diagnostics"
+	quest.3FAE41B505A01BAB.title: "Network Tool"
+	quest.3FD6AB847551AF2D.quest_subtitle: "Connecting everything"
+	quest.3FD6AB847551AF2D.title: "Fluix Cable"
+	quest.4016BD52970D18B4.quest_desc: ["This §ekey§r opens the §6grave§r that appears where you died.", "", "§7•§r Use it on the grave to release all your items back at once, without picking up piece by piece.", "§7•§r Keep a spare at base: dying far from home without the key is a headache."]
+	quest.4016BD52970D18B4.quest_subtitle: "Opens your grave"
+	quest.4016BD52970D18B4.title: "Grave Key"
+	quest.401F0BFE5F34B95A.quest_desc: ["A large cogwheel + an adjacent small cogwheel change the speed (2× faster with the small driving the large; 0.5× the other way around).", "create:large_cogwheel", "401F0BFE5F34B95A", "192AD440401B1379", "xp"]
+	quest.401F0BFE5F34B95A.quest_subtitle: "Speed change"
+	quest.401F0BFE5F34B95A.title: "Large Cogwheel"
+	quest.40C6C8CD6FCB1E16.quest_subtitle: "Grinding crystals"
+	quest.40C6C8CD6FCB1E16.title: "Certus Quartz Dust"
+	quest.41034FD47BABE6A8.quest_desc: ["§eFresh Milk§r comes straight from §6cows§r.", "", "Use a bucket or container on them to collect it.", "It goes into creams, drinks and desserts all over Pam's."]
+	quest.41034FD47BABE6A8.title: "Fresh Milk"
+	quest.4123C1F1910C5929.quest_desc: ["Here the recipe takes another route: 2× manasteel + 2× wheat + 1× §dPure Mana Crystal§r (Pure Mana Crystal) → 1 rune_earth.", "botania:rune_earth", "4123C1F1910C5929", "35BD969BF64415B6", "xp"]
+	quest.4123C1F1910C5929.quest_subtitle: "Cross-mod F3 — elemental rune"
+	quest.4123C1F1910C5929.title: "Rune of Earth"
+	quest.41306443024F309E.quest_desc: ["Botania's §aRunic Altar§r is now within your reach — the §eKinetic Core§r opened this path.", "", "It's where mana takes runic form, the starting point of the next phase: the §aPure Mana Crystal§r."]
+	quest.41306443024F309E.title: "Runic Altar Unlocked"
+	quest.420FF5CF6EE201F7.quest_desc: ["Fluid pipes move liquids between tanks, basins, and machines. They connect automatically over up to 16 blocks. Combine with a mechanical_pump for pressure.", "create:fluid_pipe", "420FF5CF6EE201F7", "01666F298F0D2533", "xp"]
+	quest.420FF5CF6EE201F7.quest_subtitle: "Liquid transport"
+	quest.420FF5CF6EE201F7.title: "Fluid Pipe"
+	quest.434EEEFE84713EF0.quest_desc: ["The Magebloom seed rarely drops from archwood leaves or can be bought from a wandering trader. Plant it on farmland to grow magebloom.", "ars_nouveau:magebloom_crop", "434EEEFE84713EF0", "72EA0BE17B708EE3", "xp"]
+	quest.434EEEFE84713EF0.quest_subtitle: "Magical seed"
+	quest.434EEEFE84713EF0.title: "Magebloom Seed"
+	quest.43E7D757BA81444E.quest_desc: ["§eLocks§r the drawer's contents to the current item type.", "§7•§r Even when empty, the drawer stays reserved for that item.", "Keeps you from storing the wrong thing by mistake."]
+	quest.43E7D757BA81444E.quest_subtitle: "Locks the contents"
+	quest.43E7D757BA81444E.title: "Drawer Key"
+	quest.444F6806A0BEDC66.quest_desc: ["Here the recipe takes another path: 4 glass + 1 §dmana pearl§r + 1 source_gem + 4 archwood_planks → source_jar.", "", "The source jar stores up to 10000 mana. The imbuement_chamber and ritual_brazier draw directly from nearby jars.", "ars_nouveau:source_jar", "444F6806A0BEDC66", "2FBD4D7173C34A8E", "xp"]
+	quest.444F6806A0BEDC66.quest_subtitle: "Cross-mod — storage"
+	quest.444F6806A0BEDC66.title: "Source Jar"
+	quest.447384705C535937.quest_desc: ["The schematic and quill selects an area (2 shift+right-clicks) and saves it as a schematic for reuse. Combine with the schematicannon for mass building.", "create:schematic_and_quill", "447384705C535937", "434BDD45C2930C5A", "xp"]
+	quest.447384705C535937.quest_subtitle: "Save structures"
+	quest.447384705C535937.title: "Schematic and Quill"
+	quest.44B224C543FC87C1.quest_desc: ["The rune altar is where mana takes elemental form. Here runes of water, fire, earth and air are forged.", "", "To build it, you'll need a §dKinetic Core§r — without mastery of movement, the runes won't set."]
+	quest.44B224C543FC87C1.quest_subtitle: "Rune crafting"
+	quest.44B224C543FC87C1.title: "Runic Altar"
+	quest.44C263A885C4364B.quest_desc: ["Adds a §ecrafting§r grid right inside the backpack itself.", "§7•§r Craft using the stored items, no crafting table needed.", "Combine it with Compacting and you become a walking factory."]
+	quest.44C263A885C4364B.quest_subtitle: "Craft inside the backpack"
+	quest.44C263A885C4364B.title: "Upgrade: Crafting"
+	quest.44FC81F643639B8D.quest_desc: ["Binds the drawer to §eyou§r: only the owner can open and use it.", "§7•§r Protects your stock from other players on a server.", "Ideal for chests and drawers holding valuable items."]
+	quest.44FC81F643639B8D.quest_subtitle: "Only you can open it"
+	quest.44FC81F643639B8D.title: "Personal Key"
+	quest.45119629535186B4.quest_desc: ["§6Brass Ingot§r is Create's key alloy: melt §6Copper§r and §6Zinc§r together in a heated §6Mixer§r or a foundry furnace.", "", "It's the base material for advanced machinery. Without brass, none of the §eKinetic Core§r ever gets off the ground."]
+	quest.45119629535186B4.title: "Brass Ingot"
+	quest.45197D26079FD2CC.quest_desc: ["§eBBQ Chicken Pizza§r is an §6advanced dish§r in Pam's.", "", "It brings together dough, chicken, sauce and several ingredients prepared in different utensils.", "A generous reward of hunger and saturation §7•§r for those who master the kitchen."]
+	quest.45197D26079FD2CC.quest_subtitle: "Advanced dish"
+	quest.45197D26079FD2CC.title: "BBQ Chicken Pizza"
+	quest.4522A9903A053E1E.quest_desc: ["A network separate from the global waystones.", "waystones:sharestone", "4522A9903A053E1E", "409E91CCA60DD478", "xp_levels"]
+	quest.4522A9903A053E1E.quest_subtitle: "Shared network"
+	quest.4522A9903A053E1E.title: "Sharestone"
+	quest.45260D3E9717B28D.quest_desc: ["Get a Lexica Botania (1 book + 1 sapling on the crafting table). This is your in-game guide to ALL functional flowers, mana mechanics and Botania progression.", "botania:lexicon", "45260D3E9717B28D", "5E742F0287814D1E", "xp"]
+	quest.45260D3E9717B28D.quest_subtitle: "The druid's guide"
+	quest.45260D3E9717B28D.title: "Lexica Botania"
+	quest.45D3E26286D0DA71.quest_desc: ["Foliot crusher (bound): place it in the chunk and feed it items (ore/ingot) — it processes them into dust (2× output on average). Permanent until unbinding.", "occultism:miner_foliot_unspecialized", "45D3E26286D0DA71", "4607072D3DFF40ED", "xp"]
+	quest.45D3E26286D0DA71.quest_subtitle: "Crushes ores into dust"
+	quest.45D3E26286D0DA71.title: "Foliot Crusher"
+	quest.45DBBD350B6DCDFB.quest_subtitle: "Craft + access"
+	quest.45DBBD350B6DCDFB.title: "Crafting Terminal"
+	quest.45E3E29E213743DF.quest_desc: ["Diamond in the mana_pool with a conjuration_catalyst + 10000 mana → mana_diamond. A key item for mana_pylon, terra_plate and (in EQSMP) §dfor making source_gem§r via the spirit_fire ritual!", "botania:mana_diamond", "45E3E29E213743DF", "1D6B32038A7BA5AB", "xp"]
+	quest.45E3E29E213743DF.quest_subtitle: "Infused diamond"
+	quest.45E3E29E213743DF.title: "Mana Diamond"
+	quest.45FA93D5646B8426.quest_desc: ["The gourmaryllis eats food. The more varied the menu, the more mana — up to ~30 mana/tick at peak. Auto-feed via hopper.", "botania:gourmaryllis", "45FA93D5646B8426", "682423BF74C23A74", "xp"]
+	quest.45FA93D5646B8426.quest_subtitle: "Food-powered generator"
+	quest.45FA93D5646B8426.title: "Gourmaryllis"
+	quest.46476980BCE9E8B6.title: "Fluix Dust"
+	quest.4679EE79C2A6A46C.quest_desc: ["Yeti Lair — an icy cave in the Snowy Forest. The Alpha Yeti has thick armor.", "", "§eReward:§r 60 XP levels + boss trophy"]
+	quest.4679EE79C2A6A46C.quest_subtitle: "King of ice"
+	quest.4679EE79C2A6A46C.title: "Slay the Alpha Yeti"
+	quest.474315E7D9EFF270.quest_desc: ["The Warp Scroll saves a location, then teleports you there on use. Critical for base routes.", "ars_nouveau:warp_scroll", "474315E7D9EFF270", "709C0F2ABB4F029B", "xp"]
+	quest.474315E7D9EFF270.quest_subtitle: "Teleport scroll"
+	quest.474315E7D9EFF270.title: "Warp Scroll"
+	quest.47F7C68BC6B3730D.quest_desc: ["The §eDust of Vanishing§r makes a block §cdisappear§r temporarily and then brings it back.", "", "§7•§r Useful for stashing something valuable out of others' reach.", "§7•§r The block returns whenever you want it again."]
+	quest.47F7C68BC6B3730D.title: "Dust of Vanishing"
+	quest.48784E0754EEE1D6.quest_desc: ["The gaia pylon (4× terrasteel_ingot + 1× elementium + 1× black_lotus) is placed at the center of the arena. Beacon_block + lapis_block = minimum arena.", "botania:gaia_pylon", "48784E0754EEE1D6", "3B6C9390F05333D9", "xp"]
+	quest.48784E0754EEE1D6.quest_subtitle: "Summons the Guardian"
+	quest.48784E0754EEE1D6.title: "Gaia Pylon"
+	quest.488677E1F53C6044.quest_desc: ["Here the recipe takes another route: 2× manasteel + 2× feather + 1× §dPure Mana Crystal§r (Pure Mana Crystal) → 1 rune_air.", "botania:rune_air", "488677E1F53C6044", "1660173B893DF2BE", "xp"]
+	quest.488677E1F53C6044.quest_subtitle: "Cross-mod F3 — elemental rune"
+	quest.488677E1F53C6044.title: "Rune of Air"
+	quest.491449996482EF8C.quest_desc: ["Candle white: 1 string + 1 tallow + 1 spirit_attuned_crystal. Needed in almost every pentacle.", "occultism:candle_white", "491449996482EF8C", "10FC012187E18F8A", "xp"]
+	quest.491449996482EF8C.quest_subtitle: "Ritual candle"
+	quest.491449996482EF8C.title: "Candle White"
+	quest.492667DE2114AC3F.quest_desc: ["Make §e5§r sandwiches from Pam's.", "pamhc2foodextended:applejellysandwichitem", "492667DE2114AC3F", "71EE3BA9F6F406AC", "xp_levels"]
+	quest.492667DE2114AC3F.quest_subtitle: "61 recipes in Pam's"
+	quest.492667DE2114AC3F.title: "Sandwich Shop"
+	quest.49838931EDC302C4.quest_desc: ["Small cogwheel: 1 shaft + planks. Lets you transfer rotation at a right angle. Adjacent cogs spin together (just not on the same face).", "create:cogwheel", "49838931EDC302C4", "7C0D9B8DF841D81E", "xp"]
+	quest.49838931EDC302C4.quest_subtitle: "Rotation changes direction"
+	quest.49838931EDC302C4.title: "Cogwheel"
+	quest.49B257A4E8CE4D88.quest_desc: ["Take the §dWitness Amulet§r and open the four paths.", "", "§aNorth:§r §6Engineer§r — mastery of rotation and mechanical force", "§aSouth:§r §2Druid§r — communion with living mana", "§aEast:§r §bArcanist§r — weaving of spells and source", "§aWest:§r §5Occultist§r — pacts with spirits", "", "Each path has its own chapter. This is just the map.", "", "Whoever masters all four may attempt the §dPhilosopher's Stone§r — the absolute end."]
+	quest.49B257A4E8CE4D88.quest_subtitle: "The 4 Paths open up"
+	quest.49B257A4E8CE4D88.title: "The Witness Amulet"
+	quest.49F3F5A01C6EADA5.quest_desc: ["§4The Dead King§r — final boss of Iron's Spells, in the #forge:bosses tag.", "", "Manual summon via the §6Dead King Corpse§r ritual. Endgame drops.", "", "§eReward:§r 100 XP + Legendary Spell Book"]
+	quest.49F3F5A01C6EADA5.quest_subtitle: "Iron's Spells — final lich"
+	quest.49F3F5A01C6EADA5.title: "Side: The Dead King"
+	quest.4AAC1EB471652088.quest_desc: ["The endoflame burns fuels (coal, log, etc) to generate mana. ~3 mana/tick. Petals: 2 brown + 2 red + 1 gray in the apothecary with seed_reagent.", "botania:endoflame", "4AAC1EB471652088", "6C64B0FF93888509", "xp"]
+	quest.4AAC1EB471652088.quest_subtitle: "Basic generator"
+	quest.4AAC1EB471652088.title: "Endoflame"
+	quest.4AB6ADD7C03802C6.quest_desc: ["§7New EQSMP item:§r glass infused with mana and source fluid.", "", "§eCreate compacting:§r 1 glass + 1000mB §dsource_fluid§r (Ars Nouveau) → 1 mana_pane. Requires heated (any heat source).", "", "Prerequisite for create:goggles (requirement).", "kubejs:mana_pane", "4AB6ADD7C03802C6", "418E1963C7AE4942", "xp"]
+	quest.4AB6ADD7C03802C6.quest_subtitle: "EQSMP item — requirement"
+	quest.4AB6ADD7C03802C6.title: "Mana Pane"
+	quest.4B0469CCC37E5D3E.quest_desc: ["Process the Sourceberries in Create. Three paths with increasing efficiency:", "", "§7•§r §eMillstone§r — 25% chance of an extra drop", "§7•§r §6Crushing Wheels§r — 50% chance", "§7•§r §bSqueezer§r — 100% + 100mB Source Fluid", "", "The Squeezer's custom recipe uses no iron — just 4 livingwood_twig + 4 andesite_1x + 1 andesite_2x."]
+	quest.4B0469CCC37E5D3E.quest_subtitle: "Raw mass, still corrupted"
+	quest.4B0469CCC37E5D3E.title: "Cursed Magical Agglutinate"
+	quest.4B4751C10E776B3F.quest_desc: ["Flügel tiara: 5× gaia_ingot + 1× elytra. Grants limited mana-based flight. Pairs with a greater aura_ring.", "botania:flight_tiara", "4B4751C10E776B3F", "5E96347AB11C657C", "xp"]
+	quest.4B4751C10E776B3F.quest_subtitle: "Flight accessory"
+	quest.4B4751C10E776B3F.title: "Flügel Tiara"
+	quest.4BF576B9DEB0D266.quest_desc: ["Make §e3§r cakes from Pam's.", "pamhc2foodextended:chocolatesprinklecakeitem", "4BF576B9DEB0D266", "076B9AEBD84D4671", "xp_levels"]
+	quest.4BF576B9DEB0D266.quest_subtitle: "10 recipes in Pam's"
+	quest.4BF576B9DEB0D266.title: "Bakery — Cakes"
+	quest.4C71BB3EA963D9FB.quest_desc: ["The agronomic link generates mana from crops growing nearby. Pairs well with automatic farms.", "ars_nouveau:agronomic_sourcelink", "4C71BB3EA963D9FB", "4E4B6FEEBC9C36F1", "xp"]
+	quest.4C71BB3EA963D9FB.quest_subtitle: "Link via crops"
+	quest.4C71BB3EA963D9FB.title: "Source Link Agronomic"
+	quest.4D05093A5E0FB936.quest_desc: ["You've completed the EQSMP Engineer's path! You've mastered rotation, transmission, processing, fluids, automation and requirements.", "", "Next steps:", "§71)§r Botania Path §a→§r Mana and living flora (dedicated chapter)", "§72)§r Ars Nouveau Path §a→§r Spells and source (dedicated chapter)", "§73)§r Occultism Path §a→§r Spirits and rituals (dedicated chapter)", "§74)§r Philosopher's Stone §a→§r The absolute endgame", "create:large_cogwheel", "4D05093A5E0FB936", "63EB8E3A3FABC229", "xp", "58F29FAC2679F076", "xp_levels", "1A2B3C4D5E6F012B", "1A2B3C4D5E6F0001", "random", "gear", "You have mastered the Engineer", "1AEA877D1497E6CA", "checkmark"]
+	quest.4D05093A5E0FB936.quest_subtitle: "You have mastered the Engineer"
+	quest.4D05093A5E0FB936.title: "Create Mastery"
+	quest.4D21AAF1A5BEF6EC.quest_desc: ["Automatically picks up items that fall to the ground and stores them in the backpack.", "§7•§r Set the filters to choose what goes in and what gets ignored.", "Mine without stopping to grab drops off the floor."]
+	quest.4D21AAF1A5BEF6EC.quest_subtitle: "Picks up items off the ground"
+	quest.4D21AAF1A5BEF6EC.title: "Upgrade: Pickup"
+	quest.4E12A78689A458A2.quest_desc: ["Cataclysm. Harbinger Tomb. Final boss of the top tier. Drops: abyssal_sacrifice (key endgame item).", "", "§eReward:§r 150 XP levels + boss trophy"]
+	quest.4E12A78689A458A2.quest_subtitle: "Herald of the End — final boss"
+	quest.4E12A78689A458A2.title: "Tier 8: The Harbinger"
+	quest.4E788DD700E567A5.quest_desc: ["The §6top§r of the line: maximum capacity and §elava- and fireproof§r.", "§7•§r Your stuff survives even if you fall into a lava lake.", "Worth the netherite — it's the last backpack you'll ever need to craft."]
+	quest.4E788DD700E567A5.quest_subtitle: "Top of the backpacks"
+	quest.4E788DD700E567A5.title: "Netherite Backpack"
+	quest.4ECC753A6F92E6F7.quest_desc: ["The entropinnyum consumes TNT detonated around it (explosion-immune). High mana density — an advanced generator.", "botania:entropinnyum", "4ECC753A6F92E6F7", "7D64DECA126EA1E5", "xp"]
+	quest.4ECC753A6F92E6F7.quest_subtitle: "TNT-powered generator"
+	quest.4ECC753A6F92E6F7.title: "Entropinnyum"
+	quest.4F02A169465E4049.quest_desc: ["The §eGrinder§r crushes ingredients into powder and paste.", "", "Use it to make §7•§r flours, seasonings and fine sauces.", "Essential for recipes that start from grains or seeds."]
+	quest.4F02A169465E4049.title: "Grinder"
+	quest.4F0E000A7097E8E5.quest_desc: ["This is OUR sack, different from the Apothecary one. 3x3 compaction:", "", "9 berries → x1, 9 x1 → x2, ..., 9 x8 → x9.", "", "It's a utility item separate from the ars_nouveau:sourceberry_sack chain."]
+	quest.4F0E000A7097E8E5.quest_subtitle: "3x3 berries → x1"
+	quest.4F0E000A7097E8E5.title: "Sourceberry Sack X1 (Compaction)"
+	quest.4F2273749D840A3A.quest_subtitle: "First digital storage"
+	quest.4F2273749D840A3A.title: "1k Item Storage Cell"
+	quest.4F746BB0B6761124.quest_desc: ["The apprentice spell book holds 2 spells, up to 7 glyphs each. Craft it with novice_book + 4 mage_block + source_gems.", "ars_nouveau:apprentice_spell_book", "4F746BB0B6761124", "715BF9B9454A3A98", "xp"]
+	quest.4F746BB0B6761124.quest_subtitle: "Upgrade — 2 spells"
+	quest.4F746BB0B6761124.title: "Apprentice Spell Book"
+	quest.4F798A9812CCE385.quest_desc: ["Parrot familiar: djinni ritual + parrot egg. A flying companion that drops items.", "occultism:familiar_ring", "4F798A9812CCE385", "7859A03C1F1C6AA4", "xp"]
+	quest.4F798A9812CCE385.quest_subtitle: "Flying familiar"
+	quest.4F798A9812CCE385.title: "Parrot Familiar"
+	quest.4FB2164AEB53D0BC.quest_desc: ["Heal + Self = heals you. Heal + Projectile/Touch = heals allies.", "ars_nouveau:glyph_heal", "4FB2164AEB53D0BC", "511D78F8A933824B", "xp"]
+	quest.4FB2164AEB53D0BC.quest_subtitle: "Effect — heal"
+	quest.4FB2164AEB53D0BC.title: "Glyph: Heal"
+	quest.4FEA7259B9159FE2.quest_desc: ["The hydroangeas consumes nearby water_lily. Passive but low mana per tick. A good early game starter.", "botania:hydroangeas", "4FEA7259B9159FE2", "5B4DAC77DEC6EE0E", "xp"]
+	quest.4FEA7259B9159FE2.quest_subtitle: "Passive water generator"
+	quest.4FEA7259B9159FE2.title: "Hydroangeas"
+	quest.4FF303BA10E7A887.quest_desc: ["The entry point to all foliot summon rituals (cleaner, crusher, lumberjack, transport).", "", "Rewritten recipe: §c4× dye white + book_of_binding_empty + 1 Magical Agglutinate§r.", "", "Vanilla recipes (4 dyes only) were removed."]
+	quest.4FF303BA10E7A887.quest_subtitle: "Occultism unlocked"
+	quest.4FF303BA10E7A887.title: "Book of Binding Foliot"
+	quest.5055E5A20078D414.quest_desc: ["Blacksmith familiar: djinni ritual with 1 anvil + 1 iron_block + bound_djinni + nether_star. Restores tool durability in the background.", "occultism:familiar_ring", "5055E5A20078D414", "4770537027714E76", "xp"]
+	quest.5055E5A20078D414.quest_subtitle: "Repair familiar"
+	quest.5055E5A20078D414.title: "Blacksmith Familiar"
+	quest.5064F007BB4917F3.quest_desc: ["Harvest §e1 of each§r fruit from the §e48§r orchard trees.", "5064F007BB4917F3", "4A470904109D610B", "xp_levels"]
+	quest.5064F007BB4917F3.quest_subtitle: "Fruits from the trees"
+	quest.5064F007BB4917F3.title: "Orchard Harvest"
+	quest.51F9BBA3171B7DCF.quest_desc: ["Soul Stained Steel Factory. Cinematic, with singing sounds.", "", "§eReward:§r 65 XP levels + unique drop"]
+	quest.51F9BBA3171B7DCF.quest_subtitle: "The Cursed Animatronic"
+	quest.51F9BBA3171B7DCF.title: "Slay Maledictus"
+	quest.52096E9E1D51D4EC.quest_desc: ["Here the recipe takes a different path: 1 string + 2 §dmana_pane§r + 1 leather (in the pattern \\\" S \\\", \\\"PCP\\\") → 1 goggles.", "", "The goggles let you see stress, RPM and fluids in real-time. Essential for debugging machines.", "create:goggles", "52096E9E1D51D4EC", "6D331BF5FF03D12D", "xp"]
+	quest.52096E9E1D51D4EC.quest_subtitle: "Visualize SU/RPM/fluid"
+	quest.52096E9E1D51D4EC.title: "Engineer's Goggles"
+	quest.5215124815D45DFA.quest_desc: ["Iron ingot tossed into a mana_pool with 3000 mana → manasteel_ingot. A durable tool material (mid-tier, around diamond).", "botania:manasteel_ingot", "5215124815D45DFA", "1A62087BF48097BF", "xp"]
+	quest.5215124815D45DFA.quest_subtitle: "Mana alloy"
+	quest.5215124815D45DFA.title: "Manasteel Ingot"
+	quest.5278A46D0D7207E6.quest_desc: ["With the §6Brass Casing§r in hand, several of Create's precision machines open up.", "", "This is a checklist — craft each of them to complete the Engineer's path at this tier.", "", "§7Speedometer · Stressometer · Brass Funnel · Brass Tunnel · Mechanical Arm · Smart Chute · Smart Observer · Sequenced Gearshift"]
+	quest.5278A46D0D7207E6.quest_subtitle: "Precision engineering"
+	quest.5278A46D0D7207E6.title: "Brass Machines"
+	quest.52AA9AD849A24DA7.quest_desc: ["Wilden wings (chimera drop) + ritual binding → wings curio. Flight like an elytra but with no firework needed.", "ars_nouveau:wilden_wing", "52AA9AD849A24DA7", "3C283078D744CBFC", "xp"]
+	quest.52AA9AD849A24DA7.quest_subtitle: "Permanent flight"
+	quest.52AA9AD849A24DA7.title: "Wilden Wings"
+	quest.52C66FCE7B9D32C4.quest_desc: ["§chard mode§r version of the Gaia Guardian. Summoned with 4 Gaia Spirits in the center of the beacon.", "", "More HP, more damage, bigger drops. Reward: §6dragonstone§r and multiple §6gaia spirit ingots§r.", "", "§eReward:§r 80 XP levels"]
+	quest.52C66FCE7B9D32C4.quest_subtitle: "Hard mode — double summon"
+	quest.52C66FCE7B9D32C4.title: "Slay Gaia Guardian II"
+	quest.52E5589B3A1C1B8D.quest_desc: ["The gaia ingot drops from the Guardian. Critical for gaia_spreader, ring_of_thor, ring_of_loki.", "botania:life_essence", "52E5589B3A1C1B8D", "6FD28BBCA620BFA2", "xp"]
+	quest.52E5589B3A1C1B8D.quest_subtitle: "Divine material"
+	quest.52E5589B3A1C1B8D.title: "Gaia Ingot"
+	quest.52EFDAA1F5F00F89.quest_desc: ["Whirlisprig charm: grows plants/crops in an area. Drops items as they grow. An intermediate farm.", "ars_nouveau:whirlisprig_charm", "52EFDAA1F5F00F89", "3987D726F12E9B14", "xp"]
+	quest.52EFDAA1F5F00F89.quest_subtitle: "Farming familiar"
+	quest.52EFDAA1F5F00F89.title: "Whirlisprig"
+	quest.5308482D02A79856.quest_desc: ["Activate a §eWaystone§r to create fast-travel points.", "waystones:waystone", "5308482D02A79856", "62719E91FA39081C", "xp_levels", "1A2B3C4D5E6F0134", "1A2B3C4D5E6F0001", "random", "§2Teleport network§r", "5AA2BC1F13A53E47", "waystones:waystone", "item"]
+	quest.5308482D02A79856.quest_subtitle: "§2Teleport network§r"
+	quest.5308482D02A79856.title: "Waystone"
+	quest.5309AB20B43F9D7A.quest_desc: ["Copper casing requires a mechanical_press to forge copper_sheets. For everything fluid: hose pulley, spout, smart pipes.", "create:copper_casing", "5309AB20B43F9D7A", "01B43F0538AD4384", "xp"]
+	quest.5309AB20B43F9D7A.quest_subtitle: "Fluid-tier casing"
+	quest.5309AB20B43F9D7A.title: "Copper Casing"
+	quest.530E5A90C40E638B.quest_subtitle: "§2Extra pockets§r"
+	quest.530E5A90C40E638B.title: "Backpack"
+	quest.53C02F9EA32FB8B2.quest_desc: ["The §eMossy Waystone§r is a §baesthetic§r variant of the waystone.", "", "§7•§r Activate it and it joins your §6teleport§r network between waystones.", "§7•§r Same function as the regular waystone, with a moss-covered look."]
+	quest.53C02F9EA32FB8B2.quest_subtitle: "Variant"
+	quest.53C02F9EA32FB8B2.title: "Mossy Waystone"
+	quest.54C42AF051BF0447.quest_desc: ["§4Sourceberry Bushes no longer spawn in Taiga/Archwood.§r", "", "Apothecary recipe: §c3 blue petals + 1 vanilla sweet_berry§r → 1 sourceberry_bush.", "", "Plant the bush on farmland/grass. When ripe (age 3), break it with Fortune:", "• §a1-3× source_berry§r (fruit)", "• §e1-2× sourceberry_bush§r (renewal)", "", "You'll need a lot of berries — each cursed_aglutinado takes several."]
+	quest.54C42AF051BF0447.quest_subtitle: "Sole source of the bush"
+	quest.54C42AF051BF0447.title: "Sourceberry Bush via Apothecary"
+	quest.54C84C7BE1EA8903.quest_desc: ["The apparatus is the veteran Arcanist's crafting core. Tomes, parchments, advanced items — everything is born here.", "", "To build it, you need a §dKinetic Core§r — mechanics and magic meet at this point."]
+	quest.54C84C7BE1EA8903.quest_subtitle: "Arcane crafting"
+	quest.54C84C7BE1EA8903.title: "Enchanting Apparatus"
+	quest.55402C0A1C5787CE.quest_desc: ["The strongest material Botania can offer. Forged on the Terra Plate, consuming half a million mana.", "", "It's the base of the §dSpiritual Core§r — the fourth and last of the magical pillars."]
+	quest.55402C0A1C5787CE.quest_subtitle: "Advanced Botania"
+	quest.55402C0A1C5787CE.title: "Terrasteel Ingot"
+	quest.554C866E6CB5D435.quest_desc: ["The hourglass emits redstone at configurable intervals. Useful for automation timing.", "botania:hourglass", "554C866E6CB5D435", "4A77A51FE0E4D731", "xp"]
+	quest.554C866E6CB5D435.quest_subtitle: "Redstone timer"
+	quest.554C866E6CB5D435.title: "Hovering Hourglass"
+	quest.557FD4F4FF84E22F.quest_desc: ["Golden bowl: 1 sacrificial_bowl + 4 gold_ingot. Ritual ACTIVATION — drop the ritual_dummy here.", "occultism:golden_sacrificial_bowl", "557FD4F4FF84E22F", "2F573398562BDCEF", "xp"]
+	quest.557FD4F4FF84E22F.quest_subtitle: "Main receptacle"
+	quest.557FD4F4FF84E22F.title: "Golden Sacrificial Bowl"
+	quest.55B8D9B751219B21.quest_desc: ["Blaze cake (cake base + cinder flour + sugar via mixer) is supercharged fuel for the blaze burner. Required for superheated recipes (steel alloy etc).", "create:blaze_cake", "55B8D9B751219B21", "19CB4C7FA4A925FB", "xp"]
+	quest.55B8D9B751219B21.quest_subtitle: "Superheated fuel"
+	quest.55B8D9B751219B21.title: "Blaze Cake"
+	quest.55C96D5F62390579.quest_subtitle: "Blue spark"
+	quest.55C96D5F62390579.title: "Charged Certus"
+	quest.55E29A800F32673B.quest_desc: ["Prepare §e16§r basic foods.", "pamhc2foodcore:potroastitem", "55E29A800F32673B", "27D85036C5B0C2F4", "xp_levels"]
+	quest.55E29A800F32673B.quest_subtitle: "Basic dishes"
+	quest.55E29A800F32673B.title: "Basic Cooking"
+	quest.55E621C067F20416.quest_desc: ["There are andesite_casing, brass_casing, copper_casing, railway_casing. Craft at least 1 of each — requirements from different tiers.", "create:brass_casing", "55E621C067F20416", "2465A93957C080FD", "xp"]
+	quest.55E621C067F20416.quest_subtitle: "Casing collection"
+	quest.55E621C067F20416.title: "Casing Variants"
+	quest.5624CD07174A4AD7.quest_desc: ["The §eReturn Scroll§r takes you back to the §6nearest waystone§r.", "", "§7•§r It is §cconsumable§r: each use spends one scroll.", "§7•§r Ideal as a quick trip home after an expedition."]
+	quest.5624CD07174A4AD7.quest_subtitle: "Returns to the nearest waystone"
+	quest.5624CD07174A4AD7.title: "Return Scroll"
+	quest.5628AFF5CD1C074A.quest_desc: ["§7Occultism recipe:§r 1 cobblestone tossed into spirit_fire → 1 otherstone.", "", "Otherstone is §erequired§r to craft EQSMP's mana_pool and diluted_pool (Botania).", "occultism:otherstone", "5628AFF5CD1C074A", "2F2A860081F0B328", "xp"]
+	quest.5628AFF5CD1C074A.quest_subtitle: "Botania ↔ Occultism requirement"
+	quest.5628AFF5CD1C074A.title: "Otherstone (F1 Requirement)"
+	quest.566B77BE2238F816.quest_desc: ["Belts connect 2 shafts at any angle (up to 90°). They carry items AND entities. 2 leather + andesite_alloy + dried kelp string → 3 belts.", "create:belt_connector", "566B77BE2238F816", "26C59893CAE034E7", "xp"]
+	quest.566B77BE2238F816.quest_subtitle: "Basic logistics"
+	quest.566B77BE2238F816.title: "Belt"
+	quest.569BD9E9F727948B.quest_desc: ["Void elemental boss. Spawns in the End.", "", "§eReward:§r 55 XP levels + drop"]
+	quest.569BD9E9F727948B.quest_subtitle: "Pillar of the Void"
+	quest.569BD9E9F727948B.title: "Side: BOMD Obsidilith"
+	quest.56A6E32CF531C609.quest_desc: ["§ePure Mana Crystal§r — the milestone of this phase. The §bImbuement Chamber§r and the §bSource Gem§r refine the §ccorrupted crystal§r into a stable jewel.", "", "Botania's mana and Ars's Source united. It unlocks §dOccultism§r and Create's §6Mechanical Arm§r."]
+	quest.56A6E32CF531C609.title: "The Pure Mana Crystal"
+	quest.56AA6C6657EC35A0.quest_subtitle: "Energy insulator"
+	quest.56AA6C6657EC35A0.title: "Quartz Fiber"
+	quest.56C829025A2869AE.quest_desc: ["A giant Nether bastion dweller. Devastating AOE. Watch out for the stomp.", "", "§eReward:§r 40 XP levels + unique drop"]
+	quest.56C829025A2869AE.quest_subtitle: "Monstrosity of the Nether"
+	quest.56C829025A2869AE.title: "Slay Netherite Monstrosity"
+	quest.56DF50D6324509B8.quest_desc: ["§eArs Nouveau in EQSMP has been modified:§r source_gem now comes only via:", "", "§71)§r §dmana_diamond§r (1 diamond + Botania mana_pool) → spirit_fire ritual (Occultism) → 1 source_gem", "§72)§r §dspirit_attuned_crystal§r (Agglutinate cascade → amethyst_block) → imbuement chamber → 4 source_gem", "", "You'll need source_gem for many Ars recipes AND for the Create precision_mechanism requirements).", "ars_nouveau:source_gem", "56DF50D6324509B8", "17CE9F2C5139742E", "xp"]
+	quest.56DF50D6324509B8.quest_subtitle: "EQSMP cross-mod — Ars needs you"
+	quest.56DF50D6324509B8.title: "Reminder: Source Gem"
+	quest.575DE2EDDB612032.quest_desc: ["The §eTome of Magical Impregnation§r raises the §6enchantment level§r and magical knowledge of an item.", "", "§7•§r Pushes enchantments beyond the table's normal limit.", "§7•§r An §6advanced§r resource to supercharge your best gear."]
+	quest.575DE2EDDB612032.title: "Tome of Magical Impregnation"
+	quest.576EEC7CF3CF20EF.quest_desc: ["Crystal apparatus: afrit ritual + spirit_attuned_crystal + iesnium. Component of the marid miner (advanced mining).", "occultism:iesnium_ingot", "576EEC7CF3CF20EF", "1957882E0F0A678D", "xp"]
+	quest.576EEC7CF3CF20EF.quest_subtitle: "Marid stabilizer"
+	quest.576EEC7CF3CF20EF.title: "Crystal Apparatus"
+	quest.58A260CB8418E4F1.quest_subtitle: "§2Souped-up chests§r"
+	quest.58A260CB8418E4F1.title: "Sophisticated Chest"
+	quest.5909C601B6A937D1.quest_desc: ["Infused pickaxe: djinni ritual with 1 diamond_pickaxe + 4 spirit_attuned_gem. Sees iesnium_ore (invisible to a normal pickaxe).", "occultism:infused_pickaxe", "5909C601B6A937D1", "6E6D9D3A53A4D303", "xp"]
+	quest.5909C601B6A937D1.quest_subtitle: "Pickaxe that sees iesnium"
+	quest.5909C601B6A937D1.title: "Infused Pickaxe"
+	quest.593F35F2A58DB752.quest_desc: ["High capacity and several §eupgrade§r slots at once.", "§7•§r Ideal for the central warehouse of your base.", "Combine it with the Controller to access everything from a single point."]
+	quest.593F35F2A58DB752.title: "Diamond Chest"
+	quest.596316A02613FA3F.quest_desc: ["Here the recipe takes another route: 2× manasteel + 2× blaze_powder + 1× §dPure Mana Crystal§r (Pure Mana Crystal) → 1 rune_fire.", "botania:rune_fire", "596316A02613FA3F", "5E8D1F9C46A96FF4", "xp"]
+	quest.596316A02613FA3F.quest_subtitle: "Cross-mod F3 — elemental rune"
+	quest.596316A02613FA3F.title: "Rune of Fire"
+	quest.59A5D0BCF9B9E2D0.quest_desc: ["Storage controller: storage_base + dimensional_matrix + frame. Access an infinite inventory (limited by stabilizers).", "occultism:storage_controller", "59A5D0BCF9B9E2D0", "19EA1A6950C6C64D", "xp"]
+	quest.59A5D0BCF9B9E2D0.quest_subtitle: "Complete storage system"
+	quest.59A5D0BCF9B9E2D0.title: "Storage Controller"
+	quest.5A2AC224F5B13979.quest_desc: ["Occultism's §dSoul Gem§r captures the soul of a living creature — use it on a docile being to seal the spirit into the gem.", "", "This captured soul is the spiritual fuel of the final core."]
+	quest.5A2AC224F5B13979.title: "Soul Gem"
+	quest.5AA2177BF0CADDE0.quest_desc: ["Ancient Forge in the Nether. Master of flames and Ignitium.", "", "§eReward:§r 50 XP levels + unique drop"]
+	quest.5AA2177BF0CADDE0.quest_subtitle: "Lord of the Forges"
+	quest.5AA2177BF0CADDE0.title: "Slay Ignis"
+	quest.5AD3FE37BF6D66D4.quest_desc: ["The §dTwilight Forest§r is a dimension of eternal twilight, full of ancient creatures and forgotten treasures.", "", "Use the §6Twilight Forest Portal§r (water + 4 flowers in a square, throw in a diamond) to enter.", "", "§7Inside: 6 bosses in progression order."]
+	quest.5AD3FE37BF6D66D4.quest_subtitle: "The first step on the adventure"
+	quest.5AD3FE37BF6D66D4.title: "Enter the Twilight Forest"
+	quest.5AD9297290CBA43C.quest_desc: ["Arranged in a grid, these crafters assemble any complex recipe on their own. It's like having a thousand hands forging in parallel.", "", "You'll need them to forge the §dPrecision Mechanism§r — a critical mid-game Create part.", "create:mechanical_crafter", "5AD9297290CBA43C", "5597EB0AB38205C0", "xp"]
+	quest.5AD9297290CBA43C.quest_subtitle: "Advanced automated crafting"
+	quest.5AD9297290CBA43C.title: "Mechanical Crafter"
+	quest.5B03AB38C3D2DC90.quest_desc: ["A clutch disconnects rotation when it receives redstone — the mechanical equivalent of a switch.", "create:clutch", "5B03AB38C3D2DC90", "15CEC1CFEADCDC83", "xp"]
+	quest.5B03AB38C3D2DC90.quest_subtitle: "Toggles on/off via redstone"
+	quest.5B03AB38C3D2DC90.title: "Clutch"
+	quest.5B23C6C5A77DA674.quest_desc: ["Wilden chain (chimera drop) → enchanted_chain components at the apparatus. Combine with archwood + source for alfsteel.", "ars_nouveau:wilden_horn", "5B23C6C5A77DA674", "1DD3F6E4C5DDDB92", "xp"]
+	quest.5B23C6C5A77DA674.quest_subtitle: "Advanced material"
+	quest.5B23C6C5A77DA674.title: "Wilden Chain"
+	quest.5B64012A0840B461.quest_desc: ["Lich Tower — a tall tower in the middle of the forest. It has 3 phases: shielded, projectile, melee.", "", "§eReward:§r 30 XP levels + boss trophy"]
+	quest.5B64012A0840B461.quest_subtitle: "Magister of the dead"
+	quest.5B64012A0840B461.title: "Slay the Lich"
+	quest.5BA8BE35BC4A3C8A.quest_desc: ["Elven spreader: 4× dreamwood + dragonstone + elementium. 2× normal speed, longer range.", "botania:elven_spreader", "5BA8BE35BC4A3C8A", "20A52D8D89D84EBF", "xp"]
+	quest.5BA8BE35BC4A3C8A.quest_subtitle: "Alfheim spreader"
+	quest.5BA8BE35BC4A3C8A.title: "Elven Spreader"
+	quest.5CC3C7A920431310.quest_desc: ["Obtain a §6scroll_blood§r and activate it to learn spells from this school.", "", "§7Scrolls are generated in structures, bought from wandering traders, or dropped by mages."]
+	quest.5CC3C7A920431310.quest_subtitle: "Heartstop, Blood Slash, Acupuncture"
+	quest.5CC3C7A920431310.title: "School of Blood"
+	quest.5CC77A9041A3A9A6.quest_desc: ["The dandelifeon simulates Conway's Game of Life with cells (cellular_block). Each generation = mana. Complex to set up but absurd density.", "botania:dandelifeon", "5CC77A9041A3A9A6", "73A98EF2980FD2FE", "xp"]
+	quest.5CC77A9041A3A9A6.quest_subtitle: "Game of Life mana"
+	quest.5CC77A9041A3A9A6.title: "Dandelifeon"
+	quest.5D34338946363D24.quest_desc: ["Storage controller base: 1 obsidian + 4 spirit_attuned_gem + 4 redstone. Component of the advanced storage_controller.", "occultism:storage_controller_base", "5D34338946363D24", "09A8A43EC5D7C72D", "xp"]
+	quest.5D34338946363D24.quest_subtitle: "Storage base"
+	quest.5D34338946363D24.title: "Storage Controller Base"
+	quest.5D3D2BBC7209A7C8.quest_desc: ["The §eVoodoo Poppet§r §2protects§r you against a specific type of damage or death.", "", "§7•§r Equip it and it's consumed when it absorbs that danger in your place.", "§7•§r There are variants for fall, fire, drowning and other threats: choose according to the risk."]
+	quest.5D3D2BBC7209A7C8.quest_subtitle: "Protection against death"
+	quest.5D3D2BBC7209A7C8.title: "Voodoo Poppet"
+	quest.5DF5B59BB7DEE26C.quest_desc: ["Here the recipe takes a different path: 1 §damethyst shard§r tossed into spirit_fire → 1 spirit_attuned_gem.", "", "It used to be diamond in vanilla; now it's amethyst_shard (cheaper). The gem is used in colored chalks, spirit_lantern, infused pickaxe.", "occultism:spirit_attuned_gem", "5DF5B59BB7DEE26C", "3F2E63E5363AB221", "xp"]
+	quest.5DF5B59BB7DEE26C.quest_subtitle: "Cross-mod — spirit gem"
+	quest.5DF5B59BB7DEE26C.title: "Attuned Gem"
+	quest.5E11C9C5F7912BED.quest_desc: ["The manasteel sword deals damage similar to diamond. Consumes mana instead of durability.", "botania:manasteel_sword", "5E11C9C5F7912BED", "115F2C1A2C0E2B43", "xp"]
+	quest.5E11C9C5F7912BED.quest_subtitle: "Mana sword"
+	quest.5E11C9C5F7912BED.title: "Manasteel Sword"
+	quest.5E1FA86D744121E2.quest_desc: ["The §eSaucepan§r handles sauces and more delicate dishes.", "", "Ideal for §7•§r reductions, creams and dishes that call for low heat.", "Another utensil that stays with you after cooking."]
+	quest.5E1FA86D744121E2.title: "Saucepan"
+	quest.5E570F77EB109F10.quest_desc: ["The §eTablet of Recall§r §bteleports§r you straight to your last §6grave§r.", "", "§7•§r Saves your life when you die in a distant or dangerous place.", "§7•§r Combine it with the Grave Key to recover everything in the blink of an eye."]
+	quest.5E570F77EB109F10.quest_subtitle: "Teleports to your grave"
+	quest.5E570F77EB109F10.title: "Tablet of Recall"
+	quest.5EDA4644FC22BCC1.quest_desc: ["The aura ring regenerates ~1 mana/tick passively. Combine it with a greater mana_ring for self-sustaining mana.", "botania:aura_ring", "5EDA4644FC22BCC1", "23E49B359B7E76FB", "xp"]
+	quest.5EDA4644FC22BCC1.quest_subtitle: "Generates mana passively"
+	quest.5EDA4644FC22BCC1.title: "Ring of Aura"
+	quest.5F0EEF797725B751.quest_desc: ["You have completed the EQSMP Arcanist path! You mastered glyphs, familiar automation, rituals and defeated the Wilden Chimera.", "", "§7EQSMP recipes you learned:§r", "§7•§r imbuement_chamber + livingwood (Botania)", "§7•§r source_gem via mana_diamond (mid-Agglutinate Botania+Occultism)", "§7•§r source_gem via spirit_attuned_crystal (Agglutinate cascade)", "§7•§r source_jar + mana_pearl (Botania)", "§7•§r dominion_wand + livingwood_twig (Botania)", "", "Next paths: Occultism, Philosopher's Stone.", "ars_nouveau:wilden_horn", "5F0EEF797725B751", "662324FB251C17AC", "xp", "244C6850D12D3E82", "xp_levels", "1A2B3C4D5E6F0129", "1A2B3C4D5E6F0001", "random", "gear", "You have mastered the Arcanist", "507BDFF84998AAEF", "checkmark"]
+	quest.5F0EEF797725B751.quest_subtitle: "You have mastered the Arcanist"
+	quest.5F0EEF797725B751.title: "Arcane Mastery"
+	quest.5F8C39AE9EE75AE5.quest_desc: ["The wormhole frame connects the storage_actuator to a remote output. Critical for storage anywhere.", "occultism:storage_remote", "5F8C39AE9EE75AE5", "00B444A4618269C5", "xp"]
+	quest.5F8C39AE9EE75AE5.quest_subtitle: "Remote storage access"
+	quest.5F8C39AE9EE75AE5.title: "Wormhole Frame"
+	quest.5FE3E587B6564965.quest_desc: ["§eCornbread§r is a simple, filling baked good.", "", "Use ground corn and the bakeware to prepare it.", "A great hunger source §7•§r to take on journeys."]
+	quest.5FE3E587B6564965.title: "Cornbread"
+	quest.6070A4C94C4F2242.quest_subtitle: "Network bridge"
+	quest.6070A4C94C4F2242.title: "Interface"
+	quest.607C4F73A1BEDC7A.quest_desc: ["§eFresh Water§r is the base of almost every liquid recipe in Pam's.", "", "Get it by filling a §7•§r bucket or bottle directly from a water source.", "Always keep some around: soups, doughs and drinks call for it."]
+	quest.607C4F73A1BEDC7A.quest_subtitle: "Hydration"
+	quest.607C4F73A1BEDC7A.title: "Fresh Water"
+	quest.607E53E822CD3AB0.quest_desc: ["Rewritten recipe: §c8 andesite + 1 Magical Agglutinate → 4 andesite_alloy§r.", "", "The vanilla recipes (iron + andesite mixing) were removed. The only preserved alternative is decompacting the andesite_alloy_block."]
+	quest.607E53E822CD3AB0.quest_subtitle: "Create unlocked"
+	quest.607E53E822CD3AB0.title: "Andesite Alloy via Agglutinate"
+	quest.60B38AD0A66B6A9A.quest_desc: ["Create's §6Depot§r is the static surface where items rest to be processed by a §6Deployer§r.", "", "It is the stage for the sequenced assembly that will give birth to the spiritual core."]
+	quest.60B38AD0A66B6A9A.title: "Depot"
+	quest.60E85A3D245613A5.quest_desc: ["Converts an ordinary drawer into an §eupgraded§r form or a different type.", "§7•§r Use it to migrate old drawers without losing the contents.", "Keeps your items while you swap the block for a better version."]
+	quest.60E85A3D245613A5.title: "Conversion Upgrade"
+	quest.614B009BBD9EAE92.quest_desc: ["§4Cataclysm§r brings 7 unique bosses scattered across custom structures throughout the world.", "", "Each has its own mechanics and powerful drops. They aren't easy — get ready.", "", "§7Structures generate naturally in specific biomes."]
+	quest.614B009BBD9EAE92.quest_subtitle: "Elite dimensional bosses"
+	quest.614B009BBD9EAE92.title: "Cataclysm — The Seven Nightmares"
+	quest.61C8614113BD83F9.quest_desc: ["At the §aRunic Altar§r you gather §aMana Pearl§r, §aMana Diamond§r and the §eKinetic Core§r, feeding mana until the rune completes.", "", "This is where Botania and Create fuse to generate the next heart."]
+	quest.61C8614113BD83F9.title: "Runic Forging"
+	quest.61D5630307136C4C.quest_desc: ["A blaze burner accepts various fuels to supply heat to basins, crucibles, etc. Heated vs superheated changes the available recipes (blaze cake = superheated).", "create:blaze_burner", "61D5630307136C4C", "4032BD4534FC1FAE", "xp"]
+	quest.61D5630307136C4C.quest_subtitle: "Heat source"
+	quest.61D5630307136C4C.title: "Blaze Burner"
+	quest.61FE4A1A091F8893.quest_desc: ["The §eKinetic Core§r is also sacrificed here — Create's tamed motion enters the final sum.", "", "Three cores, three mods, one single masterpiece."]
+	quest.61FE4A1A091F8893.title: "Kinetic Core (F2)"
+	quest.62148A6DDE69428E.quest_desc: ["The pure daisy converts cobblestone into §alivingrock§r and logs into §alivingwood§r around it (slowly). 4 white petals in the apothecary → 1 pure_daisy.", "botania:pure_daisy", "62148A6DDE69428E", "590494F423C2EFAB", "xp"]
+	quest.62148A6DDE69428E.quest_subtitle: "Purity converter"
+	quest.62148A6DDE69428E.title: "Pure Daisy"
+	quest.6274B936460CBB82.quest_desc: ["Ars Nouveau's §bRitual Brazier§r has been unlocked by the §eSpiritual Core§r.", "", "It is the brazier of the most advanced magical rituals — the pinnacle of Source automation."]
+	quest.6274B936460CBB82.title: "Ritual Brazier Unlocked"
+	quest.62A606CBC3205F0D.quest_desc: ["Craft or obtain the §6Iron Tome§r. Each tier allows §emore inscribed spells§r and §emore powerful casts§r.", "", "§7Crafting: recipe similar to the base spell book, with the ingredient of the corresponding tier."]
+	quest.62A606CBC3205F0D.quest_subtitle: "+2 slots"
+	quest.62A606CBC3205F0D.title: "Iron Tome"
+	quest.62D094B38882810D.quest_desc: ["The core of the ME network. Without it, no digital storage.", "§eMain milestone of the chapter.§r"]
+	quest.62D094B38882810D.quest_subtitle: "§2THE NETWORK IS BORN§r"
+	quest.62D094B38882810D.title: "ME Controller"
+	quest.62DEF4405C883451.quest_subtitle: "Configuring cells"
+	quest.62DEF4405C883451.title: "Cell Workbench"
+	quest.62F74C5FD7F6BC2D.quest_subtitle: "Veteran hunter"
+	quest.62F74C5FD7F6BC2D.title: "70 Chests Opened"
+	quest.637CE750CADD6992.quest_desc: ["Archwood planks: 1 log → 4 planks. Base material for the imbuement_chamber, source_jar, arcane_pedestal, etc.", "ars_nouveau:archwood_planks", "637CE750CADD6992", "581F2BE5B07E2AE4", "xp"]
+	quest.637CE750CADD6992.quest_subtitle: "Processed wood"
+	quest.637CE750CADD6992.title: "Archwood Planks"
+	quest.63942FA596F0D42B.quest_desc: ["Gaia spreader: 4× gaia_ingot + dreamwood + dragonstone. Maximum speed and capacity. Used in advanced farms.", "botania:gaia_spreader", "63942FA596F0D42B", "27C83F19E8EF1EC4", "xp"]
+	quest.63942FA596F0D42B.quest_subtitle: "Advanced spreader"
+	quest.63942FA596F0D42B.title: "Gaia Spreader"
+	quest.63E48AD41D82757F.quest_desc: ["Ars Nouveau's §bEnchanting Apparatus§r was unlocked by the §eKinetic Core§r.", "", "Surrounded by pedestals, it transforms reagents into enchanted items — the gateway to Source magic in the phases ahead."]
+	quest.63E48AD41D82757F.title: "Enchanting Apparatus Unlocked"
+	quest.642032C8973A2BA9.quest_desc: ["Chain drives transfer rotation between parallel shafts up to 3 blocks apart. Good for compact layouts.", "create:encased_chain_drive", "642032C8973A2BA9", "0DEC78EF6ADFE179", "xp"]
+	quest.642032C8973A2BA9.quest_subtitle: "Parallel transmission"
+	quest.642032C8973A2BA9.title: "Chain Drive"
+	quest.6451E6E385BCF00A.quest_desc: ["The stone from the other world. It's born when you throw cobblestone into a spirit fire — spirit fire that purifies ordinary stone.", "", "Without otherstone, the Druid can't build his pool. Even those who never want to touch a demonic pact will need to pass through here at least once."]
+	quest.6451E6E385BCF00A.quest_subtitle: "F1 requirement"
+	quest.6451E6E385BCF00A.title: "Otherstone"
+	quest.64D174A7341C9E7E.quest_desc: ["Spawns in snowy biomes. Summons skeletons.", "", "§eReward:§r 40 XP levels + elemental essence"]
+	quest.64D174A7341C9E7E.quest_subtitle: "Ice Necromancer"
+	quest.64D174A7341C9E7E.title: "Slay BOMD Lich"
+	quest.64DFAC011ACBEF7D.quest_desc: ["The pool is the heart of Botania — where all mana accumulates.", "", "Here it isn't made with plain livingrock: the formula calls for §6otherstone§r, the stone that occultists craft with spirit fire. Without walking the Occultism path, the Druid can't fill his pool."]
+	quest.64DFAC011ACBEF7D.quest_subtitle: "Stores mana"
+	quest.64DFAC011ACBEF7D.title: "Mana Pool"
+	quest.64EF5788B975663A.quest_desc: ["Make §e4§r jellies from Pam's.", "pamhc2foodextended:apricotjellyitem", "64EF5788B975663A", "367CEE5F83CB51AD", "xp_levels"]
+	quest.64EF5788B975663A.quest_subtitle: "45 recipes in Pam's"
+	quest.64EF5788B975663A.title: "Jellies"
+	quest.64F6A72C51CC2190.quest_desc: ["Plant datura_seeds on tilled soil. When mature it drops 1-2 datura. Datura is the reagent for ash and several Occultism recipes.", "occultism:datura", "64F6A72C51CC2190", "31AC5E63EEBF988B", "xp"]
+	quest.64F6A72C51CC2190.quest_subtitle: "Crop"
+	quest.64F6A72C51CC2190.title: "Grow Datura"
+	quest.650A23B5977F34A1.quest_desc: ["§eDough§r is the starting point of breads and baked goods.", "", "Make it by combining §7•§r flour and fresh water.", "With dough ready and bakeware in hand, a whole bakery menu opens up."]
+	quest.650A23B5977F34A1.title: "Dough"
+	quest.6524175367DB0A6F.quest_desc: ["Terrasteel helmet: 5× terrasteel_ingot. Part of the Gaia armor set.", "botania:terrasteel_helmet", "6524175367DB0A6F", "293CDB12A52ACA61", "xp"]
+	quest.6524175367DB0A6F.quest_subtitle: "Advanced helm"
+	quest.6524175367DB0A6F.title: "Terrasteel Helmet"
+	quest.652CB209F9C8DF8A.quest_desc: ["The Wilden Chimera is the boss of Ars Nouveau. Summon it with a wilden horn at the ritual brazier.", "", "Rewards: wings for permanent flight, a spike for advanced crafting.", "ars_nouveau:wilden_horn", "652CB209F9C8DF8A", "3AEA35DFB51512A3", "xp"]
+	quest.652CB209F9C8DF8A.quest_subtitle: "Ars boss"
+	quest.652CB209F9C8DF8A.title: "Wilden Chimera"
+	quest.6534D8198AA5929E.quest_desc: ["Chalk red impure: 3 white_chalk + 1 spirit_attuned_gem + 1 redstone + 1 nether_wart. Advanced afrit summoning.", "occultism:chalk_red_impure", "6534D8198AA5929E", "1AD4B109549F4B00", "xp"]
+	quest.6534D8198AA5929E.quest_subtitle: "Afrit chalk"
+	quest.6534D8198AA5929E.title: "Chalk Red (Impure)"
+	quest.653EF89ABED40B54.quest_desc: ["Get the §esapling§r of each of Pam's §e48§r fruit trees and build your orchard.", "653EF89ABED40B54", "7747D7C882FFD8E8", "xp_levels"]
+	quest.653EF89ABED40B54.quest_subtitle: "§2Orchard§r"
+	quest.653EF89ABED40B54.title: "The Fruit Trees"
+	quest.6588677E552899DC.title: "The Near-Extinction"
+	quest.65AC63843AC20232.quest_desc: ["End Cave. It teleports, conjures projectiles. Loot: gauntlet of guard.", "", "§eReward:§r 55 XP levels + unique drop"]
+	quest.65AC63843AC20232.quest_subtitle: "Sentinel of the Void"
+	quest.65AC63843AC20232.title: "Slay Ender Guardian"
+	quest.65D3D4B3683DE4AF.quest_desc: ["§aMana Diamond§r is a diamond reforged by mana in a §aMana Pool§r.", "", "Crystalline and saturated with energy, it gives structure to the §cCursed Pure Mana Crystal§r."]
+	quest.65D3D4B3683DE4AF.title: "Mana Diamond"
+	quest.66082991AED39DA0.quest_desc: ["§7EQSMP Spiritual Core reminder:§r the ars_nouveau:ritual_brazier (Ars) uses the §dSpiritual Core§r in its craft.", "", "The brazier connects Ars + Occultism via rituals. Advanced ritual gear.", "ars_nouveau:ritual_brazier", "66082991AED39DA0", "53AF58866555EA8B", "xp"]
+	quest.66082991AED39DA0.quest_subtitle: "F4 cross — Ars + Occultism"
+	quest.66082991AED39DA0.title: "Ritual Brazier (Ars)"
+	quest.665FFCE21F8EEDE5.quest_desc: ["Hydra Hill — a distinctive lava-filled hill. Heads regenerate, attack quickly.", "", "§eReward:§r 50 XP levels + boss trophy"]
+	quest.665FFCE21F8EEDE5.quest_subtitle: "Three heads, three terrors"
+	quest.665FFCE21F8EEDE5.title: "Slay the Hydra"
+	quest.666311C4E9ACC988.quest_desc: ["Arcane core: 4 source_gem_block + 4 elementium_ingot + 1 arcane_pedestal. An advanced replacement for the source_jar (massive capacity).", "ars_nouveau:arcane_core", "666311C4E9ACC988", "58E31E7A4502FEF7", "xp"]
+	quest.666311C4E9ACC988.quest_subtitle: "Advanced mana core"
+	quest.666311C4E9ACC988.title: "Arcane Core"
+	quest.675EA51F2647972A.quest_desc: ["The §6top§r of the chests: maximum capacity and §efireproof§r.", "§7•§r The definitive chest for storing everything that matters.", "Survive explosions and lava without losing your stock."]
+	quest.675EA51F2647972A.title: "Netherite Chest"
+	quest.67A244F2C31AA37E.quest_desc: ["The Caster Tome carries 1 predefined spell with a built-in mana_jar. Useful for quick casting without swapping books.", "ars_nouveau:caster_tome", "67A244F2C31AA37E", "678BBDF18C631662", "xp"]
+	quest.67A244F2C31AA37E.quest_subtitle: "Single-spell tome"
+	quest.67A244F2C31AA37E.title: "Caster Tome"
+	quest.67ABB36E5123CFF5.quest_desc: ["§cCursed Pure Mana Crystal§r is the crystal fresh from the altar — saturated, but unstable and impure.", "", "The mana still leaks uncontrolled. Only the Source magic of Ars Nouveau can refine it."]
+	quest.67ABB36E5123CFF5.title: "Cursed Pure Mana Crystal"
+	quest.67BE4F11D12BEFD1.quest_desc: ["Obtain a §6scroll_ender§r and activate it to learn spells from this school.", "", "§7Scrolls are generated in structures, bought from wandering traders, or dropped by mages."]
+	quest.67BE4F11D12BEFD1.quest_subtitle: "Teleport, Counterspell, Dragon Breath"
+	quest.67BE4F11D12BEFD1.title: "School of Ender"
+	quest.67E41AC277CA9840.quest_desc: ["Train casing: brass_casing + andesite + iron_sheet. For trains, schedules, stations. Multiplayer/long-distance transport.", "create:railway_casing", "67E41AC277CA9840", "1B22B4AD0A8C6FC8", "xp"]
+	quest.67E41AC277CA9840.quest_subtitle: "Transport tier"
+	quest.67E41AC277CA9840.title: "Train Casing"
+	quest.681BD768C2D3BFF2.quest_desc: ["§aMana Pearl§r is solidified Botania mana: fill an empty §aMana Pearl§r in a pool charged with mana.", "", "It's one of the three reagents that go into the §aRunic Altar§r to birth the corrupted crystal."]
+	quest.681BD768C2D3BFF2.title: "Mana Pearl"
+	quest.6820B2DEAF16B055.quest_desc: ["Chutes transport items vertically (gravity-fed or with a fan boost). Connect with belts, depots, inventories.", "create:chute", "6820B2DEAF16B055", "382C91EBE6FE44E6", "xp"]
+	quest.6820B2DEAF16B055.quest_subtitle: "Vertical item transport"
+	quest.6820B2DEAF16B055.title: "Chute"
+	quest.683A078B58DDD74C.quest_subtitle: "Raw material for chips"
+	quest.683A078B58DDD74C.title: "Silicon"
+	quest.689F040FDEA8FB25.quest_desc: ["Grind grains in the Grinder.", "pamhc2foodcore:flouritem", "689F040FDEA8FB25", "365C81DA2526D879", "xp_levels"]
+	quest.689F040FDEA8FB25.title: "Flour"
+	quest.68B0D48131E4048D.quest_desc: ["Botania's §2Terrasteel§r has been unlocked by the §eSpiritual Core§r.", "", "The sacred metal born on the §aTerrestrial Agglomeration Plate§r — the pinnacle of magical progression, the reward for uniting the four paths."]
+	quest.68B0D48131E4048D.title: "Terrasteel Unlocked"
+	quest.69889892CC4D2887.quest_desc: ["§6Andesite Alloy§r is Create's mechanical cement: §6Andesite§r + a drop of §6Iron§r or §6Zinc§r in the §6Mixer§r.", "", "It binds nearly every kinetic part together. Combine it with the §6Brass Ingot§r to build the heart of this phase."]
+	quest.69889892CC4D2887.title: "Andesite Alloy"
+	quest.6994F02B064C263C.quest_subtitle: "§2Organized storage§r"
+	quest.6994F02B064C263C.title: "Drawer (1 slot)"
+	quest.6A1B2EF5E3D5D81E.quest_subtitle: "Pulling into the network"
+	quest.6A1B2EF5E3D5D81E.title: "Import Bus"
+	quest.6ABB1BFFA229D309.quest_desc: ["Place block + a form from your spell book. Places blocks from your inventory onto targets.", "ars_nouveau:glyph_place_block", "6ABB1BFFA229D309", "0D8D3CBAFAFE1BA8", "xp"]
+	quest.6ABB1BFFA229D309.quest_subtitle: "Effect — place block"
+	quest.6ABB1BFFA229D309.title: "Glyph: Place Block"
+	quest.6AE7F02B08E9BB37.quest_desc: ["Kill a §cpriest§r. These mages spawn in §6Mage Towers§r and drop gear pieces + school scrolls.", "", "§eReward:§r XP + a chance to drop an armor set or scroll."]
+	quest.6AE7F02B08E9BB37.quest_subtitle: "Enemy priest"
+	quest.6AE7F02B08E9BB37.title: "Hunt Priest"
+	quest.6AF31F08608E6BF3.title: "1k Cell Component"
+	quest.6B1725A9C6B820C7.quest_desc: ["§5Fire Boss§r from Iron's Spells. A tier 5 side boss.", "", "Spawn via the §6Fire Apothecary§r or lava structures.", "", "§eReward:§r 60 XP + 3 fire scrolls"]
+	quest.6B1725A9C6B820C7.quest_subtitle: "Iron's Spells — fire boss"
+	quest.6B1725A9C6B820C7.title: "Side: Fire Boss"
+	quest.6B2CE1C2421BA236.quest_desc: ["Form a CPU (unit + storage + monitor) and enable autocrafting.", "§eSecond major milestone.§r"]
+	quest.6B2CE1C2421BA236.quest_subtitle: "§2AUTOCRAFT COMPLETE§r"
+	quest.6B2CE1C2421BA236.title: "Crafting Monitor"
+	quest.6B3A9349E2EB52FE.quest_desc: ["Earth elemental boss. Spawns in plains.", "", "§eReward:§r 45 XP levels + drop"]
+	quest.6B3A9349E2EB52FE.quest_subtitle: "Fist of the Plains"
+	quest.6B3A9349E2EB52FE.title: "Side: BOMD Gauntlet"
+	quest.6B64A53FBC3F8203.quest_desc: ["§eTomato Soup§r is a warm, comforting dish.", "", "Cook fresh tomatoes in the pot with fresh water.", "It restores hunger well §7•§r and is easy to keep in stock."]
+	quest.6B64A53FBC3F8203.title: "Tomato Soup"
+	quest.6B7BE26E26BF12DC.quest_desc: ["A gearbox transfers rotation in all 4 horizontal directions. Useful for centralizing shafts.", "create:gearbox", "6B7BE26E26BF12DC", "73D2B5A8BF0D2B63", "xp"]
+	quest.6B7BE26E26BF12DC.quest_subtitle: "Transmission box"
+	quest.6B7BE26E26BF12DC.title: "Gearbox"
+	quest.6B87A1AD464A0A60.quest_desc: ["Spawns in plains. A melee, multi-phase boss.", "", "§eReward:§r 35 XP levels + elemental essence"]
+	quest.6B87A1AD464A0A60.quest_subtitle: "Fist of the Plains"
+	quest.6B87A1AD464A0A60.title: "Slay The Gauntlet"
+	quest.6BBAAE01ED3974AC.quest_subtitle: "Cell bank"
+	quest.6BBAAE01ED3974AC.title: "ME Drive"
+	quest.6BF6163AEB9108F1.quest_desc: ["Sunken City beneath the ocean monument. It flies, breathes fire, drops a dragon horn.", "", "§eReward:§r 60 XP levels + unique drop"]
+	quest.6BF6163AEB9108F1.quest_subtitle: "Ancestral dragon"
+	quest.6BF6163AEB9108F1.title: "Slay Ancient Remnant"
+	quest.6C0DB05FCAE3195A.quest_desc: ["The §ePure Mana Crystal§r closes the consumed trio: Botania's mana and Ars's Source in stable form.", "", "With F1, F2 and F3 gathered, assembly of the final phase can begin."]
+	quest.6C0DB05FCAE3195A.title: "Pure Mana Crystal (F3)"
+	quest.6C97705F60E37F1C.quest_desc: ["Arcane pedestal: 4 archwood + 4 source_gem. Combine it with the imbuement_chamber for multiple inputs.", "ars_nouveau:arcane_pedestal", "6C97705F60E37F1C", "32F72E5039DDF918", "xp"]
+	quest.6C97705F60E37F1C.quest_subtitle: "Item pedestal"
+	quest.6C97705F60E37F1C.title: "Arcane Pedestal"
+	quest.6CC964B4A441195A.quest_desc: ["Head to the §etaigas and cold biomes§r in search of §6wild gardens§r.", "", "Among pines and snow grow rustic, hardy plants.", "Break them §7•§r to harvest ingredients that thrive in the cold."]
+	quest.6CC964B4A441195A.title: "Found and broke the garden"
+	quest.6CF9949F72E1227D.quest_desc: ["Sunken City in the ocean. The hardest boss — Eye of Abyss + sacrifice at the altar.", "", "§eReward:§r 80 XP levels + unique drop"]
+	quest.6CF9949F72E1227D.quest_subtitle: "Abyssal Terror"
+	quest.6CF9949F72E1227D.title: "Slay The Leviathan"
+	quest.6D0DA215B4254C6C.quest_desc: ["§dArs 'n Spells§r connects the two mana systems into a single pool.", "", "§ePractical consequences:§r", "  §7• Ars Nouveau mana regen (Source) fuels Iron's spell casts.", "  §7• Iron's mana items (mana potions, regen rings) affect both.", "  §7• Source jars + spell book = a giant mana stockpile.", "", "Invest in either of the two sources — any mage build shares them."]
+	quest.6D0DA215B4254C6C.quest_subtitle: "Ars Nouveau ↔ Iron's Spells bridge"
+	quest.6D0DA215B4254C6C.title: "Ars 'n Spells — Unified Mana"
+	quest.6D3B3AAF1A90F782.quest_desc: ["Steps the §eCopper Backpack§r up a notch: more slots and more upgrade slots.", "§7•§r Craft it by surrounding the previous backpack with iron.", "A good companion for mining and mid-sized expeditions."]
+	quest.6D3B3AAF1A90F782.title: "Iron Backpack"
+	quest.6D64C8F28DE5A911.quest_desc: ["The §bImbuement Chamber§r of Ars Nouveau condenses ambient Source into crystals and magical items.", "", "It's the chamber where the §ccorrupted crystal§r will be bathed in Source and purified."]
+	quest.6D64C8F28DE5A911.title: "Imbuement Chamber"
+	quest.6DDA4E6F1237B422.quest_desc: ["§dBook of Binding (Foliot)§r records the pact with a minor Occultism spirit. Write it with paper, leather, and spirit essence.", "", "It's one of the two reagents that draw up the purification ritual for the §cCursed Kinetic Core§r."]
+	quest.6DDA4E6F1237B422.title: "Pact with the Foliot"
+	quest.6DE8C1306C62F894.quest_desc: ["The Occultist's grimoire. Here you'll find all the pentacles, rituals and demons available to summon.", "", "Without it, you'll be wandering in the dark — always read it first."]
+	quest.6DE8C1306C62F894.quest_subtitle: "The mod's guide"
+	quest.6DE8C1306C62F894.title: "Dictionary of Spirits"
+	quest.6E27D4CE7BC4377F.quest_desc: ["The Engineer saw the creation of the Stone as an &dequation&r to be solved by brute force. In his fortress of brass and zinc, his obsession manifested in building the &2Press of Infinity&r. Pushing Blaze Burners to the brink of explosion and generating &2Rotational Energy &rcapable of moving mountains, he tried to compress matter at the &2atomic&r level, seeking to forge divinity under absolute pressure and heat."]
+	quest.6E27D4CE7BC4377F.quest_subtitle: "The Pursuit"
+	quest.6E27D4CE7BC4377F.title: "The Engineer (Create)"
+	quest.6E34D5741B44D37B.quest_subtitle: "Forging & sheets"
+	quest.6E34D5741B44D37B.title: "Mechanical Press"
+	quest.6E613013EF086B43.quest_desc: ["Harbinger Tomb. Cataclysm's final boss. Multi-phase, drops abyssal_sacrifice.", "", "§eReward:§r 100 XP levels + unique drop"]
+	quest.6E613013EF086B43.quest_subtitle: "Herald of the End"
+	quest.6E613013EF086B43.title: "Slay The Harbinger"
+	quest.6E6BE4FE9826D7C4.quest_desc: ["Kill a §cpyromancer§r. These mages spawn in §6Mage Towers§r and drop gear pieces + school scrolls.", "", "§eReward:§r XP + a chance to drop an armor set or scroll."]
+	quest.6E6BE4FE9826D7C4.quest_subtitle: "Fire mage"
+	quest.6E6BE4FE9826D7C4.title: "Hunt Pyromancer"
+	quest.6EE1FA9F18DE52F4.quest_desc: ["Steps the §eCopper Chest§r up a notch, with even more slots.", "§7•§r It accepts the same pickup, filter and display upgrades.", "Good for organizing a growing storage room."]
+	quest.6EE1FA9F18DE52F4.title: "Iron Chest"
+	quest.6EF6B1192A9AC924.quest_desc: ["A steam whistle connected to a boiler emits a musical sound. Combine with note_blocks, music systems.", "create:steam_whistle", "6EF6B1192A9AC924", "4BF1CD202A49E285", "xp"]
+	quest.6EF6B1192A9AC924.quest_subtitle: "Configurable sound"
+	quest.6EF6B1192A9AC924.title: "Steam Whistle"
+	quest.6EFEA417045B66B7.quest_subtitle: "Trash & cobblestone"
+	quest.6EFEA417045B66B7.title: "Matter Condenser"
+	quest.6F24854DC43DA2F9.quest_desc: ["Ars Nouveau. 3 phases, each with a different element. Drop: full trophy.", "", "§eReward:§r 50 XP levels + boss trophy"]
+	quest.6F24854DC43DA2F9.quest_subtitle: "The wild beast"
+	quest.6F24854DC43DA2F9.title: "Tier 4: Wilden Chimera"
+	quest.6F3C31298049070C.quest_desc: ["Pure_daisy + cobblestone = livingrock. The main material for the mana_pool (with the EQSMP tweak), mana_spreader stones and various decorations.", "botania:livingrock", "6F3C31298049070C", "382E5C932EDE708D", "xp"]
+	quest.6F3C31298049070C.quest_subtitle: "Living rock"
+	quest.6F3C31298049070C.title: "Livingrock"
+	quest.6F66A6F0F5847A84.quest_desc: ["Dig into the Labyrinth — an underground maze. Boss-master of the mutated cows.", "", "§eReward:§r 35 XP levels + boss trophy"]
+	quest.6F66A6F0F5847A84.quest_subtitle: "Corrupted minotaur"
+	quest.6F66A6F0F5847A84.title: "Slay the Minoshroom"
+	quest.6F721AB11C9FC00D.quest_desc: ["Craft or obtain the §6Copper Tome§r. Each tier allows §emore inscribed spells§r and §emore powerful casts§r.", "", "§7Crafting: recipe similar to the base spell book, with the ingredient of the corresponding tier."]
+	quest.6F721AB11C9FC00D.quest_subtitle: "+1 spell slot"
+	quest.6F721AB11C9FC00D.title: "Copper Tome"
+	quest.6F7C8417D875A691.quest_desc: ["Mine §bCertus Quartz§r underground or find it in a meteorite.", "It's the foundation of all AE2 technology."]
+	quest.6F7C8417D875A691.quest_subtitle: "The beginning of the network"
+	quest.6F7C8417D875A691.title: "Certus Quartz Crystal"
+	quest.6FCD3E665EABC3AC.quest_desc: ["Right-click any creature below 50% health with empty_soul_gem → capture. A filled gem transports the saved creature.", "occultism:soul_gem", "6FCD3E665EABC3AC", "1F08699C3A66BC96", "xp"]
+	quest.6FCD3E665EABC3AC.quest_subtitle: "Save a creature in the gem"
+	quest.6FCD3E665EABC3AC.title: "Capture an entity"
+	quest.6FDB391F68DECFDE.quest_desc: ["The Occultist's grimoire. Here you'll find every pentacle, ritual and demon available to summon.", "", "Without it, you're wandering in the dark — read it first, always.", "occultism:dictionary_of_spirits", "6FDB391F68DECFDE", "10695728F00FE4B1", "xp"]
+	quest.6FDB391F68DECFDE.quest_subtitle: "The occultist's guide"
+	quest.6FDB391F68DECFDE.title: "Dictionary of Spirits"
+	quest.6FFBAC0142E9861C.quest_desc: ["The scribes table converts spell parchments and glyphs into knowledge. Craft it with archwood_planks + bookshelf + source_gem.", "ars_nouveau:scribes_table", "6FFBAC0142E9861C", "23226EAD1E1D2432", "xp"]
+	quest.6FFBAC0142E9861C.quest_subtitle: "Glyph table"
+	quest.6FFBAC0142E9861C.title: "Scribes Table"
+	quest.7000000000000011.quest_desc: ["Harvest §e1 of each§r product that the §eArid Garden§r drops when broken.", "7000000000000011", "7000000000000012", "xp_levels"]
+	quest.7000000000000011.title: "Arid Garden Harvest"
+	quest.700000000000001F.quest_desc: ["Harvest §e1 of each§r product that the §eShaded Garden§r drops when broken.", "700000000000001F", "7000000000000020", "xp_levels", "1A2B3C4D5E6F012D", "1A2B3C4D5E6F0001", "random", "7000000000000021", "pamhc2crops:beanitem", "item", "7000000000000022", "pamhc2crops:blackberryitem", "item", "7000000000000023", "pamhc2crops:garlicitem", "item", "7000000000000024", "pamhc2crops:juteitem", "item", "7000000000000025", "pamhc2crops:leekitem", "item", "7000000000000026", "pamhc2crops:nettlesitem", "item", "7000000000000027", "pamhc2crops:radishitem", "item", "7000000000000028", "pamhc2crops:rhubarbitem", "item", "7000000000000029", "pamhc2crops:scallionitem", "item", "700000000000002A", "pamhc2crops:spiceleafitem", "item", "700000000000002B", "pamhc2crops:sweetpotatoitem", "item", "700000000000002C", "pamhc2crops:tealeafitem", "item", "700000000000002D", "pamhc2crops:tomatoitem", "item", "700000000000002E", "pamhc2crops:truffleitem", "item", "700000000000002F", "pamhc2crops:turnipitem", "item", "7000000000000030", "pamhc2crops:whitemushroomitem", "item", "7000000000000031", "pamhc2crops:zucchiniitem", "item"]
+	quest.700000000000001F.title: "Shaded Garden Harvest"
+	quest.7000000000000032.quest_desc: ["Harvest §e1 of each§r product that the §eFrost Garden§r drops when broken.", "7000000000000032", "7000000000000033", "xp_levels"]
+	quest.7000000000000032.title: "Frost Garden Harvest"
+	quest.7000000000000044.quest_desc: ["Harvest §e1 of each§r product that the §eWindy Garden§r drops when broken.", "7000000000000044", "7000000000000045", "xp_levels"]
+	quest.7000000000000044.title: "Windy Garden Harvest"
+	quest.7000000000000059.quest_desc: ["Harvest §e1 of each§r product that the §eSoggy Garden§r drops when broken.", "7000000000000059", "700000000000005A", "xp_levels"]
+	quest.7000000000000059.title: "Soggy Garden Harvest"
+	quest.700000000000006D.quest_desc: ["Harvest §e1 of each§r product that the §eTropical Garden§r drops when broken.", "700000000000006D", "700000000000006E", "xp_levels"]
+	quest.700000000000006D.title: "Tropical Garden Harvest"
+	quest.7000000000000090.quest_desc: ["Find and break an §eArid Garden§r (deserts/savannas) to collect its produce and seeds.", "pamhc2crops:aridgarden", "7000000000000090", "7000000000000091", "xp_levels"]
+	quest.7000000000000090.title: "Found and broke the garden"
+	quest.708649A49749F090.quest_desc: ["Projectile sends the spell in a linear arc. The most common base form. Learn it at the scribes_table with 1 source_gem.", "ars_nouveau:glyph_projectile", "708649A49749F090", "427F82C85D63E58A", "xp"]
+	quest.708649A49749F090.quest_subtitle: "Form — projection"
+	quest.708649A49749F090.title: "Glyph: Projectile"
+	quest.70C75B22504A93AA.quest_desc: ["Mage block: 4 magebloom_fiber + 4 cobblestone. A component of the apprentice_spell_book and several structures.", "ars_nouveau:mage_block", "70C75B22504A93AA", "2A9192390CAE2AB8", "xp"]
+	quest.70C75B22504A93AA.quest_subtitle: "Magical base block"
+	quest.70C75B22504A93AA.title: "Mage Block"
+	quest.70D99441B57D3336.quest_subtitle: "Fuel-powered energy"
+	quest.70D99441B57D3336.title: "Vibration Chamber"
+	quest.712E3EBE20BC182A.quest_desc: ["There's the foliot crusher (mill), foliot lumberjack (chops), foliot transport (moves items). Each needs a ritual + book_foliot. Place at least 2 different types.", "occultism:miner_foliot_unspecialized", "712E3EBE20BC182A", "5DC60BE404ACB014", "xp"]
+	quest.712E3EBE20BC182A.quest_subtitle: "Foliot familiars"
+	quest.712E3EBE20BC182A.title: "Collection of Foliot Workers"
+	quest.71E123832BF54B46.quest_desc: ["Apply this upgrade to a chest or barrel to raise its §etier§r.", "§7•§r Each tier adds more storage slots.", "There's a tier ladder: copper, iron, gold, diamond and netherite."]
+	quest.71E123832BF54B46.quest_subtitle: "Increases capacity"
+	quest.71E123832BF54B46.title: "Tier Upgrade"
+	quest.7208101A847E11D6.quest_desc: ["Sacrificial bowl: 4 stone + 1 candle. Place them around the pentacle to hold the ritual's item ingredients.", "occultism:sacrificial_bowl", "7208101A847E11D6", "57CB5B3510513471", "xp"]
+	quest.7208101A847E11D6.quest_subtitle: "Item receptacle"
+	quest.7208101A847E11D6.title: "Sacrificial Bowl"
+	quest.721CC1C009E5896D.quest_desc: ["The bellethorn deals damage to nearby mobs. Good passive defense for a base, at a mana cost.", "botania:bellethorn", "721CC1C009E5896D", "7ECE7D12D9614CFD", "xp"]
+	quest.721CC1C009E5896D.quest_subtitle: "Flower that attacks mobs"
+	quest.721CC1C009E5896D.title: "Bellethorn"
+	quest.725715C7A40ED673.quest_desc: ["Here the recipe takes a different path: 1 §damethyst block§r (which requires the Magical Agglutinate!) tossed into spirit_fire → 1 spirit_attuned_crystal.", "", "The crystal is used in ritual candles, the source_gem path (4× via Imbuement Chamber!), advanced demonic settings.", "occultism:spirit_attuned_crystal", "725715C7A40ED673", "73467BA07BBE6703", "xp"]
+	quest.725715C7A40ED673.quest_subtitle: "Cross-mod — F1 cascade crystal"
+	quest.725715C7A40ED673.title: "Attuned Crystal"
+	quest.72625D28CAB980C6.quest_desc: ["Cataclysm. Soul Stained Steel Factory.", "", "§eReward:§r 80 XP levels + drop"]
+	quest.72625D28CAB980C6.quest_subtitle: "The Cursed Animatronic"
+	quest.72625D28CAB980C6.title: "Side: Maledictus"
+	quest.72E4F7AF06392851.quest_desc: ["Build a pentacle from chalk white_impure + 4 sacrificial_bowl + 1 golden_sacrificial_bowl + 1 candle_white. Drop ritual_dummy + ingredients into the golden one → the ritual activates.", "", "Start with summon_foliot_crusher to see the system in action.", "occultism:ritual_dummy/summon_foliot_crusher", "72E4F7AF06392851", "2C445678B05A37C7", "xp"]
+	quest.72E4F7AF06392851.quest_subtitle: "Perform a summoning"
+	quest.72E4F7AF06392851.title: "First Ritual"
+	quest.7322CCE81684BE59.quest_desc: ["You've completed the EQSMP Druid path! You've mastered mana, runes (with the Pure Mana Crystal as a requirement), terrasteel, Gaia and Alfheim.", "", "§7EQSMP recipes you learned:§r", "§7•§r mana_pool/diluted_pool with otherstone (Magical Agglutinate)", "§7•§r runic_altar with nucleo_cinetico (Kinetic Core)", "§7•§r elemental runes with cristal_mana_pura (Pure Mana Crystal)", "§7•§r mana_pylon with source_gem (Ars)", "", "Next paths: Ars Nouveau, Occultism, Philosopher's Stone.", "botania:gaia_pylon", "7322CCE81684BE59", "0E48EA5B34B42A67", "xp", "4CB24D6EC5425209", "xp_levels", "1A2B3C4D5E6F012A", "1A2B3C4D5E6F0001", "random", "gear", "You have mastered the Druid", "078A1B823AF67F55", "checkmark"]
+	quest.7322CCE81684BE59.quest_subtitle: "You have mastered the Druid"
+	quest.7322CCE81684BE59.title: "Botania Mastery"
+	quest.7398D62E72C41A7A.quest_desc: ["Funnels move items between inventories and belts/depots. Direction is configurable via click. The andesite variant is slower; brass is configurable.", "create:andesite_funnel", "7398D62E72C41A7A", "0F0EDC03EE84C0BE", "xp"]
+	quest.7398D62E72C41A7A.quest_subtitle: "Inventory input/output"
+	quest.7398D62E72C41A7A.title: "Funnel"
+	quest.73994EE3D6D83E4F.quest_desc: ["Collect petals of all 16 mystical colors. Bone meal on a mystical_flower speeds up the collection. Needed for varied apothecary recipes.", "botania:black_petal", "73994EE3D6D83E4F", "6C6E0E6DAECB9D07", "xp"]
+	quest.73994EE3D6D83E4F.quest_subtitle: "All 16 colors"
+	quest.73994EE3D6D83E4F.title: "Petal Collection"
+	quest.74929077A84856C4.quest_desc: ["To save is not to &eabsolve&r. The Goddess did not free mortals from &cpaying for their sins&r.", "The world was reborn &chostile&r: creatures grow &cstronger with each passing day&r. The beginning will be brutal."]
+	quest.74929077A84856C4.title: "Justice Exacts Its Price"
+	quest.74ADB5255F953B57.quest_desc: ["Train track: 1 train_casing + 6 iron_sheet + 2 andesite_alloy. Place it in a loaded chunk or it deactivates.", "create:track", "74ADB5255F953B57", "475D616AB46046A9", "xp"]
+	quest.74ADB5255F953B57.quest_subtitle: "Train rail"
+	quest.74ADB5255F953B57.title: "Train Track"
+	quest.74F05A1762C414E6.quest_desc: ["You've completed the EQSMP Occultist's path! You've mastered rituals, summonings (foliot/djinni/afrit/marid), the storage system and iesnium mining.", "", "§7EQSMP recipes you learned:§r", "§7•§r datura_seeds via apothecary (Botania, no grass loot)", "§7•§r spirit_attuned_gem via amethyst_shard (cheaper)", "§7•§r spirit_attuned_crystal via amethyst_block (Agglutinate cascade)", "§7•§r spirit_lantern with manasteel_ingot (Botania)", "§7•§r book_of_binding_foliot with aglutinado_magico (Magical Agglutinate)", "§7•§r book_of_binding_djinni with cristal_mana_pura (Pure Mana Crystal)", "§7•§r otherstone required for Botania's mana_pool (Magical Agglutinate)", "", "Remaining paths: Philosopher's Stone (the absolute endgame).", "occultism:book_of_binding_marid", "74F05A1762C414E6", "57E7792012632927", "xp", "2B90E16AFC82227A", "xp_levels", "1A2B3C4D5E6F012C", "1A2B3C4D5E6F0001", "random", "gear", "You've mastered the Occultist", "2E83C37E7EB2C13D", "checkmark"]
+	quest.74F05A1762C414E6.quest_subtitle: "You've mastered the Occultist"
+	quest.74F05A1762C414E6.title: "Occult Mastery"
+	quest.755599C495DADCB4.quest_desc: ["Hard version of the Gaia. Summoned with 4 gaia spirits. Reward: dragonstone.", "", "§eReward:§r 80 XP levels + drop"]
+	quest.755599C495DADCB4.quest_subtitle: "Hard mode"
+	quest.755599C495DADCB4.title: "Side: Gaia Guardian II"
+	quest.75560E86A21DAD18.quest_desc: ["§eSmelts§r ores and food while you carry the backpack.", "§7•§r It needs fuel, just like a normal furnace.", "Grab the ore on pickup and it comes out smelted and ready to use."]
+	quest.75560E86A21DAD18.quest_subtitle: "Smelts while you carry it"
+	quest.75560E86A21DAD18.title: "Upgrade: Auto-Smelting"
+	quest.759875C297FF8E87.quest_subtitle: "Network sees the chest"
+	quest.759875C297FF8E87.title: "Storage Bus"
+	quest.7600802B547E9192.quest_desc: ["Kill a §ccryomancer§r. These mages spawn in §6Mage Towers§r and drop gear pieces + school scrolls.", "", "§eReward:§r XP + a chance to drop an armor set or scroll."]
+	quest.7600802B547E9192.quest_subtitle: "Ice mage"
+	quest.7600802B547E9192.title: "Hunt Cryomancer"
+	quest.7600B79D99D5BDFB.quest_desc: ["The mana spreader fires mana in a straight line until it hits a receiving block (pool, ring, etc). Without it, mana stays stuck in the generating flowers.", "botania:mana_spreader", "7600B79D99D5BDFB", "04AEA66CB8604161", "xp"]
+	quest.7600B79D99D5BDFB.quest_subtitle: "Mana transfer"
+	quest.7600B79D99D5BDFB.title: "Mana Spreader"
+	quest.764506F56FACE661.quest_desc: ["World recipe: 1000mB §3water§r + 64 §asourceberry_bush§r in the mechanical_mixer → 250mB §dsource_fluid§r.", "", "This is an alternative source. You'll use source_fluid to make §dmana_pane§r (which unlocks the goggles) and any other Ars process.", "ars_nouveau:source_gem", "764506F56FACE661", "64C2BEBE79BC88E8", "xp"]
+	quest.764506F56FACE661.quest_subtitle: "EQSMP cross-mod — alternative source"
+	quest.764506F56FACE661.title: "Source Fluid via Create"
+	quest.76572E2E36724C62.quest_desc: ["Chalk gold impure: 3 white_chalk + 1 spirit_attuned_gem + 1 gold_powder. Needed for afrit pentacle + djinni summoning.", "occultism:chalk_gold_impure", "76572E2E36724C62", "58EB4E671A9FCE99", "xp"]
+	quest.76572E2E36724C62.quest_subtitle: "Fire chalk"
+	quest.76572E2E36724C62.title: "Chalk Gold (Impure)"
+	quest.76A7186246448689.quest_desc: [" The ritual_brazier requires a §dSpiritual Core§r in its craft.", "", "The brazier runs rituals: binding, summon, transmute, etc. Each ritual needs its specific ritual_tablet + ingredients.", "ars_nouveau:ritual_brazier", "76A7186246448689", "2E253964DE10681A", "xp"]
+	quest.76A7186246448689.quest_subtitle: "F4 requirement — invokes rituals"
+	quest.76A7186246448689.title: "Ritual Brazier"
+	quest.7758EE6F6DBD44DD.quest_desc: ["§dChalk White§r traces the ritual glyphs on the ground. Produce the chalk in Occultism from §dImpure Glass§r and pigment.", "", "Without the chalk's symbols, the foliot has nowhere to anchor the purification."]
+	quest.7758EE6F6DBD44DD.title: "White Chalk"
+	quest.77C54F4775B47880.quest_desc: ["Apply it to a drawer to §eincrease the capacity§r of each slot.", "§7•§r The copper upgrade is the first step above standard.", "Stack upgrades to store far more of the same item."]
+	quest.77C54F4775B47880.quest_subtitle: "+ capacity"
+	quest.77C54F4775B47880.title: "Storage Upgrade (Copper)"
+	quest.77F83D20DF0E6D10.quest_desc: ["The rosa arcana consumes nearby XP orbs. Combine it with a mob farm for steady mana.", "botania:rosa_arcana", "77F83D20DF0E6D10", "5BF29C8FE04D8635", "xp"]
+	quest.77F83D20DF0E6D10.quest_subtitle: "XP-powered generator"
+	quest.77F83D20DF0E6D10.title: "Rosa Arcana"
+	quest.7827AF856CDF8A07.quest_desc: ["§5Archevoker§r — the boss version of the evoker. Multiple phases, aggressive summons.", "", "Drop: §6archevoker armor set§r + §6archevoker logbook§r (lore key)."]
+	quest.7827AF856CDF8A07.quest_subtitle: "Supreme archmage"
+	quest.7827AF856CDF8A07.title: "Boss: Archevoker"
+	quest.7896F7D36063417E.quest_desc: ["Starter boss. Twilight Forest, mossy stone ruins. Prove your courage against the Serpent.", "", "§eReward:§r 20 XP levels + boss trophy"]
+	quest.7896F7D36063417E.quest_subtitle: "First boss"
+	quest.7896F7D36063417E.title: "Tier 1: Naga"
+	quest.78C8FDB3350C9A9F.quest_desc: ["The base of Tombstone's magical tomes.", "tombstone:impregnated_diamond", "78C8FDB3350C9A9F", "3B0F3BD9180C31BF", "xp_levels"]
+	quest.78C8FDB3350C9A9F.quest_subtitle: "Magical catalyst"
+	quest.78C8FDB3350C9A9F.title: "Impregnated Diamond"
+	quest.78CA4F614D45C40A.quest_desc: ["The basic storage block of Sophisticated Storage.", "§7•§r It accepts §eupgrades§r and tier upgrades, just like the backpacks.", "Start simple and raise the capacity as you need it."]
+	quest.78CA4F614D45C40A.title: "Sophisticated Barrel"
+	quest.7923CBBDBCE57052.quest_desc: ["Mana pearl: 1 ender_pearl tossed into a mana_pool with 8000 mana. Critical for mana_pylon, mana_ring upgrades, etc.", "botania:mana_pearl", "7923CBBDBCE57052", "18193BDAA2EF7742", "xp"]
+	quest.7923CBBDBCE57052.quest_subtitle: "Mana crystal"
+	quest.7923CBBDBCE57052.title: "Mana Pearl"
+	quest.79D33DFD50A6872E.quest_desc: ["The novice book holds 1 spell of up to 5 glyphs. Craft it with 1 book + leather. Cast simple spells (lightning, projectile).", "ars_nouveau:novice_spell_book", "79D33DFD50A6872E", "59507919D31B0949", "xp"]
+	quest.79D33DFD50A6872E.quest_subtitle: "First spell book"
+	quest.79D33DFD50A6872E.title: "Novice Spell Book"
+	quest.79EE0F2917A87655.quest_desc: ["Shafts carry rotation in a straight line. 6 andesite_alloy → 6 shafts. Combine with cogwheels to change direction.", "create:shaft", "79EE0F2917A87655", "6CA63ECEDAE3AEA2", "xp"]
+	quest.79EE0F2917A87655.quest_subtitle: "Basic rotation transmission"
+	quest.79EE0F2917A87655.title: "Shaft"
+	quest.79F16AAE5980043F.quest_desc: ["The Engineer's first alloy. Here it requires a §dMagical Agglutinate§r at the center — anyone who hasn't yet walked the Druid's path will need to backtrack.", "", "Without this alloy, no machine takes shape. It's Create's gateway."]
+	quest.79F16AAE5980043F.quest_subtitle: "Create's base alloy"
+	quest.79F16AAE5980043F.title: "Andesite Alloy"
+	quest.7A963B07D0C47857.quest_desc: ["A water wheel generates SU from flowing water. No fuel needed — just a river/waterfall. An intermediate rotation source.", "create:water_wheel", "7A963B07D0C47857", "3ABE210D46075D3D", "xp"]
+	quest.7A963B07D0C47857.quest_subtitle: "Generation from flowing water"
+	quest.7A963B07D0C47857.title: "Water Wheel"
+	quest.7AB96DD073843E0C.quest_desc: ["Spawns in the End. Multiple projectiles.", "", "§eReward:§r 45 XP levels + elemental essence"]
+	quest.7AB96DD073843E0C.quest_subtitle: "Pillar of the Void"
+	quest.7AB96DD073843E0C.title: "Slay Obsidilith"
+	quest.7AF1D14E42DAB699.quest_desc: ["The base material of Tombstone, dropped/obtained early.", "tombstone:grave_dust", "7AF1D14E42DAB699", "00D32C7A017AE5C3", "xp_levels", "1A2B3C4D5E6F0133", "1A2B3C4D5E6F0001", "random", "§2The magic of death§r", "5213BF6908CA8CE5", "tombstone:grave_dust", "item"]
+	quest.7AF1D14E42DAB699.quest_subtitle: "§2The magic of death§r"
+	quest.7AF1D14E42DAB699.title: "Grave Dust"
+	quest.7AF57885CBAA8369.quest_desc: ["Drygmy charm + ritual → drygmy pet. Automatically collects creature drops from those penned nearby. The dream creature farm.", "ars_nouveau:drygmy_charm", "7AF57885CBAA8369", "6F1B1FB98CCA6636", "xp"]
+	quest.7AF57885CBAA8369.quest_subtitle: "Familiar that collects creature loot"
+	quest.7AF57885CBAA8369.title: "Drygmy Charm"
+	quest.7B920AED7537D43A.title: "Calculation Processor"
+	quest.7BF20FCBE6AE7B5C.quest_desc: ["The §eGold Backpack§r expands the inventory and available upgrades even further.", "§7•§r Made from the Iron Backpack.", "The intermediate step before diamond."]
+	quest.7BF20FCBE6AE7B5C.title: "Gold Backpack"
+	quest.7CA5AED17631A25D.quest_subtitle: "Autocraft structure"
+	quest.7CA5AED17631A25D.title: "Crafting Unit"
+	quest.7CB21B243D585645.quest_desc: ["The beginning will be &cmerciless&r. But each step in your progression brings you closer to &dredemption&r.", "Pay for your sins, grow stronger, and thrive in a world that does not forgive."]
+	quest.7CB21B243D585645.title: "Survive the Penance"
+	quest.7CC22A58F8FD2C3C.quest_desc: ["Jump ring (mundane belt slot or curio): jump higher. Combine with slow_fall potion for absurd mobility.", "ars_nouveau:jump_ring", "7CC22A58F8FD2C3C", "540FF89CF29BBEBE", "xp"]
+	quest.7CC22A58F8FD2C3C.quest_subtitle: "Jump boost ring"
+	quest.7CC22A58F8FD2C3C.title: "Jump Ring"
+	quest.7D3EC01F11CE2101.quest_desc: ["Rechargeable item — doesn't get used up like a scroll.", "waystones:warp_stone", "7D3EC01F11CE2101", "6C5CF79B4E634CB8", "xp_levels"]
+	quest.7D3EC01F11CE2101.quest_subtitle: "Reusable teleport"
+	quest.7D3EC01F11CE2101.title: "Warp Stone"
+	quest.7D495DAC8024FE2A.quest_desc: ["The pool is the heart of Botania — where all mana gathers.", "", "Here it isn't made from plain livingrock: the recipe calls for §6otherstone§r, that stone the occultists forge with spirit fire. Without walking the path of Occultism, the Druid can't fill his pool.", "botania:mana_pool", "7D495DAC8024FE2A", "6508B04E85DC9D7A", "xp"]
+	quest.7D495DAC8024FE2A.quest_subtitle: "Cross-mod F1 — stores mana"
+	quest.7D495DAC8024FE2A.title: "Mana Pool"
+	quest.7D54ED633AB2E197.quest_desc: ["The corporea index takes requests via text/voice (\\\"give iron_ingot\\\"). Connect it to corporea_funnels linked to chests for automatic retrieval.", "botania:corporea_index", "7D54ED633AB2E197", "75C04D30DF75B8D3", "xp"]
+	quest.7D54ED633AB2E197.quest_subtitle: "Botanical storage system"
+	quest.7D54ED633AB2E197.title: "Corporea Index"
+	quest.7D8F7AF6803F447B.quest_desc: ["There are ~30 Ars effects: damage, heal, break, place, harvest, ignite, freeze, etc. Each effect is WHAT the spell does.", "ars_nouveau:glyph_harvest", "7D8F7AF6803F447B", "245947E1480CE8EA", "xp"]
+	quest.7D8F7AF6803F447B.quest_subtitle: "Spell effects"
+	quest.7D8F7AF6803F447B.title: "Effect Collection (Glyphs)"
+	quest.7DB04EBC9884A21E.quest_desc: ["The §eSkillet§r is for sautéing and frying.", "", "Meats, eggs and sautéed veggies come out of it.", "Combine it with fresh ingredients for quick, nutritious dishes."]
+	quest.7DB04EBC9884A21E.title: "Skillet"
+	quest.7DD9C27F9B0520BC.quest_subtitle: "Manages patterns"
+	quest.7DD9C27F9B0520BC.title: "Pattern Access Terminal"
+	quest.7E56147AB9F34877.quest_desc: ["The §eWarp Plate§r §bautomatically§r teleports anyone who steps on it.", "", "§7•§r Link it to a destination waystone and just step on it to travel.", "§7•§r Great for automating routes and shortcuts around the base."]
+	quest.7E56147AB9F34877.quest_subtitle: "Automatic teleport on step"
+	quest.7E56147AB9F34877.title: "Warp Plate"
+	quest.7E6BB2C509910A40.quest_subtitle: "Djinni tier"
+	quest.7E6BB2C509910A40.title: "Book of Binding (Djinni)"
+	quest.7ECABB898739D877.quest_desc: ["The Mana Pool recipe was rewritten: §c5× occultism:otherstone§r (not livingrock).", "", "To open this gate you first need to process Otherstone via Occultism's Spirit Fire."]
+	quest.7ECABB898739D877.quest_subtitle: "Cross-mod gate: Botania ↔ Occultism"
+	quest.7ECABB898739D877.title: "Mana Pool (Otherstone)"
+	quest.7F06C6FB7A3280C7.quest_desc: ["Pam's §eWild Gardens§r spawn scattered across the world according to the biome.", "", "Break them to harvest vegetables and seeds. There are §e6 types§r — Arid, Shaded, Frost, Windy, Soggy and Tropical — each in a different climate, with its own produce.", "", "§7Note: breaking a garden does §rnot§7 drop its block, only the produce. That's why each garden is marked manually.§r", "pamhc2crops:beanitem", "7F06C6FB7A3280C7", "011AEE3B6732E988", "xp_levels"]
+	quest.7F06C6FB7A3280C7.quest_subtitle: "§2Harvest from the world§r"
+	quest.7F06C6FB7A3280C7.title: "Found and broke the garden"
+	quest.7F08A58B9D875A1F.quest_desc: ["§eIron's Spells 'n Spellbooks§r adds a classic magic RPG system: tomes, scrolls, schools, and mage gear.", "", "Start by grabbing the empty §6Spell Book§r — it's the foundation for inscribing spells.", "", "§a§lARS 'N SPELLS:§r this pack has the bridge mod that unifies §dArs Nouveau mana§r with §dIron's Spells mana§r. A single mana pool for both systems — invest in one source, use both!"]
+	quest.7F08A58B9D875A1F.quest_subtitle: "Obtain your first tome"
+	quest.7F08A58B9D875A1F.title: "The Apprentice Mage"
+	quest.7F1249A3D3AAE8C7.quest_desc: ["A pump generates pressure to move fluids through pipes. Direction is set by right-click + wrench.", "create:mechanical_pump", "7F1249A3D3AAE8C7", "2BB4A4631FC9D779", "xp"]
+	quest.7F1249A3D3AAE8C7.quest_subtitle: "Pressure for fluids"
+	quest.7F1249A3D3AAE8C7.title: "Mechanical Pump"
+	quest.7F1A766E7479A743.quest_desc: ["The §e64k Crafting Storage§r is the §6most robust component§r of an ME system crafting CPU.", "", "Slot it into an autocrafting CPU to expand how many §7•§r patterns and items a single task can hold.", "The bigger the component, the more complex the recipe the CPU can solve at once."]
+	quest.7F1A766E7479A743.quest_subtitle: "Robust CPU"
+	quest.7F1A766E7479A743.title: "64k Crafting Storage"
+	quest.7F1D2D5C97E519E5.quest_desc: ["A spout pours fluids into items (potion bottles, water buckets, blaze cake mix). Works with belt/depot.", "create:spout", "7F1D2D5C97E519E5", "6517CF8286B828E7", "xp"]
+	quest.7F1D2D5C97E519E5.quest_subtitle: "Fills items with fluid"
+	quest.7F1D2D5C97E519E5.title: "Spout"
+	quest.7F584AA483E1C48A.quest_desc: ["Make §e3§r diner foods from Pam's.", "pamhc2foodextended:baconmushroomburgeritem", "7F584AA483E1C48A", "6E62892AABFC9E8C", "xp_levels"]
+	quest.7F584AA483E1C48A.quest_subtitle: "10 recipes in Pam's"
+	quest.7F584AA483E1C48A.title: "Diner"
+	quest.7F5912748974A533.quest_desc: ["The §eWarp Scroll§r takes you to §bany waystone§r you've already activated.", "", "§7•§r It is §2reusable§r, but goes on §6cooldown§r after each trip.", "§7•§r The free pass to move around your teleport network."]
+	quest.7F5912748974A533.quest_subtitle: "Travel to any waystone"
+	quest.7F5912748974A533.title: "Warp Scroll"
+	reward_table.1A2B3C4D5E6F0001.title: "Inventory Pets"
+}

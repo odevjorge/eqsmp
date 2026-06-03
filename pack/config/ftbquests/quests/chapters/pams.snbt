@@ -1,0 +1,2169 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pams"
+	group: "4677C57609F8F102"
+	icon: "pamhc2foodcore:potitem"
+	id: "3C595FB3F3CC5EE1"
+	order_index: 6
+	quest_links: []
+	quests: [
+		{
+			description: ["Obtenha §eSal§r — base de quase toda receita."]
+			icon: "pamhc2foodcore:saltitem"
+			id: "3D6AEEEDB70DCA28"
+			rewards: [
+				{
+					id: "39A4D5E330F75F49"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.5d
+			subtitle: "O tempero básico"
+			tasks: [
+				{
+					id: "07C54C1A276CFC65"
+					item: "pamhc2foodcore:saltitem"
+					type: "item"
+				}
+			]
+			title: "Sal"
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D6AEEEDB70DCA28"]
+			icon: "pamhc2foodcore:freshwateritem"
+			id: "607C4F73A1BEDC7A"
+			description: [
+				"§eÁgua Fresca§r é a base de quase toda receita líquida do Pam's."
+				""
+				"Obtenha enchendo um §7•§r balde ou garrafa direto em uma fonte de água."
+				"Guarde sempre algumas: sopas, massas e bebidas pedem ela."
+			]
+			rewards: [
+				{
+					id: "7877C583799CF2C0"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			subtitle: "Hidratação"
+			tasks: [
+				{
+					id: "589BD2D78A360294"
+					item: "pamhc2foodcore:freshwateritem"
+					type: "item"
+				}
+			]
+			title: "Água Fresca"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D6AEEEDB70DCA28"]
+			icon: "pamhc2foodcore:cuttingboarditem"
+			id: "204066C0F1D2B212"
+			description: [
+				"A §eTábua de Corte§r é sua primeira ferramenta de cozinha."
+				""
+				"Use-a em receitas que pedem fatiar §7•§r carnes, frutas e vegetais."
+				"Ela fica na grade de criação junto dos ingredientes e §6não é consumida§r. Um bom começo para a cozinha."
+			]
+			rewards: [
+				{
+					id: "7059FCCE1B56211A"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			subtitle: "Primeira ferramenta"
+			tasks: [
+				{
+					id: "488618E676B30CCF"
+					item: "pamhc2foodcore:cuttingboarditem"
+					type: "item"
+				}
+			]
+			title: "Tábua de Corte"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["204066C0F1D2B212"]
+			icon: "pamhc2foodcore:mixingbowlitem"
+			id: "1DFACF67B8011238"
+			description: [
+				"A §eTigela de Mistura§r serve para combinar ingredientes crus."
+				""
+				"Saladas, recheios e massas leves passam por ela."
+				"Como os outros utensílios, ela §6permanece no inventário§r após a receita."
+			]
+			rewards: [
+				{
+					id: "5A68E2C0B93FD14A"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "42BB874DE9B02234"
+					item: "pamhc2foodcore:mixingbowlitem"
+					type: "item"
+				}
+			]
+			title: "Tigela de Mistura"
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["204066C0F1D2B212"]
+			icon: "pamhc2foodcore:grinderitem"
+			id: "4F02A169465E4049"
+			description: [
+				"O §eMoedor§r tritura ingredientes em pó e pasta."
+				""
+				"Use-o para fazer §7•§r farinhas, temperos e molhos finos."
+				"Essencial para receitas que partem de grãos ou sementes."
+			]
+			rewards: [
+				{
+					id: "17F571691D9CA3A2"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "16A577D3B0015E1A"
+					item: "pamhc2foodcore:grinderitem"
+					type: "item"
+				}
+			]
+			title: "Moedor"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1DFACF67B8011238"]
+			icon: "pamhc2foodcore:potitem"
+			id: "1166CF581183294D"
+			description: [
+				"A §ePanela§r é o utensílio das §6sopas e ensopados§r."
+				""
+				"Junte água fresca, vegetais e carnes para pratos quentes que enchem bem a barra de fome."
+				"Reutilizável: uma vez feita, cozinhe à vontade."
+			]
+			rewards: [
+				{
+					id: "685CB465034E0AF8"
+					type: "xp"
+					xp: 160
+				}
+			]
+			size: 1.0d
+			subtitle: "Sopas e ensopados"
+			tasks: [
+				{
+					id: "4E6CC00A48596616"
+					item: "pamhc2foodcore:potitem"
+					type: "item"
+				}
+			]
+			title: "Panela"
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1166CF581183294D"]
+			icon: "pamhc2foodcore:skilletitem"
+			id: "7DB04EBC9884A21E"
+			description: [
+				"A §eFrigideira§r é para refogar e fritar."
+				""
+				"Carnes, ovos e legumes salteados saem dela."
+				"Combine-a com ingredientes frescos para pratos rápidos e nutritivos."
+			]
+			rewards: [
+				{
+					id: "194081D3455CAA24"
+					type: "xp"
+					xp: 160
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "37B649FD388A8E0D"
+					item: "pamhc2foodcore:skilletitem"
+					type: "item"
+				}
+			]
+			title: "Frigideira"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DB04EBC9884A21E"]
+			icon: "pamhc2foodcore:saucepanitem"
+			id: "5E1FA86D744121E2"
+			description: [
+				"A §eCaçarola§r cuida de molhos e cozidos mais delicados."
+				""
+				"Ideal para §7•§r reduções, cremes e pratos que pedem fogo brando."
+				"Mais um utensílio que fica com você depois do preparo."
+			]
+			rewards: [
+				{
+					id: "4BE60B3A6C3737E2"
+					type: "xp"
+					xp: 160
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "78AE0EB582635C75"
+					item: "pamhc2foodcore:saucepanitem"
+					type: "item"
+				}
+			]
+			title: "Caçarola"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1166CF581183294D"]
+			icon: "pamhc2foodcore:bakewareitem"
+			id: "24DE329035C33FC4"
+			description: [
+				"A §eForma de Forno§r é a ferramenta dos §6assados§r."
+				""
+				"Pães, tortas e bolos precisam dela na receita."
+				"Junte massa e recheio para sobremesas e quitutes encorpados."
+			]
+			rewards: [
+				{
+					id: "30E377F1AACBEE77"
+					type: "xp"
+					xp: 160
+				}
+			]
+			size: 1.0d
+			subtitle: "Assados"
+			tasks: [
+				{
+					id: "7AF2035CEA11E97E"
+					item: "pamhc2foodcore:bakewareitem"
+					type: "item"
+				}
+			]
+			title: "Forma de Forno"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4F02A169465E4049"]
+			description: ["Moa grãos no Moedor."]
+			icon: "pamhc2foodcore:flouritem"
+			id: "689F040FDEA8FB25"
+			rewards: [
+				{
+					id: "365C81DA2526D879"
+					type: "xp"
+					xp: 160
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "331A2C47B37FB6FF"
+					item: "pamhc2foodcore:flouritem"
+					type: "item"
+				}
+			]
+			title: "Farinha"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["689F040FDEA8FB25", "607C4F73A1BEDC7A"]
+			hide_dependency_lines: true
+			icon: "pamhc2foodcore:doughitem"
+			id: "650A23B5977F34A1"
+			description: [
+				"A §eMassa§r é o ponto de partida de pães e assados."
+				""
+				"Faça-a combinando §7•§r farinha e água fresca."
+				"Com a massa pronta e uma forma de forno, abre-se todo um cardápio de padaria."
+			]
+			rewards: [
+				{
+					id: "0066A6A8B1A71BEE"
+					type: "xp"
+					xp: 160
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "0FFCA361FE3F4311"
+					item: "pamhc2foodcore:doughitem"
+					type: "item"
+				}
+			]
+			title: "Massa"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E1FA86D744121E2"]
+			icon: "pamhc2foodcore:freshmilkitem"
+			id: "41034FD47BABE6A8"
+			description: [
+				"O §eLeite Fresco§r vem direto das §6vacas§r."
+				""
+				"Use um balde ou recipiente nelas para coletar."
+				"Entra em cremes, bebidas e sobremesas por todo o Pam's."
+			]
+			rewards: [
+				{
+					id: "31168EB5E84224ED"
+					type: "xp"
+					xp: 160
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "68DA81C34D77A920"
+					item: "pamhc2foodcore:freshmilkitem"
+					type: "item"
+				}
+			]
+			title: "Leite Fresco"
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D6AEEEDB70DCA28"]
+			description: ["As §eHortas Selvagens§r do Pam's nascem espalhadas pelo mundo conforme o bioma.", "", "Quebre-as pra colher vegetais e sementes. Existem §e6 tipos§r — Árida, Sombria, Gélida, Ventosa, Encharcada e Tropical — cada um num clima diferente, com produtos próprios.", "", "§7Obs.: quebrar uma horta §rnão§7 dropa o bloco dela, só os produtos. Por isso cada horta é marcada manualmente.§r"]
+			icon: "pamhc2crops:beanitem"
+			id: "7F06C6FB7A3280C7"
+			rewards: [
+				{
+					id: "011AEE3B6732E988"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			subtitle: "§2Colheita do mundo§r"
+			tasks: [
+				{
+					id: "1B86AD3254C6219B"
+					title: "Encontrei e quebrei a horta"
+					type: "checkmark"
+				}
+			]
+			title: "Hortas Selvagens"
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7F06C6FB7A3280C7"]
+			description: ["Ache e quebre uma §eHorta Árida§r (desertos/savanas) pra coletar seus produtos e sementes."]
+			icon: "pamhc2crops:aridgarden"
+			id: "7000000000000090"
+			rewards: [
+				{
+					id: "7000000000000091"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "7000000000000092"
+					title: "Encontrei e quebrei a horta"
+					type: "checkmark"
+				}
+			]
+			title: "Horta Árida"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7F06C6FB7A3280C7"]
+			icon: "pamhc2crops:frostgarden"
+			id: "0D0D989BDF3BCD68"
+			description: [
+				"Saia pelas §eplanícies§r e campos abertos à procura de §6hortas selvagens§r do Pam's."
+				""
+				"Elas brotam pelo chão como pequenos tufos de plantas."
+				"Quebre-as §7•§r para colher sementes e ingredientes variados."
+			]
+			rewards: [
+				{
+					id: "6A6A56C1D722F4E1"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "32F90667D9ADED04"
+					title: "Encontrei e quebrei a horta"
+					type: "checkmark"
+				}
+			]
+			title: "Horta Gélida"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7F06C6FB7A3280C7"]
+			icon: "pamhc2crops:shadedgarden"
+			id: "09E4E8A133AE1DC2"
+			description: [
+				"Leve sua busca ao §edeserto e à savana§r."
+				""
+				"Mesmo em terras secas surgem §6hortas selvagens§r resistentes ao calor."
+				"Quebre cada uma §7•§r e descubra ingredientes que só nascem em clima árido."
+			]
+			rewards: [
+				{
+					id: "41BF2494E194AB9D"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "03046180007C4263"
+					title: "Encontrei e quebrei a horta"
+					type: "checkmark"
+				}
+			]
+			title: "Horta Sombria"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7F06C6FB7A3280C7"]
+			icon: "pamhc2crops:soggygarden"
+			id: "363C36DBD3BC5F8D"
+			description: [
+				"Embrenhe-se na §eselva§r para encontrar §6hortas selvagens§r exuberantes."
+				""
+				"A vegetação densa esconde tufos cheios de frutas e temperos tropicais."
+				"Quebre-os §7•§r e amplie sua despensa com sabores exóticos."
+			]
+			rewards: [
+				{
+					id: "7CEA23A07FEA0F38"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "180F0049AC6DA78C"
+					title: "Encontrei e quebrei a horta"
+					type: "checkmark"
+				}
+			]
+			title: "Horta Encharcada"
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7F06C6FB7A3280C7"]
+			icon: "pamhc2crops:tropicalgarden"
+			id: "6CC964B4A441195A"
+			description: [
+				"Vá às §etaigas e biomas frios§r atrás de §6hortas selvagens§r."
+				""
+				"Entre pinheiros e neve crescem plantas rústicas e resistentes."
+				"Quebre-as §7•§r para colher ingredientes que prosperam no frio."
+			]
+			rewards: [
+				{
+					id: "420127E317326DFC"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "4BEF7A2AEB9D6BD3"
+					title: "Encontrei e quebrei a horta"
+					type: "checkmark"
+				}
+			]
+			title: "Horta Tropical"
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7F06C6FB7A3280C7"]
+			icon: "pamhc2crops:windygarden"
+			id: "1706DED5F3EDA6B9"
+			description: [
+				"Explore os cantos §esombrios e os campos de cogumelo§r."
+				""
+				"Em terras úmidas e escuras nascem as §6hortas selvagens§r mais incomuns."
+				"Quebre-as §7•§r e leve para casa ingredientes que poucos conhecem."
+			]
+			rewards: [
+				{
+					id: "51BC22DD75F8265F"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "11895E9D436A4722"
+					title: "Encontrei e quebrei a horta"
+					type: "checkmark"
+				}
+			]
+			title: "Horta Ventosa"
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7000000000000090"]
+			description: ["Colha §e1 de cada§r produto que a §eHorta Árida§r deixa cair ao ser quebrada."]
+			id: "7000000000000011"
+			rewards: [
+				{
+					id: "7000000000000012"
+					type: "xp"
+					xp: 160
+				}
+			]
+			tasks: [
+				{
+					id: "7000000000000013"
+					item: "pamhc2crops:agaveitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000014"
+					item: "pamhc2crops:barrelcactusitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000015"
+					item: "pamhc2crops:cactusfruititem"
+					type: "item"
+				}
+				{
+					id: "7000000000000016"
+					item: "pamhc2crops:cassavaitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000017"
+					item: "pamhc2crops:chiaitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000018"
+					item: "pamhc2crops:chickpeaitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000019"
+					item: "pamhc2crops:lentilitem"
+					type: "item"
+				}
+				{
+					id: "700000000000001A"
+					item: "pamhc2crops:nopalesitem"
+					type: "item"
+				}
+				{
+					id: "700000000000001B"
+					item: "pamhc2crops:papyrusitem"
+					type: "item"
+				}
+				{
+					id: "700000000000001C"
+					item: "pamhc2crops:sisalitem"
+					type: "item"
+				}
+				{
+					id: "700000000000001D"
+					item: "pamhc2crops:wolfberryitem"
+					type: "item"
+				}
+				{
+					id: "700000000000001E"
+					item: "pamhc2crops:yuccaitem"
+					type: "item"
+				}
+			]
+			title: "Colheita da Horta Árida"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["09E4E8A133AE1DC2"]
+			description: ["Colha §e1 de cada§r produto que a §eHorta Sombria§r deixa cair ao ser quebrada."]
+			id: "700000000000001F"
+			rewards: [
+				{
+					id: "7000000000000020"
+					type: "xp"
+					xp: 160
+				}
+			 { id: "1A2B3C4D5E6F012D", table_id: 1885667171979165697L, type: "random" }]
+			tasks: [
+				{
+					id: "7000000000000021"
+					item: "pamhc2crops:beanitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000022"
+					item: "pamhc2crops:blackberryitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000023"
+					item: "pamhc2crops:garlicitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000024"
+					item: "pamhc2crops:juteitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000025"
+					item: "pamhc2crops:leekitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000026"
+					item: "pamhc2crops:nettlesitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000027"
+					item: "pamhc2crops:radishitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000028"
+					item: "pamhc2crops:rhubarbitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000029"
+					item: "pamhc2crops:scallionitem"
+					type: "item"
+				}
+				{
+					id: "700000000000002A"
+					item: "pamhc2crops:spiceleafitem"
+					type: "item"
+				}
+				{
+					id: "700000000000002B"
+					item: "pamhc2crops:sweetpotatoitem"
+					type: "item"
+				}
+				{
+					id: "700000000000002C"
+					item: "pamhc2crops:tealeafitem"
+					type: "item"
+				}
+				{
+					id: "700000000000002D"
+					item: "pamhc2crops:tomatoitem"
+					type: "item"
+				}
+				{
+					id: "700000000000002E"
+					item: "pamhc2crops:truffleitem"
+					type: "item"
+				}
+				{
+					id: "700000000000002F"
+					item: "pamhc2crops:turnipitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000030"
+					item: "pamhc2crops:whitemushroomitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000031"
+					item: "pamhc2crops:zucchiniitem"
+					type: "item"
+				}
+			]
+			title: "Colheita da Horta Sombria"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D0D989BDF3BCD68"]
+			description: ["Colha §e1 de cada§r produto que a §eHorta Gélida§r deixa cair ao ser quebrada."]
+			id: "7000000000000032"
+			rewards: [
+				{
+					id: "7000000000000033"
+					type: "xp"
+					xp: 160
+				}
+			]
+			tasks: [
+				{
+					id: "7000000000000034"
+					item: "pamhc2crops:broccoliitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000035"
+					item: "pamhc2crops:cabbageitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000036"
+					item: "pamhc2crops:caulifloweritem"
+					type: "item"
+				}
+				{
+					id: "7000000000000037"
+					item: "pamhc2crops:celeryitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000038"
+					item: "pamhc2crops:cloudberryitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000039"
+					item: "pamhc2crops:cottonitem"
+					type: "item"
+				}
+				{
+					id: "700000000000003A"
+					item: "pamhc2crops:huckleberryitem"
+					type: "item"
+				}
+				{
+					id: "700000000000003B"
+					item: "pamhc2crops:juniperberryitem"
+					type: "item"
+				}
+				{
+					id: "700000000000003C"
+					item: "pamhc2crops:kohlrabiitem"
+					type: "item"
+				}
+				{
+					id: "700000000000003D"
+					item: "pamhc2crops:oatsitem"
+					type: "item"
+				}
+				{
+					id: "700000000000003E"
+					item: "pamhc2crops:peasitem"
+					type: "item"
+				}
+				{
+					id: "700000000000003F"
+					item: "pamhc2crops:quinoaitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000040"
+					item: "pamhc2crops:raspberryitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000041"
+					item: "pamhc2crops:rutabagaitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000042"
+					item: "pamhc2crops:ryeitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000043"
+					item: "pamhc2crops:spinachitem"
+					type: "item"
+				}
+			]
+			title: "Colheita da Horta Gélida"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1706DED5F3EDA6B9"]
+			description: ["Colha §e1 de cada§r produto que a §eHorta Ventosa§r deixa cair ao ser quebrada."]
+			id: "7000000000000044"
+			rewards: [
+				{
+					id: "7000000000000045"
+					type: "xp"
+					xp: 160
+				}
+			]
+			tasks: [
+				{
+					id: "7000000000000046"
+					item: "pamhc2crops:alfalfaitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000047"
+					item: "pamhc2crops:amaranthitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000048"
+					item: "pamhc2crops:artichokeitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000049"
+					item: "pamhc2crops:barleyitem"
+					type: "item"
+				}
+				{
+					id: "700000000000004A"
+					item: "pamhc2crops:bellpepperitem"
+					type: "item"
+				}
+				{
+					id: "700000000000004B"
+					item: "pamhc2crops:canolaitem"
+					type: "item"
+				}
+				{
+					id: "700000000000004C"
+					item: "pamhc2crops:chilipepperitem"
+					type: "item"
+				}
+				{
+					id: "700000000000004D"
+					item: "pamhc2crops:cornitem"
+					type: "item"
+				}
+				{
+					id: "700000000000004E"
+					item: "pamhc2crops:cucumberitem"
+					type: "item"
+				}
+				{
+					id: "700000000000004F"
+					item: "pamhc2crops:elderberryitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000050"
+					item: "pamhc2crops:flaxitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000051"
+					item: "pamhc2crops:lettuceitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000052"
+					item: "pamhc2crops:mustardseedsitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000053"
+					item: "pamhc2crops:onionitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000054"
+					item: "pamhc2crops:parsnipitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000055"
+					item: "pamhc2crops:peanutitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000056"
+					item: "pamhc2crops:strawberryitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000057"
+					item: "pamhc2crops:sunchokeitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000058"
+					item: "pamhc2crops:wintersquashitem"
+					type: "item"
+				}
+			]
+			title: "Colheita da Horta Ventosa"
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["363C36DBD3BC5F8D"]
+			description: ["Colha §e1 de cada§r produto que a §eHorta Encharcada§r deixa cair ao ser quebrada."]
+			id: "7000000000000059"
+			rewards: [
+				{
+					id: "700000000000005A"
+					type: "xp"
+					xp: 160
+				}
+			]
+			tasks: [
+				{
+					id: "700000000000005B"
+					item: "pamhc2crops:asparagusitem"
+					type: "item"
+				}
+				{
+					id: "700000000000005C"
+					item: "pamhc2crops:blueberryitem"
+					type: "item"
+				}
+				{
+					id: "700000000000005D"
+					item: "pamhc2crops:brusselsproutitem"
+					type: "item"
+				}
+				{
+					id: "700000000000005E"
+					item: "pamhc2crops:candleberryitem"
+					type: "item"
+				}
+				{
+					id: "700000000000005F"
+					item: "pamhc2crops:cattailitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000060"
+					item: "pamhc2crops:cottonitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000061"
+					item: "pamhc2crops:cranberryitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000062"
+					item: "pamhc2crops:greengrapeitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000063"
+					item: "pamhc2crops:jicamaitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000064"
+					item: "pamhc2crops:kaleitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000065"
+					item: "pamhc2crops:lotusitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000066"
+					item: "pamhc2crops:milletitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000067"
+					item: "pamhc2crops:mulberryitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000068"
+					item: "pamhc2crops:okraitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000069"
+					item: "pamhc2crops:riceitem"
+					type: "item"
+				}
+				{
+					id: "700000000000006A"
+					item: "pamhc2crops:spiceleafitem"
+					type: "item"
+				}
+				{
+					id: "700000000000006B"
+					item: "pamhc2crops:tomatilloitem"
+					type: "item"
+				}
+				{
+					id: "700000000000006C"
+					item: "pamhc2crops:waterchestnutitem"
+					type: "item"
+				}
+			]
+			title: "Colheita da Horta Encharcada"
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6CC964B4A441195A"]
+			description: ["Colha §e1 de cada§r produto que a §eHorta Tropical§r deixa cair ao ser quebrada."]
+			id: "700000000000006D"
+			rewards: [
+				{
+					id: "700000000000006E"
+					type: "xp"
+					xp: 160
+				}
+			]
+			tasks: [
+				{
+					id: "700000000000006F"
+					item: "pamhc2crops:aloeitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000070"
+					item: "pamhc2crops:arrowrootitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000071"
+					item: "pamhc2crops:bokchoyitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000072"
+					item: "pamhc2crops:calabashitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000073"
+					item: "pamhc2crops:cantaloupeitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000074"
+					item: "pamhc2crops:coffeebeanitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000075"
+					item: "pamhc2crops:eggplantitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000076"
+					item: "pamhc2crops:gingeritem"
+					type: "item"
+				}
+				{
+					id: "7000000000000077"
+					item: "pamhc2crops:grapeitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000078"
+					item: "pamhc2crops:guaranaitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000079"
+					item: "pamhc2crops:kenafitem"
+					type: "item"
+				}
+				{
+					id: "700000000000007A"
+					item: "pamhc2crops:kiwiitem"
+					type: "item"
+				}
+				{
+					id: "700000000000007B"
+					item: "pamhc2crops:pineappleitem"
+					type: "item"
+				}
+				{
+					id: "700000000000007C"
+					item: "pamhc2crops:sesameseedsitem"
+					type: "item"
+				}
+				{
+					id: "700000000000007D"
+					item: "pamhc2crops:sorghumitem"
+					type: "item"
+				}
+				{
+					id: "700000000000007E"
+					item: "pamhc2crops:soybeanitem"
+					type: "item"
+				}
+				{
+					id: "700000000000007F"
+					item: "pamhc2crops:taroitem"
+					type: "item"
+				}
+			]
+			title: "Colheita da Horta Tropical"
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7F06C6FB7A3280C7"]
+			description: ["Obtenha a §emuda§r de cada uma das §e48§r árvores frutíferas do Pam's e monte seu pomar."]
+			id: "653EF89ABED40B54"
+			rewards: [
+				{
+					id: "7747D7C882FFD8E8"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			subtitle: "§2Pomar§r"
+			tasks: [
+				{
+					id: "7000000000000100"
+					item: "pamhc2trees:acorn_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000101"
+					item: "pamhc2trees:almond_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000102"
+					item: "pamhc2trees:apple_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000103"
+					item: "pamhc2trees:apricot_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000104"
+					item: "pamhc2trees:avocado_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000105"
+					item: "pamhc2trees:banana_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000106"
+					item: "pamhc2trees:breadfruit_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000107"
+					item: "pamhc2trees:candlenut_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000108"
+					item: "pamhc2trees:cashew_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000109"
+					item: "pamhc2trees:cherry_sapling"
+					type: "item"
+				}
+				{
+					id: "700000000000010A"
+					item: "pamhc2trees:chestnut_sapling"
+					type: "item"
+				}
+				{
+					id: "700000000000010B"
+					item: "pamhc2trees:cinnamon_sapling"
+					type: "item"
+				}
+				{
+					id: "700000000000010C"
+					item: "pamhc2trees:coconut_sapling"
+					type: "item"
+				}
+				{
+					id: "700000000000010D"
+					item: "pamhc2trees:date_sapling"
+					type: "item"
+				}
+				{
+					id: "700000000000010E"
+					item: "pamhc2trees:dragonfruit_sapling"
+					type: "item"
+				}
+				{
+					id: "700000000000010F"
+					item: "pamhc2trees:durian_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000110"
+					item: "pamhc2trees:fig_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000111"
+					item: "pamhc2trees:gooseberry_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000112"
+					item: "pamhc2trees:grapefruit_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000113"
+					item: "pamhc2trees:guava_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000114"
+					item: "pamhc2trees:hazelnut_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000115"
+					item: "pamhc2trees:jackfruit_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000116"
+					item: "pamhc2trees:lemon_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000117"
+					item: "pamhc2trees:lime_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000118"
+					item: "pamhc2trees:lychee_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000119"
+					item: "pamhc2trees:mango_sapling"
+					type: "item"
+				}
+				{
+					id: "700000000000011A"
+					item: "pamhc2trees:maple_sapling"
+					type: "item"
+				}
+				{
+					id: "700000000000011B"
+					item: "pamhc2trees:nutmeg_sapling"
+					type: "item"
+				}
+				{
+					id: "700000000000011C"
+					item: "pamhc2trees:olive_sapling"
+					type: "item"
+				}
+				{
+					id: "700000000000011D"
+					item: "pamhc2trees:orange_sapling"
+					type: "item"
+				}
+				{
+					id: "700000000000011E"
+					item: "pamhc2trees:papaya_sapling"
+					type: "item"
+				}
+				{
+					id: "700000000000011F"
+					item: "pamhc2trees:passionfruit_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000120"
+					item: "pamhc2trees:pawpaw_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000121"
+					item: "pamhc2trees:peach_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000122"
+					item: "pamhc2trees:pear_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000123"
+					item: "pamhc2trees:pecan_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000124"
+					item: "pamhc2trees:peppercorn_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000125"
+					item: "pamhc2trees:persimmon_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000126"
+					item: "pamhc2trees:pinenut_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000127"
+					item: "pamhc2trees:pistachio_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000128"
+					item: "pamhc2trees:plum_sapling"
+					type: "item"
+				}
+				{
+					id: "7000000000000129"
+					item: "pamhc2trees:pomegranate_sapling"
+					type: "item"
+				}
+				{
+					id: "700000000000012A"
+					item: "pamhc2trees:rambutan_sapling"
+					type: "item"
+				}
+				{
+					id: "700000000000012B"
+					item: "pamhc2trees:soursop_sapling"
+					type: "item"
+				}
+				{
+					id: "700000000000012C"
+					item: "pamhc2trees:starfruit_sapling"
+					type: "item"
+				}
+				{
+					id: "700000000000012D"
+					item: "pamhc2trees:tamarind_sapling"
+					type: "item"
+				}
+				{
+					id: "700000000000012E"
+					item: "pamhc2trees:vanillabean_sapling"
+					type: "item"
+				}
+				{
+					id: "700000000000012F"
+					item: "pamhc2trees:walnut_sapling"
+					type: "item"
+				}
+			]
+			title: "As Árvores Frutíferas"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["24DE329035C33FC4", "650A23B5977F34A1"]
+			description: ["§eMassa§r + §eForma§r."]
+			hide_dependency_lines: true
+			icon: "pamhc2foodextended:pancakesitem"
+			id: "168FAA46D89F457B"
+			rewards: [
+				{
+					id: "5865474D0D5699A2"
+					type: "xp"
+					xp: 315
+				}
+			]
+			size: 1.0d
+			subtitle: "Primeiro prato"
+			tasks: [
+				{
+					id: "41EF5B398A9D946A"
+					item: "pamhc2foodextended:pancakesitem"
+					type: "item"
+				}
+			]
+			title: "Panquecas"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1166CF581183294D"]
+			icon: "pamhc2foodextended:tomatosoupitem"
+			id: "6B64A53FBC3F8203"
+			description: [
+				"A §eSopa de Tomate§r é um prato quente e reconfortante."
+				""
+				"Cozinhe tomates frescos na panela com água fresca."
+				"Restaura bem a fome §7•§r e é fácil de manter no estoque."
+			]
+			rewards: [
+				{
+					id: "263346879E178B9D"
+					type: "xp"
+					xp: 160
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "1A3798D346BBB1C8"
+					item: "pamhc2foodextended:tomatosoupitem"
+					type: "item"
+				}
+			]
+			title: "Sopa de Tomate"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["24DE329035C33FC4", "689F040FDEA8FB25"]
+			hide_dependency_lines: true
+			icon: "pamhc2foodextended:cornbreaditem"
+			id: "5FE3E587B6564965"
+			description: [
+				"O §ePão de Milho§r é um assado simples e saciante."
+				""
+				"Use milho moído e a forma de forno para prepará-lo."
+				"Ótima fonte de fome §7•§r para levar em viagens."
+			]
+			rewards: [
+				{
+					id: "5CB9F0C2AB7F387F"
+					type: "xp"
+					xp: 315
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "613F9EAC4676EEAD"
+					item: "pamhc2foodextended:cornbreaditem"
+					type: "item"
+				}
+			]
+			title: "Pão de Milho"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["24DE329035C33FC4", "650A23B5977F34A1", "7DB04EBC9884A21E"]
+			hide_dependency_lines: true
+			icon: "pamhc2foodextended:bbqchickenpizzaitem"
+			id: "45197D26079FD2CC"
+			description: [
+				"A §ePizza de Frango BBQ§r é um §6prato avançado§r do Pam's."
+				""
+				"Reúne massa, frango, molho e vários ingredientes preparados em utensílios diferentes."
+				"Recompensa generosa de fome e saturação §7•§r para quem domina a cozinha."
+			]
+			rewards: [
+				{
+					id: "7F41E03539A6977E"
+					type: "xp"
+					xp: 1395
+				}
+			]
+			size: 1.0d
+			subtitle: "Prato avançado"
+			tasks: [
+				{
+					id: "4928CB00A5C5B788"
+					item: "pamhc2foodextended:bbqchickenpizzaitem"
+					type: "item"
+				}
+			]
+			title: "Pizza de Frango BBQ"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["653EF89ABED40B54"]
+			description: ["Colha §e1 de cada§r fruta das §e48§r árvores do pomar."]
+			hide_dependency_lines: true
+			id: "5064F007BB4917F3"
+			rewards: [
+				{
+					id: "4A470904109D610B"
+					type: "xp"
+					xp: 160
+				}
+			]
+			size: 1.0d
+			subtitle: "Frutas das árvores"
+			tasks: [
+				{
+					id: "7000000000000200"
+					item: "pamhc2trees:acornitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000201"
+					item: "pamhc2trees:almonditem"
+					type: "item"
+				}
+				{
+					id: "7000000000000202"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					id: "7000000000000203"
+					item: "pamhc2trees:apricotitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000204"
+					item: "pamhc2trees:avocadoitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000205"
+					item: "pamhc2trees:bananaitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000206"
+					item: "pamhc2trees:breadfruititem"
+					type: "item"
+				}
+				{
+					id: "7000000000000207"
+					item: "pamhc2trees:candlenutitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000208"
+					item: "pamhc2trees:cashewitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000209"
+					item: "pamhc2trees:cherryitem"
+					type: "item"
+				}
+				{
+					id: "700000000000020A"
+					item: "pamhc2trees:chestnutitem"
+					type: "item"
+				}
+				{
+					id: "700000000000020B"
+					item: "pamhc2trees:cinnamonitem"
+					type: "item"
+				}
+				{
+					id: "700000000000020C"
+					item: "pamhc2trees:coconutitem"
+					type: "item"
+				}
+				{
+					id: "700000000000020D"
+					item: "pamhc2trees:dateitem"
+					type: "item"
+				}
+				{
+					id: "700000000000020E"
+					item: "pamhc2trees:dragonfruititem"
+					type: "item"
+				}
+				{
+					id: "700000000000020F"
+					item: "pamhc2trees:durianitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000210"
+					item: "pamhc2trees:figitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000211"
+					item: "pamhc2trees:gooseberryitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000212"
+					item: "pamhc2trees:grapefruititem"
+					type: "item"
+				}
+				{
+					id: "7000000000000213"
+					item: "pamhc2trees:guavaitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000214"
+					item: "pamhc2trees:hazelnutitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000215"
+					item: "pamhc2trees:jackfruititem"
+					type: "item"
+				}
+				{
+					id: "7000000000000216"
+					item: "pamhc2trees:lemonitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000217"
+					item: "pamhc2trees:limeitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000218"
+					item: "pamhc2trees:lycheeitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000219"
+					item: "pamhc2trees:mangoitem"
+					type: "item"
+				}
+				{
+					id: "700000000000021A"
+					item: "pamhc2trees:maplesyrupitem"
+					type: "item"
+				}
+				{
+					id: "700000000000021B"
+					item: "pamhc2trees:nutmegitem"
+					type: "item"
+				}
+				{
+					id: "700000000000021C"
+					item: "pamhc2trees:oliveitem"
+					type: "item"
+				}
+				{
+					id: "700000000000021D"
+					item: "pamhc2trees:orangeitem"
+					type: "item"
+				}
+				{
+					id: "700000000000021E"
+					item: "pamhc2trees:papayaitem"
+					type: "item"
+				}
+				{
+					id: "700000000000021F"
+					item: "pamhc2trees:passionfruititem"
+					type: "item"
+				}
+				{
+					id: "7000000000000220"
+					item: "pamhc2trees:pawpawitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000221"
+					item: "pamhc2trees:peachitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000222"
+					item: "pamhc2trees:pearitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000223"
+					item: "pamhc2trees:pecanitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000224"
+					item: "pamhc2trees:peppercornitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000225"
+					item: "pamhc2trees:persimmonitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000226"
+					item: "pamhc2trees:pinenutitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000227"
+					item: "pamhc2trees:pistachioitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000228"
+					item: "pamhc2trees:plumitem"
+					type: "item"
+				}
+				{
+					id: "7000000000000229"
+					item: "pamhc2trees:pomegranateitem"
+					type: "item"
+				}
+				{
+					id: "700000000000022A"
+					item: "pamhc2trees:rambutanitem"
+					type: "item"
+				}
+				{
+					id: "700000000000022B"
+					item: "pamhc2trees:soursopitem"
+					type: "item"
+				}
+				{
+					id: "700000000000022C"
+					item: "pamhc2trees:starfruititem"
+					type: "item"
+				}
+				{
+					id: "700000000000022D"
+					item: "pamhc2trees:tamarinditem"
+					type: "item"
+				}
+				{
+					id: "700000000000022E"
+					item: "pamhc2trees:vanillabeanitem"
+					type: "item"
+				}
+				{
+					id: "700000000000022F"
+					item: "pamhc2trees:walnutitem"
+					type: "item"
+				}
+			]
+			title: "Colheita do Pomar"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1166CF581183294D", "7DB04EBC9884A21E", "24DE329035C33FC4"]
+			description: ["Prepare §e16§r comidas básicas."]
+			hide_dependency_lines: true
+			icon: "pamhc2foodcore:potroastitem"
+			id: "55E29A800F32673B"
+			rewards: [
+				{
+					id: "27D85036C5B0C2F4"
+					type: "xp"
+					xp: 1395
+				}
+			]
+			size: 1.0d
+			subtitle: "Pratos básicos"
+			tasks: [
+				{
+					count: 16
+					id: "24192CBD5F7A04D8"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "mod(pamhc2foodcore)"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cozinha Básica"
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["24DE329035C33FC4"]
+			description: ["Faça §e5§r tortas do Pam's."]
+			icon: "pamhc2foodextended:apricotpieitem"
+			id: "35E9E6C9E993847D"
+			rewards: [
+				{
+					id: "0D3677ACC655A730"
+					type: "xp"
+					xp: 550
+				}
+			]
+			size: 1.0d
+			subtitle: "54 receitas no Pam's"
+			tasks: [
+				{
+					count: 5
+					id: "04E3F9AE42C8C4E7"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(pamhc2foodextended:apricotpieitem)item(pamhc2foodextended:bananapieitem)item(pamhc2foodextended:blackberrypieitem)item(pamhc2foodextended:blueberrypieitem)item(pamhc2foodextended:breadfruitpieitem)item(pamhc2foodextended:cactusfruitpieitem)item(pamhc2foodextended:candleberrypieitem)item(pamhc2foodextended:cantaloupepieitem)item(pamhc2foodextended:cherrypieitem)item(pamhc2foodextended:cottagepieitem)item(pamhc2foodextended:cranberrypieitem)item(pamhc2foodextended:datepieitem)item(pamhc2foodextended:dragonfruitpieitem)item(pamhc2foodextended:durianpieitem)item(pamhc2foodextended:elderberrypieitem)item(pamhc2foodextended:figpieitem)item(pamhc2foodextended:gooseberrypieitem)item(pamhc2foodextended:grapefruitpieitem)item(pamhc2foodextended:grapepieitem)item(pamhc2foodextended:greengrapepieitem)item(pamhc2foodextended:guavapieitem)item(pamhc2foodextended:huckleberrypieitem)item(pamhc2foodextended:jackfruitpieitem)item(pamhc2foodextended:juniperberrypieitem)item(pamhc2foodextended:keylimepieitem)item(pamhc2foodextended:kiwipieitem)item(pamhc2foodextended:lemonpieitem)item(pamhc2foodextended:limepieitem)item(pamhc2foodextended:lycheepieitem)item(pamhc2foodextended:mangopieitem)item(pamhc2foodextended:meatpieitem)item(pamhc2foodextended:mincepieitem)item(pamhc2foodextended:mulberrypieitem)item(pamhc2foodextended:orangepieitem)item(pamhc2foodextended:papayapieitem)item(pamhc2foodextended:passionfruitpieitem)item(pamhc2foodextended:pawpawpieitem)item(pamhc2foodextended:peachpieitem)item(pamhc2foodextended:pearpieitem)item(pamhc2foodextended:pecanpieitem)item(pamhc2foodextended:persimmonpieitem)item(pamhc2foodextended:pineapplepieitem)item(pamhc2foodextended:plumpieitem)item(pamhc2foodextended:pomegranatepieitem)item(pamhc2foodextended:rambutanpieitem)item(pamhc2foodextended:raspberrypieitem)item(pamhc2foodextended:shepardspieitem)item(pamhc2foodextended:soursoppieitem)item(pamhc2foodextended:spinachpieitem)item(pamhc2foodextended:starfruitpieitem)item(pamhc2foodextended:strawberrypieitem)item(pamhc2foodextended:strawberryrhubarbpieitem)item(pamhc2foodextended:sweetpotatopieitem)item(pamhc2foodextended:tamarindpieitem))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Confeiteiro — Tortas"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1166CF581183294D"]
+			description: ["Faça §e4§r sopas do Pam's."]
+			icon: "pamhc2foodextended:cactussoupitem"
+			id: "0A9B6B7C9450AEED"
+			rewards: [
+				{
+					id: "29D2A323979B33C2"
+					type: "xp"
+					xp: 160
+				}
+			]
+			size: 1.0d
+			subtitle: "19 receitas no Pam's"
+			tasks: [
+				{
+					count: 4
+					id: "37A1FE0EF0D86F10"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(pamhc2foodextended:cactussoupitem)item(pamhc2foodextended:chickennoodlesoupitem)item(pamhc2foodextended:creamedbroccolisoupitem)item(pamhc2foodextended:creamofavocadosoupitem)item(pamhc2foodextended:driedsoupitem)item(pamhc2foodextended:gardensoupitem)item(pamhc2foodextended:hotandsoursoupitem)item(pamhc2foodextended:lambbarleysoupitem)item(pamhc2foodextended:leekbaconsoupitem)item(pamhc2foodextended:misosoupitem)item(pamhc2foodextended:oldworldveggiesoupitem)item(pamhc2foodextended:peaandhamsoupitem)item(pamhc2foodextended:pizzasoupitem)item(pamhc2foodextended:potatoandleeksoupitem)item(pamhc2foodextended:seedsoupitem)item(pamhc2foodextended:splitpeasoupitem)item(pamhc2foodextended:tomatosoupitem)item(pamhc2foodextended:vegetablesoupitem)item(pamhc2foodextended:wontonsoupitem))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Caldeirão — Sopas"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["41034FD47BABE6A8"]
+			description: ["Faça §e4§r vitaminas do Pam's."]
+			icon: "pamhc2foodextended:apricotsmoothieitem"
+			id: "3C17415BAD9B6370"
+			rewards: [
+				{
+					id: "5E31ED99FD55459E"
+					type: "xp"
+					xp: 550
+				}
+			]
+			size: 1.0d
+			subtitle: "45 receitas no Pam's"
+			tasks: [
+				{
+					count: 4
+					id: "035979CAA1BA0CB7"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(pamhc2foodextended:apricotsmoothieitem)item(pamhc2foodextended:bananasmoothieitem)item(pamhc2foodextended:blackberrysmoothieitem)item(pamhc2foodextended:blueberrysmoothieitem)item(pamhc2foodextended:breadfruitsmoothieitem)item(pamhc2foodextended:cactusfruitsmoothieitem)item(pamhc2foodextended:candleberrysmoothieitem)item(pamhc2foodextended:cantaloupesmoothieitem)item(pamhc2foodextended:cherrysmoothieitem)item(pamhc2foodextended:cranberrysmoothieitem)item(pamhc2foodextended:datesmoothieitem)item(pamhc2foodextended:dragonfruitsmoothieitem)item(pamhc2foodextended:duriansmoothieitem)item(pamhc2foodextended:elderberrysmoothieitem)item(pamhc2foodextended:figsmoothieitem)item(pamhc2foodextended:gooseberrysmoothieitem)item(pamhc2foodextended:grapefruitsmoothieitem)item(pamhc2foodextended:grapesmoothieitem)item(pamhc2foodextended:greengrapesmoothieitem)item(pamhc2foodextended:guavasmoothieitem)item(pamhc2foodextended:huckleberrysmoothieitem)item(pamhc2foodextended:jackfruitsmoothieitem)item(pamhc2foodextended:juniperberrysmoothieitem)item(pamhc2foodextended:kiwismoothieitem)item(pamhc2foodextended:lemonsmoothieitem)item(pamhc2foodextended:limesmoothieitem)item(pamhc2foodextended:lycheesmoothieitem)item(pamhc2foodextended:mangosmoothieitem)item(pamhc2foodextended:mulberrysmoothieitem)item(pamhc2foodextended:orangesmoothieitem)item(pamhc2foodextended:papayasmoothieitem)item(pamhc2foodextended:passionfruitsmoothieitem)item(pamhc2foodextended:pawpawsmoothieitem)item(pamhc2foodextended:peachsmoothieitem)item(pamhc2foodextended:pearsmoothieitem)item(pamhc2foodextended:persimmonsmoothieitem)item(pamhc2foodextended:pineapplesmoothieitem)item(pamhc2foodextended:plumsmoothieitem)item(pamhc2foodextended:pomegranatesmoothieitem)item(pamhc2foodextended:rambutansmoothieitem)item(pamhc2foodextended:raspberrysmoothieitem)item(pamhc2foodextended:soursopsmoothieitem)item(pamhc2foodextended:starfruitsmoothieitem)item(pamhc2foodextended:strawberrysmoothieitem)item(pamhc2foodextended:tamarindsmoothieitem))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Vitaminas"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1DFACF67B8011238"]
+			description: ["Faça §e4§r sucos naturais do Pam's."]
+			icon: "pamhc2foodextended:apricotjuiceitem"
+			id: "231DA6F30E12A68C"
+			rewards: [
+				{
+					id: "7A75F21E658E7DE7"
+					type: "xp"
+					xp: 160
+				}
+			]
+			size: 1.0d
+			subtitle: "46 receitas no Pam's"
+			tasks: [
+				{
+					count: 4
+					id: "4F26BD2EA373A5C0"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(pamhc2foodextended:apricotjuiceitem)item(pamhc2foodextended:bananajuiceitem)item(pamhc2foodextended:blackberryjuiceitem)item(pamhc2foodextended:blueberryjuiceitem)item(pamhc2foodextended:breadfruitjuiceitem)item(pamhc2foodextended:cactusfruitjuiceitem)item(pamhc2foodextended:candleberryjuiceitem)item(pamhc2foodextended:cantaloupejuiceitem)item(pamhc2foodextended:carrotjuiceitem)item(pamhc2foodextended:cherryjuiceitem)item(pamhc2foodextended:cranberryjuiceitem)item(pamhc2foodextended:datejuiceitem)item(pamhc2foodextended:dragonfruitjuiceitem)item(pamhc2foodextended:durianjuiceitem)item(pamhc2foodextended:elderberryjuiceitem)item(pamhc2foodextended:figjuiceitem)item(pamhc2foodextended:gooseberryjuiceitem)item(pamhc2foodextended:grapefruitjuiceitem)item(pamhc2foodextended:grapejuiceitem)item(pamhc2foodextended:greengrapejuiceitem)item(pamhc2foodextended:guavajuiceitem)item(pamhc2foodextended:huckleberryjuiceitem)item(pamhc2foodextended:jackfruitjuiceitem)item(pamhc2foodextended:juniperberryjuiceitem)item(pamhc2foodextended:kiwijuiceitem)item(pamhc2foodextended:lemonjuiceitem)item(pamhc2foodextended:limejuiceitem)item(pamhc2foodextended:lycheejuiceitem)item(pamhc2foodextended:mangojuiceitem)item(pamhc2foodextended:mulberryjuiceitem)item(pamhc2foodextended:orangejuiceitem)item(pamhc2foodextended:papayajuiceitem)item(pamhc2foodextended:passionfruitjuiceitem)item(pamhc2foodextended:pawpawjuiceitem)item(pamhc2foodextended:peachjuiceitem)item(pamhc2foodextended:pearjuiceitem)item(pamhc2foodextended:persimmonjuiceitem)item(pamhc2foodextended:pineapplejuiceitem)item(pamhc2foodextended:plumjuiceitem)item(pamhc2foodextended:pomegranatejuiceitem)item(pamhc2foodextended:rambutanjuiceitem)item(pamhc2foodextended:raspberryjuiceitem)item(pamhc2foodextended:soursopjuiceitem)item(pamhc2foodextended:starfruitjuiceitem)item(pamhc2foodextended:strawberryjuiceitem)item(pamhc2foodextended:tamarindjuiceitem))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sucos Naturais"
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["204066C0F1D2B212"]
+			description: ["Faça §e5§r sanduicheria do Pam's."]
+			icon: "pamhc2foodextended:applejellysandwichitem"
+			id: "492667DE2114AC3F"
+			rewards: [
+				{
+					id: "71EE3BA9F6F406AC"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			subtitle: "61 receitas no Pam's"
+			tasks: [
+				{
+					count: 5
+					id: "583C6D25610D53EE"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(pamhc2foodextended:applejellysandwichitem)item(pamhc2foodextended:apricotjellysandwichitem)item(pamhc2foodextended:bananajellysandwichitem)item(pamhc2foodextended:blackberryjellysandwichitem)item(pamhc2foodextended:blueberryjellysandwichitem)item(pamhc2foodextended:bolognasandwichitem)item(pamhc2foodextended:breadfruitjellysandwichitem)item(pamhc2foodextended:cactusfruitjellysandwichitem)item(pamhc2foodextended:candleberryjellysandwichitem)item(pamhc2foodextended:cantaloupejellysandwichitem)item(pamhc2foodextended:cherryjellysandwichitem)item(pamhc2foodextended:cranberryjellysandwichitem)item(pamhc2foodextended:cucumbersandwichitem)item(pamhc2foodextended:datejellysandwichitem)item(pamhc2foodextended:dragonfruitjellysandwichitem)item(pamhc2foodextended:durianjellysandwichitem)item(pamhc2foodextended:elderberryjellysandwichitem)item(pamhc2foodextended:figjellysandwichitem)item(pamhc2foodextended:friedbolognasandwichitem)item(pamhc2foodextended:gooseberryjellysandwichitem)item(pamhc2foodextended:grapefruitjellysandwichitem)item(pamhc2foodextended:grapejellysandwichitem)item(pamhc2foodextended:greengrapejellysandwichitem)item(pamhc2foodextended:groiledcheesesandwichitem)item(pamhc2foodextended:guavajellysandwichitem)item(pamhc2foodextended:hamandcheesesandwichitem)item(pamhc2foodextended:hamsweetpicklesandwichitem)item(pamhc2foodextended:honeysandwichitem)item(pamhc2foodextended:huckleberryjellysandwichitem)item(pamhc2foodextended:jackfruitjellysandwichitem)item(pamhc2foodextended:juniperberryjellysandwichitem)item(pamhc2foodextended:kiwijellysandwichitem)item(pamhc2foodextended:leafychickensandwichitem)item(pamhc2foodextended:leafyfishsandwichitem)item(pamhc2foodextended:lemonjellysandwichitem)item(pamhc2foodextended:limejellysandwichitem)item(pamhc2foodextended:loxbagelsandwichitem)item(pamhc2foodextended:lycheejellysandwichitem)item(pamhc2foodextended:mangojellysandwichitem)item(pamhc2foodextended:meatloafsandwichitem)item(pamhc2foodextended:melonjellysandwichitem)item(pamhc2foodextended:mulberryjellysandwichitem)item(pamhc2foodextended:orangejellysandwichitem)item(pamhc2foodextended:papayajellysandwichitem)item(pamhc2foodextended:passionfruitjellysandwichitem)item(pamhc2foodextended:pawpawjellysandwichitem)item(pamhc2foodextended:peachjellysandwichitem)item(pamhc2foodextended:peanutbutterbananasandwichitem)item(pamhc2foodextended:pearjellysandwichitem)item(pamhc2foodextended:persimmonjellysandwichitem)item(pamhc2foodextended:pineapplejellysandwichitem)item(pamhc2foodextended:plumjellysandwichitem)item(pamhc2foodextended:pomegranatejellysandwichitem)item(pamhc2foodextended:rambutanjellysandwichitem)item(pamhc2foodextended:raspberryjellysandwichitem)item(pamhc2foodextended:soursopjellysandwichitem)item(pamhc2foodextended:starfruitjellysandwichitem)item(pamhc2foodextended:strawberryjellysandwichitem)item(pamhc2foodextended:sweetberryjellysandwichitem)item(pamhc2foodextended:tamarindjellysandwichitem)item(pamhc2foodextended:toastsandwichitem))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sanduicheria"
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["24DE329035C33FC4", "650A23B5977F34A1"]
+			description: ["Faça §e3§r pizzaria do Pam's."]
+			hide_dependency_lines: true
+			icon: "pamhc2foodextended:anchovypepperonipizzaitem"
+			id: "35A21FE8CEE89682"
+			rewards: [
+				{
+					id: "230E1CD2F3C82EC0"
+					type: "xp"
+					xp: 550
+				}
+			]
+			size: 1.0d
+			subtitle: "6 receitas no Pam's"
+			tasks: [
+				{
+					count: 3
+					id: "2F891DE1B96C29B7"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(pamhc2foodextended:anchovypepperonipizzaitem)item(pamhc2foodextended:bbqchickenpizzaitem)item(pamhc2foodextended:hamandpineapplepizzaitem)item(pamhc2foodextended:meatfeastpizzaitem)item(pamhc2foodextended:pepperonipizzaitem)item(pamhc2foodextended:supremepizzaitem))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Pizzaria"
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["24DE329035C33FC4"]
+			description: ["Faça §e3§r bolos do Pam's."]
+			icon: "pamhc2foodextended:chocolatesprinklecakeitem"
+			id: "4BF576B9DEB0D266"
+			rewards: [
+				{
+					id: "076B9AEBD84D4671"
+					type: "xp"
+					xp: 550
+				}
+			]
+			size: 1.0d
+			subtitle: "10 receitas no Pam's"
+			tasks: [
+				{
+					count: 3
+					id: "53D42F96ACAC8FEE"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(pamhc2foodextended:chocolatesprinklecakeitem)item(pamhc2foodextended:fruitcakeitem)item(pamhc2foodextended:holidaycakeitem)item(pamhc2foodextended:lemondrizzlecakeitem)item(pamhc2foodextended:mochicakeitem)item(pamhc2foodextended:pineappleupsidedowncakeitem)item(pamhc2foodextended:redvelvetcupcakeitem)item(pamhc2foodextended:ricecakeitem)item(pamhc2foodextended:rivermudcakeitem)item(pamhc2foodextended:sprinklescupcakeitem))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Confeitaria — Bolos"
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["204066C0F1D2B212"]
+			description: ["Faça §e3§r saladas frescas do Pam's."]
+			icon: "pamhc2foodextended:berryvinaigrettesaladitem"
+			id: "35161A34CE3747CB"
+			rewards: [
+				{
+					id: "389186526F0C5036"
+					type: "xp"
+					xp: 55
+				}
+			]
+			size: 1.0d
+			subtitle: "13 receitas no Pam's"
+			tasks: [
+				{
+					count: 3
+					id: "72FB5AADBD470334"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(pamhc2foodextended:berryvinaigrettesaladitem)item(pamhc2foodextended:capresesaladitem)item(pamhc2foodextended:ceasarsaladitem)item(pamhc2foodextended:citrussaladitem)item(pamhc2foodextended:eggsaladitem)item(pamhc2foodextended:fiestacornsaladitem)item(pamhc2foodextended:mixedflowerssaladitem)item(pamhc2foodextended:mixedsaladitem)item(pamhc2foodextended:nopalessaladitem)item(pamhc2foodextended:potatosaladitem)item(pamhc2foodextended:springsaladitem)item(pamhc2foodextended:sunflowerbroccolisaladitem)item(pamhc2foodextended:threebeansaladitem))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Saladas Frescas"
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7DB04EBC9884A21E"]
+			description: ["Faça §e3§r lanchonete do Pam's."]
+			icon: "pamhc2foodextended:baconmushroomburgeritem"
+			id: "7F584AA483E1C48A"
+			rewards: [
+				{
+					id: "6E62892AABFC9E8C"
+					type: "xp"
+					xp: 550
+				}
+			]
+			size: 1.0d
+			subtitle: "10 receitas no Pam's"
+			tasks: [
+				{
+					count: 3
+					id: "7E1C6B0080AAF23F"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(pamhc2foodextended:baconmushroomburgeritem)item(pamhc2foodextended:beetburgeritem)item(pamhc2foodextended:coleslawburgeritem)item(pamhc2foodextended:deluxecheeseburgeritem)item(pamhc2foodextended:gourmetbeefburgeritem)item(pamhc2foodextended:gourmetmuttonburgeritem)item(pamhc2foodextended:gourmetporkburgeritem)item(pamhc2foodextended:jalapenoburgeritem)item(pamhc2foodextended:onionhamburgeritem)item(pamhc2foodextended:paradiseburgeritem))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Lanchonete"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E1FA86D744121E2"]
+			description: ["Faça §e4§r geleias do Pam's."]
+			icon: "pamhc2foodextended:apricotjellyitem"
+			id: "64EF5788B975663A"
+			rewards: [
+				{
+					id: "367CEE5F83CB51AD"
+					type: "xp"
+					xp: 550
+				}
+			]
+			size: 1.0d
+			subtitle: "45 receitas no Pam's"
+			tasks: [
+				{
+					count: 4
+					id: "4F4D481256FD8683"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(pamhc2foodextended:apricotjellyitem)item(pamhc2foodextended:bananajellyitem)item(pamhc2foodextended:blackberryjellyitem)item(pamhc2foodextended:blueberryjellyitem)item(pamhc2foodextended:breadfruitjellyitem)item(pamhc2foodextended:cactusfruitjellyitem)item(pamhc2foodextended:candleberryjellyitem)item(pamhc2foodextended:cantaloupejellyitem)item(pamhc2foodextended:cherryjellyitem)item(pamhc2foodextended:cranberryjellyitem)item(pamhc2foodextended:datejellyitem)item(pamhc2foodextended:dragonfruitjellyitem)item(pamhc2foodextended:durianjellyitem)item(pamhc2foodextended:elderberryjellyitem)item(pamhc2foodextended:figjellyitem)item(pamhc2foodextended:gooseberryjellyitem)item(pamhc2foodextended:grapefruitjellyitem)item(pamhc2foodextended:grapejellyitem)item(pamhc2foodextended:greengrapejellyitem)item(pamhc2foodextended:guavajellyitem)item(pamhc2foodextended:huckleberryjellyitem)item(pamhc2foodextended:jackfruitjellyitem)item(pamhc2foodextended:juniperberryjellyitem)item(pamhc2foodextended:kiwijellyitem)item(pamhc2foodextended:lemonjellyitem)item(pamhc2foodextended:limejellyitem)item(pamhc2foodextended:lycheejellyitem)item(pamhc2foodextended:mangojellyitem)item(pamhc2foodextended:mulberryjellyitem)item(pamhc2foodextended:orangejellyitem)item(pamhc2foodextended:papayajellyitem)item(pamhc2foodextended:passionfruitjellyitem)item(pamhc2foodextended:pawpawjellyitem)item(pamhc2foodextended:peachjellyitem)item(pamhc2foodextended:pearjellyitem)item(pamhc2foodextended:persimmonjellyitem)item(pamhc2foodextended:pineapplejellyitem)item(pamhc2foodextended:plumjellyitem)item(pamhc2foodextended:pomegranatejellyitem)item(pamhc2foodextended:rambutanjellyitem)item(pamhc2foodextended:raspberryjellyitem)item(pamhc2foodextended:soursopjellyitem)item(pamhc2foodextended:starfruitjellyitem)item(pamhc2foodextended:strawberryjellyitem)item(pamhc2foodextended:tamarindjellyitem))"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Geleias"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["35E9E6C9E993847D", "0A9B6B7C9450AEED", "35A21FE8CEE89682"]
+			description: ["Prepare §e64§r pratos do §ePam's§r. Você dominou a cozinha do Pam's!"]
+			hide_dependency_lines: true
+			icon: "pamhc2foodextended:bbqchickenpizzaitem"
+			id: "28F9E30A0166A38F"
+			rewards: [
+				{
+					id: "09E71089EDE1AFB9"
+					type: "xp"
+					xp: 18020
+				}
+			]
+			size: 1.0d
+			subtitle: "§6O ápice da culinária§r"
+			tasks: [
+				{
+					count: 64
+					id: "6FA5A02032C79E31"
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "mod(pamhc2foodextended)"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Mestre Chef"
+			x: 7.5d
+			y: -4.0d
+		}
+	]
+	title: "Pam's HarvestCraft — Caminho do Chef"
+}

@@ -1,0 +1,272 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "f3_cristal_mana_pura"
+	group: "016C51A0AB48BF9A"
+	icon: "kubejs:cristal_mana_pura"
+	id: "723C60F21B19E7C7"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: false
+			icon: "botania:mana_pearl"
+			id: "681BD768C2D3BFF2"
+			title: "Mana Pearl"
+			description: [
+				"§aMana Pearl§r é mana solidificada de Botania: encha uma §aMana Pearl§r vazia num pool carregado de mana."
+				""
+				"É um dos três reagentes que vão ao §aRunic Altar§r para nascer o cristal corrompido."
+			]
+			rewards: [{
+				id: "27DBB4D82C2CC651"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "4A0740FC754980F8"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: "botania:mana_diamond"
+			id: "65D3D4B3683DE4AF"
+			title: "Mana Diamond"
+			description: [
+				"§aMana Diamond§r é um diamante reforjado pela mana num §aMana Pool§r."
+				""
+				"Cristalino e saturado de energia, ele dá estrutura ao §cCursed Cristal de Mana Pura§r."
+			]
+			rewards: [{
+				id: "701E016ECEDC2980"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "22AD7120C2BA3352"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: "kubejs:nucleo_cinetico"
+			id: "3AF5F89CDE0D5156"
+			title: "Núcleo Cinético (F2)"
+			description: [
+				"O §eNúcleo Cinético§r que você forjou na fase anterior volta a ser exigido — a progressão é cruzada de verdade."
+				""
+				"O movimento do Create entra como alma do novo cristal de Botania."
+			]
+			rewards: [{
+				id: "412C4F484DCAB59E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				id: "38216F68F32CBFD3"
+				item: "kubejs:nucleo_cinetico"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"681BD768C2D3BFF2"
+				"65D3D4B3683DE4AF"
+				"3AF5F89CDE0D5156"
+			]
+			hide_dependency_lines: false
+			icon: "botania:runic_altar"
+			id: "61C8614113BD83F9"
+			title: "Forja Rúnica"
+			description: [
+				"No §aRunic Altar§r você reúne §aMana Pearl§r, §aMana Diamond§r e o §eNúcleo Cinético§r, alimentando mana até a runa se completar."
+				""
+				"É aqui que Botania e Create se fundem para gerar o próximo coração."
+			]
+			rewards: [{
+				id: "3936F9D0B685049E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "08AD95B878A78F71"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61C8614113BD83F9"]
+			hide_dependency_lines: false
+			icon: "kubejs:cursed_cristal_mana_pura"
+			id: "67ABB36E5123CFF5"
+			title: "Cursed Cristal de Mana Pura"
+			description: [
+				"§cCursed Cristal de Mana Pura§r é o cristal recém-saído do altar — saturado, mas instável e impuro."
+				""
+				"A mana ainda escorre descontrolada. Só a magia Source de Ars Nouveau pode refiná-lo."
+			]
+			rewards: [{
+				id: "6BC535BF00207D75"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "5D7B736D3BF9E434"
+				item: "kubejs:cursed_cristal_mana_pura"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67ABB36E5123CFF5"]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:imbuement_chamber"
+			id: "6D64C8F28DE5A911"
+			title: "Imbuement Chamber"
+			description: [
+				"A §bImbuement Chamber§r de Ars Nouveau condensa Source do ambiente em cristais e itens mágicos."
+				""
+				"Ela é a câmara onde o §ccristal corrompido§r será banhado em Source e purificado."
+			]
+			rewards: [{
+				id: "2BD7445525FDA02A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "1F381A7364A43647"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["67ABB36E5123CFF5"]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:source_gem"
+			id: "00A4B34EE77FF30A"
+			title: "Source Gem"
+			description: [
+				"§bSource Gem§r é Source cristalizado, produzido na §bImbuement Chamber§r."
+				""
+				"Pura energia mágica de Ars Nouveau — o reagente que estabiliza o cristal de mana."
+			]
+			rewards: [{
+				id: "6D2B0D9CB5AF862E"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6A79772F67DC73F8"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6D64C8F28DE5A911"
+				"00A4B34EE77FF30A"
+			]
+			hide_dependency_lines: false
+			icon: "kubejs:cristal_mana_pura"
+			id: "56A6E32CF531C609"
+			title: "O Cristal de Mana Pura"
+			description: [
+				"§eCristal de Mana Pura§r — o marco desta fase. A §bImbuement Chamber§r e a §bSource Gem§r refinam o §ccristal corrompido§r até uma joia estável."
+				""
+				"Mana de Botania e Source de Ars unidas. Ele destrava §dOccultism§r e o §6Mechanical Arm§r do Create."
+			]
+			rewards: [{
+				count: 4
+				id: "703FD5D0F7766E6C"
+				item: "kubejs:cristal_mana_pura"
+				type: "item"
+			} { id: "1A2B3C4D5E6F0130", table_id: 1885667171979165697L, type: "random" }]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00D5560000FC569E"
+				item: "kubejs:cristal_mana_pura"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56A6E32CF531C609"]
+			hide_dependency_lines: false
+			icon: "occultism:book_of_binding_djinni"
+			id: "1D9DB440D41F4D36"
+			title: "Pacto com o Djinni"
+			description: [
+				"§dBook of Binding (Djinni)§r foi destravado pelo §eCristal de Mana Pura§r — agora você pode vincular um espírito maior do Occultism."
+				""
+				"O djinni abre rituais de poder muito além do humilde foliot."
+			]
+			rewards: [{
+				id: "2624BF27386ADD80"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3AED35D6B68C9553"
+				item: "occultism:book_of_binding_djinni"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56A6E32CF531C609"]
+			hide_dependency_lines: false
+			icon: "create:mechanical_arm"
+			id: "224608376584E2BA"
+			title: "Mechanical Arm Liberado"
+			description: [
+				"O §6Mechanical Arm§r de Create foi destravado pelo §eCristal de Mana Pura§r."
+				""
+				"Ele move e distribui itens entre depósitos e máquinas — o braço automático essencial para a montagem sequenciada da fase final."
+			]
+			rewards: [{
+				id: "0C0F0F2079519FDF"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D6F9D5FF6127D7D"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+	]
+	title: "F3 — Cristal de Mana Pura"
+}

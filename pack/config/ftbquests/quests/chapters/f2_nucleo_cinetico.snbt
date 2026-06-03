@@ -1,0 +1,246 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "f2_nucleo_cinetico"
+	group: "016C51A0AB48BF9A"
+	icon: "kubejs:nucleo_cinetico"
+	id: "5D2A1C89F6FAC362"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: false
+			icon: "create:brass_ingot"
+			id: "45119629535186B4"
+			title: "Brass Ingot"
+			description: [
+				"§6Brass Ingot§r é a liga-chave do Create: funda §6Cobre§r e §6Zinco§r juntos num §6Mixer§r aquecido ou numa fornalha de fundição."
+				""
+				"É o material base do maquinário avançado. Sem latão, nada do §eNúcleo Cinético§r sai do papel."
+			]
+			rewards: [{
+				id: "1CA233FBD1095D84"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "35417E272F25BB25"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: "create:andesite_alloy"
+			id: "69889892CC4D2887"
+			title: "Liga de Andesito"
+			description: [
+				"§6Liga de Andesito§r (Andesite Alloy) é o cimento mecânico do Create: §6Andesito§r + uma gota de §6Ferro§r ou §6Zinco§r no §6Mixer§r."
+				""
+				"Ela costura quase toda peça cinética. Junte-a ao §6Brass Ingot§r para montar o coração desta fase."
+			]
+			rewards: [{
+				id: "255D66BD0285E1F7"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "232E4F97363F7FBD"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"45119629535186B4"
+				"69889892CC4D2887"
+			]
+			hide_dependency_lines: false
+			icon: "create:mechanical_crafter"
+			id: "0A32640B71555B7A"
+			title: "Mechanical Crafter"
+			description: [
+				"O §6Mechanical Crafter§r monta receitas em padrão usando rotação. Construa-o com §6Brass Ingot§r e §6Liga de Andesito§r."
+				""
+				"Ele é a bancada que dá forma física ao movimento — o primeiro passo para forjar o núcleo."
+			]
+			rewards: [{
+				id: "5C7C685F4E69CD5F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "7239E641F29D5AF6"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A32640B71555B7A"]
+			hide_dependency_lines: false
+			icon: "kubejs:cursed_nucleo_cinetico"
+			id: "33AC8FC4874F9ABC"
+			title: "Cursed Núcleo Cinético"
+			description: [
+				"§cCursed Núcleo Cinético§r é a forma corrompida e instável do núcleo, cuspida crua pelo §6Mechanical Crafter§r."
+				""
+				"O movimento bruto ainda não foi domado. Ele precisa ser purificado por um ritual de Occultism antes de servir."
+			]
+			rewards: [{
+				id: "5F813BD8D258D764"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [{
+				id: "1D8A7A2FC3B1F5D8"
+				item: "kubejs:cursed_nucleo_cinetico"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33AC8FC4874F9ABC"]
+			hide_dependency_lines: false
+			icon: "occultism:book_of_binding_bound_foliot"
+			id: "6DDA4E6F1237B422"
+			title: "Pacto com o Foliot"
+			description: [
+				"§dBook of Binding (Foliot)§r registra o pacto com um espírito menor do Occultism. Escreva-o com papel, couro e essência espiritual."
+				""
+				"É um dos dois reagentes que desenham o ritual de purificação do §cCursed Núcleo Cinético§r."
+			]
+			rewards: [{
+				id: "7F5804FA5B101256"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "74927B7CCFAC897B"
+				item: "occultism:book_of_binding_bound_foliot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["33AC8FC4874F9ABC"]
+			hide_dependency_lines: false
+			icon: "occultism:pentacle"
+			id: "7758EE6F6DBD44DD"
+			title: "Giz Branco"
+			description: [
+				"§dChalk White§r traça os glifos do ritual no chão. Produza o giz no Occultism a partir de §dImpure Glass§r e pigmento."
+				""
+				"Sem os símbolos do giz, o foliot não tem onde ancorar a purificação."
+			]
+			rewards: [{
+				id: "3F80BC799B7A8C8D"
+				type: "xp"
+				xp: 75
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "0C08DC1471F86B0C"
+				item: "occultism:chalk_white"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6DDA4E6F1237B422"
+				"7758EE6F6DBD44DD"
+			]
+			hide_dependency_lines: false
+			icon: "kubejs:nucleo_cinetico"
+			id: "200A178BD7771EB8"
+			title: "O Núcleo Cinético"
+			description: [
+				"§eNúcleo Cinético§r — o marco desta fase. O ritual do foliot purifica o §cnúcleo corrompido§r, prendendo o movimento do Create numa forma estável."
+				""
+				"Ele é a chave cruzada: destrava o próximo nível de §aBotania§r e de §bArs Nouveau§r."
+			]
+			rewards: [{
+				count: 4
+				id: "748FA45D6C0BC753"
+				item: "kubejs:nucleo_cinetico"
+				type: "item"
+			} { id: "1A2B3C4D5E6F012F", table_id: 1885667171979165697L, type: "random" }]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2291EFBA9016B2BE"
+				item: "kubejs:nucleo_cinetico"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["200A178BD7771EB8"]
+			hide_dependency_lines: false
+			icon: "botania:runic_altar"
+			id: "41306443024F309E"
+			title: "Runic Altar Liberado"
+			description: [
+				"O §aRunic Altar§r de Botania agora está ao seu alcance — o §eNúcleo Cinético§r abriu este caminho."
+				""
+				"É nele que a mana ganha forma rúnica, o ponto de partida da próxima fase: o §aCristal de Mana Pura§r."
+			]
+			rewards: [{
+				id: "792F4C085CD84D33"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "185DB3A0487C1405"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["200A178BD7771EB8"]
+			hide_dependency_lines: false
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "63E48AD41D82757F"
+			title: "Enchanting Apparatus Liberado"
+			description: [
+				"O §bEnchanting Apparatus§r de Ars Nouveau foi destravado pelo §eNúcleo Cinético§r."
+				""
+				"Cercado de pedestais, ele transforma reagentes em itens encantados — a porta da magia Source nas fases seguintes."
+			]
+			rewards: [{
+				id: "0C57FE4E9CB6A81B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				id: "302A97AE3532321C"
+				item: "ars_nouveau:enchanting_apparatus"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+	]
+	title: "F2 — Núcleo Cinético"
+}
