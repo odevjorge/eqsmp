@@ -1892,7 +1892,7 @@ metafile = true
 
 [[files]]
 file = "mods/ars-n-spells.pw.toml"
-hash = "a4d26733dd3a8f7ef455eadb4fb020e440e972c0746b7a6809e4ad43fa3ed384"
+hash = "121e06b4f31dd2c85d9c0fa2daec6c06dfce093e07f0a0337777059584e1c983"
 metafile = true
 
 [[files]]
@@ -2517,7 +2517,7 @@ metafile = true
 
 [[files]]
 file = "mods/subtle-effects.pw.toml"
-hash = "d21d512e29de5776df8b79e3f9678f68149b6106690eea9ae6ef32526965eb8d"
+hash = "218280b3ffbb22c7e29206045b2765ea71b61d27344750a2e256cfcab7d7aca2"
 metafile = true
 
 [[files]]
