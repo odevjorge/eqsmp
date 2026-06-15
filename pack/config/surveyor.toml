@@ -39,18 +39,18 @@ forceUpdateLandmarks = true
 	# SERVER sends server-known data, GROUP sends group-known data, SOLO sends player-known data, NONE sends no data
 	# options: NONE, SOLO, GROUP, SERVER
 	# default: GROUP
-	terrain = "GROUP"
+	terrain = "NONE"
 	# How much structure data to send to clients
 	# SERVER sends server-known data, GROUP sends group-known data, SOLO sends player-known data, NONE sends no data
 	# When NONE, clients will never see structures
 	# options: NONE, SOLO, GROUP, SERVER
 	# default: GROUP
-	structures = "GROUP"
+	structures = "SOLO"
 	# Which landmarks to sync between client and server
 	# SERVER sync server-known landmarks, GROUP sends group-known landmarks, SOLO sends player-known landmarks, NONE sends no landmarks
 	# options: NONE, SOLO, GROUP, SERVER
 	# default: GROUP
-	landmarks = "GROUP"
+	landmarks = "SOLO"
 	# Which waypoints (player-created landmarks) to sync between client and server
 	# When SERVER, players can see (but not edit) all waypoints, including potentially offensive names
 	# When GROUP, players can see (but not edit) waypoints created by players in their share group
@@ -58,7 +58,7 @@ forceUpdateLandmarks = true
 	# When NONE, waypoint data will never be synced (e.g. for privacy)
 	# options: NONE, SOLO, GROUP, SERVER
 	# default: GROUP
-	waypoints = "GROUP"
+	waypoints = "SOLO"
 	# [Server] How much player position data to send to clients
 	# SERVER sends all players positions, GROUP sends just group players, SOLO sends nothing, NONE sends nothing
 	# Players will only see the offline positions of their group members, or players who disconnected while they were online.

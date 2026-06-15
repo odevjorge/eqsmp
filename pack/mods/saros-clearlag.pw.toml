@@ -1,0 +1,13 @@
+name = "Saro´s Clearlag"
+filename = "Saros-ClearLag-Forge-1.20.1-1.0.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/SbbTJryw/versions/CFpj7JUI/Saros-ClearLag-Forge-1.20.1-1.0.1.jar"
+hash-format = "sha512"
+hash = "d971c6ad601b1718f9d489104ca823c4e304c1189bbf1ffa97663b980acde78251f17b105a90dd650a43b61dd6a84f6303d613ca3cc07f31e0de06d8401a8c70"
+
+[update]
+[update.modrinth]
+mod-id = "SbbTJryw"
+version = "CFpj7JUI"

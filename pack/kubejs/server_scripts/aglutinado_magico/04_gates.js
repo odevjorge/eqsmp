@@ -50,15 +50,28 @@ ServerEvents.recipes(function(event) {
   })
 
   // -----------------------------------------------------------------------
-  // BOTANIA: mana_pool — 5× otherstone (Occultism gate)
+  // BOTANIA: mana_pool — 5× otherstone em U (Occultism gate)
   // -----------------------------------------------------------------------
   event.remove({ type: 'minecraft:crafting_shaped', output: 'botania:mana_pool' })
   event.shaped('botania:mana_pool', [
-    '   ',
     'S S',
     'SSS'
   ], {
     S: 'occultism:otherstone'
+  })
+
+  // OCCULTISM: sacrificial_bowl — remodelada pra V (formato do bowl vanilla)
+  // -----------------------------------------------------------------------
+  // A mana_pool acima é 5 otherstone em U; a sacrificial_bowl vanilla era
+  // EXATAMENTE igual (5 otherstone em U) → as duas se sombreavam (uma virava
+  // incraftável). Movemos a bowl pro formato do bowl vanilla (V de 3 otherstone):
+  // fica distinta da pool e tematicamente certa ("bowl"). Gate otherstone mantido.
+  event.remove({ id: 'occultism:crafting/sacrificial_bowl' })
+  event.shaped('occultism:sacrificial_bowl', [
+    'o o',
+    ' o '
+  ], {
+    o: 'occultism:otherstone'
   })
 
   // -----------------------------------------------------------------------
