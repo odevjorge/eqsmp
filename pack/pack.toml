@@ -1,12 +1,12 @@
 name = "eqsmp"
 author = "ODEVJORGE"
-version = "0.2.0"
+version = "0.2.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "a28413caeaa8d3863d951a0f90e418438da85630ae3302e00be84fdc5d734379"
+hash = "393fffc258821d6314c91575bc9ff5aa6df9219270089897b3cc7510e9147ca8"
 
 [versions]
 forge = "47.4.20"
