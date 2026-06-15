@@ -1,13 +1,13 @@
-name = "Still Life"
+name = "Still Life Curseforge Port"
 filename = "still-life-0.1.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/fK6aflho/versions/yFZCvUeX/still-life-0.1.1.jar"
-hash-format = "sha512"
-hash = "65e6cd0a2ae70948c49361dec90fbca104cbfdba9b7f90689ed6af4c741ec5b3ef770325352a7837ba8f33a13910f8b29cfe5170be76fd47fff5248c9891df7c"
+hash-format = "sha1"
+hash = "ce0a566fe45cb5a7816f2c910a17cc125fd17934"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "fK6aflho"
-version = "yFZCvUeX"
+[update.curseforge]
+file-id = 8214215
+project-id = 1568354

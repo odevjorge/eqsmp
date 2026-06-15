@@ -3,14 +3,11 @@ filename = "occultism-1.20.1-1.158.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/sbJh4AZw/versions/hs5pHmiU/occultism-1.20.1-1.158.0.jar"
-hash-format = "sha512"
-hash = "cd67823def83291dd4163a78d0bb97183fbe8e17a8f38077433b7978630160b96319e9769b4b9dbce7126da8dc412c7919e3e62f97df5f3f32e6982005560bc9"
+hash-format = "sha1"
+hash = "86e5a091b88add6ec3e7f37ee68ead0b2e162f8e"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7429593
+file-id = 8194681
 project-id = 361026
-[update.modrinth]
-mod-id = "sbJh4AZw"
-version = "hs5pHmiU"

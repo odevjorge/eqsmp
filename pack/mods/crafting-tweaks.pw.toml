@@ -3,11 +3,11 @@ filename = "craftingtweaks-forge-1.20.1-18.2.9.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/DMu0oBKf/versions/KOqT9kSZ/craftingtweaks-forge-1.20.1-18.2.9.jar"
-hash-format = "sha512"
-hash = "8bb7eb24d119cee809bad8f4166d18bc580ff0b20f18af4760546ec0410a70e857d063830776025acf907ff19856b5471e93db8b6d5a645c8215b73161d77207"
+hash-format = "sha1"
+hash = "8f7a85056a753ffb9e9f178d32ccbcce44a29e63"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "DMu0oBKf"
-version = "KOqT9kSZ"
+[update.curseforge]
+file-id = 8019501
+project-id = 233071

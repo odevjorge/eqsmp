@@ -1,13 +1,13 @@
-name = "Join Leave Messages"
+name = "JoinLeaveMessages 2.0"
 filename = "joinleavemessages-forge-1.19.3-2.0.0.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/e0GiFWNa/versions/GcnqzymS/joinleavemessages-forge-1.19.3-2.0.0.jar"
-hash-format = "sha512"
-hash = "60fd481640b36f4f4e7a38b3a0b2a4aeec7489edb8fb3194507f588bdb62a10894b68beb3d486a810dabeca88145717191df41dbde135a84d729c0bd967d6a0d"
+hash-format = "sha1"
+hash = "89a565418dba3ffa14918279f90bc8a9ec1166fe"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "e0GiFWNa"
-version = "GcnqzymS"
+[update.curseforge]
+file-id = 4908512
+project-id = 514102

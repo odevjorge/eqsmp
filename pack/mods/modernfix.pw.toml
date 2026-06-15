@@ -11,6 +11,3 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 8141550
 project-id = 790626
-[update.modrinth]
-mod-id = "nmDcB62a"
-version = "nnkRBkUx"

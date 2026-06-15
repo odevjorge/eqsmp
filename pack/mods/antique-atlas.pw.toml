@@ -1,0 +1,13 @@
+name = "Antique Atlas"
+filename = "Antique Atlas-1.20.1-8.0.1-Forge.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "fc79832311c4d9df50e356d512abf01e8a2b58c4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6849138
+project-id = 227795

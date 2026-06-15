@@ -1,17 +1,13 @@
-name = "Concurrent Chunk Management Engine (Forge)"
-filename = "c2meF-0.2.0+alpha.12-all.jar"
+name = "Concurrent Chunk Management Engine OLDER VERSION!"
+filename = "c2meF-0.2.0+alpha.11-all.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/yE4MbG65/versions/h9trYS7V/c2meF-0.2.0%2Balpha.12-all.jar"
-hash-format = "sha512"
-hash = "71d00b03760bddd6caa5c2a55c6394be77b9cd6085d2199d647d216841e9966937f18d9103349723cc2d2944168803440557bdc32d0eec07dd3f8d49d9939c5c"
+hash-format = "sha1"
+hash = "4147baed1aa25a48b66458a202e669fab95b3adc"
+mode = "metadata:curseforge"
 
-# CurseForge update source intentionally OMITTED: the C2ME-Forge CF file for this
-# version was invalid (rejected the manifest, fileID 7116688). Sourced from
-# Modrinth only -> the curseforge.zip export bundles this jar as an override
-# (valid manifest). Re-add [update.curseforge] only with a verified valid file-id.
 [update]
-[update.modrinth]
-mod-id = "yE4MbG65"
-version = "h9trYS7V"
+[update.curseforge]
+file-id = 7413264
+project-id = 1366864
