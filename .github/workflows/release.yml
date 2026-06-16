@@ -63,7 +63,20 @@ jobs:
       - name: Export CurseForge (.zip)
         if: steps.tagcheck.outputs.exists == 'false'
         working-directory: pack
-        run: packwiz curseforge export -o "../EQSMP-${{ steps.ver.outputs.version }}-curseforge.zip"
+        run: |
+          set -e
+          # Mods que NAO podem ir pro CurseForge sao removidos SO deste export.
+          # Ja entraram no .mrpack (Modrinth) acima e voltam pro pack (git checkout)
+          # antes do server zip. Motivo de cada exclusao em comentario:
+          #   concurrent-chunk-management-engine-1-20-1 = C2ME Forge delistado do CF
+          #     (ambos file-ids removidos); fica so no Modrinth/servidor.
+          CF_EXCLUDE="concurrent-chunk-management-engine-1-20-1"
+          for m in $CF_EXCLUDE; do rm -f "mods/$m.pw.toml"; done
+          packwiz refresh
+          packwiz curseforge export -o "../EQSMP-${{ steps.ver.outputs.version }}-curseforge.zip"
+          # restaura os mods excluidos (server zip e .mrpack precisam deles)
+          git checkout -- . 2>/dev/null || true
+          packwiz refresh
 
       - name: Monta server zip (pack + installer + start + spawn_bubble)
         if: steps.tagcheck.outputs.exists == 'false'
