@@ -119,7 +119,13 @@ jobs:
           5. Inicie o servidor.
           MD
           ( cd "$STAGE" && zip -qr "../EQSMP-$V-server.zip" . )
-          echo "server zip pronto: EQSMP-$V-server.zip"
+          echo "server zip (completo, com C2ME) pronto: EQSMP-$V-server.zip"
+          # Variante CF-SAFE: remove o C2ME (delistado do CF) do pack staged e
+          # re-empacota. Pra anexar no CurseForge sem o metafile/jar delistado.
+          for m in concurrent-chunk-management-engine-1-20-1; do rm -f "$STAGE/pack/mods/$m.pw.toml"; done
+          ( cd "$STAGE/pack" && packwiz refresh )
+          ( cd "$STAGE" && zip -qr "../EQSMP-$V-server-cf.zip" . )
+          echo "server zip (CF-safe, sem C2ME) pronto: EQSMP-$V-server-cf.zip"
 
       - name: Cria tag + GitHub Release
         if: steps.tagcheck.outputs.exists == 'false'
@@ -133,3 +139,4 @@ jobs:
             EQSMP-${{ steps.ver.outputs.version }}.mrpack
             EQSMP-${{ steps.ver.outputs.version }}-curseforge.zip
             EQSMP-${{ steps.ver.outputs.version }}-server.zip
+            EQSMP-${{ steps.ver.outputs.version }}-server-cf.zip
